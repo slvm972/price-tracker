@@ -213,40 +213,46 @@ def get_latest_prices(search_term="", limit=2000):
     conn = get_connection()
 
     query = """
-        WITH latest_prices AS (
-            SELECT 
-                MAX(id) as id,
-                product_id,
-                store_id
-            FROM prices 
-            GROUP BY product_id, store_id
+        -- Для каждой пары (product_id, store_id) сначала собираем уникальные временные метки
+        -- и берём репрезентативную запись (MAX(id)) для каждой recorded_at. Затем применяем
+        -- оконную функцию по distinct recorded_at, чтобы previous_price был именно из
+        -- предыдущего timestamp (а не просто предыдущей записи по id).
+        WITH grouped AS (
+            SELECT product_id, store_id, recorded_at, MAX(id) AS id
+            FROM prices
+            GROUP BY product_id, store_id, recorded_at
         ),
         with_prev AS (
-            SELECT 
-                pr.id,
-                pr.product_id,
-                pr.store_id,
-                pr.price,
-                LAG(pr.price) OVER (PARTITION BY pr.product_id, pr.store_id ORDER BY pr.id) as previous_price
-            FROM prices pr
+            SELECT
+                g.product_id,
+                g.store_id,
+                g.recorded_at,
+                p.price,
+                LAG(p.price) OVER (PARTITION BY g.product_id, g.store_id ORDER BY g.recorded_at) AS previous_price
+            FROM grouped g
+            JOIN prices p ON p.id = g.id
+        ),
+        latest AS (
+            SELECT product_id, store_id, MAX(recorded_at) AS recorded_at
+            FROM grouped
+            GROUP BY product_id, store_id
         )
         SELECT
-            p.barcode,
-            p.name,
-            p.brand,
-            p.size,
-            s.retailer,
-            s.store_code,
+            prd.barcode,
+            prd.name,
+            prd.brand,
+            prd.size,
+            st.retailer,
+            st.store_code,
             wp.price,
-            pr.recorded_at,
+            l.recorded_at,
             wp.previous_price
-        FROM latest_prices lp
-        JOIN with_prev wp ON wp.id = lp.id
-        JOIN prices pr ON pr.id = lp.id
-        JOIN products p ON p.id = lp.product_id
-        JOIN stores   s ON s.id = lp.store_id
+        FROM latest l
+        JOIN with_prev wp ON wp.product_id = l.product_id AND wp.store_id = l.store_id AND wp.recorded_at = l.recorded_at
+        JOIN products prd ON prd.id = l.product_id
+        JOIN stores   st  ON st.id  = l.store_id
         {}
-        ORDER BY p.name, s.retailer
+        ORDER BY prd.name, st.retailer
         LIMIT ?
     """
 
