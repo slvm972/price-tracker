@@ -213,6 +213,23 @@ def get_latest_prices(search_term="", limit=2000):
     conn = get_connection()
 
     query = """
+        WITH latest_prices AS (
+            SELECT 
+                MAX(id) as id,
+                product_id,
+                store_id
+            FROM prices 
+            GROUP BY product_id, store_id
+        ),
+        with_prev AS (
+            SELECT 
+                pr.id,
+                pr.product_id,
+                pr.store_id,
+                pr.price,
+                LAG(pr.price) OVER (PARTITION BY pr.product_id, pr.store_id ORDER BY pr.id) as previous_price
+            FROM prices pr
+        )
         SELECT
             p.barcode,
             p.name,
@@ -220,15 +237,14 @@ def get_latest_prices(search_term="", limit=2000):
             p.size,
             s.retailer,
             s.store_code,
-            pr.price,
-            pr.recorded_at
-        FROM prices pr
-        JOIN products p ON p.id = pr.product_id
-        JOIN stores   s ON s.id = pr.store_id
-        WHERE pr.id IN (
-            -- Для каждой пары (товар, магазин) берём только последнюю запись
-            SELECT MAX(id) FROM prices GROUP BY product_id, store_id
-        )
+            wp.price,
+            pr.recorded_at,
+            wp.previous_price
+        FROM latest_prices lp
+        JOIN with_prev wp ON wp.id = lp.id
+        JOIN prices pr ON pr.id = lp.id
+        JOIN products p ON p.id = lp.product_id
+        JOIN stores   s ON s.id = lp.store_id
         {}
         ORDER BY p.name, s.retailer
         LIMIT ?

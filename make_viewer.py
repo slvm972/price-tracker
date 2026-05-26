@@ -24,14 +24,17 @@ for row in rows:
     barcode  = row["barcode"]
     retailer = row["retailer"]
     price    = row["price"]
+    previous_price = row.get("previous_price")
     if barcode not in catalog_by_barcode:
         catalog_by_barcode[barcode] = {
             "c": barcode, "n": row["name"],
-            "m": row["brand"] or "", "s": row["size"] or "", "ch": {}
+            "m": row["brand"] or "", "s": row["size"] or "", "ch": {}, "prev": {}
         }
     existing = catalog_by_barcode[barcode]["ch"].get(retailer)
     if existing is None or price < existing:
         catalog_by_barcode[barcode]["ch"][retailer] = price
+        if previous_price is not None:
+            catalog_by_barcode[barcode]["prev"][retailer] = previous_price
 
 catalog = list(catalog_by_barcode.values())
 
@@ -128,6 +131,9 @@ body.ltr .chain-tip{margin-right:0;margin-left:auto;}
 .pc-chain{font-size:.65rem;font-weight:700;margin-bottom:3px;}
 .pc-price{font-family:'Space Mono',monospace;font-size:1.1rem;font-weight:700;}
 .pc-unit{font-size:.63rem;color:var(--dim);margin-top:1px;}
+.pc-diff{font-size:.75rem;font-weight:500;margin-top:2px;color:var(--dim);}
+.pc-diff.up{color:#da3633;}
+.pc-diff.down{color:#3fb950;}
 .saving{font-size:.7rem;color:var(--grn);margin-top:3px;}
 
 /* ── Compare ── */
@@ -415,9 +421,13 @@ function renderGrid(sl) {
     const ch=activeCh(r), mp=minP(ch), sv=saveV(ch);
     const cells=Object.entries(ch).map(([chain,price])=>{
       const col=C[chain]||"#8b949e", best=price===mp;
+      const prev=r.prev?.[chain];
+      const diff=prev?price-prev:null;
+      const diffText=diff && Math.abs(diff)>0.01 ? (diff>0?`⬆ +${diff.toFixed(2)}`:` ⬇ ${diff.toFixed(2)}`) : "";
       return `<div class="price-cell${best?" best":""}">
         <div class="pc-chain" style="color:${col}">${best?"✓ ":""}${chain}</div>
         <div class="pc-price" style="color:${col}">${price} <span style="font-size:.7rem;color:var(--dim)">₪</span></div>
+        ${diffText?`<div class="pc-diff${diff>0?" up":" down"}">${diffText} ₪</div>`:""}
         ${r.s?`<div class="pc-unit">${r.s}</div>`:""}
       </div>`;
     }).join("");
