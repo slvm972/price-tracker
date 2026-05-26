@@ -142,10 +142,26 @@ def insert_price(conn, product_id, store_id, price, recorded_at):
     Всегда добавляет новую запись — не обновляет старую.
     Так сохраняется история изменения цен.
     """
+    # Проверяем последнюю сохранённую цену для этой пары (product_id, store_id).
+    # Если последняя цена совпадает с новой — пропускаем INSERT и возвращаем False.
+    row = conn.execute(
+        "SELECT price FROM prices WHERE product_id = ? AND store_id = ? ORDER BY id DESC LIMIT 1",
+        (product_id, store_id)
+    ).fetchone()
+
+    if row is not None:
+        try:
+            last_price = float(row[0])
+        except Exception:
+            last_price = None
+        if last_price is not None and last_price == float(price):
+            return False
+
     conn.execute(
         "INSERT INTO prices (product_id, store_id, price, recorded_at) VALUES (?, ?, ?, ?)",
         (product_id, store_id, price, recorded_at)
     )
+    return True
 
 
 def save_items_batch(retailer, store_code, items, recorded_at=None):
@@ -190,8 +206,9 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
                 continue
 
             product_id = get_or_create_product(conn, barcode, name, brand, size)
-            insert_price(conn, product_id, store_id, price_f, recorded_at)
-            saved += 1
+            inserted = insert_price(conn, product_id, store_id, price_f, recorded_at)
+            if inserted:
+                saved += 1
 
     conn.close()
     return saved
