@@ -1,0 +1,108 @@
+{
+    "20260310220904": [
+        {
+            "status": "started",
+            "when": "2026-03-10 22:09:04.769016+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-10 22:09:11.113987+02:00",
+            "file_name_collected_from_site": [
+                "NULLPrice7290785400000-002-202603102200.gz",
+                "NULLPrice7290785400000-003-202603102200.gz",
+                "NULLPrice7290785400000-004-202603102200.gz",
+                "NULLPrice7290785400000-005-202603102200.gz",
+                "NULLPrice7290785400000-008-202603102200.gz"
+            ],
+            "links_collected_from_site": ""
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-10 22:09:11.368986+02:00",
+            "results": [
+                {
+                    "file_name": "NULLPrice7290785400000-005-202603102200.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "NULLPrice7290785400000-002-202603102200.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "NULLPrice7290785400000-003-202603102200.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "NULLPrice7290785400000-004-202603102200.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                },
+                {
+                    "file_name": "NULLPrice7290785400000-008-202603102200.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "restart_and_retry": false,
+                    "error": null
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-10 22:09:11.370986+02:00",
+            "folder_size": {
+                "size": 1150,
+                "unit": "MB",
+                "folder": "dumps\\Keshet",
+                "folder_content": [
+                    "dumps\\Keshet\\NULLPrice7290785400000-002-202603102200.xml",
+                    "dumps\\Keshet\\NULLPrice7290785400000-003-202603102200.xml",
+                    "dumps\\Keshet\\NULLPrice7290785400000-004-202603102200.xml",
+                    "dumps\\Keshet\\NULLPrice7290785400000-005-202603102200.xml",
+                    "dumps\\Keshet\\NULLPrice7290785400000-008-202603102200.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "NULLPrice7290785400000-005-202603102200.gz",
+            "when": "2026-03-10 22:09:11.368986+02:00"
+        },
+        {
+            "file_name": "NULLPrice7290785400000-002-202603102200.gz",
+            "when": "2026-03-10 22:09:11.368986+02:00"
+        },
+        {
+            "file_name": "NULLPrice7290785400000-003-202603102200.gz",
+            "when": "2026-03-10 22:09:11.368986+02:00"
+        },
+        {
+            "file_name": "NULLPrice7290785400000-004-202603102200.gz",
+            "when": "2026-03-10 22:09:11.368986+02:00"
+        },
+        {
+            "file_name": "NULLPrice7290785400000-008-202603102200.gz",
+            "when": "2026-03-10 22:09:11.368986+02:00"
+        }
+    ]
+}

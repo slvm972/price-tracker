@@ -1,0 +1,114 @@
+{
+    "20260310215834": [
+        {
+            "status": "started",
+            "when": "2026-03-10 21:58:34.054988+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-10 21:59:10.436988+02:00",
+            "file_name_collected_from_site": [
+                "Price7290027600007-056-202603100200.gz",
+                "Price7290027600007-057-202603102100.gz",
+                "Price7290027600007-061-202603100200.gz",
+                "Price7290027600007-062-202603102100.gz",
+                "Price7290027600007-065-202603102100.gz"
+            ],
+            "links_collected_from_site": [
+                "https://pricesprodpublic.blob.core.windows.net/price/Price7290027600007-056-202603100200.gz?sv=2014-02-14&sr=b&sig=YhSQchPQM0nTUrizuqGrq3EmftBkCBzE81zQsUGqFE8%3D&se=2026-03-10T20%3A28%3A33Z&sp=r",
+                "https://pricesprodpublic.blob.core.windows.net/price/Price7290027600007-057-202603102100.gz?sv=2014-02-14&sr=b&sig=AgDDKpg94uofBY37AyasWU%2BhofFmlqvF3eNhVt1TDk0%3D&se=2026-03-10T20%3A28%3A33Z&sp=r",
+                "https://pricesprodpublic.blob.core.windows.net/price/Price7290027600007-061-202603100200.gz?sv=2014-02-14&sr=b&sig=2hqVhAwYsShXOTlheELNWjuBe4AphOY2ehCI38vqcaU%3D&se=2026-03-10T20%3A28%3A33Z&sp=r",
+                "https://pricesprodpublic.blob.core.windows.net/price/Price7290027600007-062-202603102100.gz?sv=2014-02-14&sr=b&sig=BUVLgc5xs1xwP1ZPK3ZUfsgdlmw2aMjKN6KbNwXrQWk%3D&se=2026-03-10T20%3A28%3A33Z&sp=r",
+                "https://pricesprodpublic.blob.core.windows.net/price/Price7290027600007-065-202603102100.gz?sv=2014-02-14&sr=b&sig=fpMnNWVsdSSbjAvmC9wsZHdaE3FRdEItURF%2Fo9A3yu8%3D&se=2026-03-10T20%3A28%3A33Z&sp=r"
+            ]
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-10 21:59:11.388987+02:00",
+            "results": [
+                {
+                    "file_name": "Price7290027600007-062-202603102100.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290027600007-061-202603100200.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290027600007-057-202603102100.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290027600007-065-202603102100.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290027600007-056-202603100200.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-10 21:59:11.391024+02:00",
+            "folder_size": {
+                "size": 443624,
+                "unit": "MB",
+                "folder": "dumps\\Shufersal",
+                "folder_content": [
+                    "dumps\\Shufersal\\Price7290027600007-056-202603100200.xml",
+                    "dumps\\Shufersal\\Price7290027600007-057-202603102100.xml",
+                    "dumps\\Shufersal\\Price7290027600007-061-202603100200.xml",
+                    "dumps\\Shufersal\\Price7290027600007-062-202603102100.xml",
+                    "dumps\\Shufersal\\Price7290027600007-065-202603102100.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290027600007-062-202603102100.gz",
+            "when": "2026-03-10 21:59:11.388987+02:00"
+        },
+        {
+            "file_name": "Price7290027600007-061-202603100200.gz",
+            "when": "2026-03-10 21:59:11.388987+02:00"
+        },
+        {
+            "file_name": "Price7290027600007-057-202603102100.gz",
+            "when": "2026-03-10 21:59:11.388987+02:00"
+        },
+        {
+            "file_name": "Price7290027600007-065-202603102100.gz",
+            "when": "2026-03-10 21:59:11.388987+02:00"
+        },
+        {
+            "file_name": "Price7290027600007-056-202603100200.gz",
+            "when": "2026-03-10 21:59:11.388987+02:00"
+        }
+    ]
+}

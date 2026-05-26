@@ -1,0 +1,73 @@
+{
+    "20260309230520": [
+        {
+            "status": "started",
+            "when": "2026-03-09 23:05:20.165836+02:00",
+            "limit": 1,
+            "files_requested": [
+                {
+                    "should_contain": "pricefull",
+                    "should_not_contain": null
+                }
+            ],
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-03-09 23:05:20.165836+02:00",
+            "execption": "unhashable type: 'dict'",
+            "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\cerberus.py\", line 55, in _scrape\n    files = self.collect_files_details_from_site(\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\cerberus.py\", line 132, in collect_files_details_from_site\n    for filter_arg in self.build_filter_arg(store_id, when_date, files_types):\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\cerberus.py\", line 103, in build_filter_arg\n    for type_pattern in self.get_type_pattern(files_types):\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\cerberus.py\", line 92, in get_type_pattern\n    if file_type not in file_type_mapping:\nTypeError: unhashable type: 'dict'\n",
+            "download_urls": [],
+            "file_names": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-09 23:05:20.167428+02:00",
+            "folder_size": {
+                "size": 0,
+                "unit": "MB",
+                "folder": "dumps\\Osherad",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260309234851": [
+        {
+            "status": "started",
+            "when": "2026-03-09 23:48:51.673829+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-03-09 23:48:58.753335+02:00",
+            "execption": "425 Unable to open the data connection",
+            "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\cerberus.py\", line 55, in _scrape\n    files = self.collect_files_details_from_site(\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\cerberus.py\", line 133, in collect_files_details_from_site\n    filter_files = collect_from_ftp(\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\utils\\connection.py\", line 87, in outer_wrapper\n    return retry_decorated_func(*args, **kwargs)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\decorator.py\", line 235, in fun\n    return caller(func, *(extras + args), **kw)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\utils\\retry.py\", line 137, in retry_decorator\n    return __retry_internal(\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\utils\\retry.py\", line 70, in __retry_internal\n    return func(timeout=_timeout)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\utils\\connection.py\", line 105, in retry_decorated_func\n    return func(*args, **kwargs)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\utils\\connection.py\", line 398, in collect_from_ftp\n    files = ftp_session.nlst(arg)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ftplib.py\", line 553, in nlst\n    self.retrlines(cmd, files.append)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ftplib.py\", line 462, in retrlines\n    with self.transfercmd(cmd) as conn, \\\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ftplib.py\", line 393, in transfercmd\n    return self.ntransfercmd(cmd, rest)[0]\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ftplib.py\", line 793, in ntransfercmd\n    conn, size = super().ntransfercmd(cmd, rest)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ftplib.py\", line 359, in ntransfercmd\n    resp = self.sendcmd(cmd)\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ftplib.py\", line 281, in sendcmd\n    return self.getresp()\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\ftplib.py\", line 252, in getresp\n    raise error_temp(resp)\nftplib.error_temp: 425 Unable to open the data connection\n",
+            "download_urls": [],
+            "file_names": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-09 23:48:58.755370+02:00",
+            "folder_size": {
+                "size": 0,
+                "unit": "MB",
+                "folder": "dumps\\Osherad",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ]
+}

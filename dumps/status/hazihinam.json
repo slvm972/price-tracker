@@ -1,0 +1,306 @@
+{
+    "20260309230520": [
+        {
+            "status": "started",
+            "when": "2026-03-09 23:05:20.200956+02:00",
+            "limit": 1,
+            "files_requested": [
+                {
+                    "should_contain": "pricefull",
+                    "should_not_contain": null
+                }
+            ],
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "fail",
+            "when": "2026-03-09 23:05:20.201959+02:00",
+            "execption": "No pages to scrape",
+            "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\web.py\", line 212, in _scrape\n    download_urls, file_names = self.collect_files_details_from_site(\n  File \"C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\il_supermarket_scarper\\engines\\multipage_web.py\", line 101, in collect_files_details_from_site\n    assert len(main_page_requests) > 0, \"No pages to scrape\"\nAssertionError: No pages to scrape\n",
+            "download_urls": [],
+            "file_names": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-09 23:05:20.202954+02:00",
+            "folder_size": {
+                "size": 0,
+                "unit": "MB",
+                "folder": "dumps\\HaziHinam",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260309234907": [
+        {
+            "status": "started",
+            "when": "2026-03-09 23:49:07.059911+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-09 23:49:15.162411+02:00",
+            "file_name_collected_from_site": [
+                "PromoFull7290700100008-000-103-20260309-232641.gz.xml.gz",
+                "PriceFull7290700100008-000-103-20260309-232639.gz.xml.gz",
+                "Price7290700100008-000-206-20260309-232528.gz.xml.gz",
+                "Price7290700100008-000-208-20260309-232025.gz.xml.gz",
+                "Price7290700100008-000-201-20260309-231533.gz.xml.gz"
+            ],
+            "links_collected_from_site": [
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/PromoFull7290700100008-000-103-20260309-232641.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/PriceFull7290700100008-000-103-20260309-232639.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/Price7290700100008-000-206-20260309-232528.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/Price7290700100008-000-208-20260309-232025.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/Price7290700100008-000-201-20260309-231533.gz"
+            ]
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-09 23:49:16.323716+02:00",
+            "results": [
+                {
+                    "file_name": "Price7290700100008-000-206-20260309-232528.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290700100008-000-208-20260309-232025.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290700100008-000-201-20260309-231533.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PromoFull7290700100008-000-103-20260309-232641.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PriceFull7290700100008-000-103-20260309-232639.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-09 23:49:16.326150+02:00",
+            "folder_size": {
+                "size": 14725577,
+                "unit": "MB",
+                "folder": "dumps\\HaziHinam",
+                "folder_content": [
+                    "dumps\\HaziHinam\\Price7290700100008-000-201-20260309-231533.gz.xml.xml",
+                    "dumps\\HaziHinam\\Price7290700100008-000-206-20260309-232528.gz.xml.xml",
+                    "dumps\\HaziHinam\\Price7290700100008-000-208-20260309-232025.gz.xml.xml",
+                    "dumps\\HaziHinam\\PriceFull7290700100008-000-103-20260309-232639.gz.xml.xml",
+                    "dumps\\HaziHinam\\PromoFull7290700100008-000-103-20260309-232641.gz.xml.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260309235612": [
+        {
+            "status": "started",
+            "when": "2026-03-09 23:56:12.235521+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": [
+                "PriceFull"
+            ],
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-09 23:56:20.245166+02:00",
+            "file_name_collected_from_site": [],
+            "links_collected_from_site": []
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-09 23:56:20.246165+02:00",
+            "results": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-09 23:56:20.249165+02:00",
+            "folder_size": {
+                "size": 14725577,
+                "unit": "MB",
+                "folder": "dumps\\HaziHinam",
+                "folder_content": [
+                    "dumps\\HaziHinam\\Price7290700100008-000-201-20260309-231533.gz.xml.xml",
+                    "dumps\\HaziHinam\\Price7290700100008-000-206-20260309-232528.gz.xml.xml",
+                    "dumps\\HaziHinam\\Price7290700100008-000-208-20260309-232025.gz.xml.xml",
+                    "dumps\\HaziHinam\\PriceFull7290700100008-000-103-20260309-232639.gz.xml.xml",
+                    "dumps\\HaziHinam\\PromoFull7290700100008-000-103-20260309-232641.gz.xml.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260310003638": [
+        {
+            "status": "started",
+            "when": "2026-03-10 00:36:38.664366+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-10 00:36:45.796012+02:00",
+            "file_name_collected_from_site": [
+                "PromoFull7290700100008-000-206-20260310-002531.gz.xml.gz",
+                "PromoFull7290700100008-000-208-20260310-002032.gz.xml.gz",
+                "PriceFull7290700100008-000-206-20260310-002530.gz.xml.gz",
+                "PromoFull7290700100008-000-201-20260310-001526.gz.xml.gz",
+                "PriceFull7290700100008-000-208-20260310-002031.gz.xml.gz"
+            ],
+            "links_collected_from_site": [
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/PromoFull7290700100008-000-206-20260310-002531.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/PromoFull7290700100008-000-208-20260310-002032.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/PriceFull7290700100008-000-206-20260310-002530.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/PromoFull7290700100008-000-201-20260310-001526.gz",
+                "https://hazihinamprod01.blob.core.windows.net/regulatories/PriceFull7290700100008-000-208-20260310-002031.gz"
+            ]
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-10 00:36:47.214636+02:00",
+            "results": [
+                {
+                    "file_name": "PromoFull7290700100008-000-206-20260310-002531.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PromoFull7290700100008-000-208-20260310-002032.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PriceFull7290700100008-000-208-20260310-002031.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PriceFull7290700100008-000-206-20260310-002530.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PromoFull7290700100008-000-201-20260310-001526.gz.xml.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-10 00:36:47.217605+02:00",
+            "folder_size": {
+                "size": 63765676,
+                "unit": "MB",
+                "folder": "dumps\\HaziHinam",
+                "folder_content": [
+                    "dumps\\HaziHinam\\PriceFull7290700100008-000-206-20260310-002530.gz.xml.xml",
+                    "dumps\\HaziHinam\\PriceFull7290700100008-000-208-20260310-002031.gz.xml.xml",
+                    "dumps\\HaziHinam\\PromoFull7290700100008-000-201-20260310-001526.gz.xml.xml",
+                    "dumps\\HaziHinam\\PromoFull7290700100008-000-206-20260310-002531.gz.xml.xml",
+                    "dumps\\HaziHinam\\PromoFull7290700100008-000-208-20260310-002032.gz.xml.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290700100008-000-206-20260309-232528.gz.xml.gz",
+            "when": "2026-03-09 23:49:16.323716+02:00"
+        },
+        {
+            "file_name": "Price7290700100008-000-208-20260309-232025.gz.xml.gz",
+            "when": "2026-03-09 23:49:16.323716+02:00"
+        },
+        {
+            "file_name": "Price7290700100008-000-201-20260309-231533.gz.xml.gz",
+            "when": "2026-03-09 23:49:16.323716+02:00"
+        },
+        {
+            "file_name": "PromoFull7290700100008-000-103-20260309-232641.gz.xml.gz",
+            "when": "2026-03-09 23:49:16.323716+02:00"
+        },
+        {
+            "file_name": "PriceFull7290700100008-000-103-20260309-232639.gz.xml.gz",
+            "when": "2026-03-09 23:49:16.323716+02:00"
+        },
+        {
+            "file_name": "PromoFull7290700100008-000-206-20260310-002531.gz.xml.gz",
+            "when": "2026-03-10 00:36:47.215637+02:00"
+        },
+        {
+            "file_name": "PromoFull7290700100008-000-208-20260310-002032.gz.xml.gz",
+            "when": "2026-03-10 00:36:47.215637+02:00"
+        },
+        {
+            "file_name": "PriceFull7290700100008-000-208-20260310-002031.gz.xml.gz",
+            "when": "2026-03-10 00:36:47.215637+02:00"
+        },
+        {
+            "file_name": "PriceFull7290700100008-000-206-20260310-002530.gz.xml.gz",
+            "when": "2026-03-10 00:36:47.215637+02:00"
+        },
+        {
+            "file_name": "PromoFull7290700100008-000-201-20260310-001526.gz.xml.gz",
+            "when": "2026-03-10 00:36:47.215637+02:00"
+        }
+    ]
+}

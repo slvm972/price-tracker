@@ -1,0 +1,18 @@
+Подключаемся...
+Статус: 200
+Тип: text/html; charset=utf-8
+
+
+
+<h2></h2>
+
+<div id="gridContainer" class="webgrid">
+
+            <script type="text/javascript">
+        (function($) {
+            $.fn.swhgLoad = function(url, containerId, callback) {
+                url = url + (url.indexOf('?') == -1 ? '?' : '&') + '__swhg=' + new Date().getTime();
+
+                $('<div/>').load(url + ' ' + containerId, function(data, status, xhr) {
+                    $(containerId).replaceWith($(this).html());
+                    if (typeof(callback) =

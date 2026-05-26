@@ -1,0 +1,388 @@
+{
+    "20260309234916": [
+        {
+            "status": "started",
+            "when": "2026-03-09 23:49:16.328308+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-09 23:49:16.526760+02:00",
+            "file_name_collected_from_site": [
+                "NULLPromo7290055700007-0120-202603090700.gz",
+                "NULLPromo7290055700007-0120-202603090800.gz",
+                "NULLPromo7290055700007-0120-202603091800.gz",
+                "NULLPromo7290055700007-0120-202603091900.gz",
+                "NULLPromo7290055700007-0120-202603092000.gz"
+            ],
+            "links_collected_from_site": [
+                "https://prices.carrefour.co.il/20260309/NULLPromo7290055700007-0120-202603090700.gz",
+                "https://prices.carrefour.co.il/20260309/NULLPromo7290055700007-0120-202603090800.gz",
+                "https://prices.carrefour.co.il/20260309/NULLPromo7290055700007-0120-202603091800.gz",
+                "https://prices.carrefour.co.il/20260309/NULLPromo7290055700007-0120-202603091900.gz",
+                "https://prices.carrefour.co.il/20260309/NULLPromo7290055700007-0120-202603092000.gz"
+            ]
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-09 23:49:17.145423+02:00",
+            "results": [
+                {
+                    "file_name": "NULLPromo7290055700007-0120-202603091800.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "NULLPromo7290055700007-0120-202603090700.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "NULLPromo7290055700007-0120-202603092000.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "NULLPromo7290055700007-0120-202603091900.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "NULLPromo7290055700007-0120-202603090800.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-09 23:49:17.150789+02:00",
+            "folder_size": {
+                "size": 1180,
+                "unit": "MB",
+                "folder": "dumps\\YaynotBitanAndCarrefour",
+                "folder_content": [
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090700.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091900.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603092000.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260309235620": [
+        {
+            "status": "started",
+            "when": "2026-03-09 23:56:20.251172+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": [
+                "PriceFull"
+            ],
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-09 23:56:20.506355+02:00",
+            "file_name_collected_from_site": [],
+            "links_collected_from_site": []
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-09 23:56:20.506956+02:00",
+            "results": []
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-09 23:56:20.509938+02:00",
+            "folder_size": {
+                "size": 1180,
+                "unit": "MB",
+                "folder": "dumps\\YaynotBitanAndCarrefour",
+                "folder_content": [
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090700.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091900.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603092000.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260310003647": [
+        {
+            "status": "started",
+            "when": "2026-03-10 00:36:47.219817+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-10 00:36:47.391159+02:00",
+            "file_name_collected_from_site": [
+                "Price7290055700007-0062-202603092300.gz",
+                "Price7290055700007-4130-202603092300.gz",
+                "PriceFull7290055700007-001-416-20260310-000011.gz",
+                "Promo7290055700007-0062-202603092301.gz",
+                "Promo7290055700007-4130-202603092300.gz"
+            ],
+            "links_collected_from_site": [
+                "https://prices.carrefour.co.il/20260310/Price7290055700007-0062-202603092300.gz",
+                "https://prices.carrefour.co.il/20260310/Price7290055700007-4130-202603092300.gz",
+                "https://prices.carrefour.co.il/20260310/PriceFull7290055700007-001-416-20260310-000011.gz",
+                "https://prices.carrefour.co.il/20260310/Promo7290055700007-0062-202603092301.gz",
+                "https://prices.carrefour.co.il/20260310/Promo7290055700007-4130-202603092300.gz"
+            ]
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-10 00:36:48.085845+02:00",
+            "results": [
+                {
+                    "file_name": "Price7290055700007-4130-202603092300.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Promo7290055700007-0062-202603092301.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Promo7290055700007-4130-202603092300.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290055700007-0062-202603092300.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PriceFull7290055700007-001-416-20260310-000011.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-10 00:36:48.090025+02:00",
+            "folder_size": {
+                "size": 10353083,
+                "unit": "MB",
+                "folder": "dumps\\YaynotBitanAndCarrefour",
+                "folder_content": [
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090700.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091900.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603092000.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Price7290055700007-0062-202603092300.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Price7290055700007-4130-202603092300.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\PriceFull7290055700007-001-416-20260310-000011.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Promo7290055700007-0062-202603092301.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Promo7290055700007-4130-202603092300.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "20260310004614": [
+        {
+            "status": "started",
+            "when": "2026-03-10 00:46:14.165298+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-10 00:46:14.364832+02:00",
+            "file_name_collected_from_site": [
+                "Price7290055700007-0062-202603092300.gz",
+                "Price7290055700007-4130-202603092300.gz",
+                "PriceFull7290055700007-001-416-20260310-000011.gz",
+                "Promo7290055700007-0062-202603092301.gz",
+                "Promo7290055700007-4130-202603092300.gz"
+            ],
+            "links_collected_from_site": [
+                "https://prices.carrefour.co.il/20260310/Price7290055700007-0062-202603092300.gz",
+                "https://prices.carrefour.co.il/20260310/Price7290055700007-4130-202603092300.gz",
+                "https://prices.carrefour.co.il/20260310/PriceFull7290055700007-001-416-20260310-000011.gz",
+                "https://prices.carrefour.co.il/20260310/Promo7290055700007-0062-202603092301.gz",
+                "https://prices.carrefour.co.il/20260310/Promo7290055700007-4130-202603092300.gz"
+            ]
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-10 00:46:15.076107+02:00",
+            "results": [
+                {
+                    "file_name": "Promo7290055700007-0062-202603092301.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290055700007-4130-202603092300.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290055700007-0062-202603092300.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Promo7290055700007-4130-202603092300.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "PriceFull7290055700007-001-416-20260310-000011.gz",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-10 00:46:15.083218+02:00",
+            "folder_size": {
+                "size": 10353083,
+                "unit": "MB",
+                "folder": "dumps\\YaynotBitanAndCarrefour",
+                "folder_content": [
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090700.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603090800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091800.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603091900.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\NULLPromo7290055700007-0120-202603092000.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Price7290055700007-0062-202603092300.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Price7290055700007-4130-202603092300.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\PriceFull7290055700007-001-416-20260310-000011.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Promo7290055700007-0062-202603092301.xml",
+                    "dumps\\YaynotBitanAndCarrefour\\Promo7290055700007-4130-202603092300.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "NULLPromo7290055700007-0120-202603091800.gz",
+            "when": "2026-03-09 23:49:17.145423+02:00"
+        },
+        {
+            "file_name": "NULLPromo7290055700007-0120-202603090700.gz",
+            "when": "2026-03-09 23:49:17.145423+02:00"
+        },
+        {
+            "file_name": "NULLPromo7290055700007-0120-202603092000.gz",
+            "when": "2026-03-09 23:49:17.145423+02:00"
+        },
+        {
+            "file_name": "NULLPromo7290055700007-0120-202603091900.gz",
+            "when": "2026-03-09 23:49:17.145423+02:00"
+        },
+        {
+            "file_name": "NULLPromo7290055700007-0120-202603090800.gz",
+            "when": "2026-03-09 23:49:17.145423+02:00"
+        },
+        {
+            "file_name": "Price7290055700007-4130-202603092300.gz",
+            "when": "2026-03-10 00:36:48.087059+02:00"
+        },
+        {
+            "file_name": "Promo7290055700007-0062-202603092301.gz",
+            "when": "2026-03-10 00:36:48.087059+02:00"
+        },
+        {
+            "file_name": "Promo7290055700007-4130-202603092300.gz",
+            "when": "2026-03-10 00:36:48.087059+02:00"
+        },
+        {
+            "file_name": "Price7290055700007-0062-202603092300.gz",
+            "when": "2026-03-10 00:36:48.087059+02:00"
+        },
+        {
+            "file_name": "PriceFull7290055700007-001-416-20260310-000011.gz",
+            "when": "2026-03-10 00:36:48.087059+02:00"
+        },
+        {
+            "file_name": "Promo7290055700007-0062-202603092301.gz",
+            "when": "2026-03-10 00:46:15.077155+02:00"
+        },
+        {
+            "file_name": "Price7290055700007-4130-202603092300.gz",
+            "when": "2026-03-10 00:46:15.077155+02:00"
+        },
+        {
+            "file_name": "Price7290055700007-0062-202603092300.gz",
+            "when": "2026-03-10 00:46:15.077155+02:00"
+        },
+        {
+            "file_name": "Promo7290055700007-4130-202603092300.gz",
+            "when": "2026-03-10 00:46:15.077155+02:00"
+        },
+        {
+            "file_name": "PriceFull7290055700007-001-416-20260310-000011.gz",
+            "when": "2026-03-10 00:46:15.077155+02:00"
+        }
+    ]
+}

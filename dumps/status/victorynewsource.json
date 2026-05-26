@@ -1,0 +1,119 @@
+{
+    "20260310215832": [
+        {
+            "status": "started",
+            "when": "2026-03-10 21:58:32.385016+02:00",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_nul": false,
+            "filter_zero": false,
+            "suppress_exception": false
+        },
+        {
+            "status": "collected",
+            "when": "2026-03-10 21:58:32.965987+02:00",
+            "file_name_collected_from_site": [
+                "Promo7290696200003-001-002-20260310-130500",
+                "Price7290696200003-001-002-20260310-130455",
+                "Promo7290696200003-001-001-20260310-130447",
+                "Price7290696200003-001-001-20260310-130445",
+                "Promo7290696200003-001-003-20260310-130441"
+            ],
+            "links_collected_from_site": [
+                "https://laibcatalog.co.il/webapi/7290696200003/Promo7290696200003-001-002-20260310-130500.gz",
+                "https://laibcatalog.co.il/webapi/7290696200003/Price7290696200003-001-002-20260310-130455.gz",
+                "https://laibcatalog.co.il/webapi/7290696200003/Promo7290696200003-001-001-20260310-130447.gz",
+                "https://laibcatalog.co.il/webapi/7290696200003/Price7290696200003-001-001-20260310-130445.gz",
+                "https://laibcatalog.co.il/webapi/7290696200003/Promo7290696200003-001-003-20260310-130441.gz"
+            ]
+        },
+        {
+            "status": "downloaded",
+            "when": "2026-03-10 21:58:34.045040+02:00",
+            "results": [
+                {
+                    "file_name": "Promo7290696200003-001-003-20260310-130441",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Promo7290696200003-001-001-20260310-130447",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Promo7290696200003-001-002-20260310-130500",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290696200003-001-002-20260310-130455",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                },
+                {
+                    "file_name": "Price7290696200003-001-001-20260310-130445",
+                    "downloaded": true,
+                    "extract_succefully": true,
+                    "error": null,
+                    "restart_and_retry": false
+                }
+            ]
+        },
+        {
+            "status": "estimated_size",
+            "when": "2026-03-10 21:58:34.049991+02:00",
+            "folder_size": {
+                "size": 43342092,
+                "unit": "MB",
+                "folder": "dumps\\VictoryNewSource",
+                "folder_content": [
+                    "dumps\\VictoryNewSource\\Price7290696200003-001-001-20260309-220957.xml",
+                    "dumps\\VictoryNewSource\\Price7290696200003-001-001-20260310-130445.xml",
+                    "dumps\\VictoryNewSource\\Price7290696200003-001-002-20260309-221006.xml",
+                    "dumps\\VictoryNewSource\\Price7290696200003-001-002-20260310-130455.xml",
+                    "dumps\\VictoryNewSource\\Promo7290696200003-001-001-20260309-221000.xml",
+                    "dumps\\VictoryNewSource\\Promo7290696200003-001-001-20260310-130447.xml",
+                    "dumps\\VictoryNewSource\\Promo7290696200003-001-002-20260309-221013.xml",
+                    "dumps\\VictoryNewSource\\Promo7290696200003-001-002-20260310-130500.xml",
+                    "dumps\\VictoryNewSource\\Promo7290696200003-001-003-20260309-220955.xml",
+                    "dumps\\VictoryNewSource\\Promo7290696200003-001-003-20260310-130441.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Promo7290696200003-001-003-20260310-130441",
+            "when": "2026-03-10 21:58:34.045984+02:00"
+        },
+        {
+            "file_name": "Promo7290696200003-001-001-20260310-130447",
+            "when": "2026-03-10 21:58:34.045984+02:00"
+        },
+        {
+            "file_name": "Promo7290696200003-001-002-20260310-130500",
+            "when": "2026-03-10 21:58:34.045984+02:00"
+        },
+        {
+            "file_name": "Price7290696200003-001-002-20260310-130455",
+            "when": "2026-03-10 21:58:34.045984+02:00"
+        },
+        {
+            "file_name": "Price7290696200003-001-001-20260310-130445",
+            "when": "2026-03-10 21:58:34.045984+02:00"
+        }
+    ]
+}
