@@ -421,8 +421,10 @@ function renderGrid(sl) {
     const ch=activeCh(r), mp=minP(ch), sv=saveV(ch);
     const cells=Object.entries(ch).map(([chain,price])=>{
       const col=C[chain]||"#8b949e", best=price===mp;
-      const prev=r.prev?.[chain];
-      const diff=prev?price-prev:null;
+      const prev = r.prev && r.prev[chain];
+      const diff = (prev !== undefined && prev !== null)
+        ? price - prev
+        : null;
       const diffText=diff && Math.abs(diff)>0.01 ? (diff>0?`⬆ +${diff.toFixed(2)}`:` ⬇ ${diff.toFixed(2)}`) : "";
       return `<div class="price-cell${best?" best":""}">
         <div class="pc-chain" style="color:${col}">${best?"✓ ":""}${chain}</div>
