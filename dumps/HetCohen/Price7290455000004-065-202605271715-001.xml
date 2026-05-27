@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Prices>
+  <ChainID>7290455000004</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>065</StoreID>
+  <BikoretNo>000</BikoretNo>
+  <Products>
+    <Product>
+      <PriceUpdateDate>2026/05/27 16:48</PriceUpdateDate>
+      <ItemCode>2516699</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אסאדו 9 בקרעם עצם קפוא מחפוד</ItemName>
+      <ManufactureName>עוף ירושלים שיווק בעמ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>לק"ג</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitMeasure />
+      <BisWeighted>1</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>75.90</ItemPrice>
+      <UnitOfMeasurePrice>75.90</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+    <Product>
+      <PriceUpdateDate>2026/05/27 17:07</PriceUpdateDate>
+      <ItemCode>7290000136691</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>סבן אפ 1.5 ליטר שישיה טמפו</ItemName>
+      <ManufactureName>טמפו שיווק (1981) בעמ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>יח</UnitQty>
+      <Quantity>90</Quantity>
+      <UnitMeasure>ל 100 מ"ל</UnitMeasure>
+      <BisWeighted>0</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>36</ItemPrice>
+      <UnitOfMeasurePrice>0.38</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+    <Product>
+      <PriceUpdateDate>2026/05/27 17:07</PriceUpdateDate>
+      <ItemCode>7290000136752</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>סבן אפ דיאט שישייה</ItemName>
+      <ManufactureName>טמפו שיווק (1981) בעמ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>יח</UnitQty>
+      <Quantity>90</Quantity>
+      <UnitMeasure>ל 100 מ"ל</UnitMeasure>
+      <BisWeighted>0</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>36</ItemPrice>
+      <UnitOfMeasurePrice>0.38</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+    <Product>
+      <PriceUpdateDate>2026/05/27 17:07</PriceUpdateDate>
+      <ItemCode>7290000136769</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>פפסי 1.5 ליטר  שישיה טמפו</ItemName>
+      <ManufactureName>טמפו שיווק (1981) בעמ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>יח</UnitQty>
+      <Quantity>90</Quantity>
+      <UnitMeasure>ל 100 מ"ל</UnitMeasure>
+      <BisWeighted>0</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>36</ItemPrice>
+      <UnitOfMeasurePrice>0.38</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+    <Product>
+      <PriceUpdateDate>2026/05/27 17:07</PriceUpdateDate>
+      <ItemCode>7290000136776</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>פפסי מקס 1.5 שישיה</ItemName>
+      <ManufactureName>טמפו שיווק (1981) בעמ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>יח</UnitQty>
+      <Quantity>90</Quantity>
+      <UnitMeasure>ל 100 מ"ל</UnitMeasure>
+      <BisWeighted>0</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>36</ItemPrice>
+      <UnitOfMeasurePrice>0.38</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+    <Product>
+      <PriceUpdateDate>2026/05/27 17:07</PriceUpdateDate>
+      <ItemCode>7290000136783</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>מירנדה 1.5 ליטר שישייה טמפו</ItemName>
+      <ManufactureName>טמפו שיווק (1981) בעמ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>יח</UnitQty>
+      <Quantity>90</Quantity>
+      <UnitMeasure>ל 100 מ"ל</UnitMeasure>
+      <BisWeighted>0</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>36</ItemPrice>
+      <UnitOfMeasurePrice>0.38</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+    <Product>
+      <PriceUpdateDate>2026/05/27 16:48</PriceUpdateDate>
+      <ItemCode>7290020187130</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>מנגו 500 גר</ItemName>
+      <ManufactureName>מאיר עבודי - פירות קפואים</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>יח</UnitQty>
+      <Quantity>0.50</Quantity>
+      <UnitMeasure>ל 100 גרם</UnitMeasure>
+      <BisWeighted>0</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>19.90</ItemPrice>
+      <UnitOfMeasurePrice>39.80</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+    <Product>
+      <PriceUpdateDate>2026/05/27 16:47</PriceUpdateDate>
+      <ItemCode>7290119371716</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>תפוצ`יפס קראנצ גריל 200 גר</ItemName>
+      <ManufactureName>שטראוס פריטו ליי בעמ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription />
+      <UnitQty>יח</UnitQty>
+      <Quantity>2</Quantity>
+      <UnitMeasure>ל 100 גרם</UnitMeasure>
+      <BisWeighted>0</BisWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>11.90</ItemPrice>
+      <UnitOfMeasurePrice>5.95</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <itemStatus>1</itemStatus>
+      <LastUpdateDate />
+      <LastUpdateTime />
+    </Product>
+  </Products>
+</Prices>

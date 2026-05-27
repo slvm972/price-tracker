@@ -1,0 +1,1245 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7291056200008</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>405</StoreId>
+  <BikoretNo>0</BikoretNo>
+  <DllVerNo>9.4.0.50</DllVerNo>
+  <Items Count="65">
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>1</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>test</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>test</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>172109</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888000</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>Temp SuperDept</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>Temp SuperDept</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>214218</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-05-18 12:44:45</PriceUpdateDate>
+      <ItemCode>7290110578473</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>אצבעות שוקולד חלב במ</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אצבעות שוקולד חלב במ</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>252.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>24.80</ItemPrice>
+      <UnitOfMeasurePrice>0.0984</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>173139</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-06-02 08:38:46</PriceUpdateDate>
+      <ItemCode>8022470226379</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>דרג'ה אגוזי לוז קשיו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>דרג'ה אגוזי לוז קשיו</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>44.90</ItemPrice>
+      <UnitOfMeasurePrice>0.0898</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178230</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-06-23 15:23:09</PriceUpdateDate>
+      <ItemCode>8411500111875</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>דאמל לקריץ שטוח 3 צב</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>דאמל לקריץ שטוח 3 צב</ManufacturerItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>180.00</Quantity>
+      <UnitOfMeasure>יחידה   </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>47.90</ItemPrice>
+      <UnitOfMeasurePrice>0.2661</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178320</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-06-23 15:23:09</PriceUpdateDate>
+      <ItemCode>8413178190572</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>לקריץ שטוח כחול פס ל</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לקריץ שטוח כחול פס ל</ManufacturerItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>150.00</Quantity>
+      <UnitOfMeasure>יחידה   </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>69.90</ItemPrice>
+      <UnitOfMeasurePrice>0.4660</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178342</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888001</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אוכל</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אוכל</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178598</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888002</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>שתיה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שתיה</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178599</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888003</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אימפולס</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אימפולס</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178600</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888004</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>תוספות לקפה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>תוספות לקפה</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178601</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888005</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>חומרי גלם</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חומרי גלם</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178602</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888006</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>פירות וירקות</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פירות וירקות</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178603</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888008</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ללא מעמ</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ללא מעמ</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178604</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888009</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ניר פוד</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ניר פוד</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178605</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888010</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אלכוהול</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אלכוהול</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178606</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888014</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>נון פוד</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>נון פוד</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178607</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888016</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>תפעול</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>תפעול</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178608</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888018</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>שוויצריה הקטנה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שוויצריה הקטנה</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178609</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888100</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מפעל-ללא מע"מ</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מפעל-ללא מע"מ</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178610</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888102</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>גלידות ושלגונים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>גלידות ושלגונים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178611</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888119</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מאפים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מאפים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178612</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888124</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>משקאות לא אלכוהוליים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>משקאות לא אלכוהוליים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178613</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888144</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קינוחים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קינוחים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178614</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888156</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>פירות וירקות לסחיטה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פירות וירקות לסחיטה</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178615</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888158</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מוצרי מכולת</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מוצרי מכולת</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178616</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888159</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>משקאות</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>משקאות</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178617</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888160</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מצוננים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מצוננים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178618</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888161</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קפואים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קפואים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178619</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888162</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ירקות ופירות טריים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ירקות ופירות טריים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178620</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888163</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>טיפוח והגיינת הפרט</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>טיפוח והגיינת הפרט</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178621</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888164</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מוצרים לבית</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מוצרים לבית</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178622</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888165</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>י שירות/ עזר לסניפים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>י שירות/ עזר לסניפים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178623</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888166</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ארוחות מבושלות</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ארוחות מבושלות</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178624</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888167</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אריזות לזכיינים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אריזות לזכיינים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178625</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888168</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>זיכויים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>זיכויים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178626</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888169</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אבזרי עזר וייצור</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אבזרי עזר וייצור</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178627</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888170</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מזון טרי</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מזון טרי</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178628</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888171</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>משקאות קרון</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>משקאות קרון</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178629</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888172</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ירקות ופירות מעמ</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ירקות ופירות מעמ</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178630</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888173</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ל-חומרי גלם ואביזרים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ל-חומרי גלם ואביזרים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178631</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888174</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מפעל-תוצרת גמורה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מפעל-תוצרת גמורה</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178632</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888175</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>סיגריות</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סיגריות</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178633</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888176</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>מאפה טרי</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מאפה טרי</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178634</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888177</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קצבייה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קצבייה</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178635</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888178</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ואביזרים (ללא מלאי)</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ואביזרים (ללא מלאי)</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178636</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888179</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>פירות יבשים ללא מעמ</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פירות יבשים ללא מעמ</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178637</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888180</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קצבייה שוויצריה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קצבייה שוויצריה</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178638</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888181</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ממתקים</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ממתקים</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178639</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2015-01-01 00:00:00</PriceUpdateDate>
+      <ItemCode>88888999</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>כללי</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כללי</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>לא ידוע</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>0.00</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>178640</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-03-03 17:49:23</PriceUpdateDate>
+      <ItemCode>76145759</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>טובלרון חלב 35 גרם</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>טובלרון חלב 35 גרם</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>35.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>5.90</ItemPrice>
+      <UnitOfMeasurePrice>0.1686</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>180975</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-06-03 11:22:41</PriceUpdateDate>
+      <ItemCode>7290000110851</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף כיפלי בטעם בצל</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חטיף כיפלי בטעם בצל</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>70.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>8.80</ItemPrice>
+      <UnitOfMeasurePrice>0.1257</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>180993</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-08-08 13:16:30</PriceUpdateDate>
+      <ItemCode>7290010822096</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>סירופ בטעם תפוחים סי</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סירופ בטעם תפוחים סי</ManufacturerItemDescription>
+      <UnitQty>מיליליטרים</UnitQty>
+      <Quantity>330.00</Quantity>
+      <UnitOfMeasure>100 מ"ל</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>13.40</ItemPrice>
+      <UnitOfMeasurePrice>0.0406</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>216208</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-13 15:16:07</PriceUpdateDate>
+      <ItemCode>8413178162937</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>לקריץ בלוק תות חמוץ</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לקריץ בלוק תות חמוץ</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>1000.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>44.90</ItemPrice>
+      <UnitOfMeasurePrice>0.0449</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>184004</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-01-07 08:29:16</PriceUpdateDate>
+      <ItemCode>7290110553029</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>פריכיות פרוטאין חומו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פריכיות פרוטאין חומו</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>60.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>13.20</ItemPrice>
+      <UnitOfMeasurePrice>0.2200</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>186073</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-06-02 08:38:24</PriceUpdateDate>
+      <ItemCode>4770179998656</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>בונבוניירה פרליני שו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>בונבוניירה פרליני שו</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>114.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>0.1307</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>187482</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-12-01 08:16:03</PriceUpdateDate>
+      <ItemCode>7290106572614</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף תפוחי אדמה דובו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חטיף תפוחי אדמה דובו</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>40.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>5.90</ItemPrice>
+      <UnitOfMeasurePrice>0.1475</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>189447</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-09-28 08:44:57</PriceUpdateDate>
+      <ItemCode>7290118422723</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>ערגליות מיני'ס עוגיו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ערגליות מיני'ס עוגיו</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>300.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>0.0430</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>189695</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-03-29 07:31:23</PriceUpdateDate>
+      <ItemCode>7290116916934</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חרב בועות סבון 24 יח</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חרב בועות סבון 24 יח</ManufacturerItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>24.00</Quantity>
+      <UnitOfMeasure>יחידה   </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>7.90</ItemPrice>
+      <UnitOfMeasurePrice>0.3292</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>192054</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-05-10 08:09:34</PriceUpdateDate>
+      <ItemCode>7291049237219</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>לקקן שוקולד פאוואר ר</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לקקן שוקולד פאוואר ר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>15.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>5.90</ItemPrice>
+      <UnitOfMeasurePrice>0.3933</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>194168</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-05-29 12:21:30</PriceUpdateDate>
+      <ItemCode>8421392971</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>בובת TY עיניים גדולו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>בובת TY עיניים גדולו</ManufacturerItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידה   </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>34.90</ItemPrice>
+      <UnitOfMeasurePrice>34.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>195348</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-06-23 08:34:34</PriceUpdateDate>
+      <ItemCode>7291049188283</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>בלון מיילר 34" מספר</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>בלון מיילר 34" מספר</ManufacturerItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>יחידה   </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>196567</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-12-19 08:37:36</PriceUpdateDate>
+      <ItemCode>7291049192020</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>לקקן שוקולד 15 גר סו</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לקקן שוקולד 15 גר סו</ManufacturerItemDescription>
+      <UnitQty>1</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>6.90</ItemPrice>
+      <UnitOfMeasurePrice>6.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>204938</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-12-19 08:37:36</PriceUpdateDate>
+      <ItemCode>7291049248482</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>לקקן שוקולד הוט וויל</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לקקן שוקולד הוט וויל</ManufacturerItemDescription>
+      <UnitQty>1</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>6.90</ItemPrice>
+      <UnitOfMeasurePrice>6.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>204944</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-05-25 09:04:20</PriceUpdateDate>
+      <ItemCode>7290118427001</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>במבה במילוי אייס קפה</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>במבה במילוי אייס קפה</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>60.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>5.70</ItemPrice>
+      <UnitOfMeasurePrice>0.0950</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>213135</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-08-11 13:20:42</PriceUpdateDate>
+      <ItemCode>7290116536538</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>קליק כדורים 30 גרם</ItemName>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קליק כדורים 30 גרם</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>30.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>9.80</ItemPrice>
+      <UnitOfMeasurePrice>0.3267</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>216516</ItemId>
+    </Item>
+  </Items>
+</Root>

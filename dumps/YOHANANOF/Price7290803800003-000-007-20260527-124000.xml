@@ -1,0 +1,597 @@
+﻿<Root>
+  <ChainID>7290803800003</ChainID>
+  <SubChainID>000</SubChainID>
+  <StoreID>007</StoreID>
+  <BikoretNo>0</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>2385455</ItemCode>
+      <LastSaleDateTime>2026-05-27T10:51:27</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>בולגרית מעודנת  24% </ItemName>
+      <ManufactureName>דשן</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>בולגרית מעודנת  24% </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice>55.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>2385486</ItemCode>
+      <LastSaleDateTime>2026-05-27T11:56:51</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>גבינת שמנת טבעית 30%</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת שמנת טבעית 30%</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>45.00</ItemPrice>
+      <UnitOfMeasurePrice>45.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>400112</ItemCode>
+      <LastSaleDateTime>2026-05-14T17:49:50</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>שיפודי פרגיות  טרי  </ItemName>
+      <ManufactureName>משתנה</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>שיפודי פרגיות  טרי  </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>69.90</ItemPrice>
+      <UnitOfMeasurePrice>69.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>400129</ItemCode>
+      <LastSaleDateTime>2026-05-27T08:54:30</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>סטייק פרגית טרי  פרי</ItemName>
+      <ManufactureName>משתנה</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>סטייק פרגית טרי  פרי</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>69.90</ItemPrice>
+      <UnitOfMeasurePrice>69.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>400693</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:45:38</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>פרגיות טרי  פרימיום </ItemName>
+      <ManufactureName>משתנה</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>פרגיות טרי  פרימיום </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>69.90</ItemPrice>
+      <UnitOfMeasurePrice>69.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>554792</ItemCode>
+      <LastSaleDateTime>2026-05-27T08:07:43</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>בולגרית מעודנת 5%   </ItemName>
+      <ManufactureName>דשן</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>בולגרית מעודנת 5%   </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice>55.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>554891</ItemCode>
+      <LastSaleDateTime>2026-05-27T11:43:33</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>בולגרית מעודנת 16%  </ItemName>
+      <ManufactureName>דשן</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>בולגרית מעודנת 16%  </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice>55.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>554969</ItemCode>
+      <LastSaleDateTime>2026-05-27T08:30:07</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>גבינת שמנת טבעית 30%</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת שמנת טבעית 30%</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>45.00</ItemPrice>
+      <UnitOfMeasurePrice>45.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>554976</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:25:34</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>גבינת שמנת זיתים 30%</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת שמנת זיתים 30%</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>45.00</ItemPrice>
+      <UnitOfMeasurePrice>45.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>554990</ItemCode>
+      <LastSaleDateTime>2026-05-26T20:34:49</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>מוצרלה  פרסקה כדורים</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>מוצרלה  פרסקה כדורים</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>89.00</ItemPrice>
+      <UnitOfMeasurePrice>89.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>5992667</ItemCode>
+      <LastSaleDateTime>2026-05-27T11:43:33</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>בולגרית מסורתית 5%  </ItemName>
+      <ManufactureName>דשן</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>בולגרית מסורתית 5%  </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice>55.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>5992889</ItemCode>
+      <LastSaleDateTime>2026-05-20T20:07:57</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>גבינת שמנת שום שמיר </ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת שמנת שום שמיר </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>45.00</ItemPrice>
+      <UnitOfMeasurePrice>45.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>6902023070456</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שום מקולף ארוז</ItemName>
+      <ManufactureName>תבליני יוחאי ביטון</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>שום קלוף 1 ק"ג      </ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>1000.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>27.90</ItemPrice>
+      <UnitOfMeasurePrice>2.79</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T11:05:00</PriceUpdateTime>
+      <ItemCode>725</ItemCode>
+      <LastSaleDateTime>2026-05-27T12:23:25</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>עגבניה              </ItemName>
+      <ManufactureName>משתנה</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>עגבניה              </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>5.90</ItemPrice>
+      <UnitOfMeasurePrice>5.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290000554655</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:35:06</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מוצרלה נקניק מעושן 2</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>מוצרלה נקניק מעושן 2</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>79.00</ItemPrice>
+      <UnitOfMeasurePrice>79.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290000554754</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:14:25</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בייבי מוצרלה כדורים </ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>בייבי מוצרלה כדורים </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>89.00</ItemPrice>
+      <UnitOfMeasurePrice>89.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290000554815</ItemCode>
+      <LastSaleDateTime>2026-05-27T11:57:42</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גבינת מוצרלה בסגנון </ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת מוצרלה בסגנון </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>79.00</ItemPrice>
+      <UnitOfMeasurePrice>79.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290002385066</ItemCode>
+      <LastSaleDateTime>2026-05-27T10:23:11</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קוביות בולגרית 5%   </ItemName>
+      <ManufactureName>דשן</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>קוביות בולגרית 5%   </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice>55.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290002385431</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:55:02</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בולגרית מסורתית 16% </ItemName>
+      <ManufactureName>דשן</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>בולגרית מסורתית 16% </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice>55.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290002385493</ItemCode>
+      <LastSaleDateTime>2026-05-27T09:51:54</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גבינת שמנת זיתים 30%</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת שמנת זיתים 30%</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>45.00</ItemPrice>
+      <UnitOfMeasurePrice>45.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290002385509</ItemCode>
+      <LastSaleDateTime>2026-05-27T09:51:54</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גבינת שמנת שום שמיר </ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת שמנת שום שמיר </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>45.00</ItemPrice>
+      <UnitOfMeasurePrice>45.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290005992872</ItemCode>
+      <LastSaleDateTime>2026-05-27T08:30:07</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>צפתית פרח במים 5%   </ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>צפתית פרח במים 5%   </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>59.00</ItemPrice>
+      <UnitOfMeasurePrice>59.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290005992902</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:53:30</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גבינת שמנת ירקות 30%</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>גבינת שמנת ירקות 30%</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>45.00</ItemPrice>
+      <UnitOfMeasurePrice>45.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290006866363</ItemCode>
+      <LastSaleDateTime>2026-05-27T11:01:39</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מיץ אשכוליות אדומות </ItemName>
+      <ManufactureName>גניר (1992) בע"מ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>מיץ אשכוליות אדומות </ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>14.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7290013608864</ItemCode>
+      <LastSaleDateTime>2026-05-27T08:54:01</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מיץ פירות הדר סחוט פ</ItemName>
+      <ManufactureName>גניר (1992) בע"מ</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>מיץ פירות הדר סחוט פ</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>14.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>7290015992299</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קינוחית             </ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>קינוחית             </ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>7290016411386</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שום מקולף ארוז</ItemName>
+      <ManufactureName>תבליני יוחאי ביטון</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>שום  קלוף 1 ק"ג     </ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>1000.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>27.90</ItemPrice>
+      <UnitOfMeasurePrice>2.79</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>7290017229614</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קורנפלקס יוחננוף 850</ItemName>
+      <ManufactureName>קריליטאליה</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>קורנפלקס יוחננוף 850</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>850.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>1.75</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7500569075714</ItemCode>
+      <LastSaleDateTime>2026-04-05T16:53:58</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סט 2 מזוודות סמסוניי</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>AX</ManufactureCountry>
+      <ManufactureItemDescription>סט 2 מזוודות סמסוניי</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>790.00</ItemPrice>
+      <UnitOfMeasurePrice>790.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>7500569075745</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:19:24</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סט 2 מזוודות סמסוניי</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>AX</ManufactureCountry>
+      <ManufactureItemDescription>סט 2 מזוודות סמסוניי</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>790.00</ItemPrice>
+      <UnitOfMeasurePrice>790.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T09:31:00</PriceUpdateTime>
+      <ItemCode>98111</ItemCode>
+      <LastSaleDateTime>2026-05-18T21:23:36</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>מוצרלה טבעית 22%  מג</ItemName>
+      <ManufactureName>מחלבות גד</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>מוצרלה טבעית 22%  מג</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>79.00</ItemPrice>
+      <UnitOfMeasurePrice>79.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

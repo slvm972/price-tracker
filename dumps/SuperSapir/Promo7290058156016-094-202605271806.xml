@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ChainId>7290058156016</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>94</StoreId>
+  <BikoretNo>0</BikoretNo>
+  <Promotions count="23">
+    <Promotion>
+      <PromotionId>123483401</PromotionId>
+      <PromotionDescription>נוזל כלים פיירי 1.015ל' 12.9</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:07:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-24</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-05-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>12.9</DiscountedPrice>
+      <DiscountedPricePerMida>12.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="5">
+        <Item>
+          <ItemCode>8700216811491</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>8006530184946</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>8001090432322</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>8001090432360</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>8700216163811</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>נוזל כלים פיירי 1.01</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482982</PromotionId>
+      <PromotionDescription>טישו חמישיות 100*5 דה בסט 3ב20</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:18:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-05</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>3</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>20</DiscountedPrice>
+      <DiscountedPricePerMida>20</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>761742026047</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>טישו חמישיות 100*5 ד</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482748</PromotionId>
+      <PromotionDescription>שמן זית תוצרת 750 מל 24.90</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:13:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-03</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>24.9</DiscountedPrice>
+      <DiscountedPricePerMida>24.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="2">
+        <Item>
+          <ItemCode>7290017949109</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>7290019894445</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>שמן זית תוצרת 750 מל</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482625</PromotionId>
+      <PromotionDescription>חמיישית טישו שווה3ב20</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:15:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-03</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>3</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>20</DiscountedPrice>
+      <DiscountedPricePerMida>20</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>7290014288980</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>חמיישית טישו שווה</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482346</PromotionId>
+      <PromotionDescription>מכונת קפה נינגה NINJA ES601 1590</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:17:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-27</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>1499</DiscountedPrice>
+      <DiscountedPricePerMida>1499</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>622356287951</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>מכונת קפה נינגה NINJ</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482217</PromotionId>
+      <PromotionDescription>מיקסר יד MOULINEX HM3108B</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:17:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-26</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>119.9</DiscountedPrice>
+      <DiscountedPricePerMida>119.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>3016661151668</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>מיקסר יד MOULINEX HM</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482215</PromotionId>
+      <PromotionDescription>מגהץ קיטור TEFAL SV8130</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:17:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-26</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>599.9</DiscountedPrice>
+      <DiscountedPricePerMida>599.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>3121040086193</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>מגהץ קיטור TEFAL SV8</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482214</PromotionId>
+      <PromotionDescription>מגהץ אנכי טפאל DT2026E1</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:17:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-26</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>199.9</DiscountedPrice>
+      <DiscountedPricePerMida>199.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>3121040088524</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>מגהץ אנכי טפאל DT202</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482213</PromotionId>
+      <PromotionDescription>מכונת גלידה נינג'ה דגם NC701</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:17:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-26</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>1290</DiscountedPrice>
+      <DiscountedPricePerMida>1290</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>622356292306</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>מכונת גלידה נינג'ה ד</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482212</PromotionId>
+      <PromotionDescription>מעבד מזון נינגה דגם  bn800</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:17:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-26</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>599.9</DiscountedPrice>
+      <DiscountedPricePerMida>599.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>622356235037</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>מעבד מזון נינגה דגם </Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123482211</PromotionId>
+      <PromotionDescription>בלנדר נינגה דגם bn495</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:17:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-26</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>329.9</DiscountedPrice>
+      <DiscountedPricePerMida>329.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>622356241236</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>בלנדר נינגה דגם bn49</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123481687</PromotionId>
+      <PromotionDescription>מיץ ענבים 100 % 1 ליטר נטו חיסכון 2ב30</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:12:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-27</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>2</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>30</DiscountedPrice>
+      <DiscountedPricePerMida>29.7</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>7290018720707</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>מיץ ענבים 100 % 1 לי</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123481673</PromotionId>
+      <PromotionDescription>קמפרי 1 ליטר 79.9</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:24:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-12</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>79.9</DiscountedPrice>
+      <DiscountedPricePerMida>79.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>8000040000802</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>קמפרי 1 ליטר</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123481072</PromotionId>
+      <PromotionDescription>רסק  עגבניות 28 -30 רויאלמיל 250 ג' 3ב10</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:35:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-05</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>3</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>10</DiscountedPrice>
+      <DiscountedPricePerMida>10</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>7290118241348</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>רסק  עגבניות 28 -30 </Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123480951</PromotionId>
+      <PromotionDescription>אפרסק 820 גר רויאמיל 2ב15</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:34:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-04</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>2</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>15</DiscountedPrice>
+      <DiscountedPricePerMida>15</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>7290015153157</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>אפרסק 820 גר רויאמיל</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123478852</PromotionId>
+      <PromotionDescription>וויסקי גלנליווט 12 שנה 700 מ"ל 169.9</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:24:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-27</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>5</MaxQty>
+      <DiscountedPrice>169.9</DiscountedPrice>
+      <DiscountedPricePerMida>169.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>80432402825</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>וויסקי גלנליווט 12 ש</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123478134</PromotionId>
+      <PromotionDescription>אפרול 1 ליטר 69.9</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:24:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-12</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>69.9</DiscountedPrice>
+      <DiscountedPricePerMida>69.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>8002230000012</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>אפרול 1 ליטר</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123478123</PromotionId>
+      <PromotionDescription>וודקה סמירנוף 700 מל אדום 2ב100</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:24:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-28</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>2</MinQty>
+      <MaxQty>4</MaxQty>
+      <DiscountedPrice>100</DiscountedPrice>
+      <DiscountedPricePerMida>99.7</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>5410316994019</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>וודקה סמירנוף 700 מל</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123478061</PromotionId>
+      <PromotionDescription>וויסקי שיבס ריגל 1 ליטר 119.9</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:16:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-20</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>119.9</DiscountedPrice>
+      <DiscountedPricePerMida>119.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>80432400432</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>וויסקי שיבס ריגל 1 ל</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123478014</PromotionId>
+      <PromotionDescription>יאמי גאמי - גומי 150 גר 3ב20</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:16:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-29</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>3</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>20</DiscountedPrice>
+      <DiscountedPricePerMida>20</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="10">
+        <Item>
+          <ItemCode>721688156345</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156475</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156437</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156352</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156420</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156307</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156482</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156338</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156383</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>721688156390</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>יאמי גאמי - גומי 150</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123476508</PromotionId>
+      <PromotionDescription>אננס חתוך 565 גר שווה 3ב20</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:15:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-04</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>3</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>20</DiscountedPrice>
+      <DiscountedPricePerMida>20</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="2">
+        <Item>
+          <ItemCode>7290014205697</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>7290117032923</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>אננס חתוך 565 גר שוו</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123473136</PromotionId>
+      <PromotionDescription>בירה מולר 500 מ"ל 3ב10</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:39:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-04-12</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>3</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>10</DiscountedPrice>
+      <DiscountedPricePerMida>9.4</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="2">
+        <Item>
+          <ItemCode>5900535009705</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>7290109842745</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>בירה מולר 500 מ"ל</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>123462427</PromotionId>
+      <PromotionDescription>במבה בולי 80 גר 5ב10</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:36:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-11</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-06-30</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>5</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>10</DiscountedPrice>
+      <DiscountedPricePerMida>10</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="2">
+        <Item>
+          <ItemCode>7290003087860</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>7290003087945</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>במבה בולי</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+  </Promotions>
+</Root>

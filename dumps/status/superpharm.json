@@ -1,0 +1,797 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T20:21:36.808904+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:24.511187+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Price7290172900007-399-202605271439.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Price7290172900007-399-202605271439.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:24.512478+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Promo7290172900007-223-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-223-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:24.513285+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Promo7290172900007-225-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-225-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:24.514339+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Promo7290172900007-229-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-229-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:48:24.515313+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Price7290172900007-399-202605271439.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Price7290172900007-399-202605271439.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:48:24.516305+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Promo7290172900007-223-202605271346.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-223-202605271346.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:48:24.518575+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Promo7290172900007-225-202605271346.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-225-202605271346.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:48:25.649578+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Price7290172900007-399-202605271439.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:48:25.683103+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Promo7290172900007-225-202605271346.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:48:25.716470+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "file_name": "Promo7290172900007-223-202605271346.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:56:40.201707+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-229-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-229-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:56:40.202850+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-230-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-230-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:56:40.203892+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-233-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-233-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:56:40.205070+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-244-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-244-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:56:40.206862+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-229-202605271346.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-229-202605271346.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:56:40.208165+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-230-202605271346.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-230-202605271346.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:56:40.210440+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-233-202605271346.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-233-202605271346.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:56:41.294685+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-229-202605271346.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:56:41.392405+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-233-202605271346.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:56:41.439552+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "file_name": "Promo7290172900007-230-202605271346.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:00.088378+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-244-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-244-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:00.089775+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-247-202605271346.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-247-202605271346.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:00.091096+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-001-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-001-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:00.092349+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-016-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-016-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:00.093701+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-244-202605271346.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-244-202605271346.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:00.094991+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-247-202605271346.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-247-202605271346.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:00.097291+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-001-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-001-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:01.207056+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-244-202605271346.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:01.237453+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-001-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:01.299061+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "file_name": "Promo7290172900007-247-202605271346.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:11:01.113578+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-016-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-016-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:11:01.116544+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-017-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-017-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:11:01.118933+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-018-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-018-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:11:01.120505+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-160-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-160-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:11:01.121992+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-161-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-161-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:11:01.123553+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-016-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-016-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:11:01.125085+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-017-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-017-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:11:01.127572+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-018-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-018-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:11:01.129991+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-160-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-160-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:11:01.133018+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-161-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-161-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:11:02.296270+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-016-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:11:02.299367+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-163-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-163-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:11:02.310681+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-017-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:11:02.356000+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-160-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:11:02.446284+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-161-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:11:02.457393+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "file_name": "Promo7290172900007-018-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 20:21:35.480349+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-163-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-163-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 20:21:35.482561+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-164-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-164-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 20:21:35.484491+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-167-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-167-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 20:21:35.486329+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-168-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-168-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 20:21:35.488192+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-169-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-169-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 20:21:35.490250+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-163-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-163-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 20:21:35.492170+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-164-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-164-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 20:21:35.495035+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-167-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-167-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 20:21:35.497710+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-168-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-168-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 20:21:35.500636+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-169-202605271345.gz",
+            "link_collected": "http://prices.super-pharm.co.il//Download/Promo7290172900007-169-202605271345.gz?bucketName=sp_transparency_output_prod"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 20:21:36.655905+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-163-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 20:21:36.660258+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-170-202605271345.gz",
+            "link": "http://prices.super-pharm.co.il//Download/Promo7290172900007-170-202605271345.gz?bucketName=sp_transparency_output_prod",
+            "size": null
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 20:21:36.680564+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-167-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 20:21:36.761005+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-164-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 20:21:36.764924+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-168-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 20:21:36.801982+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "file_name": "Promo7290172900007-169-202605271345.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:48:17.856121+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:48:25.719539+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7",
+            "folder_size": {
+                "size": 0.050040245056152344,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/SuperPharm",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Price7290172900007-399-202605271439.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-223-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-225-202605271346.xml"
+                ]
+            },
+            "completed_successfully": true
+        },
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:56:32.385969+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:56:41.442813+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318",
+            "folder_size": {
+                "size": 0.1475973129272461,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/SuperPharm",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Price7290172900007-399-202605271439.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-223-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-225-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-229-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-230-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-233-202605271346.xml"
+                ]
+            },
+            "completed_successfully": true
+        },
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:59:52.323217+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 19:00:01.302568+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091",
+            "folder_size": {
+                "size": 0.23458480834960938,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/SuperPharm",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Price7290172900007-399-202605271439.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-001-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-223-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-225-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-229-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-230-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-233-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-244-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-247-202605271346.xml"
+                ]
+            },
+            "completed_successfully": true
+        },
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 19:10:53.369123+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 19:11:02.461590+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58",
+            "folder_size": {
+                "size": 0.31766796112060547,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/SuperPharm",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Price7290172900007-399-202605271439.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-001-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-016-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-017-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-018-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-160-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-161-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-223-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-225-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-229-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-230-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-233-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-244-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-247-202605271346.xml"
+                ]
+            },
+            "completed_successfully": true
+        },
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 20:21:27.878236+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 20:21:36.807590+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8",
+            "folder_size": {
+                "size": 0.4505729675292969,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/SuperPharm",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Price7290172900007-399-202605271439.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-001-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-016-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-017-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-018-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-160-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-161-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-163-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-164-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-167-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-168-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-169-202605271345.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-223-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-225-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-229-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-230-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-233-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-244-202605271346.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperPharm/Promo7290172900007-247-202605271346.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290172900007-399-202605271439.gz",
+            "system_timestamp": "2026-05-27 18:48:25.650444+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7"
+        },
+        {
+            "file_name": "Promo7290172900007-225-202605271346.gz",
+            "system_timestamp": "2026-05-27 18:48:25.683974+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7"
+        },
+        {
+            "file_name": "Promo7290172900007-223-202605271346.gz",
+            "system_timestamp": "2026-05-27 18:48:25.717987+03:00",
+            "task_id": "8896b3d0-a1ec-47f6-87d6-dfe9cd8001c7"
+        },
+        {
+            "file_name": "Promo7290172900007-229-202605271346.gz",
+            "system_timestamp": "2026-05-27 18:56:41.295729+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318"
+        },
+        {
+            "file_name": "Promo7290172900007-233-202605271346.gz",
+            "system_timestamp": "2026-05-27 18:56:41.393621+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318"
+        },
+        {
+            "file_name": "Promo7290172900007-230-202605271346.gz",
+            "system_timestamp": "2026-05-27 18:56:41.441014+03:00",
+            "task_id": "552c7293-fe8e-4838-bf6b-6a84e5e9b318"
+        },
+        {
+            "file_name": "Promo7290172900007-244-202605271346.gz",
+            "system_timestamp": "2026-05-27 19:00:01.208411+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091"
+        },
+        {
+            "file_name": "Promo7290172900007-001-202605271345.gz",
+            "system_timestamp": "2026-05-27 19:00:01.238744+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091"
+        },
+        {
+            "file_name": "Promo7290172900007-247-202605271346.gz",
+            "system_timestamp": "2026-05-27 19:00:01.300483+03:00",
+            "task_id": "7606af77-07fa-47c4-a56c-bff194e40091"
+        },
+        {
+            "file_name": "Promo7290172900007-016-202605271345.gz",
+            "system_timestamp": "2026-05-27 19:11:02.297893+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58"
+        },
+        {
+            "file_name": "Promo7290172900007-017-202605271345.gz",
+            "system_timestamp": "2026-05-27 19:11:02.312530+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58"
+        },
+        {
+            "file_name": "Promo7290172900007-160-202605271345.gz",
+            "system_timestamp": "2026-05-27 19:11:02.357640+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58"
+        },
+        {
+            "file_name": "Promo7290172900007-161-202605271345.gz",
+            "system_timestamp": "2026-05-27 19:11:02.448099+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58"
+        },
+        {
+            "file_name": "Promo7290172900007-018-202605271345.gz",
+            "system_timestamp": "2026-05-27 19:11:02.459016+03:00",
+            "task_id": "b4ad8f6d-6647-4a00-ba10-1f4985532c58"
+        },
+        {
+            "file_name": "Promo7290172900007-163-202605271345.gz",
+            "system_timestamp": "2026-05-27 20:21:36.658128+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8"
+        },
+        {
+            "file_name": "Promo7290172900007-167-202605271345.gz",
+            "system_timestamp": "2026-05-27 20:21:36.682580+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8"
+        },
+        {
+            "file_name": "Promo7290172900007-164-202605271345.gz",
+            "system_timestamp": "2026-05-27 20:21:36.763010+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8"
+        },
+        {
+            "file_name": "Promo7290172900007-168-202605271345.gz",
+            "system_timestamp": "2026-05-27 20:21:36.766710+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8"
+        },
+        {
+            "file_name": "Promo7290172900007-169-202605271345.gz",
+            "system_timestamp": "2026-05-27 20:21:36.804142+03:00",
+            "task_id": "2d95a273-6e78-4ec5-9c8c-3b92c30edde8"
+        }
+    ]
+}

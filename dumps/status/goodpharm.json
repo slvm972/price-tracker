@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:58:31.866457+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:31.476807+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-970-202605271800",
+            "link": "http://goodpharm.binaprojects.com//Download.aspx?FileNm=Price7290058197699-970-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:31.477727+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-953-202605271800",
+            "link": "http://goodpharm.binaprojects.com//Download.aspx?FileNm=Price7290058197699-953-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:31.478515+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-952-202605271800",
+            "link": "http://goodpharm.binaprojects.com//Download.aspx?FileNm=Price7290058197699-952-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:31.479219+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-951-202605271800",
+            "link": "http://goodpharm.binaprojects.com//Download.aspx?FileNm=Price7290058197699-951-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:31.479988+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-970-202605271800",
+            "link_collected": "http://goodpharm.binaprojects.com//Download.aspx?FileNm=Price7290058197699-970-202605271800.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:31.480765+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-953-202605271800",
+            "link_collected": "http://goodpharm.binaprojects.com//Download.aspx?FileNm=Price7290058197699-953-202605271800.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:31.483865+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-952-202605271800",
+            "link_collected": "http://goodpharm.binaprojects.com//Download.aspx?FileNm=Price7290058197699-952-202605271800.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:31.770271+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-970-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:31.824793+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-953-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:31.863451+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "file_name": "Price7290058197699-952-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:58:30.708957+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:58:31.865702+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37",
+            "folder_size": {
+                "size": 1.012578010559082,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/GoodPharm",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/GoodPharm/Price7290058197699-952-202605271800.xml",
+                    "/home/user/projects/price-tracker/dumps/GoodPharm/Price7290058197699-953-202605271800.xml",
+                    "/home/user/projects/price-tracker/dumps/GoodPharm/Price7290058197699-970-202605271800.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290058197699-970-202605271800",
+            "system_timestamp": "2026-05-27 18:58:31.771254+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37"
+        },
+        {
+            "file_name": "Price7290058197699-953-202605271800",
+            "system_timestamp": "2026-05-27 18:58:31.825647+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37"
+        },
+        {
+            "file_name": "Price7290058197699-952-202605271800",
+            "system_timestamp": "2026-05-27 18:58:31.864308+03:00",
+            "task_id": "d35c1454-0021-4db7-8c3a-a82dada96a37"
+        }
+    ]
+}

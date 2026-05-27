@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:48:27.236899+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:26.733703+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "Stores7290058249350-000-20260527-000011.gz",
+            "link": "https://wm-gateway.wolt.com/isr-prices/public/v1/download/2026-05-27/Stores7290058249350-000-20260527-000011.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:26.734811+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "PromoFull7290058249350-000-043-20260527-000044.gz",
+            "link": "https://wm-gateway.wolt.com/isr-prices/public/v1/download/2026-05-27/PromoFull7290058249350-000-043-20260527-000044.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:26.735666+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "PromoFull7290058249350-000-042-20260527-000052.gz",
+            "link": "https://wm-gateway.wolt.com/isr-prices/public/v1/download/2026-05-27/PromoFull7290058249350-000-042-20260527-000052.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:48:26.736510+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "PromoFull7290058249350-000-041-20260527-000036.gz",
+            "link": "https://wm-gateway.wolt.com/isr-prices/public/v1/download/2026-05-27/PromoFull7290058249350-000-041-20260527-000036.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:48:26.737350+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "Stores7290058249350-000-20260527-000011.gz",
+            "link_collected": "https://wm-gateway.wolt.com/isr-prices/public/v1/download/2026-05-27/Stores7290058249350-000-20260527-000011.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:48:26.738138+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "PromoFull7290058249350-000-043-20260527-000044.gz",
+            "link_collected": "https://wm-gateway.wolt.com/isr-prices/public/v1/download/2026-05-27/PromoFull7290058249350-000-043-20260527-000044.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:48:26.740286+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "PromoFull7290058249350-000-042-20260527-000052.gz",
+            "link_collected": "https://wm-gateway.wolt.com/isr-prices/public/v1/download/2026-05-27/PromoFull7290058249350-000-042-20260527-000052.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:48:27.135541+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "Stores7290058249350-000-20260527-000011.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:48:27.195936+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "PromoFull7290058249350-000-042-20260527-000052.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:48:27.233405+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "file_name": "PromoFull7290058249350-000-043-20260527-000044.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:48:26.260583+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:48:27.236308+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e",
+            "folder_size": {
+                "size": 0.6036272048950195,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/Wolt",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/Wolt/PromoFull7290058249350-000-042-20260527-000052.xml",
+                    "/home/user/projects/price-tracker/dumps/Wolt/PromoFull7290058249350-000-043-20260527-000044.xml",
+                    "/home/user/projects/price-tracker/dumps/Wolt/Stores7290058249350-000-20260527-000011.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Stores7290058249350-000-20260527-000011.gz",
+            "system_timestamp": "2026-05-27 18:48:27.136422+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e"
+        },
+        {
+            "file_name": "PromoFull7290058249350-000-042-20260527-000052.gz",
+            "system_timestamp": "2026-05-27 18:48:27.197060+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e"
+        },
+        {
+            "file_name": "PromoFull7290058249350-000-043-20260527-000044.gz",
+            "system_timestamp": "2026-05-27 18:48:27.234755+03:00",
+            "task_id": "5286d3eb-c7b9-4c11-a09b-3ab205ff1f2e"
+        }
+    ]
+}

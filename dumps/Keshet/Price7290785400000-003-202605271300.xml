@@ -1,0 +1,143 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7290785400000</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>003</StoreId>
+  <BikoretNo>8</BikoretNo>
+  <DllVerNo>9.4.0.50</DllVerNo>
+  <Items Count="7">
+    <Item>
+      <PriceUpdateDate>2023-05-01 14:10:04</PriceUpdateDate>
+      <ItemCode>103</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ברוקולי ארוז</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ברוקולי ארוז</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>106571</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-25 13:36:40</PriceUpdateDate>
+      <ItemCode>17322</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>סינטה בלי עצם</ItemName>
+      <ManufacturerName>המפרק פירוק ושיווק ב</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סינטה בלי עצם</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>89.90</ItemPrice>
+      <UnitOfMeasurePrice>89.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>106770</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 07:57:04</PriceUpdateDate>
+      <ItemCode>7290018795385</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חסה לליק מרינה</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חסה לליק מרינה</ManufacturerItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>0.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice>0.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>235020</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-08-04 14:36:58</PriceUpdateDate>
+      <ItemCode>4154</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עיזים עם</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>רולדה גבינה עיזים עם חמוציות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>241090</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-01-01 09:05:58</PriceUpdateDate>
+      <ItemCode>4750050342211</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף גבינה וניל בציפ</ItemName>
+      <ManufacturerName>PIENSAIMNIEKS</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חטיף גבינה וניל בציפוי שוקולד 7*45 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>315.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>9.4921</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>180580</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-01-01 09:05:58</PriceUpdateDate>
+      <ItemCode>4750050342259</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף גבינה שוקולד בצ</ItemName>
+      <ManufacturerName>PIENSAIMNIEKS</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חטיף גבינה שוקולד בציפוי שוקולד 7*45 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>315.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>9.4921</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>206310</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-08-04 14:36:58</PriceUpdateDate>
+      <ItemCode>4152</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עזים עם</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>רולדה גבינה עזים עם פחם שחור</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>109888</ItemId>
+    </Item>
+  </Items>
+</Root>

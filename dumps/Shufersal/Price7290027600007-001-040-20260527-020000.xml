@@ -1,0 +1,2041 @@
+﻿<Root>
+  <ChainID>7290027600007</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>040</StoreID>
+  <BikoretNo>8</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>3387390525960</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:16:51</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קראנץ' דגני בוקר 500 גרם</ItemName>
+      <ManufactureName>סי. פי. צרפת</ManufactureName>
+      <ManufactureCountry>FR</ManufactureCountry>
+      <ManufactureItemDescription>קראנץ דגני בוקר 500 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>26.90</ItemPrice>
+      <UnitOfMeasurePrice>5.38</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>3600523816699</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:06:31</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פעולה משולשת ג'ל קרם50מל</ItemName>
+      <ManufactureName>קרלסרו, גרמניה</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>פעולה משולשת גל קרם50מל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>50.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>53.00</ItemPrice>
+      <UnitOfMeasurePrice>106.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>4009300530459</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:51:06</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חליטת ג'ינג'ר ודבש 20שק</ItemName>
+      <ManufactureName>טיקנה ג'י.אמ.בי.אייג'</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>חליטת גינגר ודבש 20שק</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>35.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>17.90</ItemPrice>
+      <UnitOfMeasurePrice>51.14</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>4105120624412</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:14:01</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בירה ויינשטפן ויטוס500מל</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>בירה ויינשטפן ויטוס500מל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>16.90</ItemPrice>
+      <UnitOfMeasurePrice>3.38</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>5099864015638</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:26:58</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סימילאק גולד+ שלב3 700ג</ItemName>
+      <ManufactureName>אבוט אירלנד</ManufactureName>
+      <ManufactureCountry>IE</ManufactureCountry>
+      <ManufactureItemDescription>סימילאק גולד+ שלב3 700ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>700.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>80.90</ItemPrice>
+      <UnitOfMeasurePrice>11.56</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>5411081003654</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:14:01</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בירה קסטיל רוז 330מ</ItemName>
+      <ManufactureName />
+      <ManufactureCountry>BE</ManufactureCountry>
+      <ManufactureItemDescription>בירה קסטיל רוז 330מ</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>330.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>4.52</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>5411081010508</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:14:01</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בירה קסטיל רובוס 330 מ"ל</ItemName>
+      <ManufactureName>ואן הונסברוק</ManufactureName>
+      <ManufactureCountry>BE</ManufactureCountry>
+      <ManufactureItemDescription>בירה קסטיל רובוס 330 מ"ל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>330.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>4.52</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>5411188110835</ItemCode>
+      <LastSaleDateTime>2026-05-26T12:32:02</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>משקה שקדים דל שומן 1 ל'</ItemName>
+      <ManufactureName>אלפרו אן.וי אס.איי</ManufactureName>
+      <ManufactureCountry>FR</ManufactureCountry>
+      <ManufactureItemDescription>משקה שקדים דל שומן 1 ל</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>17.90</ItemPrice>
+      <UnitOfMeasurePrice>17.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>5900951310379</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:16:51</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סניקרס  קרימי ח.בוטנים ח</ItemName>
+      <ManufactureName>מרס הולנד בי.וי.</ManufactureName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufactureItemDescription>סניקרס  קרימי ח.בוטנים ח</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>37.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>7.50</ItemPrice>
+      <UnitOfMeasurePrice>20.27</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>710497311007</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:53:21</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>אוכמניות יבוא 125 גרם</ItemName>
+      <ManufactureName>HORTIFRUT</ManufactureName>
+      <ManufactureCountry>PE</ManufactureCountry>
+      <ManufactureItemDescription>אוכמניות יבוא 125 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>125.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>16.90</ItemPrice>
+      <UnitOfMeasurePrice>13.52</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000080765</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:26:13</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>טוסטעים פת קלוי+שומשו100</ItemName>
+      <ManufactureName>ון דר מולן</ManufactureName>
+      <ManufactureCountry>NL</ManufactureCountry>
+      <ManufactureItemDescription>טוסטעים פת קלוי+שומשו100</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>100.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>13.50</ItemPrice>
+      <UnitOfMeasurePrice>13.50</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000099804</ItemCode>
+      <LastSaleDateTime>2026-05-26T17:04:04</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קוקיס+ שוקולד לבן חלבי</ItemName>
+      <ManufactureName>סהרון</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>קוקיס+ שוקולד לבן חלבי</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>59.00</ItemPrice>
+      <UnitOfMeasurePrice>59.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000208008</ItemCode>
+      <LastSaleDateTime>2026-05-26T11:26:24</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חריסה 570 גרם</ItemName>
+      <ManufactureName>זנלכל בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חריסה 570 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>570.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>2.26</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000244143</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:17:08</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קרם הוואי לאחר גילוח120מ</ItemName>
+      <ManufactureName>טרופיקל דגיל</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>קרם הוואי לאחר גילוח120מ</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>120.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>20.90</ItemPrice>
+      <UnitOfMeasurePrice>17.42</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290000267609</ItemCode>
+      <LastSaleDateTime>2026-05-26T11:45:06</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פיסטוק חלבי קלוף 150גרם</ItemName>
+      <ManufactureName>דין שיווק</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>פיסטוק חלבי קלוף 150גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>150.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>19.93</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000287195</ItemCode>
+      <LastSaleDateTime>2026-05-26T11:31:40</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סנורהיט מבריק רהיטים305ג</ItemName>
+      <ManufactureName>סנו</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>סנורהיט מבריק רהיטים305ג</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>305.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>17.50</ItemPrice>
+      <UnitOfMeasurePrice>5.74</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000300900</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:57:29</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שניצל תירס 750 גרם</ItemName>
+      <ManufactureName>טבעול</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שניצל תירס 750 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>750.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>35.90</ItemPrice>
+      <UnitOfMeasurePrice>4.79</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000327020</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:31:25</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פפסי פחיות 6*330 מ"ל</ItemName>
+      <ManufactureName>מודרן גרופ משקאות בע\"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>פפסי פחיות 6*330 מ"ל</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.98</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>21.90</ItemPrice>
+      <UnitOfMeasurePrice>11.06</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000346212</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:38:05</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חליטת מנטה גן קסום25ש2*ג</ItemName>
+      <ManufactureName>ויסוצקי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חליטת מנטה גן קסום25ש*2ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>50.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>22.90</ItemPrice>
+      <UnitOfMeasurePrice>45.80</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000490601</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:41:34</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גלידל וניל 8 יחידות</ItemName>
+      <ManufactureName>פלקו בעמ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>גלידל וניל 8 יחידות</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>39.90</ItemPrice>
+      <UnitOfMeasurePrice>9.98</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000523514</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:01:40</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מלח מופחת נתרן 250ג</ItemName>
+      <ManufactureName>חברת מלח הארץ אילת בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מלח מופחת נתרן 250ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>250.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>5.16</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000688374</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:16:51</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מי עדן בייבי 330*6 מ"ל</ItemName>
+      <ManufactureName>מופק ממקור בזלתי עדן ,1</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מי עדן בייבי 6*330 מ"ל</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.50</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>17.90</ItemPrice>
+      <UnitOfMeasurePrice>11.93</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000901640</ItemCode>
+      <LastSaleDateTime>2026-05-26T20:05:36</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ענבים ירוקים אורגנים</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>ענבים ירוקים</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>38.90</ItemPrice>
+      <UnitOfMeasurePrice>38.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000928715</ItemCode>
+      <LastSaleDateTime>2026-05-26T12:07:28</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בשר ראש טרי (עצמי) במשקל</ItemName>
+      <ManufactureName>שונות</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>בשר ראש טרי )עצמי( במשקל</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>69.90</ItemPrice>
+      <UnitOfMeasurePrice>69.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290000966038</ItemCode>
+      <LastSaleDateTime>2026-05-26T20:07:58</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ענב ירוק ארוז</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>ענב ירוק ארוז</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>29.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290000992013</ItemCode>
+      <LastSaleDateTime>2026-05-26T15:16:37</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פלפל רומירו</ItemName>
+      <ManufactureName />
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>פלפל רומירו</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>28.90</ItemPrice>
+      <UnitOfMeasurePrice>28.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290001407769</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:01:40</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>טחינה שומש.מלא בארכה500ג</ItemName>
+      <ManufactureName>רושדי תעשיות מזון</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>טחינה שומש.מלא בארכה500ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>19.90</ItemPrice>
+      <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290002057451</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:32:25</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מלפפו.בחומץ7-9 560ג יבנה</ItemName>
+      <ManufactureName>קבוצת יבנה</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מלפפו.בחומץ7-9 560ג יבנה</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>560.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>10.90</ItemPrice>
+      <UnitOfMeasurePrice>1.95</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290002327073</ItemCode>
+      <LastSaleDateTime>2026-05-26T12:34:51</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בורקס גבינה 800 גרם</ItemName>
+      <ManufactureName>אופרה</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>בורקס גבינה 800 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>800.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>22.90</ItemPrice>
+      <UnitOfMeasurePrice>2.86</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290002360285</ItemCode>
+      <LastSaleDateTime>2026-05-26T09:41:08</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חליטת קמומיל 20 שק1.5*ג</ItemName>
+      <ManufactureName>טיקנה</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>חליטת קמומיל 20 שק*1.5ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>30.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>17.90</ItemPrice>
+      <UnitOfMeasurePrice>59.67</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290002577492</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:34:55</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פילה דג הרינג בשמן 240גר</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>פילה דג הרינג בשמן 240גר</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>240.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>28.50</ItemPrice>
+      <UnitOfMeasurePrice>11.88</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290002730262</ItemCode>
+      <LastSaleDateTime>2026-05-26T15:46:29</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פלמוליב לכלים ירוק 750מ</ItemName>
+      <ManufactureName>קולגייט-פלמוליב</ManufactureName>
+      <ManufactureCountry>GR</ManufactureCountry>
+      <ManufactureItemDescription>פלמוליב לכלים ירוק 750מ</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>750.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>1.99</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290002904694</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:39:16</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>דאו.טיטניום תרסיס 180 מל</ItemName>
+      <ManufactureName>אמיליה קוסמטיקס</ManufactureName>
+      <ManufactureCountry>TR</ManufactureCountry>
+      <ManufactureItemDescription>דאו.טיטניום תרסיס 180 מל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>180.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>16.90</ItemPrice>
+      <UnitOfMeasurePrice>9.39</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290003387205</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:46:19</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ספיד סטיק לגבר 56 גר</ItemName>
+      <ManufactureName>קולגייט-פלמוליב</ManufactureName>
+      <ManufactureCountry>US</ManufactureCountry>
+      <ManufactureItemDescription>ספיד סטיק לגבר 56 גר</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>56.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>23.90</ItemPrice>
+      <UnitOfMeasurePrice>42.68</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290003598267</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:28:35</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פולי סויה מקולף אדממה400</ItemName>
+      <ManufactureName>ZHEJIANG KINGSURE FOODS</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>פולי סויה מקולף אדממה400</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice>3.48</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T01:00:00</PriceUpdateTime>
+      <ItemCode>7290004033583</ItemCode>
+      <LastSaleDateTime>2026-05-26T20:00:55</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>לחמניות חלומית 90*4 גרם</ItemName>
+      <ManufactureName>י.את.א.ברמן בע"\מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>לחמניות חלומית</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>360.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>4.14</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290005590320</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:55:17</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חזה עוף טרי ארוז שלי קג</ItemName>
+      <ManufactureName>עוף הגליל</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חזה עוף טרי</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>39.90</ItemPrice>
+      <UnitOfMeasurePrice>39.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T01:00:00</PriceUpdateTime>
+      <ItemCode>7290005996009</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:36:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סלמי גלילי מעושן 400 גרם</ItemName>
+      <ManufactureName>מעדני יחיעם\n</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>סלמי גלילי מעושן 400 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>7.48</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290006459046</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:13:47</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חלבה וניל עדן במשקל</ItemName>
+      <ManufactureName>עדן</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חלבה וניל עדן</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>55.00</ItemPrice>
+      <UnitOfMeasurePrice>55.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290006681003</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:57:37</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קרמיסימו תות לימון 1.33ל</ItemName>
+      <ManufactureName>גלידת שטראוס בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>קרמיסימו תות לימון 1.33ל</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.33</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>28.90</ItemPrice>
+      <UnitOfMeasurePrice>21.73</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290006708069</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:06:58</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גרון הודו נ.טרי ארוז</ItemName>
+      <ManufactureName>עוף טוב</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>גרון הודו נ.טרי ארוז</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>34.90</ItemPrice>
+      <UnitOfMeasurePrice>34.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290009398021</ItemCode>
+      <LastSaleDateTime>2026-05-26T08:30:48</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>לחמניית ביס באגט</ItemName>
+      <ManufactureName>גידרון תעשיות בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>לחמניית ביס באגט</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>2.30</ItemPrice>
+      <UnitOfMeasurePrice>2.30</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290009805291</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:14:33</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חזה עוף טרי ארוז עצמי</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חזה עוף טרי ארוז עצמי</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>39.90</ItemPrice>
+      <UnitOfMeasurePrice>39.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290009950724</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:36:24</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סופגנייה מיני מצופה</ItemName>
+      <ManufactureName>גידרון תעשיות בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>סופגנייה מיני מצופה</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>6.90</ItemPrice>
+      <UnitOfMeasurePrice>6.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290011017873</ItemCode>
+      <LastSaleDateTime>2026-05-26T17:34:23</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פחית קוקה קולה זירו330מל</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>פחית קוקה קולה זירו330מל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>330.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>6.90</ItemPrice>
+      <UnitOfMeasurePrice>2.09</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290011131371</ItemCode>
+      <LastSaleDateTime>2026-05-26T11:31:40</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מוזלי קראנצ'י בוטנ+שקד1ק</ItemName>
+      <ManufactureName>וויטליה</ManufactureName>
+      <ManufactureCountry>MK</ManufactureCountry>
+      <ManufactureItemDescription>מוזלי קראנצי בוטנ+שקד1ק</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>31.90</ItemPrice>
+      <UnitOfMeasurePrice>31.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290011996277</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:57:35</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מחצלת עגולה לסושי</ItemName>
+      <ManufactureName>J FUZHOU</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>מחצלת עגולה לסושי</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>8.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290012911422</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:24:07</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מחית קארי אדום 400 גרם</ItemName>
+      <ManufactureName>KRS</ManufactureName>
+      <ManufactureCountry>TH</ManufactureCountry>
+      <ManufactureItemDescription>מחית קארי אדום 400 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>21.90</ItemPrice>
+      <UnitOfMeasurePrice>5.48</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290012921056</ItemCode>
+      <LastSaleDateTime>2026-05-26T15:56:37</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בירה מלכה חיטה 330 מ"ל</ItemName>
+      <ManufactureName />
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>בירה מלכה חיטה 330 מ"ל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>330.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>16.90</ItemPrice>
+      <UnitOfMeasurePrice>5.12</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290013117526</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:47:28</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בצק שמרים למאפים מתוקים</ItemName>
+      <ManufactureName>מעדנות בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>בצק שמרים למאפים מתוקים</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>900.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>28.90</ItemPrice>
+      <UnitOfMeasurePrice>3.21</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290013366016</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:48:47</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>אפונת שלג</ItemName>
+      <ManufactureName>כרמלים שדות חדשים</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>אפונת שלג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>220.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>26.90</ItemPrice>
+      <UnitOfMeasurePrice>12.23</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290013430304</ItemCode>
+      <LastSaleDateTime>2026-05-26T15:56:37</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>אלכסנדר גרין 330 מ"ל</ItemName>
+      <ManufactureName>אלכסנדר גורדון</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>אלכסנדר גרין 330 מ"ל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>330.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>15.90</ItemPrice>
+      <UnitOfMeasurePrice>4.82</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290013492005</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:40:46</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>תפוח אדמה למיקרו יחידה</ItemName>
+      <ManufactureName>צ'ילי זהבי בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>תפוח אדמה למיקרו יחידה</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>9.90</ItemPrice>
+      <UnitOfMeasurePrice>9.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290013683618</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:42:48</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>עוגת קצפת שוקולד 1.3 ק"ג</ItemName>
+      <ManufactureName>סהרון</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>עוגת קצפת שוקולד 1.3 ק"ג</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.30</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>110.00</ItemPrice>
+      <UnitOfMeasurePrice>84.62</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290015324564</ItemCode>
+      <LastSaleDateTime>2026-05-26T09:41:08</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>כוסברה טחונה מיכל גדול70</ItemName>
+      <ManufactureName>תבליני טעם וריח</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>כוסברה טחונה מיכל גדול70</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>70.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>18.43</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290015766005</ItemCode>
+      <LastSaleDateTime>2026-05-26T12:38:47</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>עגבניות שרי אדומות יחידה</ItemName>
+      <ManufactureName>טל נחום</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>עגבניות שרי אדומות יחידה</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>460.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>10.90</ItemPrice>
+      <UnitOfMeasurePrice>2.37</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290015979559</ItemCode>
+      <LastSaleDateTime>2026-05-26T20:10:38</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חסה ערבית יחידה</ItemName>
+      <ManufactureName>קטיף.</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חסה ערבית יחידה</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>6.90</ItemPrice>
+      <UnitOfMeasurePrice>6.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290016682243</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:54:30</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מיץ 100%אשכולית אדומה 1ל</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מיץ 100%אשכולית אדומה 1ל</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>16.90</ItemPrice>
+      <UnitOfMeasurePrice>16.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290017088815</ItemCode>
+      <LastSaleDateTime>2026-05-26T17:04:04</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>12 תחבושות לשתן נורמל</ItemName>
+      <ManufactureName>s.r.l EURFIL</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>12 תחבושות לשתן נורמל</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>20.90</ItemPrice>
+      <UnitOfMeasurePrice>20.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290018471906</ItemCode>
+      <LastSaleDateTime>2026-05-26T14:28:56</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוופס לימונדה ורודה1.5ל</ItemName>
+      <ManufactureName>יפאורה תבורי בעמ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שוופס לימונדה ורודה1.5ל</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.50</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>5.93</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290019056096</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:12:44</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוופס מוגז עדין אפרסק1.5</ItemName>
+      <ManufactureName>יפאורה תבורי בעמ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שוופס מוגז עדין אפרסק1.5</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.50</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>5.93</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290019056256</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:21:56</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוופס מים בטעם תפוח 1.5ל</ItemName>
+      <ManufactureName>יפאורה תבורי בעמ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שוופס מים תפו</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.50</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>5.93</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290019297406</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:20:35</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מעדן דובדבדבן100%פרי284ג</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>מעדן דובדבדבן100%פרי284ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>284.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>9.90</ItemPrice>
+      <UnitOfMeasurePrice>3.49</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290020188571</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:38:05</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>תרסיס מסיר כתמים750מ XPO</ItemName>
+      <ManufactureName>סאסאטק אגש"ח בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>תרסיס מסיר כתמים750מ XPO</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>750.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>17.90</ItemPrice>
+      <UnitOfMeasurePrice>2.39</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290020269003</ItemCode>
+      <LastSaleDateTime>2026-05-26T11:29:48</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מרכך כביסה פיור 4ל XPO</ItemName>
+      <ManufactureName>סאסאטק אגש"ח בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מרכך כביסה פיור 4ל XPO</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>4.00</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>22.90</ItemPrice>
+      <UnitOfMeasurePrice>5.73</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7290020269287</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:20:50</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>תרסיס מבריק רהיט300מ XPO</ItemName>
+      <ManufactureName>סאסאטק אגש"\ח בע"\מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>תרסיס מבריק רהיט300מ XPO</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>300.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>15.90</ItemPrice>
+      <UnitOfMeasurePrice>5.30</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>7290100685341</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:41:55</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מרק בטעם עוף זך 400 גרם</ItemName>
+      <ManufactureName>אסם תעשיות מזון בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מרק בטעם עוף זך 400 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>23.90</ItemPrice>
+      <UnitOfMeasurePrice>5.98</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290100924457</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:20:50</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סבון אסלה לימון50*3ג סוד</ItemName>
+      <ManufactureName>הנקל סוד</ManufactureName>
+      <ManufactureCountry>RS</ManufactureCountry>
+      <ManufactureItemDescription>סבון אסלה לימון3*50ג סוד</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>150.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>12.60</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290101113157</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:41:34</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מאגדת גלידל וניל עוגיות</ItemName>
+      <ManufactureName>פלקו בע\"מ, חברה ישראלית</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מאגדת גלידל וניל עוגיות</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>312.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>32.90</ItemPrice>
+      <UnitOfMeasurePrice>10.54</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290101114505</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:46:08</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בליסימו וניל צרפתי425גרם</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>בליסימו וניל צרפתי425גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>425.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>10.00</ItemPrice>
+      <UnitOfMeasurePrice>2.35</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290104961878</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:17:30</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שמפו קרטין נטורל 400 מ"ל</ItemName>
+      <ManufactureName>קוסמופארם</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שמפו קרטין נטורל 400 מ"ל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>7.48</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290109580104</ItemCode>
+      <LastSaleDateTime>2026-05-26T08:32:07</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>רוסטביף פרימיום 150 גרם</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>רוסטביף פרימיום 150 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>150.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>32.90</ItemPrice>
+      <UnitOfMeasurePrice>21.93</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290110117795</ItemCode>
+      <LastSaleDateTime>2026-05-26T15:23:23</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>נורדיק מיסט מוגז לימונדה</ItemName>
+      <ManufactureName>החברה המרכזית לייצור משק</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>נורדיק מיסט מוגז לימונדה</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>7.90</ItemPrice>
+      <UnitOfMeasurePrice>7.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290110329815</ItemCode>
+      <LastSaleDateTime>2026-05-26T15:05:24</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מעדן סויה ביו מעודנת150ג</ItemName>
+      <ManufactureName>תנובה בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מעדן סויה ביו מעודנת150ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>150.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>5.90</ItemPrice>
+      <UnitOfMeasurePrice>3.93</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7290110556891</ItemCode>
+      <LastSaleDateTime>2026-05-26T08:13:18</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מאסט וויט מנטה הדרים66גר</ItemName>
+      <ManufactureName>אסקום קונפקשיין</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>מאסט וויט מנטה הדרים66גר</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>66.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>19.55</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290112003188</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:20:50</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קפס.ג'ל לכביסה 60יח'</ItemName>
+      <ManufactureName>רקיט בנקיזר</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>קפס.גל לכביסה 60יח</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>56.90</ItemPrice>
+      <UnitOfMeasurePrice>56.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290112005991</ItemCode>
+      <LastSaleDateTime>2026-05-26T11:10:39</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ויט רצועות שעווה מוכנות</ItemName>
+      <ManufactureName>רקיט בנקיזר</ManufactureName>
+      <ManufactureCountry>FR</ManufactureCountry>
+      <ManufactureItemDescription>ויט רצועות שעווה מוכנות</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>34.90</ItemPrice>
+      <UnitOfMeasurePrice>34.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290112343512</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:15:49</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף puffs צ'יטוס 160ג</ItemName>
+      <ManufactureName>שטראוס פריטו ליי בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חטיף puffs ציטוס 160ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>160.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>11.50</ItemPrice>
+      <UnitOfMeasurePrice>7.19</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7290115190472</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:11:28</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>נקסט פיין אדג' חפיסה</ItemName>
+      <ManufactureName />
+      <ManufactureCountry />
+      <ManufactureItemDescription>נקסט פיין אדג'</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>37.50</ItemPrice>
+      <UnitOfMeasurePrice>37.50</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7290118427582</ItemCode>
+      <LastSaleDateTime>2026-05-26T15:14:39</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מרק סגנון ראמן ספייסי70ג</ItemName>
+      <ManufactureName>PUB FOODS PRESIDENT THAI</ManufactureName>
+      <ManufactureCountry>TH</ManufactureCountry>
+      <ManufactureItemDescription>מרק סגנון ראמן ספייסי70ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>70.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>21.29</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7296073224457</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:27:43</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>כוסמת אורגנית 500 גרם</ItemName>
+      <ManufactureName>סנקי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>כוסמת אורגנית 500 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>15.90</ItemPrice>
+      <UnitOfMeasurePrice>3.18</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7296073283829</ItemCode>
+      <LastSaleDateTime>2026-05-26T12:40:10</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מיקס פירות טרופי קפוא300</ItemName>
+      <ManufactureName>D.O.O LAKI</ManufactureName>
+      <ManufactureCountry>RS</ManufactureCountry>
+      <ManufactureItemDescription>מיקס פירות טרופי קפוא300</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>300.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>22.90</ItemPrice>
+      <UnitOfMeasurePrice>7.63</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7296073320074</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:29:51</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חסה מעודנת הידרופונית יח</ItemName>
+      <ManufactureName>יגור חקלאות ועסקים</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חסה מעודנת הידרופונית יח</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>14.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7296073381693</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:44:37</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>זרעי צ'יה אורגניים 300 ג</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>זרעי ציה אורגניים 300 ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>300.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>22.90</ItemPrice>
+      <UnitOfMeasurePrice>7.63</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7296073416036</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:54:10</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פופקורן בטעם חמאה5*100ג</ItemName>
+      <ManufactureName>AST נובולוג</ManufactureName>
+      <ManufactureCountry>BG</ManufactureCountry>
+      <ManufactureItemDescription>פופקורן בטעם חמאה5*100ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>3.78</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7296073496823</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:08:01</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קוביות עגבניות אורגני400</ItemName>
+      <ManufactureName>DAVIA</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>קוביות עגבניות אורגני400</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>7.50</ItemPrice>
+      <UnitOfMeasurePrice>1.88</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7296073612797</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:21:05</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פסטה עם תרד 400 גרם</ItemName>
+      <ManufactureName>פאסטיפיקו</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>פסטה עם תרד 400 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>15.90</ItemPrice>
+      <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7296073693116</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:43:20</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>סוללות AA 4 יחידות</ItemName>
+      <ManufactureName>NINGBO WISE</ManufactureName>
+      <ManufactureCountry>CN</ManufactureCountry>
+      <ManufactureItemDescription>סוללות AA 4 יחידות</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>9.90</ItemPrice>
+      <UnitOfMeasurePrice>9.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7296073706243</ItemCode>
+      <LastSaleDateTime>2026-05-26T14:29:35</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שקד מולבן טחון בקופסא200</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שקד מולבן טחון בקופסא200</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>200.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>19.90</ItemPrice>
+      <UnitOfMeasurePrice>9.95</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:40:00</PriceUpdateTime>
+      <ItemCode>7296073706793</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:12:59</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ספגטי מספר PUMINO 5</ItemName>
+      <ManufactureName>F.LLI PASTIFICIO</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>ספגטי מספר 5 PUMINO</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>9.90</ItemPrice>
+      <UnitOfMeasurePrice>1.98</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073719502</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:50:13</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חסה קיסר שטוף וחתוך 200ג</ItemName>
+      <ManufactureName>פרסקו חצבה 2006 בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>חסה קיסר שטוף וחתוך 200ג</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>11.90</ItemPrice>
+      <UnitOfMeasurePrice>11.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073723776</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:45:22</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מ.כביסה מרוכז בייבי1ל LU</ItemName>
+      <ManufactureName>גליל כימיקלים</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מ.כביסה מרוכז בייבי1ל LU</ManufactureItemDescription>
+      <UnitQty>ליטר</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1ליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>20.90</ItemPrice>
+      <UnitOfMeasurePrice>20.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7296073725275</ItemCode>
+      <LastSaleDateTime>2026-05-26T17:46:42</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>וופלים מצופים שוקול20*40</ItemName>
+      <ManufactureName>מנעמים</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>וופלים מצופים שוקול40*20</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>800.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>21.90</ItemPrice>
+      <UnitOfMeasurePrice>2.74</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7296073725640</ItemCode>
+      <LastSaleDateTime>2026-05-26T12:27:34</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מעדן חצילים 250 גרם</ItemName>
+      <ManufactureName>סלטי שמיר</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>מעדן חצילים 250 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>250.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>13.90</ItemPrice>
+      <UnitOfMeasurePrice>5.56</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073728696</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:42:48</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קבב אסאדו 400 גרם</ItemName>
+      <ManufactureName>זהר בשר עופות ובשר בע"מ</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>קבב אסאדו 400 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>400.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>32.90</ItemPrice>
+      <UnitOfMeasurePrice>8.23</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>7296073728894</ItemCode>
+      <LastSaleDateTime>2026-05-26T10:33:28</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>צ'ילי גרוס במיכל גדול70ג</ItemName>
+      <ManufactureName>תבליני טעם וריח</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>צילי גרוס במיכל גדול70ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>70.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>18.43</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073730163</ItemCode>
+      <LastSaleDateTime>2026-05-26T16:56:42</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ענבים ירוקים</ItemName>
+      <ManufactureName>קטיף.</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>ענבים ירוקים</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>29.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073745334</ItemCode>
+      <LastSaleDateTime>2026-05-26T19:36:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גלילי ופל שוקולד145ג</ItemName>
+      <ManufactureName>הגביע</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>גלילי ופל שוקולד145ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>145.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>10.28</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073746676</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:21:56</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בייגלה שמיניות+מלח350ג</ItemName>
+      <ManufactureName>מאיר את בייגל תעשיות בע\</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>בייגלה שמיניות+מלח350ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>350.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>15.90</ItemPrice>
+      <UnitOfMeasurePrice>4.54</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073747765</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:14:33</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוקו.מריר אוורירי100 פפה</ItemName>
+      <ManufactureName>דליקה איי.ג'י</ManufactureName>
+      <ManufactureCountry>CH</ManufactureCountry>
+      <ManufactureItemDescription>שוקו.מריר אוורירי100 פפה</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>100.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:10:00</PriceUpdateTime>
+      <ItemCode>7296073747772</ItemCode>
+      <LastSaleDateTime>2026-05-26T07:14:33</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוקו.חלב אוורירי100ג פפה</ItemName>
+      <ManufactureName>דליקה איי.ג'י</ManufactureName>
+      <ManufactureCountry>CH</ManufactureCountry>
+      <ManufactureItemDescription>שוקו.חלב אוורירי100ג פפה</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>100.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>7702018486618</ItemCode>
+      <LastSaleDateTime>2026-05-26T18:57:23</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גילט סקינגארד אלוורה'8יח</ItemName>
+      <ManufactureName>פרוקטר אנד גמבל גרמניה</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>גילט סקינגארד</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>154.90</ItemPrice>
+      <UnitOfMeasurePrice>154.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>8000500256213</ItemCode>
+      <LastSaleDateTime>2026-05-26T14:59:35</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוקולד מיני קינדר 120גרם</ItemName>
+      <ManufactureName>פררו אס.פי.אי</ManufactureName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufactureItemDescription>שוקולד מיני קינדר 120גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>120.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>15.90</ItemPrice>
+      <UnitOfMeasurePrice>13.25</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:30:00</PriceUpdateTime>
+      <ItemCode>8606018615841</ItemCode>
+      <LastSaleDateTime>2026-05-26T12:38:22</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>פיינט מילקה וניל ליבת שו</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>RS</ManufactureCountry>
+      <ManufactureItemDescription>פיינט מילקה וניל ליבת שו</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>300.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>25.90</ItemPrice>
+      <UnitOfMeasurePrice>8.63</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T01:00:00</PriceUpdateTime>
+      <ItemCode>8700216418287</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:37:37</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>הד&amp;שולדרס מניעת קשקשמ625</ItemName>
+      <ManufactureName>---</ManufactureName>
+      <ManufactureCountry>RO</ManufactureCountry>
+      <ManufactureItemDescription>הד&amp;שולדרס מניעת קשקשמ625</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>625.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>26.90</ItemPrice>
+      <UnitOfMeasurePrice>4.30</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:20:00</PriceUpdateTime>
+      <ItemCode>8712400802512</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:38:05</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>נוטרילון שלב 2 800 גרם</ItemName>
+      <ManufactureName>נוטרישיה קאלק</ManufactureName>
+      <ManufactureCountry>NL</ManufactureCountry>
+      <ManufactureItemDescription>נוטרילון שלב 2 800 גרם</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>800.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>74.90</ItemPrice>
+      <UnitOfMeasurePrice>9.36</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T00:50:00</PriceUpdateTime>
+      <ItemCode>8718951236790</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:34:35</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קולגייט טוטאל קלין 100מל</ItemName>
+      <ManufactureName>קולגייט-פלמוליב</ManufactureName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufactureItemDescription>קולגייט טוטאל קלין 100מל</ManufactureItemDescription>
+      <UnitQty>מיליליטר</UnitQty>
+      <Quantity>100.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>22.90</ItemPrice>
+      <UnitOfMeasurePrice>22.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

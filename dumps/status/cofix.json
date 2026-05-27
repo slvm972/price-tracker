@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:58:20.739070+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:20.455335+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "PriceFull7291056200008-405-202605270010.gz",
+            "link": null,
+            "size": 3790
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:20.456362+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "PromoFull7291056200008-405-202605270010.gz",
+            "link": null,
+            "size": 1485
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:20.457184+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "Stores7291056200008-202605250510.xml",
+            "link": null,
+            "size": 14566
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:20.458077+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "Stores7291056200008-202605260510.xml",
+            "link": null,
+            "size": 14566
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:20.459278+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "PriceFull7291056200008-405-202605270010.gz",
+            "link_collected": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:20.460229+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "PromoFull7291056200008-405-202605270010.gz",
+            "link_collected": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:20.461658+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "Stores7291056200008-202605250510.xml",
+            "link_collected": null
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:20.676043+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "PriceFull7291056200008-405-202605270010.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:20.725052+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "PromoFull7291056200008-405-202605270010.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:20.736339+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "file_name": "Stores7291056200008-202605250510.xml",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:58:20.236850+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:58:20.738524+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe",
+            "folder_size": {
+                "size": 0.08080387115478516,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/Cofix",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/Cofix/PriceFull7291056200008-405-202605270010.xml",
+                    "/home/user/projects/price-tracker/dumps/Cofix/PromoFull7291056200008-405-202605270010.xml",
+                    "/home/user/projects/price-tracker/dumps/Cofix/Stores7291056200008-202605250510.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "PriceFull7291056200008-405-202605270010.gz",
+            "system_timestamp": "2026-05-27 18:58:20.676950+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe"
+        },
+        {
+            "file_name": "PromoFull7291056200008-405-202605270010.gz",
+            "system_timestamp": "2026-05-27 18:58:20.725907+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe"
+        },
+        {
+            "file_name": "Stores7291056200008-202605250510.xml",
+            "system_timestamp": "2026-05-27 18:58:20.737401+03:00",
+            "task_id": "77ceebd2-09e3-4ac3-968c-0aca052fa9fe"
+        }
+    ]
+}

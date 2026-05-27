@@ -1,0 +1,65 @@
+﻿<Root>
+  <ChainID>7290027600007</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>057</StoreID>
+  <BikoretNo>8</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T05:33:00</PriceUpdateTime>
+      <ItemCode>7290000960906</ItemCode>
+      <LastSaleDateTime>2026-05-21T09:33:15</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>בצל יבש אורגני</ItemName>
+      <ManufactureName />
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>בצל יבש אורגני</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T04:40:00</PriceUpdateTime>
+      <ItemCode>7290009150537</ItemCode>
+      <LastSaleDateTime>2026-05-27T16:18:22</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוקולד שוויצרי 100 גרם</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שוקולד שוויצרי 100 גרם</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>8.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T05:33:00</PriceUpdateTime>
+      <ItemCode>7290013090010</ItemCode>
+      <LastSaleDateTime>2026-05-25T18:52:23</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>עגבניה אשכולות אורגני יח</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>עגבניה אשכולות אורגני יח</ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

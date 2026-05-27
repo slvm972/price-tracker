@@ -1,0 +1,103 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T20:21:38.780072+03:00"
+    },
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:48:14.734093+03:00",
+            "task_id": "d6700498-99b0-4edf-925b-7103233849bb",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:48:16.172329+03:00",
+            "task_id": "d6700498-99b0-4edf-925b-7103233849bb",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/VICTORY",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        },
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:56:30.705499+03:00",
+            "task_id": "098e567a-03a0-4187-90d2-81e96d24b5f2",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:56:31.965251+03:00",
+            "task_id": "098e567a-03a0-4187-90d2-81e96d24b5f2",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/VICTORY",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        },
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 19:11:03.076692+03:00",
+            "task_id": "8235050c-0c7b-4fe6-b3f2-3c5f6212cf82",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 19:11:04.430385+03:00",
+            "task_id": "8235050c-0c7b-4fe6-b3f2-3c5f6212cf82",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/VICTORY",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        },
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 20:21:37.443636+03:00",
+            "task_id": "e63abb0e-3b8b-4d8f-bf4b-627cb57afab2",
+            "limit": 5,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 20:21:38.779442+03:00",
+            "task_id": "e63abb0e-3b8b-4d8f-bf4b-627cb57afab2",
+            "folder_size": {
+                "size": 0.0,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/VICTORY",
+                "folder_content": []
+            },
+            "completed_successfully": true
+        }
+    ]
+}

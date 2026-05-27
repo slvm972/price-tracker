@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:59:46.439280+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:45.421309+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "PriceFull5144744100002-001-001-20260527-000001.xml.gz",
+            "link": "https://kt-prices.s3.eu-central-003.backblazeb2.com/PriceFull5144744100002-001-001-20260527-000001.xml.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:45.422285+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "Stores5144744100002-000-20260527-000000.xml.gz",
+            "link": "https://kt-prices.s3.eu-central-003.backblazeb2.com/Stores5144744100002-000-20260527-000000.xml.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:45.423072+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "PriceFull5144744100002-001-001-20260526-000001.xml.gz",
+            "link": "https://kt-prices.s3.eu-central-003.backblazeb2.com/PriceFull5144744100002-001-001-20260526-000001.xml.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:45.423845+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "Stores5144744100002-000-20260526-000000.xml.gz",
+            "link": "https://kt-prices.s3.eu-central-003.backblazeb2.com/Stores5144744100002-000-20260526-000000.xml.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:45.424717+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "PriceFull5144744100002-001-001-20260527-000001.xml.gz",
+            "link_collected": "https://kt-prices.s3.eu-central-003.backblazeb2.com/PriceFull5144744100002-001-001-20260527-000001.xml.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:45.425521+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "Stores5144744100002-000-20260527-000000.xml.gz",
+            "link_collected": "https://kt-prices.s3.eu-central-003.backblazeb2.com/Stores5144744100002-000-20260527-000000.xml.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:45.427661+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "PriceFull5144744100002-001-001-20260526-000001.xml.gz",
+            "link_collected": "https://kt-prices.s3.eu-central-003.backblazeb2.com/PriceFull5144744100002-001-001-20260526-000001.xml.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:45.956243+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "Stores5144744100002-000-20260527-000000.xml.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:46.331116+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "PriceFull5144744100002-001-001-20260527-000001.xml.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:46.436339+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "file_name": "PriceFull5144744100002-001-001-20260526-000001.xml.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:59:44.800631+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:59:46.438663+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7",
+            "folder_size": {
+                "size": 0.2844114303588867,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/MeshnatYosef1",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/PriceFull5144744100002-001-001-20260526-000001.xml.xml",
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/PriceFull5144744100002-001-001-20260527-000001.xml.xml",
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/Stores5144744100002-000-20260527-000000.xml.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Stores5144744100002-000-20260527-000000.xml.gz",
+            "system_timestamp": "2026-05-27 18:59:45.957145+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7"
+        },
+        {
+            "file_name": "PriceFull5144744100002-001-001-20260527-000001.xml.gz",
+            "system_timestamp": "2026-05-27 18:59:46.331971+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7"
+        },
+        {
+            "file_name": "PriceFull5144744100002-001-001-20260526-000001.xml.gz",
+            "system_timestamp": "2026-05-27 18:59:46.437262+03:00",
+            "task_id": "03c9e2f1-bdec-41bf-aa71-f2b6e77e5ef7"
+        }
+    ]
+}

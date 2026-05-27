@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:58:30.150136+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:29.489355+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-013-202605271855.xml.gz",
+            "link": "http://www.citymarket-shops.co.il//downloadFile/c6d5ab2c-2af5-4569-b22a-e0f7c37c7d69",
+            "size": 409.6
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:29.490317+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-032-202605271844.xml.gz",
+            "link": "http://www.citymarket-shops.co.il//downloadFile/c30d7598-bbdb-4855-8569-00c28610a029",
+            "size": 409.6
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:29.491079+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-028-202605271839.xml.gz",
+            "link": "http://www.citymarket-shops.co.il//downloadFile/9b555d7d-d256-407c-8b3e-fa3810f21d42",
+            "size": 409.6
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:29.491816+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price0000000000000-040-202605271826.xml.gz",
+            "link": "http://www.citymarket-shops.co.il//downloadFile/a5a865b7-c045-492d-805e-a75a0029c2d7",
+            "size": 409.6
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:29.492787+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-013-202605271855.xml.gz",
+            "link_collected": "http://www.citymarket-shops.co.il//downloadFile/c6d5ab2c-2af5-4569-b22a-e0f7c37c7d69"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:29.493576+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-032-202605271844.xml.gz",
+            "link_collected": "http://www.citymarket-shops.co.il//downloadFile/c30d7598-bbdb-4855-8569-00c28610a029"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:29.495219+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-028-202605271839.xml.gz",
+            "link_collected": "http://www.citymarket-shops.co.il//downloadFile/9b555d7d-d256-407c-8b3e-fa3810f21d42"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:30.054651+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-013-202605271855.xml.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:30.109726+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-032-202605271844.xml.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:30.146956+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "file_name": "Price7290000000003-028-202605271839.xml.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:58:20.751993+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:58:30.149357+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96",
+            "folder_size": {
+                "size": 0.0028066635131835938,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/CityMarketShops",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/CityMarketShops/Price7290000000003-013-202605271855.xml.xml",
+                    "/home/user/projects/price-tracker/dumps/CityMarketShops/Price7290000000003-028-202605271839.xml.xml",
+                    "/home/user/projects/price-tracker/dumps/CityMarketShops/Price7290000000003-032-202605271844.xml.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290000000003-013-202605271855.xml.gz",
+            "system_timestamp": "2026-05-27 18:58:30.055544+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96"
+        },
+        {
+            "file_name": "Price7290000000003-032-202605271844.xml.gz",
+            "system_timestamp": "2026-05-27 18:58:30.110579+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96"
+        },
+        {
+            "file_name": "Price7290000000003-028-202605271839.xml.gz",
+            "system_timestamp": "2026-05-27 18:58:30.147849+03:00",
+            "task_id": "967d243c-d929-47bc-b501-e7ba28472a96"
+        }
+    ]
+}

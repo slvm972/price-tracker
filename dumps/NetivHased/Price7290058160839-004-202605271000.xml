@@ -1,0 +1,26 @@
+<Root>
+  <ChainId>7290058160839</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>4</StoreId>
+  <BikoretNo>1</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateDate>2026-05-27 09:16:36</PriceUpdateDate>
+      <ItemCode>7290019454243</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>שוקולד מריר שלישייה  מעולה</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שוקולד מריר שלישייה  מעולה</ManufacturerItemDescription>
+      <UnitQty>גר</UnitQty>
+      <Quantity>300</Quantity>
+      <UnitOfMeasure>100 גר   </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0.0000</QtyInPackage>
+      <ItemPrice>19.9</ItemPrice>
+      <UnitOfMeasurePrice>0.199</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

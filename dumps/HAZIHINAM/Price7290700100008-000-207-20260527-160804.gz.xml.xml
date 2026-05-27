@@ -1,0 +1,198 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>207</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290106576810</ItemCode>
+            <LastSaleDateTime>2026-05-21T15:24:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה ל&apos;קרמריה ריבת חלב 1.4 ליטר</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>גלידה ל&apos;קרמריה ריבת חלב 1.4 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>1</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>22.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290106576971</ItemCode>
+            <LastSaleDateTime>2026-05-24T14:58:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה ל&apos;קרמריה שוקולד בלגי 1.4 ליטר</ItemName>
+            <ManufactureName>גלידות נסטלה</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה ל&apos;קרמריה שוקולד בלגי 1.4 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>1</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>22.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290107879521</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:02:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת שלגוני לה פרוטה תות 5 יח&apos;</ItemName>
+            <ManufactureName>גלידות נסטלה (נגה גלידות, שותפות מוגבלת)</ManufactureName>
+            <ManufactureCountry>IT</ManufactureCountry>
+            <ManufactureItemDescription>מאגדת שלגוני לה פרוטה תות 5 יח&apos;</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>350</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>26.90</ItemPrice>
+            <UnitOfMeasurePrice>7.69</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290107879569</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:02:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת שלגוני לה פרוטה מנגו 5 יח&apos;</ItemName>
+            <ManufactureName>גלידות נסטלה (נגה גלידות, שותפות מוגבלת)</ManufactureName>
+            <ManufactureCountry>IT</ManufactureCountry>
+            <ManufactureItemDescription>מאגדת שלגוני לה פרוטה מנגו 5 יח&apos;</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>350</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>26.90</ItemPrice>
+            <UnitOfMeasurePrice>7.69</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-13T02:53:58.000</PriceUpdateTime>
+            <ItemCode>7290019816058</ItemCode>
+            <LastSaleDateTime>2026-05-20T19:37:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת מיני קראנץ אלפחורס 5 יח</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מאגדת מיני קראנץ אלפחורס 5 יח</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>275</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>33.20</ItemPrice>
+            <UnitOfMeasurePrice>12.07</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-27T15:42:43.000</PriceUpdateTime>
+            <ItemCode>7461</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:02:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>תירס ארוז</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תירס ארוז</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>9.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290106576797</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:32:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה ל&apos;קרמריה וניל איטלקי 1.4 ליטר</ItemName>
+            <ManufactureName>גלידות נסטלה</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה ל&apos;קרמריה וניל איטלקי 1.4 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>1</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>22.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:12.000</PriceUpdateTime>
+            <ItemCode>7290112962546</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:53:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת שלגוני לה פרוטה מלון תפוח 5 יח</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מאגדת שלגוני לה פרוטה מלון תפוח 5 יח</ManufactureItemDescription>
+            <UnitQty>יחידות</UnitQty>
+            <Quantity>5</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>26.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-13T02:53:22.000</PriceUpdateTime>
+            <ItemCode>7290018652886</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:08:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת מצופים שוקו בננה</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מאגדת מצופים שוקו בננה</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>476</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>30.20</ItemPrice>
+            <UnitOfMeasurePrice>6.34</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-12-28T14:26:30.000</PriceUpdateTime>
+            <ItemCode>7290019816928</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:02:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת מיני מילקה 6 יח קרמל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מאגדת מיני מילקה 6 יח קרמל</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>207</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>33.20</ItemPrice>
+            <UnitOfMeasurePrice>16.04</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

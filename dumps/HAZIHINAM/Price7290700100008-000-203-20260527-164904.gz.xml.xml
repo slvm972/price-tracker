@@ -1,0 +1,65 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>203</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2026-05-27T16:33:29.000</PriceUpdateTime>
+            <ItemCode>6950</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:41:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>קישואים רגיל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קישואים רגיל</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-03-29T12:30:43.000</PriceUpdateTime>
+            <ItemCode>7290020579188</ItemCode>
+            <LastSaleDateTime>2026-05-26T21:00:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לה פסטה ניוקי ערמונים 500 גרם</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>לה פסטה ניוקי ערמונים 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.00</ItemPrice>
+            <UnitOfMeasurePrice>1.60</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-01-13T12:29:30.000</PriceUpdateTime>
+            <ItemCode>7290117265581</ItemCode>
+            <LastSaleDateTime>2026-05-26T09:30:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>עוגיות בטעם חמאה 100 גרם</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>עוגיות בטעם חמאה 100 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>100</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice>5.90</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

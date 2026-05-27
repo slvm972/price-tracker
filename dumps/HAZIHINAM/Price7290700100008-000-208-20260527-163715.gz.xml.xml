@@ -1,0 +1,426 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>208</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2026-05-27T16:30:15.000</PriceUpdateTime>
+            <ItemCode>6950</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:28:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>קישואים רגיל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קישואים רגיל</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:23:46.000</PriceUpdateTime>
+            <ItemCode>7290106520905</ItemCode>
+            <LastSaleDateTime>2026-05-24T10:17:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סלט טורקי אחלה 400 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>סלט טורקי אחלה 400 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>400</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.70</ItemPrice>
+            <UnitOfMeasurePrice>3.92</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-12T14:46:23.000</PriceUpdateTime>
+            <ItemCode>1532058</ItemCode>
+            <LastSaleDateTime>2026-05-27T11:35:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>פילה מטיאס הולנדי (שמאלץ)</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>פילה מטיאס הולנדי (שמאלץ)</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>196.70</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-12T14:46:24.000</PriceUpdateTime>
+            <ItemCode>5727351</ItemCode>
+            <LastSaleDateTime>2026-05-27T11:35:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>איקרה לבן</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>איקרה לבן</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>49.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:07:06.000</PriceUpdateTime>
+            <ItemCode>7296021266690</ItemCode>
+            <LastSaleDateTime>2026-05-26T15:15:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מסננת ידית עץ 15 ס&quot;מ  פרפקטו</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מסננת ידית עץ 15 ס&quot;מ  פרפקטו</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:23:41.000</PriceUpdateTime>
+            <ItemCode>7290104066566</ItemCode>
+            <LastSaleDateTime>2026-05-26T21:12:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>טחינה אחלה 500 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>טחינה אחלה 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>17.10</ItemPrice>
+            <UnitOfMeasurePrice>3.42</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-06T10:26:35.000</PriceUpdateTime>
+            <ItemCode>7290012227592</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:10:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מארז זוג הודו ועוף 350 +תה 350 גר מחפוד</ItemName>
+            <ManufactureName>זוגלובק</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>מארז זוג הודו ועוף 350 +תה 350 גר מחפוד</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>700</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>35.20</ItemPrice>
+            <UnitOfMeasurePrice>5.03</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:33.000</PriceUpdateTime>
+            <ItemCode>7296021291029</ItemCode>
+            <LastSaleDateTime>2026-05-21T08:38:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סט 3 סכינים דגם פריז  FANDA</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>סט 3 סכינים דגם פריז  FANDA</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>16.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-13T02:54:01.000</PriceUpdateTime>
+            <ItemCode>7290004150853</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:27:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>חומוס גרגרים</ItemName>
+            <ManufactureName>סלטי שמיר 2006 בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>חומוס גרגרים</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>600</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>14.10</ItemPrice>
+            <UnitOfMeasurePrice>2.35</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-03-29T12:30:43.000</PriceUpdateTime>
+            <ItemCode>7290020579188</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:14:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לה פסטה ניוקי ערמונים 500 גרם</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>לה פסטה ניוקי ערמונים 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.00</ItemPrice>
+            <UnitOfMeasurePrice>1.60</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T02:29:27.000</PriceUpdateTime>
+            <ItemCode>7290104721533</ItemCode>
+            <LastSaleDateTime>2026-05-26T19:04:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>רצועות פלפלים קלויים אחלה 400 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>רצועות פלפלים קלויים אחלה 400 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>400</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.70</ItemPrice>
+            <UnitOfMeasurePrice>3.92</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:08:28.000</PriceUpdateTime>
+            <ItemCode>7296021276590</ItemCode>
+            <LastSaleDateTime>2026-05-27T09:59:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סט 6 כפיות זהב</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>סט 6 כפיות זהב</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:35.000</PriceUpdateTime>
+            <ItemCode>7296021291296</ItemCode>
+            <LastSaleDateTime>2026-05-21T10:50:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית לפיצה 1.8*35 ס&quot;מ   Patisserie</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית לפיצה 1.8*35 ס&quot;מ   Patisserie</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>34.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:35.000</PriceUpdateTime>
+            <ItemCode>7296021291272</ItemCode>
+            <LastSaleDateTime>2026-05-21T11:05:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית אפייה אינגליש 7.2*13*23 ס&quot;מ    Patisserie</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית אפייה אינגליש 7.2*13*23 ס&quot;מ    Patisserie</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>36.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-03-06T15:06:33.000</PriceUpdateTime>
+            <ItemCode>7296021291012</ItemCode>
+            <LastSaleDateTime>2026-05-21T13:58:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>קריספר לצלייה וסינון שמן 2.6*31*48.5 ס&quot;מ</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קריספר לצלייה וסינון שמן 2.6*31*48.5 ס&quot;מ</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>99.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-08-26T17:04:24.000</PriceUpdateTime>
+            <ItemCode>7296021317316</ItemCode>
+            <LastSaleDateTime>2026-05-26T08:45:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מיכל אחסון 1.4 ליטר (7.5*11*18.5) פלסטיק Fresh</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מיכל אחסון 1.4 ליטר (7.5*11*18.5) פלסטיק Fresh</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T02:29:27.000</PriceUpdateTime>
+            <ItemCode>7290003989096</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:55:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סלט חצילים אחלה 500 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>סלט חצילים אחלה 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.70</ItemPrice>
+            <UnitOfMeasurePrice>3.14</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-07T13:48:08.000</PriceUpdateTime>
+            <ItemCode>7290000497044</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:08:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לחם אקטיב 750 גר&apos;.</ItemName>
+            <ManufactureName>י.את.א.ברמן בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>לחם אקטיב 750 גר&apos;.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>750</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>13.90</ItemPrice>
+            <UnitOfMeasurePrice>1.85</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:06:41.000</PriceUpdateTime>
+            <ItemCode>7296021254819</ItemCode>
+            <LastSaleDateTime>2026-05-21T09:34:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית 19*28 סמ 2.4 ליטר עם מכסה פלסטיק GLASS</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית 19*28 סמ 2.4 ליטר עם מכסה פלסטיק GLASS</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>59.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-12T14:46:24.000</PriceUpdateTime>
+            <ItemCode>5727344</ItemCode>
+            <LastSaleDateTime>2026-05-20T12:23:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>איקרה  אדום</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>איקרה  אדום</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>49.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:28.000</PriceUpdateTime>
+            <ItemCode>7296021291333</ItemCode>
+            <LastSaleDateTime>2026-05-21T11:35:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית אפייה עגולה 10.2*23 ס&quot;מ תחתית מתפרקת (1.0) ALUMINIUM</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית אפייה עגולה 10.2*23 ס&quot;מ תחתית מתפרקת (1.0) ALUMINIUM</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>69.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:35.000</PriceUpdateTime>
+            <ItemCode>7296021291289</ItemCode>
+            <LastSaleDateTime>2026-05-24T12:24:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית אפייה מלבנית 5.7*24.5*34.5 ס&quot;מ    Patisserie</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית אפייה מלבנית 5.7*24.5*34.5 ס&quot;מ    Patisserie</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>49.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

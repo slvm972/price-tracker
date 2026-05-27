@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:59:50.060940+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:49.674960+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-042-202605271801",
+            "link": "http://shefabirkathashem.binaprojects.com//Download.aspx?FileNm=Price7290058134977-042-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:49.675881+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-038-202605271801",
+            "link": "http://shefabirkathashem.binaprojects.com//Download.aspx?FileNm=Price7290058134977-038-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:49.676651+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-037-202605271801",
+            "link": "http://shefabirkathashem.binaprojects.com//Download.aspx?FileNm=Price7290058134977-037-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:49.677586+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-036-202605271801",
+            "link": "http://shefabirkathashem.binaprojects.com//Download.aspx?FileNm=Price7290058134977-036-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:49.678460+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-042-202605271801",
+            "link_collected": "http://shefabirkathashem.binaprojects.com//Download.aspx?FileNm=Price7290058134977-042-202605271801.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:49.679358+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-038-202605271801",
+            "link_collected": "http://shefabirkathashem.binaprojects.com//Download.aspx?FileNm=Price7290058134977-038-202605271801.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:49.681648+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-037-202605271801",
+            "link_collected": "http://shefabirkathashem.binaprojects.com//Download.aspx?FileNm=Price7290058134977-037-202605271801.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:50.011749+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-042-202605271801",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:50.052547+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-038-202605271801",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:50.058338+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "file_name": "Price7290058134977-037-202605271801",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:59:49.110964+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:59:50.060394+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6",
+            "folder_size": {
+                "size": 0.7969017028808594,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/ShefaBarcartAshem",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/ShefaBarcartAshem/Price7290058134977-037-202605271801.xml",
+                    "/home/user/projects/price-tracker/dumps/ShefaBarcartAshem/Price7290058134977-038-202605271801.xml",
+                    "/home/user/projects/price-tracker/dumps/ShefaBarcartAshem/Price7290058134977-042-202605271801.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290058134977-042-202605271801",
+            "system_timestamp": "2026-05-27 18:59:50.012513+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6"
+        },
+        {
+            "file_name": "Price7290058134977-038-202605271801",
+            "system_timestamp": "2026-05-27 18:59:50.053684+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6"
+        },
+        {
+            "file_name": "Price7290058134977-037-202605271801",
+            "system_timestamp": "2026-05-27 18:59:50.059202+03:00",
+            "task_id": "fa03b495-f9d5-4eba-b6ed-d481bd865be6"
+        }
+    ]
+}

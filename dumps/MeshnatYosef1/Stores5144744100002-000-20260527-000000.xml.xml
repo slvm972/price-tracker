@@ -1,0 +1,24 @@
+<Root>
+	<ChainID>5144744100002</ChainID>
+	<ChainName>משנת יוסף - קיי טי יבוא ושיווק בע"מ</ChainName>
+	<LastUpdateDate>2026-05-27</LastUpdateDate>
+	<LastUpdateTime>00:00:00</LastUpdateTime>
+	<SubChains>
+	  <SubChain>
+		<SubChainID>001</SubChainID>
+		<SubChainName>1</SubChainName>
+		<Stores>
+		  <Store>
+			<StoreID>1</StoreID>
+			<BikoretNo>0</BikoretNo>
+			<StoreType>2</StoreType>
+			<StoreName>אתר משנת יוסף </StoreName>
+			<Address>new.mishnatyosef.org</Address>
+			<City></City>
+			<ZipCode></ZipCode>
+		  </Store>
+	   
+		</Stores>
+	  </SubChain>
+	</SubChains>
+  </Root>

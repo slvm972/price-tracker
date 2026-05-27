@@ -1,0 +1,29 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7290785400000</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>010</StoreId>
+  <BikoretNo>6</BikoretNo>
+  <DllVerNo>9.4.0.50</DllVerNo>
+  <Items Count="1">
+    <Item>
+      <PriceUpdateDate>2023-04-27 23:01:15</PriceUpdateDate>
+      <ItemCode>103</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ברוקולי ארוז</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ברוקולי ארוז</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>92454</ItemId>
+    </Item>
+  </Items>
+</Root>

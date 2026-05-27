@@ -1,0 +1,84 @@
+﻿<Root>
+  <ChainID>7290785400000</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>014</StoreID>
+  <BikoretNo>4</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2023-04-28T12:43:43.000</PriceUpdateTime>
+      <ItemCode>103</ItemCode>
+      <LastSaleDateTime>2026-05-22T11:11:51.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>ברוקולי ארוז</ItemName>
+      <ManufactureName>ביכורי שדה דרום 2002</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ברוקולי ארוז</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2023-04-28T12:43:43.000</PriceUpdateTime>
+      <ItemCode>103</ItemCode>
+      <LastSaleDateTime>2026-05-22T11:11:51.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>ברוקולי ארוז</ItemName>
+      <ManufactureName>ביכורי שדה דרום 2002</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ברוקולי ארוז</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-25T11:33:57.000</PriceUpdateTime>
+      <ItemCode>17322</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:16:06.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>סינטה בלי עצם</ItemName>
+      <ManufactureName>המפרק פירוק ושיווק ב</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>סינטה בלי עצם</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>89.90</ItemPrice>
+      <UnitOfMeasurePrice>89.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-25T11:33:57.000</PriceUpdateTime>
+      <ItemCode>17322</ItemCode>
+      <LastSaleDateTime>2026-05-26T13:16:06.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>סינטה בלי עצם</ItemName>
+      <ManufactureName>המפרק פירוק ושיווק ב</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>סינטה בלי עצם</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>89.90</ItemPrice>
+      <UnitOfMeasurePrice>89.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+  </Items>
+</Root>

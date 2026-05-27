@@ -1,0 +1,46 @@
+﻿<Root>
+  <ChainID>7290644700005</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>136</StoreID>
+  <BikoretNo>3</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2025-08-11T00:03:04.000</PriceUpdateTime>
+      <ItemCode>7290110556891</ItemCode>
+      <LastSaleDateTime>2026-04-28T20:38:54.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מאסט וויט מנטה 66גר</ItemName>
+      <ManufactureName>אסקום קונפקשיין</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>צנצנת מסטיק מאסט בטעם מנטה הדרים 66 גרם</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity>66.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>22.58</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-03-31T00:03:04.000</PriceUpdateTime>
+      <ItemCode>7290110579333</ItemCode>
+      <LastSaleDateTime>2026-04-21T09:36:54.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>צ.קוביות תפוח 60 ג</ItemName>
+      <ManufactureName>אסקום קונפקשיין</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>צנצנת מסטיקים MUST קוביות חמוץ בטעם תפוח ירוק ללא</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity>60.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>24.83</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+  </Items>
+</Root>

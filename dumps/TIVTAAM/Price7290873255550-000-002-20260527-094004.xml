@@ -1,0 +1,160 @@
+﻿<Root>
+  <ChainID>7290873255550</ChainID>
+  <SubChainID>000</SubChainID>
+  <StoreID>002</StoreID>
+  <BikoretNo>8</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>3356621</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>סטיק דנוור דק טרי במגש</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>AR</ManufactureCountry>
+      <ManufactureItemDescription>סטייק דנוור דק טרי  </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>159.90</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>5903141006694</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ווג פריזון מנטול עשירייה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ווג פריזון מנטול עשי</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>535.00</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>59039549</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ווג פריזון מנטול חפיסה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ווג פריזון מנטול חפי</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>53.50</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>59455233</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ווג סופרסלימס כחול</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ווג סופרסלימס כחול  </ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>53.50</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>59455240</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ווג סופרסלימס לילך חפיסה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ווג סופרסלימס לילך  </ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>53.50</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>5948530002130</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ווג סופרסלימס כחול עשירייה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ווג סופרסלימס כחול ע</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>535.00</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>5948530002147</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ווג סופרסלימס לילך עשירייה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ווג סופרסלימס לילך ע</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>535.00</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:20:00</PriceUpdateTime>
+      <ItemCode>7290118758198</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>צלי כתף טרי</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>צלי כתף טרי         </ManufactureItemDescription>
+      <UnitQty>קילוגרם</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>1קילוגרם</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>109.90</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

@@ -1,0 +1,46 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>217</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2026-05-27T15:30:05.000</PriceUpdateTime>
+            <ItemCode>7461</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:03:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>תירס ארוז</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תירס ארוז</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>9.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-27T15:56:14.000</PriceUpdateTime>
+            <ItemCode>6950</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:19:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>קישואים רגיל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קישואים רגיל</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

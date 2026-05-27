@@ -1,0 +1,86 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7290785400000</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>002</StoreId>
+  <BikoretNo>1</BikoretNo>
+  <DllVerNo>9.4.0.50</DllVerNo>
+  <Items Count="4">
+    <Item>
+      <PriceUpdateDate>2026-05-25 13:44:11</PriceUpdateDate>
+      <ItemCode>17322</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>סינטה בלי עצם</ItemName>
+      <ManufacturerName>המפרק פירוק ושיווק ב</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סינטה בלי עצם</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>89.90</ItemPrice>
+      <UnitOfMeasurePrice>89.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>280264</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-08-04 12:56:41</PriceUpdateDate>
+      <ItemCode>4153</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עזים עם</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>רולדה גבינה עזים עם עשבי תיבול</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>426875</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-08-04 12:56:42</PriceUpdateDate>
+      <ItemCode>4154</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עיזים עם</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>רולדה גבינה עיזים עם חמוציות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>426877</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-01-01 11:00:32</PriceUpdateDate>
+      <ItemCode>4750050342259</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף גבינה שוקולד בצ</ItemName>
+      <ManufacturerName>PIENSAIMNIEKS</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חטיף גבינה שוקולד בציפוי שוקולד 7*45 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>315.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>9.4921</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>385266</ItemId>
+    </Item>
+  </Items>
+</Root>

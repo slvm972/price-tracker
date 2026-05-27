@@ -1,0 +1,996 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>206</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:18.000</PriceUpdateTime>
+            <ItemCode>76840400027</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:26:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט שוקולד</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט שוקולד</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T14:43:38.000</PriceUpdateTime>
+            <ItemCode>5900951140303</ItemCode>
+            <LastSaleDateTime>2026-05-25T19:56:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סוכריות אם אנד אמס שוקולד</ItemName>
+            <ManufactureName>מרס ריגלי קונפקשונרי יו.אס., אל.אל.סי</ManufactureName>
+            <ManufactureCountry>PL</ManufactureCountry>
+            <ManufactureItemDescription>סוכריות אם אנד אמס שוקולד</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>45</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice>13.11</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T14:43:38.000</PriceUpdateTime>
+            <ItemCode>5900951307249</ItemCode>
+            <LastSaleDateTime>2026-05-26T18:24:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סוכריות אם אנד אמס בוטנים</ItemName>
+            <ManufactureName>מרס ריגלי קונפקשונרי יו.אס., אל.אל.סי</ManufactureName>
+            <ManufactureCountry>PL</ManufactureCountry>
+            <ManufactureItemDescription>סוכריות אם אנד אמס בוטנים</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>45</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice>13.11</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5000159558792</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:28:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>חטיף מרס שוקולד.</ItemName>
+            <ManufactureName>מרס הולנד בי.וי.</ManufactureName>
+            <ManufactureCountry>NL</ManufactureCountry>
+            <ManufactureItemDescription>חטיף מרס שוקולד.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>51</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.90</ItemPrice>
+            <UnitOfMeasurePrice>13.53</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5000159560511</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:28:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>חטיף סניקרס שוקולד.</ItemName>
+            <ManufactureName>מרס הולנד בי.וי.</ManufactureName>
+            <ManufactureCountry>NL</ManufactureCountry>
+            <ManufactureItemDescription>חטיף סניקרס שוקולד.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>57</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.90</ItemPrice>
+            <UnitOfMeasurePrice>12.11</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5900951310379</ItemCode>
+            <LastSaleDateTime>2026-05-26T13:33:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>חטיף סניקרס קרמי חמאת בוטנים</ItemName>
+            <ManufactureName>מרס פולין</ManufactureName>
+            <ManufactureCountry>PL</ManufactureCountry>
+            <ManufactureItemDescription>חטיף סניקרס קרמי חמאת בוטנים</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>37</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.90</ItemPrice>
+            <UnitOfMeasurePrice>18.90</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-03-09T09:46:43.000</PriceUpdateTime>
+            <ItemCode>7290018441541</ItemCode>
+            <LastSaleDateTime>2026-05-21T14:49:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט בננה ואגוזים</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט בננה ואגוזים</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-09-15T16:27:24.000</PriceUpdateTime>
+            <ItemCode>50413881</ItemCode>
+            <LastSaleDateTime>2026-05-21T15:18:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>בריטוויק בטעם בירה ג&apos;ינג&apos;ר 200מ&quot;ל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>בריטוויק בטעם בירה ג&apos;ינג&apos;ר 200מ&quot;ל</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>200</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.30</ItemPrice>
+            <UnitOfMeasurePrice>3.15</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-12-28T14:26:30.000</PriceUpdateTime>
+            <ItemCode>7290019816928</ItemCode>
+            <LastSaleDateTime>2026-05-21T11:30:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת מיני מילקה 6 יח קרמל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מאגדת מיני מילקה 6 יח קרמל</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>207</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>33.20</ItemPrice>
+            <UnitOfMeasurePrice>16.04</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-15T14:12:31.000</PriceUpdateTime>
+            <ItemCode>11210000032</ItemCode>
+            <LastSaleDateTime>2026-05-25T21:17:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>טבסקו משפחתי</ItemName>
+            <ManufactureName>מקאילהייני קו</ManufactureName>
+            <ManufactureCountry>US</ManufactureCountry>
+            <ManufactureItemDescription>טבסקו משפחתי</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>350</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>50.40</ItemPrice>
+            <UnitOfMeasurePrice>14.40</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:18.000</PriceUpdateTime>
+            <ItemCode>72986448</ItemCode>
+            <LastSaleDateTime>2026-05-26T07:06:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט טופי קראנץ</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט טופי קראנץ</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:18.000</PriceUpdateTime>
+            <ItemCode>72986455</ItemCode>
+            <LastSaleDateTime>2026-05-27T08:47:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט ניו יורק סופר</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט ניו יורק סופר</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-16T15:20:33.000</PriceUpdateTime>
+            <ItemCode>5992964</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:12:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>גבינה פטה כבשים ק&quot;ג.</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>גבינה פטה כבשים ק&quot;ג.</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>123.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-15T14:12:31.000</PriceUpdateTime>
+            <ItemCode>11210000094</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:45:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>רוטב טבסקו קטן</ItemName>
+            <ManufactureName>מקאילהייני קו</ManufactureName>
+            <ManufactureCountry>US</ManufactureCountry>
+            <ManufactureItemDescription>רוטב טבסקו קטן</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>60</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>11.00</ItemPrice>
+            <UnitOfMeasurePrice>18.33</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:19.000</PriceUpdateTime>
+            <ItemCode>768404001640</ItemCode>
+            <LastSaleDateTime>2026-05-26T17:41:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט קפה</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט קפה</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:19.000</PriceUpdateTime>
+            <ItemCode>76840100156</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:18:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט צ&apos;רי צ&apos;רי דרים</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט צ&apos;רי צ&apos;רי דרים</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-15T03:22:30.000</PriceUpdateTime>
+            <ItemCode>7290011499419</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:20:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גבינה במרקם שמנת 5% טבעי</ItemName>
+            <ManufactureName>מחלבות גד</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גבינה במרקם שמנת 5% טבעי</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>200</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>16.90</ItemPrice>
+            <UnitOfMeasurePrice>8.45</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290106576797</ItemCode>
+            <LastSaleDateTime>2026-05-26T10:42:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה ל&apos;קרמריה וניל איטלקי 1.4 ליטר</ItemName>
+            <ManufactureName>גלידות נסטלה</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה ל&apos;קרמריה וניל איטלקי 1.4 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>1</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>22.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:12.000</PriceUpdateTime>
+            <ItemCode>7290112962546</ItemCode>
+            <LastSaleDateTime>2026-05-26T15:30:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת שלגוני לה פרוטה מלון תפוח 5 יח</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מאגדת שלגוני לה פרוטה מלון תפוח 5 יח</ManufactureItemDescription>
+            <UnitQty>יחידות</UnitQty>
+            <Quantity>5</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>26.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5000159561976</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:28:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>חטיף באונטי שוקולד.</ItemName>
+            <ManufactureName>מרס הולנד בי.וי.</ManufactureName>
+            <ManufactureCountry>NL</ManufactureCountry>
+            <ManufactureItemDescription>חטיף באונטי שוקולד.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>57</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.90</ItemPrice>
+            <UnitOfMeasurePrice>12.11</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5000159559461</ItemCode>
+            <LastSaleDateTime>2026-05-26T21:17:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מארז חטיפי טוויקס</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מארז חטיפי טוויקס</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>250</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.00</ItemPrice>
+            <UnitOfMeasurePrice>6.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T14:43:41.000</PriceUpdateTime>
+            <ItemCode>5900951316272</ItemCode>
+            <LastSaleDateTime>2026-05-24T15:14:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סוכריות M&amp;M בוטנים 150 גרם</ItemName>
+            <ManufactureName>מרס ריגלי קונפקשונרי יו.אס., אל.אל.סי</ManufactureName>
+            <ManufactureCountry>PL</ManufactureCountry>
+            <ManufactureItemDescription>סוכריות M&amp;M בוטנים 150 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>150</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>16.90</ItemPrice>
+            <UnitOfMeasurePrice>11.27</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-04-21T09:50:35.000</PriceUpdateTime>
+            <ItemCode>7501013107401</ItemCode>
+            <LastSaleDateTime>2026-05-27T08:57:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>ג&apos;ומקס קוקוס אננס בקבוק 460 מ&quot;ל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>ג&apos;ומקס קוקוס אננס בקבוק 460 מ&quot;ל</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>460</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>10.90</ItemPrice>
+            <UnitOfMeasurePrice>2.37</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-15T03:22:21.000</PriceUpdateTime>
+            <ItemCode>554792</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:43:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>בולגרית מעודנת 5% ק&quot;ג.</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>בולגרית מעודנת 5% ק&quot;ג.</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>67.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:18.000</PriceUpdateTime>
+            <ItemCode>72986424</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:23:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט קרם עוגיות</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט קרם עוגיות</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:18.000</PriceUpdateTime>
+            <ItemCode>72991886</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:11:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט דולצ&apos;ה</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט דולצ&apos;ה</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:18.000</PriceUpdateTime>
+            <ItemCode>72989425</ItemCode>
+            <LastSaleDateTime>2026-05-25T19:12:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט שוקולד בראוניס</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט שוקולד בראוניס</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:19.000</PriceUpdateTime>
+            <ItemCode>72986479</ItemCode>
+            <LastSaleDateTime>2026-05-27T10:14:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידת פיינט צאנקי מאנקי</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידת פיינט צאנקי מאנקי</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-16T14:59:35.000</PriceUpdateTime>
+            <ItemCode>2385400</ItemCode>
+            <LastSaleDateTime>2026-05-26T08:14:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>ריקוטה פרסקה ק&quot;ג.</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>ריקוטה פרסקה ק&quot;ג.</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>49.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T16:17:20.000</PriceUpdateTime>
+            <ItemCode>877300004102</ItemCode>
+            <LastSaleDateTime>2026-05-21T11:50:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>ממרח פסטו שום</ItemName>
+            <ManufactureName>נפטון מוצרי מזון (1990) בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>ממרח פסטו שום</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>180</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>11.00</ItemPrice>
+            <UnitOfMeasurePrice>6.11</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290106576810</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:01:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה ל&apos;קרמריה ריבת חלב 1.4 ליטר</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>גלידה ל&apos;קרמריה ריבת חלב 1.4 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>1</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>22.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290106576971</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:01:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה ל&apos;קרמריה שוקולד בלגי 1.4 ליטר</ItemName>
+            <ManufactureName>גלידות נסטלה</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה ל&apos;קרמריה שוקולד בלגי 1.4 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>1</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>22.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:20.000</PriceUpdateTime>
+            <ItemCode>76840620029</ItemCode>
+            <LastSaleDateTime>2026-05-25T15:55:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט תות שדה</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט תות שדה</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290107879521</ItemCode>
+            <LastSaleDateTime>2026-05-26T18:09:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת שלגוני לה פרוטה תות 5 יח&apos;</ItemName>
+            <ManufactureName>גלידות נסטלה (נגה גלידות, שותפות מוגבלת)</ManufactureName>
+            <ManufactureCountry>IT</ManufactureCountry>
+            <ManufactureItemDescription>מאגדת שלגוני לה פרוטה תות 5 יח&apos;</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>350</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>26.90</ItemPrice>
+            <UnitOfMeasurePrice>7.69</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290107879569</ItemCode>
+            <LastSaleDateTime>2026-05-26T18:09:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת שלגוני לה פרוטה מנגו 5 יח&apos;</ItemName>
+            <ManufactureName>גלידות נסטלה (נגה גלידות, שותפות מוגבלת)</ManufactureName>
+            <ManufactureCountry>IT</ManufactureCountry>
+            <ManufactureItemDescription>מאגדת שלגוני לה פרוטה מנגו 5 יח&apos;</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>350</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>26.90</ItemPrice>
+            <UnitOfMeasurePrice>7.69</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5000159560498</ItemCode>
+            <LastSaleDateTime>2026-05-26T21:17:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מארז חטיפי סניקרס</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מארז חטיפי סניקרס</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>250</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.00</ItemPrice>
+            <UnitOfMeasurePrice>6.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-04-02T15:06:22.000</PriceUpdateTime>
+            <ItemCode>7290018441565</ItemCode>
+            <LastSaleDateTime>2026-05-26T19:55:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט פקאן בלונדי</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט פקאן בלונדי</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-08-20T12:24:34.000</PriceUpdateTime>
+            <ItemCode>7290018441275</ItemCode>
+            <LastSaleDateTime>2026-05-26T15:24:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידת פיינט נטפליקס &amp; צ&apos;יל 2</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>גלידת פיינט נטפליקס &amp; צ&apos;יל 2</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>442</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>4.50</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-01-22T08:26:24.000</PriceUpdateTime>
+            <ItemCode>7290018441282</ItemCode>
+            <LastSaleDateTime>2026-05-20T19:18:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>פיינט שוקולד חמאת בוטנים ספליט</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>פיינט שוקולד חמאת בוטנים ספליט</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>436</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>4.56</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-02-23T12:27:35.000</PriceUpdateTime>
+            <ItemCode>7290019635840</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:43:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>יוגורט יווני חלבון 600 גרם גד</ItemName>
+            <ManufactureName>מיוצר ע&quot;י קוד יצרן MKN משווק ע&quot;י מחלבות גד בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>יוגורט יווני חלבון 600 גרם גד</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>600</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>14.90</ItemPrice>
+            <UnitOfMeasurePrice>2.48</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-03-10T16:04:29.000</PriceUpdateTime>
+            <ItemCode>7290120091146</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:05:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>המבורגר גומי מיני 9 גרם * 20 יח&apos; בשקית 180 גרם</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>המבורגר גומי מיני 9 גרם * 20 יח&apos; בשקית 180 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>180</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>11.06</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-15T03:22:19.000</PriceUpdateTime>
+            <ItemCode>554921</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:58:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>גבינת ריקוטה ק&quot;ג.</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>גבינת ריקוטה ק&quot;ג.</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>49.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-16T15:20:33.000</PriceUpdateTime>
+            <ItemCode>554891</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:12:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>בולגרית מעודנת 16% שומן ק&quot;ג.</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>בולגרית מעודנת 16% שומן ק&quot;ג.</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>67.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:19.000</PriceUpdateTime>
+            <ItemCode>72986370</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:13:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט וניל</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאים.</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט וניל</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:19.000</PriceUpdateTime>
+            <ItemCode>76840100583</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:23:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה פיינט בצק עוגיות</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה פיינט בצק עוגיות</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>473</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>4.21</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-16T14:59:35.000</PriceUpdateTime>
+            <ItemCode>2385455</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:34:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>בולגרית 24% ק&quot;ג מעדנייה.</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>בולגרית 24% ק&quot;ג מעדנייה.</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>68.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T16:17:21.000</PriceUpdateTime>
+            <ItemCode>877300000777</ItemCode>
+            <LastSaleDateTime>2026-05-26T15:41:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>ממרח צימצורי</ItemName>
+            <ManufactureName>נפטון מוצרי מזון (1990) בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>ממרח צימצורי</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>180</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>11.00</ItemPrice>
+            <UnitOfMeasurePrice>6.11</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T16:17:22.000</PriceUpdateTime>
+            <ItemCode>877300002184</ItemCode>
+            <LastSaleDateTime>2026-05-20T21:21:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>ממרח אריסה מתוקה</ItemName>
+            <ManufactureName>נפטון מוצרי מזון (1990) בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>ממרח אריסה מתוקה</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>180</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>11.00</ItemPrice>
+            <UnitOfMeasurePrice>6.11</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-14T15:56:22.000</PriceUpdateTime>
+            <ItemCode>76840002542</ItemCode>
+            <LastSaleDateTime>2026-05-27T10:14:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידת פיינט נטפליקס וצילד</ItemName>
+            <ManufactureName>מוצרי איכות אמריקאיים בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידת פיינט נטפליקס וצילד</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice>3.98</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5000159559485</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:28:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>חטיף טוויקס שוקולד.</ItemName>
+            <ManufactureName>מרס הולנד בי. וי.</ManufactureName>
+            <ManufactureCountry>NL</ManufactureCountry>
+            <ManufactureItemDescription>חטיף טוויקס שוקולד.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>50</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.90</ItemPrice>
+            <UnitOfMeasurePrice>13.80</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T15:04:42.000</PriceUpdateTime>
+            <ItemCode>5000159557498</ItemCode>
+            <LastSaleDateTime>2026-05-26T12:44:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מארז חטיפי באונטי</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מארז חטיפי באונטי</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>285</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.00</ItemPrice>
+            <UnitOfMeasurePrice>5.26</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-07-02T14:43:41.000</PriceUpdateTime>
+            <ItemCode>5900951316227</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:17:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סוכריות M&amp;M שוקולד 150 גרם</ItemName>
+            <ManufactureName>מרס ריגלי קונפקשונרי יו.אס., אל.אל.סי</ManufactureName>
+            <ManufactureCountry>PL</ManufactureCountry>
+            <ManufactureItemDescription>סוכריות M&amp;M שוקולד 150 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>150</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>16.90</ItemPrice>
+            <UnitOfMeasurePrice>11.27</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

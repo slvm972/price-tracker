@@ -1,0 +1,43 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>204</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Promotions>
+        <Promotion>
+            <PromotionUpdateTime>2026-05-27T17:03:44.000</PromotionUpdateTime>
+            <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+            <PromotionID>102211</PromotionID>
+            <PromotionDescription>סויה בהירה/ כהה לי קום קי 3 ב 12 שח</PromotionDescription>
+            <PromotionStartDate>2026-05-26</PromotionStartDate>
+            <PromotionStartHour>00:00:00.000</PromotionStartHour>
+            <PromotionEndDate>2026-07-05</PromotionEndDate>
+            <PromotionEndHour>00:00:00.000</PromotionEndHour>
+            <MinNoOfItemOfered>99999</MinNoOfItemOfered>
+            <ClubID>0</ClubID>
+            <RewardType>10</RewardType>
+            <IsWeightedPromo>0</IsWeightedPromo>
+            <AdditionalRestrictions>
+                <AdditionalIsActive>1</AdditionalIsActive>
+            </AdditionalRestrictions>
+            <MinQty>3</MinQty>
+            <MaxQty>12</MaxQty>
+            <MinPurchaseAmount>0</MinPurchaseAmount>
+            <DiscountType>1</DiscountType>
+            <DiscountedPrice>12.00</DiscountedPrice>
+            <DiscountedPricePerMida>4.00</DiscountedPricePerMida>
+            <PromotionItems>
+                <Item>
+                    <ItemCode>78895153453</ItemCode>
+                    <ItemType>1</ItemType>
+                    <IsGiftItem>1</IsGiftItem>
+                </Item>
+                <Item>
+                    <ItemCode>78895153460</ItemCode>
+                    <ItemType>1</ItemType>
+                    <IsGiftItem>1</IsGiftItem>
+                </Item>
+            </PromotionItems>
+        </Promotion>
+    </Promotions>
+</Root>

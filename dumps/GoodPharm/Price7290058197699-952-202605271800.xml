@@ -1,0 +1,1970 @@
+<Root>
+  <ChainId>7290058197699</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>952</StoreId>
+  <BikoretNo>5</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>42299363</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>ניוואה - דאודורנט רול און לגבר פרש פאוור 50 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ניוואה - דאודורנט רול און לגבר פרש פאוור 50 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>50</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>72991008</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלית - חטיף פסק זמן 45 גרם</ItemNm>
+      <ManufacturerName>שטראוס גרופ</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>עלית - חטיף פסק זמן 45 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>45</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>30.0000</QtyInPackage>
+      <ItemPrice>4.9</ItemPrice>
+      <UnitOfMeasurePrice>4.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>33984017108</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סולגאר - מגנזיום ציטראט 60 טבליות</ItemNm>
+      <ManufacturerName>סולגאר בע"מ</ManufacturerName>
+      <ManufactureCountry>US</ManufactureCountry>
+      <ManufacturerItemDescription>סולגאר - מגנזיום ציטראט 60 טבליות</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>60</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1.0000</QtyInPackage>
+      <ItemPrice>74.9</ItemPrice>
+      <UnitOfMeasurePrice>74.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>3574660115154</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>או בה - קלאסי טמפונים ללא מוליך סופר 32 יח'</ItemNm>
+      <ManufacturerName>JNTL Consumer Health I (Switzerland</ManufacturerName>
+      <ManufactureCountry>FR</ManufactureCountry>
+      <ManufacturerItemDescription>או בה - קלאסי טמפונים ללא מוליך סופר 32 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>32</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>19.9</ItemPrice>
+      <UnitOfMeasurePrice>19.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>3574661552576</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרפרי - קוטון פלקסיפורם מגן תחתון רגיל טנגה ללא בישום 56 יח'</ItemNm>
+      <ManufacturerName>JNTL Consumer Health I (Switzerland</ManufacturerName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufacturerItemDescription>קרפרי - קוטון פלקסיפורם מגן תחתון רגיל טנגה ללא בישום 56 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>56</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>5.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>3574661554877</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרפרי - קוטון מגן תחתון מבושם 56 יח'</ItemNm>
+      <ManufacturerName>JNTL Consumer Health I (Switzerland</ManufacturerName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufacturerItemDescription>קרפרי - קוטון מגן תחתון מבושם 56 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>56</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>5.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>3600520881799</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>לוריאל - טלסקופיק מסקרה שחורה</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לוריאל - טלסקופיק מסקרה שחורה</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>3.0000</QtyInPackage>
+      <ItemPrice>64.9</ItemPrice>
+      <UnitOfMeasurePrice>64.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>4005900388513</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>ניוואה - דאודורנט רול און לאישה יבש 50 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ניוואה - דאודורנט רול און לאישה יבש 50 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>50</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>4005900542557</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>ניוואה - דאודורנט רול און לאישה בלאק אנד וויט סילקי סמוד 50 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ניוואה - דאודורנט רול און לאישה בלאק אנד וויט סילקי סמוד 50 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>50</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>4006000175812</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>ניוואה - דאודורנט רול און לאישה דרמה קונטרול 50 מ"ל</ItemNm>
+      <ManufacturerName>ביירסדורף</ManufacturerName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufacturerItemDescription>ניוואה - דאודורנט רול און לאישה דרמה קונטרול 50 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>50</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>4009900402965</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון וויט בטעם פירות 64 גרם לל"ס</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון וויט בטעם פירות 64 גרם לל"ס</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>64</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10.9</ItemPrice>
+      <UnitOfMeasurePrice>10.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>4009900412087</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון פפרמינט 64 גרם</ItemNm>
+      <ManufacturerName>מרס ריגלי</ManufacturerName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון פפרמינט 64 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>64</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10.9</ItemPrice>
+      <UnitOfMeasurePrice>10.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>4009900412117</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון ספירמינט 64 גרם</ItemNm>
+      <ManufacturerName>מרס ריגלי</ManufacturerName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון ספירמינט 64 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>64</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10.9</ItemPrice>
+      <UnitOfMeasurePrice>10.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>4009900420198</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון בטעם אבטיח 64 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון בטעם אבטיח 64 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>64</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10.9</ItemPrice>
+      <UnitOfMeasurePrice>10.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>4009900426039</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>איירוויבז - בקבוקון בטעם מנטה אקליפטוס 64 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>איירוויבז - בקבוקון בטעם מנטה אקליפטוס 64 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>64</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10.9</ItemPrice>
+      <UnitOfMeasurePrice>10.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>4009900514996</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון תות 64 גרם לל"ס</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון תות 64 גרם לל"ס</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>64</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10.9</ItemPrice>
+      <UnitOfMeasurePrice>10.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>4009900536486</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון רפרשרס פירות ומנטה 67 גרם לל"ס</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון רפרשרס פירות ומנטה 67 גרם לל"ס</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>67</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>4009900540551</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון רפרשרס טרופיקל 67 גרם לל"ס</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון רפרשרס טרופיקל 67 גרם לל"ס</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>67</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>4009900552165</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אורביט - בקבוקון רפרשרס אבטיח ופטל 67 גרם לל"ס</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufacturerItemDescription>אורביט - בקבוקון רפרשרס אבטיח ופטל 67 גרם לל"ס</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>67</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>4014400914696</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>וורטר - סוכריות חמאה בשקית 80 גרם לל"ס</ItemNm>
+      <ManufacturerName>שטורק</ManufacturerName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufacturerItemDescription>וורטר - סוכריות חמאה בשקית 80 גרם לל"ס</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>80</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>18.0000</QtyInPackage>
+      <ItemPrice>10</ItemPrice>
+      <UnitOfMeasurePrice>10.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>5000159559461</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>טוויקס - חטיף 50 גרם * חמישייה</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>טוויקס - חטיף 50 גרם * חמישייה</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>250</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>18.0000</QtyInPackage>
+      <ItemPrice>15.9</ItemPrice>
+      <UnitOfMeasurePrice>15.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>5413548280189</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קינדר - שוקובונס 125 גרם</ItemNm>
+      <ManufacturerName>פררו תעשיות איטליה ס.ר.ל.</ManufacturerName>
+      <ManufactureCountry>BE</ManufactureCountry>
+      <ManufacturerItemDescription>קינדר - שוקובונס 125 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>125</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>16.0000</QtyInPackage>
+      <ItemPrice>15.9</ItemPrice>
+      <UnitOfMeasurePrice>15.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290000072753</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>טסטר צ'ויס - קפה נמס 200 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>טסטר צ'ויס - קפה נמס 200 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>200</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>36.9</ItemPrice>
+      <UnitOfMeasurePrice>36.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290000190853</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>לילי - נייר טואלט פיור קלין קלאסיק 30 גלילים</ItemNm>
+      <ManufacturerName>קימברלי-קלארק</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>לילי - נייר טואלט פיור קלין קלאסיק 30 גלילים</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>30</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1.0000</QtyInPackage>
+      <ItemPrice>37.9</ItemPrice>
+      <UnitOfMeasurePrice>37.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290000288079</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו ז'אוול - אקונומיקה לימון 2 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו ז'אוול - אקונומיקה לימון 2 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>2000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8.0000</QtyInPackage>
+      <ItemPrice>10</ItemPrice>
+      <UnitOfMeasurePrice>10.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290000292533</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו - ג'ל לניקוי כללי אורנים 1 ק"ג</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו - ג'ל לניקוי כללי אורנים 1 ק"ג</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>16.9</ItemPrice>
+      <UnitOfMeasurePrice>16.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290000293943</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו - אנטי קאלק מרסס 1 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו - אנטי קאלק מרסס 1 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>17.9</ItemPrice>
+      <UnitOfMeasurePrice>17.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290000295336</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו מקסימה - אבקת כביסה סנסטיב 1.25 ק"ג</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו מקסימה - אבקת כביסה סנסטיב 1.25 ק"ג</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>1250</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>13.9</ItemPrice>
+      <UnitOfMeasurePrice>13.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290000412481</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו - 00 מנקה אסלות 1 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו - 00 מנקה אסלות 1 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>8.9</ItemPrice>
+      <UnitOfMeasurePrice>8.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290000468747</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אוסם - ביסלי גריל 55 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אוסם - ביסלי גריל 55 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>55</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>48.0000</QtyInPackage>
+      <ItemPrice>4.5</ItemPrice>
+      <UnitOfMeasurePrice>4.5000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290000849805</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>ד"ר פישר - אולטרסול מגבת פונצ'ו לילדים</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ד"ר פישר - אולטרסול מגבת פונצ'ו לילדים</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>24.9</ItemPrice>
+      <UnitOfMeasurePrice>24.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290001136294</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>נקה 7 - שמפו יבש אדום 750 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>נקה 7 - שמפו יבש אדום 750 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>750</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290001302279</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אוסם - במבה קלאסי 60 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אוסם - במבה קלאסי 60 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>60</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>45.0000</QtyInPackage>
+      <ItemPrice>4.5</ItemPrice>
+      <UnitOfMeasurePrice>4.5000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290001713655</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - רדיד אלומיניום עבה במיוחד 45 ס"מ * 10 מטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - רדיד אלומיניום עבה במיוחד 45 ס"מ * 10 מטר</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>14.9</ItemPrice>
+      <UnitOfMeasurePrice>14.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290001713877</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - נייר אפייה 100 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - נייר אפייה 100 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>100</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>19.9</ItemPrice>
+      <UnitOfMeasurePrice>19.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290001791776</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו די - רולאון דוחה יתושים אלוורה 50 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו די - רולאון דוחה יתושים אלוורה 50 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>50</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>24.0000</QtyInPackage>
+      <ItemPrice>19.9</ItemPrice>
+      <UnitOfMeasurePrice>19.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290002814788</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - כיסוי ניילון עם גומי 33 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - כיסוי ניילון עם גומי 33 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>33</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>36.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290004731083</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - סבון ידיים ג'ינסנג 1 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - סבון ידיים ג'ינסנג 1 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10</ItemPrice>
+      <UnitOfMeasurePrice>10.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290005418716</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>נטורל פורמולה - קרם לחות לבניית תלתלים עגולים 400 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>נטורל פורמולה - קרם לחות לבניית תלתלים עגולים 400 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>400</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>22.9</ItemPrice>
+      <UnitOfMeasurePrice>22.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290005424403</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - סבון ידיים אצות ים 1 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - סבון ידיים אצות ים 1 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10</ItemPrice>
+      <UnitOfMeasurePrice>10.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290005428388</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו מקסימה - קפסולות ג'ל כביסה בניחוח סופט סילק 40 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו מקסימה - קפסולות ג'ל כביסה בניחוח סופט סילק 40 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>40</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>33.9</ItemPrice>
+      <UnitOfMeasurePrice>33.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290006788429</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרליין - נושם סאן רייס דאודורנט רול און לאישה כתום 75 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קרליין - נושם סאן רייס דאודורנט רול און לאישה כתום 75 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>75</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290010883363</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו סושי - זוג כפפות אלוורה סמול</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו סושי - זוג כפפות אלוורה סמול</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>2</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290011765118</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרמה מן - קצף גילוח ירוק 200 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קרמה מן - קצף גילוח ירוק 200 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>200</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10</ItemPrice>
+      <UnitOfMeasurePrice>10.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290013083661</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>מטרנה - אקסטרה קר שלב 1 700 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מטרנה - אקסטרה קר שלב 1 700 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>62.9</ItemPrice>
+      <UnitOfMeasurePrice>62.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290013083678</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>מטרנה - אקסטרה קר שלב 2 700 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מטרנה - אקסטרה קר שלב 2 700 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>62.9</ItemPrice>
+      <UnitOfMeasurePrice>62.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290013268020</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו מקסימה - מרכך כביסה מרוכז אולטרה פרש 1 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו מקסימה - מרכך כביסה מרוכז אולטרה פרש 1 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>17.9</ItemPrice>
+      <UnitOfMeasurePrice>17.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290014397835</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו מט - מכשיר דוחה יתושים נוזלי + מילוי 45 לילות</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו מט - מכשיר דוחה יתושים נוזלי + מילוי 45 לילות</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>34.9</ItemPrice>
+      <UnitOfMeasurePrice>34.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290014636682</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>מנהטן - מגבת פנים חלקה 50*90 ס"מ</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מנהטן - מגבת פנים חלקה 50*90 ס"מ</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>64.0000</QtyInPackage>
+      <ItemPrice>14.9</ItemPrice>
+      <UnitOfMeasurePrice>14.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290015130691</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>WIN - שייק פרוטאין בטעם קפה לאטה 330 מ"ל</ItemNm>
+      <ManufacturerName>אר אנד אר למסחר בע"מ</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>WIN - שייק פרוטאין בטעם קפה לאטה 330 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>330</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>13.9</ItemPrice>
+      <UnitOfMeasurePrice>13.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290017088068</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>בייביסיטר - חיתולי סטנדרט מידה 4 40 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>בייביסיטר - חיתולי סטנדרט מידה 4 40 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>40</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>4.0000</QtyInPackage>
+      <ItemPrice>32.9</ItemPrice>
+      <UnitOfMeasurePrice>32.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290019750550</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - שקיות אשפה גופיה נשלפות עם ידית 75*90 25 יח'</ItemNm>
+      <ManufacturerName>קומפלקס כימיקלים בע"מ</ManufacturerName>
+      <ManufactureCountry>cn</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - שקיות אשפה גופיה נשלפות עם ידית 75*90 25 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>25</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>20.0000</QtyInPackage>
+      <ItemPrice>14.9</ItemPrice>
+      <UnitOfMeasurePrice>14.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290019750673</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - כיסוי ניילון עם גומי לתבניות אלומיניום 20 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - כיסוי ניילון עם גומי לתבניות אלומיניום 20 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>20</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>36.0000</QtyInPackage>
+      <ItemPrice>8.9</ItemPrice>
+      <UnitOfMeasurePrice>8.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290019750949</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - כריות יפניות ללא שריטות 6 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - כריות יפניות ללא שריטות 6 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>6</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>24.0000</QtyInPackage>
+      <ItemPrice>7.9</ItemPrice>
+      <UnitOfMeasurePrice>7.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290019950875</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>GOOD PHARM - מברשת סיליקון לחפיפה ועיסוי הקרקפת</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>GOOD PHARM - מברשת סיליקון לחפיפה ועיסוי הקרקפת</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>19.9</ItemPrice>
+      <UnitOfMeasurePrice>19.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290100687109</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>אוסם - במבה במילוי קרם נוגט 60 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אוסם - במבה במילוי קרם נוגט 60 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>60</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>40.0000</QtyInPackage>
+      <ItemPrice>4.9</ItemPrice>
+      <UnitOfMeasurePrice>4.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290104960246</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>נקה 7 - תחליב רחצה ורד ויסמין 750 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>נקה 7 - תחליב רחצה ורד ויסמין 750 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>750</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290104960253</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>נקה 7 - תחליב רחצה לבנדר 750 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>נקה 7 - תחליב רחצה לבנדר 750 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>750</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290104961526</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>טיטניום - דאודורנט ספריי גוף לגבר קלאסיק 150 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>טיטניום - דאודורנט ספריי גוף לגבר קלאסיק 150 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>150</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290104962110</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרליין - נושם דאודורנט ספריי לנערות 150 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קרליין - נושם דאודורנט ספריי לנערות 150 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>150</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290104963223</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סופטקר - אל סבון עדין לתינוק לעור רגיש 1 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סופטקר - אל סבון עדין לתינוק לעור רגיש 1 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>18.9</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290105961525</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלית - ספלנדיד מריר 85% 100 גרם</ItemNm>
+      <ManufacturerName>שטראוס גרופ</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>עלית - ספלנדיד מריר 85% 100 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>100</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>13.9</ItemPrice>
+      <UnitOfMeasurePrice>13.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108352672</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו סושי - מטלית הפלא לרצפה 2 יח'</ItemNm>
+      <ManufacturerName>סנו מפעלי ברונוס</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>סנו סושי - מטלית הפלא לרצפה 2 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>2</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>17.9</ItemPrice>
+      <UnitOfMeasurePrice>17.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108352900</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו סושי - מגבות הפלא כפול 6 גלילים</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו סושי - מגבות הפלא כפול 6 גלילים</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>6</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1.0000</QtyInPackage>
+      <ItemPrice>24.9</ItemPrice>
+      <UnitOfMeasurePrice>24.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108353327</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - שמפו לניקוי עמוק עם תמצית אצות ים ומלפפון 700 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - שמפו לניקוי עמוק עם תמצית אצות ים ומלפפון 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290108353891</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרמה - דאודורנט רול און לאישה מאסק 75 מ"ל</ItemNm>
+      <ManufacturerName>סנו החברה הדרומית</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>קרמה - דאודורנט רול און לאישה מאסק 75 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>75</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290108354430</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - שמפו שמן קוקוס וקרטין 700 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - שמפו שמן קוקוס וקרטין 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108356113</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - תחליב רחצה דבש 700 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - תחליב רחצה דבש 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290108356168</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - תחליב רחצה אוקיינוס 700 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - תחליב רחצה אוקיינוס 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290108356243</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - תחליב רחצה חלב ודבש 1.4 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - תחליב רחצה חלב ודבש 1.4 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1400</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8.0000</QtyInPackage>
+      <ItemPrice>18.9</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290108356250</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - תחליב רחצה אוקינוס 1.4 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - תחליב רחצה אוקינוס 1.4 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1400</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8.0000</QtyInPackage>
+      <ItemPrice>18.9</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108356274</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - מוס רחצה בניחוח תותים ושמנת 150 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - מוס רחצה בניחוח תותים ושמנת 150 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>150</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290108356489</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - תחליב רחצה אפרסק וחמאת מורומורו 700 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - תחליב רחצה אפרסק וחמאת מורומורו 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290108357042</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרליין - נושם ביו דאודורנט רול און לאישה סיטרוס בלוסום 75 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קרליין - נושם ביו דאודורנט רול און לאישה סיטרוס בלוסום 75 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>75</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290108357059</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרליין - נושם ביו דאודורנט רול און לאישה סיקרט גארדן 75 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קרליין - נושם ביו דאודורנט רול און לאישה סיקרט גארדן 75 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>75</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290108357073</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרליין - נושם ביו דאודורנט ספריי לאישה בלוסום סיטרוס 150 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קרליין - נושם ביו דאודורנט ספריי לאישה בלוסום סיטרוס 150 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>150</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290108357110</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קרליין - נושם ביו דאודורנט רול און לאישה וולווט רוז 75 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קרליין - נושם ביו דאודורנט רול און לאישה וולווט רוז 75 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>75</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290108357165</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>נטורל פורמולה - לחות הקסם לתלתלים מושלמים 350 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>נטורל פורמולה - לחות הקסם לתלתלים מושלמים 350 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>350</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>19.9</ItemPrice>
+      <UnitOfMeasurePrice>19.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290108357301</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו - K300 קוטל חרקים תיקנים ונמלים 300 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו - K300 קוטל חרקים תיקנים ונמלים 300 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>300</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108357370</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו ריצפז - פרש הום מלון אולטרה פרש 2 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו ריצפז - פרש הום מלון אולטרה פרש 2 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>2000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8.0000</QtyInPackage>
+      <ItemPrice>19.9</ItemPrice>
+      <UnitOfMeasurePrice>19.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108357707</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - שמפו לשיער רגיל תפוח וזרעי צ'יה 700 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - שמפו לשיער רגיל תפוח וזרעי צ'יה 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290108357875</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - שמפו לחות מוגברת עם אפרסק וחמאת מורומורו 700 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - שמפו לחות מוגברת עם אפרסק וחמאת מורומורו 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290108357899</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>כיף - סבון ידיים קוקוס 1 ליטר</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>כיף - סבון ידיים קוקוס 1 ליטר</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>1000</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>10</ItemPrice>
+      <UnitOfMeasurePrice>10.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290108359282</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו - סופט נייר טואלט פרימיום 4 שכבות 18 גלילים</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סנו - סופט נייר טואלט פרימיום 4 שכבות 18 גלילים</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>18</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1.0000</QtyInPackage>
+      <ItemPrice>39.9</ItemPrice>
+      <UnitOfMeasurePrice>39.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290111344206</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>האגיס - מגבוני נטורל קר מבושם 56 יח' * רביעייה</ItemNm>
+      <ManufacturerName>עלבד משואות יצחק בעמ</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>האגיס - מגבוני נטורל קר מבושם 56 יח' * רביעייה</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>224</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>21.9</ItemPrice>
+      <UnitOfMeasurePrice>21.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290111936647</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קולגייט - משחת שיניים מקס פרש 125 מ"ל * זוג</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>קולגייט - משחת שיניים מקס פרש 125 מ"ל * זוג</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>250</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>24.0000</QtyInPackage>
+      <ItemPrice>26.9</ItemPrice>
+      <UnitOfMeasurePrice>26.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290112005168</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>פיניש - קוואנטום קפסולות למדיח 60 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פיניש - קוואנטום קפסולות למדיח 60 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>60</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>56.9</ItemPrice>
+      <UnitOfMeasurePrice>56.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290112492609</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>פינוק - תחליב רחצה לבנדר וניל 700 מ"ל</ItemNm>
+      <ManufacturerName>יוניליוור טיפוח אישי וביתי בע"מ</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>פינוק - תחליב רחצה לבנדר וניל 700 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>700</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>13.9</ItemPrice>
+      <UnitOfMeasurePrice>13.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290112965660</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>פיטנס - חטיף מולטיגריין מלח פלפל 25 גרם</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פיטנס - חטיף מולטיגריין מלח פלפל 25 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>25</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>24.0000</QtyInPackage>
+      <ItemPrice>5</ItemPrice>
+      <UnitOfMeasurePrice>5.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290113560055</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>פרודונטקס - מי פה מנטה מרענן 500 מ"ל</ItemNm>
+      <ManufacturerName>גלקסו</ManufacturerName>
+      <ManufactureCountry>GB</ManufactureCountry>
+      <ManufacturerItemDescription>פרודונטקס - מי פה מנטה מרענן 500 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>500</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8.0000</QtyInPackage>
+      <ItemPrice>24.9</ItemPrice>
+      <UnitOfMeasurePrice>24.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290115043433</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>פרוהייר - גלייז 60% קרם לחות 40% מתולתל 400 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פרוהייר - גלייז 60% קרם לחות 40% מתולתל 400 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>400</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>6.0000</QtyInPackage>
+      <ItemPrice>29.9</ItemPrice>
+      <UnitOfMeasurePrice>29.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7290118427872</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>פיטנס - בר גרנולה חמוציות 38 גרם * חמישייה</ItemNm>
+      <ManufacturerName>GR TK Violanta Cookies and Cereals</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פיטנס - בר גרנולה חמוציות 38 גרם * חמישייה</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>190</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>14.9</ItemPrice>
+      <UnitOfMeasurePrice>14.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7290118818205</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סופהרב - מגנזיום מקס 550 60 כמוסות</ItemNm>
+      <ManufacturerName>סופהרב</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>סופהרב - מגנזיום מקס 550 60 כמוסות</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>60</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1.0000</QtyInPackage>
+      <ItemPrice>79.9</ItemPrice>
+      <UnitOfMeasurePrice>79.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290121750073</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - שקיות אשפה פלטינה עם ידית נשלף אחד אחד בגליל 75*85 20 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - שקיות אשפה פלטינה עם ידית נשלף אחד אחד בגליל 75*85 20 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>20</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>24.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>7290121750110</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - כיסוי קערות מטאלי בציפוי אלומיניום 30 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - כיסוי קערות מטאלי בציפוי אלומיניום 30 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>30</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>24.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7290121750233</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>עלמה - כיסוי תבניות מטאלי בציפוי אלומיניום 20 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עלמה - כיסוי תבניות מטאלי בציפוי אלומיניום 20 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>20</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>24.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>7290122150018</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו ריצפז - מטליות לחות לריצפה בניחוח מרכך הכביסה בייבי 10 יח'</ItemNm>
+      <ManufacturerName>סנו מפעלי ברונוס</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>סנו ריצפז - מטליות לחות לריצפה בניחוח מרכך הכביסה בייבי 10 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>10</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:36:00</PriceUpdateDate>
+      <ItemCode>7290122150025</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סנו ריצפז - מטליות לחות לריצפה בניחוח מרכך הכביסה פיור לאב 10 יח'</ItemNm>
+      <ManufacturerName>סנו מפעלי ברונוס</ManufacturerName>
+      <ManufactureCountry>il</ManufactureCountry>
+      <ManufacturerItemDescription>סנו ריצפז - מטליות לחות לריצפה בניחוח מרכך הכביסה פיור לאב 10 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>10</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7296168020148</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>GOOD PHARM - מקלוני אוזניים עץ 200 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>GOOD PHARM - מקלוני אוזניים עץ 200 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>200</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>288.0000</QtyInPackage>
+      <ItemPrice>4.5</ItemPrice>
+      <UnitOfMeasurePrice>4.5000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>7296168076732</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>טופ מד - מדבקות לפצעונים 48 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>טופ מד - מדבקות לפצעונים 48 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>48</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>20.0000</QtyInPackage>
+      <ItemPrice>32.9</ItemPrice>
+      <UnitOfMeasurePrice>32.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:07:00</PriceUpdateDate>
+      <ItemCode>7310617310823</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>ג'ורדן - משחת שיניים לילדים לשיני חלב 50 מ"ל</ItemNm>
+      <ManufacturerName>ג'ורדן-אורקלה</ManufacturerName>
+      <ManufactureCountry>SE</ManufactureCountry>
+      <ManufacturerItemDescription>ג'ורדן - משחת שיניים לילדים לשיני חלב 50 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>50</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>15.0000</QtyInPackage>
+      <ItemPrice>11.9</ItemPrice>
+      <UnitOfMeasurePrice>11.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>7613036984478</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>סטארבקס - קפסולות קפה אספרסו בלונד 10 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סטארבקס - קפסולות קפה אספרסו בלונד 10 יח'</ManufacturerItemDescription>
+      <UnitQty>יח'</UnitQty>
+      <Quantity>10</Quantity>
+      <UnitOfMeasure>1 יח'  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>23.9</ItemPrice>
+      <UnitOfMeasurePrice>23.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>8000500029350</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קינדר - בואנו 43 גרם * שלישייה</ItemNm>
+      <ManufacturerName>פררו תעשיות איטליה ס.ר.ל.</ManufacturerName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufacturerItemDescription>קינדר - בואנו 43 גרם * שלישייה</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>129</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>40.0000</QtyInPackage>
+      <ItemPrice>13.9</ItemPrice>
+      <UnitOfMeasurePrice>13.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>8000500121436</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קינדר - בואנו לבן 39 גרם * שלישייה</ItemNm>
+      <ManufacturerName>פררו תעשיות איטליה ס.ר.ל.</ManufacturerName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufacturerItemDescription>קינדר - בואנו לבן 39 גרם * שלישייה</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>117</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>40.0000</QtyInPackage>
+      <ItemPrice>13.9</ItemPrice>
+      <UnitOfMeasurePrice>13.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:25:00</PriceUpdateDate>
+      <ItemCode>8000500366073</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>נוטלה - עוגיות בשקית 276 גרם</ItemNm>
+      <ManufacturerName>פררו תעשיות איטליה ס.ר.ל.</ManufacturerName>
+      <ManufactureCountry>IT</ManufactureCountry>
+      <ManufacturerItemDescription>נוטלה - עוגיות בשקית 276 גרם</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>276</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>23.9</ItemPrice>
+      <UnitOfMeasurePrice>23.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>8003520033659</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>פלמוליב - סבון ידיים חלב ודבש 500 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פלמוליב - סבון ידיים חלב ודבש 500 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>500</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8.0000</QtyInPackage>
+      <ItemPrice>13.9</ItemPrice>
+      <UnitOfMeasurePrice>13.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:14:00</PriceUpdateDate>
+      <ItemCode>8718951273610</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>קולגייט - פלאקס כחול מי פה קול מינט 100 מ"ל</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קולגייט - פלאקס כחול מי פה קול מינט 100 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>100</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>9.9</ItemPrice>
+      <UnitOfMeasurePrice>9.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:57:00</PriceUpdateDate>
+      <ItemCode>8720181819643</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>רקסונה - דאודורנט ספריי לאישה לימון 150 מ"ל</ItemNm>
+      <ManufacturerName>יוניליוור UK</ManufacturerName>
+      <ManufactureCountry>PL</ManufactureCountry>
+      <ManufacturerItemDescription>רקסונה - דאודורנט ספריי לאישה לימון 150 מ"ל</ManufacturerItemDescription>
+      <UnitQty>מ"ל</UnitQty>
+      <Quantity>150</Quantity>
+      <UnitOfMeasure>100 מ"ל  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>12.0000</QtyInPackage>
+      <ItemPrice>12.9</ItemPrice>
+      <UnitOfMeasurePrice>12.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 17:46:00</PriceUpdateDate>
+      <ItemCode>8720182256362</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>דאב - סבון מוצק קלאסי 90 גרם * 6 יח'</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>דאב - סבון מוצק קלאסי 90 גרם * 6 יח'</ManufacturerItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>540</Quantity>
+      <UnitOfMeasure>100 גרם  </UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8.0000</QtyInPackage>
+      <ItemPrice>15.9</ItemPrice>
+      <UnitOfMeasurePrice>15.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

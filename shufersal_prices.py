@@ -4,12 +4,14 @@ import os
 
 SAVE_FOLDER = "dumps\\Shufersal"
 
+
 def clear_old_files():
     if os.path.exists(SAVE_FOLDER):
         for f in os.listdir(SAVE_FOLDER):
             if f.endswith(".xml"):
                 os.remove(os.path.join(SAVE_FOLDER, f))
                 print(f"  Удалён: {f}")
+
 
 def check_results():
     if os.path.exists(SAVE_FOLDER):
@@ -20,6 +22,7 @@ def check_results():
             print(f"  [{kind}] {f}: {size:,} байт")
         return len(files)
     return 0
+
 
 print("Shufersal — скачивание полного каталога цен")
 print("=" * 50)
@@ -35,10 +38,7 @@ clear_old_files()
 print("\nСкачиваем PriceFull файлы...")
 try:
     scraper = ScraperFactory.SHUFERSAL.value()
-    scraper.scrape(
-        limit=2,
-        files_types=[FileTypesFilters.PRICE_FULL_FILE.value]
-    )
+    scraper.scrape(limit=2, files_types=[FileTypesFilters.PRICE_FULL_FILE.value])
     print("\nГотово! Скачалось:")
     count = check_results()
     if count == 0:

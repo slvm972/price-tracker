@@ -1,0 +1,141 @@
+﻿<Root>
+  <ChainID>7290785400000</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>021</StoreID>
+  <BikoretNo>2</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-25T11:44:20.000</PriceUpdateTime>
+      <ItemCode>17322</ItemCode>
+      <LastSaleDateTime>2026-05-07T16:34:30.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>סינטה בלי עצם</ItemName>
+      <ManufactureName>המפרק פירוק ושיווק ב</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>סינטה בלי עצם</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>89.90</ItemPrice>
+      <UnitOfMeasurePrice>89.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2024-08-04T13:04:24.000</PriceUpdateTime>
+      <ItemCode>4153</ItemCode>
+      <LastSaleDateTime>2026-05-02T13:26:46.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עזים עם</ItemName>
+      <ManufactureName>,</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>רולדה גבינה עזים עם עשבי תיבול</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2024-08-04T13:04:25.000</PriceUpdateTime>
+      <ItemCode>4152</ItemCode>
+      <LastSaleDateTime>2026-05-25T10:16:05.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עזים עם</ItemName>
+      <ManufactureName>,</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>רולדה גבינה עזים עם פחם שחור</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2024-08-04T13:04:25.000</PriceUpdateTime>
+      <ItemCode>4152</ItemCode>
+      <LastSaleDateTime>2026-05-25T10:16:05.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עזים עם</ItemName>
+      <ManufactureName>,</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>רולדה גבינה עזים עם פחם שחור</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2024-08-04T13:04:25.000</PriceUpdateTime>
+      <ItemCode>4154</ItemCode>
+      <LastSaleDateTime>2026-05-21T13:29:33.000</LastSaleDateTime>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עיזים עם</ItemName>
+      <ManufactureName>,</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>רולדה גבינה עיזים עם חמוציות</ManufactureItemDescription>
+      <UnitQty>Unknown </UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>Unknown </UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-01-01T10:36:35.000</PriceUpdateTime>
+      <ItemCode>4750050342211</ItemCode>
+      <LastSaleDateTime>2026-05-22T13:01:09.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף גבינה וניל בציפ</ItemName>
+      <ManufactureName>PIENSAIMNIEKS</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>חטיף גבינה וניל בציפוי שוקולד 7*45 גר</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>315.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>9.49</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2025-01-01T10:36:36.000</PriceUpdateTime>
+      <ItemCode>4750050342259</ItemCode>
+      <LastSaleDateTime>2026-05-20T15:11:45.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף גבינה שוקולד בצ</ItemName>
+      <ManufactureName>PIENSAIMNIEKS</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>חטיף גבינה שוקולד בציפוי שוקולד 7*45 גר</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>315.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>9.49</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus/>
+    </Item>
+  </Items>
+</Root>

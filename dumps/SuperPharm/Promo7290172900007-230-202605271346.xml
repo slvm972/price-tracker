@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OrderXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Envelope>
+    <ChainId>7290172900007</ChainId>
+    <SubChainId>000</SubChainId>
+    <StoreId>230</StoreId>
+    <BikoretNo>0</BikoretNo>
+    <Header>
+      <Details>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118204725</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205708</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205609</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290120935228</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205678</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205623</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290122856187</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205593</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205586</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205579</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118206156</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205647</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290120935211</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118206149</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118206347</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290120935594</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118206330</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290120935181</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205715</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205692</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205739</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290120935204</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290114966535</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205722</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+        <Line>
+          <PriceUpdateDate>2026-05-27 12:35:01</PriceUpdateDate>
+          <ItemCode>7290118205654</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <RewardType>4</RewardType>
+          <AllowMultipleDiscounts>1</AllowMultipleDiscounts>
+          <PromotionId>4633127</PromotionId>
+          <PromotionDetails>
+            <PromotionDescription>קונים מוצר ממגוון מוצרי לייף הגנה מפני קרינת השמש מוסיפים 24.90 ש"ח ומקבלים לייף תיק קש עם בטנה לים קנה 1 פריטים וקבל במחיר 24.90 ₪</PromotionDescription>
+            <PromotionStartDate>2026-05-27</PromotionStartDate>
+            <PromotionStartHour>00:00:00</PromotionStartHour>
+            <PromotionEndDate>2026-06-16</PromotionEndDate>
+            <PromotionEndHour>23:59:59</PromotionEndHour>
+            <ClubId>0</ClubId>
+            <MinQty>1.00</MinQty>
+            <MaxQty>0.00</MaxQty>
+            <DiscountRate>0.00</DiscountRate>
+            <DiscountType>1</DiscountType>
+            <MinPurchaseAmnt>0.00</MinPurchaseAmnt>
+            <DiscountedPrice>0.00</DiscountedPrice>
+            <DiscountedPricePerMida>0.00</DiscountedPricePerMida>
+            <MinNoOfItemOfered>0</MinNoOfItemOfered>
+            <AdditionalIsCoupon>0</AdditionalIsCoupon>
+            <AdditionalGiftCount>0.00</AdditionalGiftCount>
+            <AdditionalIsTotal>0</AdditionalIsTotal>
+            <AdditionalMinBasketAmount>1.00</AdditionalMinBasketAmount>
+            <Remarks />
+          </PromotionDetails>
+        </Line>
+      </Details>
+    </Header>
+  </Envelope>
+</OrderXml>

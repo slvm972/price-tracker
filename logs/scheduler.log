@@ -1,0 +1,6 @@
+2026-05-27 17:49:18,505 INFO Using Python: /home/user/projects/price-tracker/.venv/bin/python
+2026-05-27 17:49:18,505 INFO Running: /home/user/projects/price-tracker/.venv/bin/python /home/user/projects/price-tracker/download_all.py
+2026-05-27 17:49:36,433 INFO Return code: 0
+2026-05-27 17:49:42,281 INFO Using Python: /home/user/projects/price-tracker/.venv/bin/python
+2026-05-27 17:49:42,281 INFO Running: /home/user/projects/price-tracker/.venv/bin/python /home/user/projects/price-tracker/download_all.py
+2026-05-27 17:50:01,360 INFO Return code: 0

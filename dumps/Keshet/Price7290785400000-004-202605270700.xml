@@ -1,0 +1,48 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7290785400000</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>004</StoreId>
+  <BikoretNo>5</BikoretNo>
+  <DllVerNo>9.4.0.50</DllVerNo>
+  <Items Count="2">
+    <Item>
+      <PriceUpdateDate>2023-04-30 15:31:49</PriceUpdateDate>
+      <ItemCode>103</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ברוקולי ארוז</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ברוקולי ארוז</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>229335</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-25 17:50:41</PriceUpdateDate>
+      <ItemCode>17322</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>סינטה בלי עצם</ItemName>
+      <ManufacturerName>המפרק פירוק ושיווק ב</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סינטה בלי עצם</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>89.90</ItemPrice>
+      <UnitOfMeasurePrice>89.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>229533</ItemId>
+    </Item>
+  </Items>
+</Root>

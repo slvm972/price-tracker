@@ -1,0 +1,466 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7290785400000</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>005</StoreId>
+  <BikoretNo>2</BikoretNo>
+  <DllVerNo>9.4.0.50</DllVerNo>
+  <Items Count="24">
+    <Item>
+      <PriceUpdateDate>2023-04-27 11:47:21</PriceUpdateDate>
+      <ItemCode>103</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>ברוקולי ארוז</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ברוקולי ארוז</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>200668</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-25 11:33:46</PriceUpdateDate>
+      <ItemCode>17322</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>סינטה בלי עצם</ItemName>
+      <ManufacturerName>המפרק פירוק ושיווק ב</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>סינטה בלי עצם</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>89.90</ItemPrice>
+      <UnitOfMeasurePrice>89.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>200867</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-08-04 13:02:18</PriceUpdateDate>
+      <ItemCode>4153</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עזים עם</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>רולדה גבינה עזים עם עשבי תיבול</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>333628</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-08-04 13:02:19</PriceUpdateDate>
+      <ItemCode>4154</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עיזים עם</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>רולדה גבינה עיזים עם חמוציות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>333629</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-01-01 11:15:46</PriceUpdateDate>
+      <ItemCode>4750050342211</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף גבינה וניל בציפ</ItemName>
+      <ManufacturerName>PIENSAIMNIEKS</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חטיף גבינה וניל בציפוי שוקולד 7*45 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>315.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>9.4921</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>274634</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-01-01 11:15:46</PriceUpdateDate>
+      <ItemCode>4750050342259</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>חטיף גבינה שוקולד בצ</ItemName>
+      <ManufacturerName>PIENSAIMNIEKS</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>חטיף גבינה שוקולד בציפוי שוקולד 7*45 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>315.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>8</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>9.4921</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>299979</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-08-04 13:02:18</PriceUpdateDate>
+      <ItemCode>4152</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>רולדה גבינה עזים עם</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>רולדה גבינה עזים עם פחם שחור</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>159.00</ItemPrice>
+      <UnitOfMeasurePrice>159.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>203985</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 15:30:42</PriceUpdateDate>
+      <ItemCode>191</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>עגבניה מגי ארוזה</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עגבניה מגי ארוזה</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>201046</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 15:30:42</PriceUpdateDate>
+      <ItemCode>137</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>שסק</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שסק</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>26.90</ItemPrice>
+      <UnitOfMeasurePrice>26.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>203779</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 15:30:43</PriceUpdateDate>
+      <ItemCode>190</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>עגבניה ורודה/חומה/צה</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עגבניה ורודה/חומה/צהובה</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>18.90</ItemPrice>
+      <UnitOfMeasurePrice>18.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>204493</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 15:31:51</PriceUpdateDate>
+      <ItemCode>99</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>שומר</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שומר</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>8.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>201530</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 15:31:52</PriceUpdateDate>
+      <ItemCode>2</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>עגבניות</ItemName>
+      <ManufacturerName>ביכורי שדה דרום 2002</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>עגבניות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>7.90</ItemPrice>
+      <UnitOfMeasurePrice>7.9000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>203271</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2018-10-11 09:38:46</PriceUpdateDate>
+      <ItemCode>16052</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>תפוח אדמה אפוי</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>תפוח אדמה אפוי</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>35.00</ItemPrice>
+      <UnitOfMeasurePrice>35.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>200990</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2021-11-28 17:04:49</PriceUpdateDate>
+      <ItemCode>16041</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קציצות בקר עם רוטב</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קציצות בקר עם רוטב</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>79.00</ItemPrice>
+      <UnitOfMeasurePrice>79.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>203200</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2021-11-28 17:04:52</PriceUpdateDate>
+      <ItemCode>16012</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אורז לבן</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אורז לבן</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>35.00</ItemPrice>
+      <UnitOfMeasurePrice>35.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>204449</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-07-29 16:36:47</PriceUpdateDate>
+      <ItemCode>16791</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>פירה תפוא</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>פירה תפוא</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>39.00</ItemPrice>
+      <UnitOfMeasurePrice>39.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>333328</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-02 09:54:54</PriceUpdateDate>
+      <ItemCode>16034</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>דג מרלוזה מטוגן</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>דג מרלוזה מטוגן</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>75.00</ItemPrice>
+      <UnitOfMeasurePrice>75.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>200841</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-02 09:54:57</PriceUpdateDate>
+      <ItemCode>16016</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קציצות עוף מטוגנות</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קציצות עוף מטוגנות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>75.00</ItemPrice>
+      <UnitOfMeasurePrice>75.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>203198</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-02 09:55:01</PriceUpdateDate>
+      <ItemCode>16063</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קציצות דגים ברוטב</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קציצות דגים</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>69.00</ItemPrice>
+      <UnitOfMeasurePrice>69.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>204452</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-02 09:55:04</PriceUpdateDate>
+      <ItemCode>16154</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>קציצות עוף ברוטב עגב</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>קציצות עוף ברוטב עגבניות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>69.00</ItemPrice>
+      <UnitOfMeasurePrice>69.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>258636</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-02 09:55:07</PriceUpdateDate>
+      <ItemCode>16266</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>אורז אטריות</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>אורז איטריות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>39.00</ItemPrice>
+      <UnitOfMeasurePrice>39.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>285361</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-02 09:55:09</PriceUpdateDate>
+      <ItemCode>15992</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>לשון עגל עם פטריות ש</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לשון עגל עם פטריות שיטאקי ושמפיניון</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>109.00</ItemPrice>
+      <UnitOfMeasurePrice>109.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>288865</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2025-02-02 09:55:27</PriceUpdateDate>
+      <ItemCode>16712</ItemCode>
+      <ItemType>0</ItemType>
+      <ItemName>לקט ירקות</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>לקט ירקות</ManufacturerItemDescription>
+      <UnitQty>קילוגרמים</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>ק"ג</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>לא ידוע</QtyInPackage>
+      <ItemPrice>39.00</ItemPrice>
+      <UnitOfMeasurePrice>39.0000</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>330287</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-04-19 19:02:55</PriceUpdateDate>
+      <ItemCode>7290122590845</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>מלפפון קורנישון בחומ</ItemName>
+      <ManufacturerName>,</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>מלפפון קורנישון בחומץ 680 גר</ManufacturerItemDescription>
+      <UnitQty>גרמים</UnitQty>
+      <Quantity>680.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>11.90</ItemPrice>
+      <UnitOfMeasurePrice>1.7500</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>344676</ItemId>
+    </Item>
+  </Items>
+</Root>

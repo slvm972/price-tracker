@@ -1,0 +1,3169 @@
+<?xml version="1.0" encoding="utf-8"?><Root>
+    <ChainID>5144744100002</ChainID>
+    <SubChainID>001</SubChainID>
+    <StoreID>1</StoreID>
+    <BikoretNo>0</BikoretNo>
+	<Items>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:09.000</PriceUpdateTime>
+		<ItemCode>28</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>אבוקדו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אבוקדו</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.3</Quantity>
+		<UnitOfMeasure>רשת</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.8</ItemPrice>
+		<UnitOfMeasurePrice>13.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:44.000</PriceUpdateTime>
+		<ItemCode>233</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>אבטיח בינוני</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אבטיח בינוני</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>14.8</ItemPrice>
+		<UnitOfMeasurePrice>14.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:42.000</PriceUpdateTime>
+		<ItemCode>1066</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>אגס</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אגס</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.25</Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.8</ItemPrice>
+		<UnitOfMeasurePrice>9.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:43.000</PriceUpdateTime>
+		<ItemCode>412</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>אפרסק</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אפרסק</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.15</Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.8</ItemPrice>
+		<UnitOfMeasurePrice>13.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:50.000</PriceUpdateTime>
+		<ItemCode>20</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>אשכול בננות</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אשכול בננות</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>אשכול</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>17.8</ItemPrice>
+		<UnitOfMeasurePrice>17.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:10.000</PriceUpdateTime>
+		<ItemCode>58</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>לימון (אריזה צהובה)</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>לימון (אריזה צהובה)</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ2</Quantity>
+		<UnitOfMeasure>רשת</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.5</ItemPrice>
+		<UnitOfMeasurePrice>7.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:44.000</PriceUpdateTime>
+		<ItemCode>2486</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>מלון יחידה!!! </ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מלון יחידה!!! </ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>8.8</ItemPrice>
+		<UnitOfMeasurePrice>8.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:43.000</PriceUpdateTime>
+		<ItemCode>36</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>נקטרינה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>נקטרינה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.15</Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.8</ItemPrice>
+		<UnitOfMeasurePrice>13.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:50.000</PriceUpdateTime>
+		<ItemCode>7290005678608</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ענבים אדומים זן פליים - ענבי טלי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ענבים אדומים זן פליים - ענבי טלי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ0.5</Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.5</ItemPrice>
+		<UnitOfMeasurePrice>12.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:43.000</PriceUpdateTime>
+		<ItemCode>25</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>קיוי {מפוקח ומעושר ע"י העד"ח בלבד}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קיוי {מפוקח ומעושר ע"י העד"ח בלבד}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.3</Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.5</ItemPrice>
+		<UnitOfMeasurePrice>13.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:33.000</PriceUpdateTime>
+		<ItemCode>22</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>תפוח עץ אדום - חו"ל</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תפוח עץ אדום - חו"ל</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.5</Quantity>
+		<UnitOfMeasure>שקית</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.8</ItemPrice>
+		<UnitOfMeasurePrice>12.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:41.000</PriceUpdateTime>
+		<ItemCode>6963</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>תפוח עץ סמיט - חו"ל</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תפוח עץ סמיט - חו"ל</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.5</Quantity>
+		<UnitOfMeasure>שקית</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.8</ItemPrice>
+		<UnitOfMeasurePrice>12.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:12.000</PriceUpdateTime>
+		<ItemCode>862</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>בייבי שף תפוח אדמה קטן לאפייה (אריזה בגוון חום)</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בייבי שף תפוח אדמה קטן לאפייה (אריזה בגוון חום)</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ2</Quantity>
+		<UnitOfMeasure>רשת</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>8.8</ItemPrice>
+		<UnitOfMeasurePrice>8.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:11.000</PriceUpdateTime>
+		<ItemCode>231</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>בצל</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בצל</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ2</Quantity>
+		<UnitOfMeasure>רשת</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.5</ItemPrice>
+		<UnitOfMeasurePrice>7.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:10.000</PriceUpdateTime>
+		<ItemCode>739</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>בצל סגול</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בצל סגול</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>2</Quantity>
+		<UnitOfMeasure>רשת</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.8</ItemPrice>
+		<UnitOfMeasurePrice>9.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:11.000</PriceUpdateTime>
+		<ItemCode>1045</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>גזר</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>גזר</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.25</Quantity>
+		<UnitOfMeasure>שקית</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>4.5</ItemPrice>
+		<UnitOfMeasurePrice>4.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:08.000</PriceUpdateTime>
+		<ItemCode>12</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>דלורית</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>דלורית</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>5.5</ItemPrice>
+		<UnitOfMeasurePrice>5.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:08.000</PriceUpdateTime>
+		<ItemCode>9</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>חצילים</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חצילים</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.5</Quantity>
+		<UnitOfMeasure>שקית</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.8</ItemPrice>
+		<UnitOfMeasurePrice>6.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:09.000</PriceUpdateTime>
+		<ItemCode>5994</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>מלפפון</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מלפפון</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.5</Quantity>
+		<UnitOfMeasure>רשת</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.8</ItemPrice>
+		<UnitOfMeasurePrice>6.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:10.000</PriceUpdateTime>
+		<ItemCode>14</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>סלק</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>סלק</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.5</Quantity>
+		<UnitOfMeasure>שקית</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.8</ItemPrice>
+		<UnitOfMeasurePrice>6.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:41.000</PriceUpdateTime>
+		<ItemCode>6</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>עגבניות</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עגבניות</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.8</ItemPrice>
+		<UnitOfMeasurePrice>9.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:41.000</PriceUpdateTime>
+		<ItemCode>1180</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>עגבניות שרי אדומות</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עגבניות שרי אדומות</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.8</ItemPrice>
+		<UnitOfMeasurePrice>12.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:45.000</PriceUpdateTime>
+		<ItemCode>7</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>עגבניות שרי צהובות</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עגבניות שרי צהובות</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>סלסלה קטנה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.5</ItemPrice>
+		<UnitOfMeasurePrice>13.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:11.000</PriceUpdateTime>
+		<ItemCode>211</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>קולרבי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קולרבי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.5</Quantity>
+		<UnitOfMeasure>שקית</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.8</ItemPrice>
+		<UnitOfMeasurePrice>9.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:42.000</PriceUpdateTime>
+		<ItemCode>10</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>קישואים (ירוק)</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קישואים (ירוק)</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ1.45</Quantity>
+		<UnitOfMeasure>סלסלה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>8.5</ItemPrice>
+		<UnitOfMeasurePrice>8.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:49.000</PriceUpdateTime>
+		<ItemCode>1010</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>ראש כרוב אדום גדול {לנדא} {שקית}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ראש כרוב אדום גדול {לנדא} {שקית}</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>14.8</ItemPrice>
+		<UnitOfMeasurePrice>14.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:49.000</PriceUpdateTime>
+		<ItemCode>8814</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>רביעיית שום יבש XL</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>רביעיית שום יבש XL</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>5.8</ItemPrice>
+		<UnitOfMeasurePrice>5.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:48.000</PriceUpdateTime>
+		<ItemCode>47</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>שורש סלרי (עגול)</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שורש סלרי (עגול)</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>3.8</ItemPrice>
+		<UnitOfMeasurePrice>3.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:12.000</PriceUpdateTime>
+		<ItemCode>9611</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>תפוח אדמה לבן 5 קילו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תפוח אדמה לבן 5 קילו</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>15.5</ItemPrice>
+		<UnitOfMeasurePrice>15.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:50.000</PriceUpdateTime>
+		<ItemCode>7290005271786</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ביצים גודל M</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ביצים גודל M</ManufacturerItemDescription>
+		<UnitQty>יחידה</UnitQty>
+		<Quantity>30</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>29.2</ItemPrice>
+		<UnitOfMeasurePrice>29.2</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:50.000</PriceUpdateTime>
+		<ItemCode>7290000497532</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>לחם מקמח מלא פרוס - ברמן לעניין {נ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>לחם מקמח מלא פרוס - ברמן לעניין {נ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.758</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10.2</ItemPrice>
+		<UnitOfMeasurePrice>10.2</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:04.000</PriceUpdateTime>
+		<ItemCode>7290000497112</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>לחם פרוס - ברמן {ט לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>לחם פרוס - ברמן {ט לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.75</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>5.6</ItemPrice>
+		<UnitOfMeasurePrice>5.6</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:44.000</PriceUpdateTime>
+		<ItemCode>7290003268252</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>לחם פרוס מחיטה מלאה - דגנית עין בר {נ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>לחם פרוס מחיטה מלאה - דגנית עין בר {נ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.75</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.7</ItemPrice>
+		<UnitOfMeasurePrice>9.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:54.000</PriceUpdateTime>
+		<ItemCode>72900180990011</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>עשיריית פיתות {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עשיריית פיתות {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>8.9</ItemPrice>
+		<UnitOfMeasurePrice>8.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290018099001</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>עשיריית פיתות {מ} {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עשיריית פיתות {מ} {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>8.9</ItemPrice>
+		<UnitOfMeasurePrice>8.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290018099025</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פיתות מקמח כוסמין {מ} {נ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פיתות מקמח כוסמין {מ} {נ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.55</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11</ItemPrice>
+		<UnitOfMeasurePrice>11</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:54.000</PriceUpdateTime>
+		<ItemCode>72900180990255</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פיתות מקמח כוסמין {נ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פיתות מקמח כוסמין {נ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.55</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11</ItemPrice>
+		<UnitOfMeasurePrice>11</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:51.000</PriceUpdateTime>
+		<ItemCode>7290120883017</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חסה גידולי אדמה {לנדא}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חסה גידולי אדמה {לנדא}</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>3.9</ItemPrice>
+		<UnitOfMeasurePrice>3.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:48.000</PriceUpdateTime>
+		<ItemCode>7290018192658</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>מארז צמד סלסלאות פטריות טריות לבןחום</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מארז צמד סלסלאות פטריות טריות לבןחום</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.8</ItemPrice>
+		<UnitOfMeasurePrice>13.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:47.000</PriceUpdateTime>
+		<ItemCode>7290018815557</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>סלרי עלים (בשקית) {לנדא}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>סלרי עלים (בשקית) {לנדא}</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>4.4</ItemPrice>
+		<UnitOfMeasurePrice>4.4</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T14:10:09.000</PriceUpdateTime>
+		<ItemCode>11</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>בטטות</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בטטות</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ2</Quantity>
+		<UnitOfMeasure>סלסלה גדולה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10</ItemPrice>
+		<UnitOfMeasurePrice>10</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T04:42:45.000</PriceUpdateTime>
+		<ItemCode>7290000574035</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>לחם פרוס - דגנית עין בר {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>לחם פרוס - דגנית עין בר {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.75</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>5.6</ItemPrice>
+		<UnitOfMeasurePrice>5.6</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:58.000</PriceUpdateTime>
+		<ItemCode>7290010473014</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>עוגת בוקר רוגעל'ה שוקולד - שפיצר {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עוגת בוקר רוגעל'ה שוקולד - שפיצר {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.12</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.9</ItemPrice>
+		<UnitOfMeasurePrice>2.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290006243713</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>בורקס קפוא במילוי גבינה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בורקס קפוא במילוי גבינה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.8</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.5</ItemPrice>
+		<UnitOfMeasurePrice>12.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290120880443</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>גרגירי אפונה קפואה - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>גרגירי אפונה קפואה - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10</ItemPrice>
+		<UnitOfMeasurePrice>10</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290018815441</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>טבעות בצל מצופות קפואות - קייטי (ריבוע חום) {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>טבעות בצל מצופות קפואות - קייטי (ריבוע חום) {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.7</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>18.8</ItemPrice>
+		<UnitOfMeasurePrice>18.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290015044738</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>כבד צלוי קפוא - בד"צ בית חלקיה {משקל חדש}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>כבד צלוי קפוא - בד"צ בית חלקיה {משקל חדש}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.25</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>28.8</ItemPrice>
+		<UnitOfMeasurePrice>28.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290120880467</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>לקט ירקות מוקפאים - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>לקט ירקות מוקפאים - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10.8</ItemPrice>
+		<UnitOfMeasurePrice>10.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:53.000</PriceUpdateTime>
+		<ItemCode>7290120881150</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>נקנקיות עוף בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>נקנקיות עוף בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.4</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10.7</ItemPrice>
+		<UnitOfMeasurePrice>10.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:49.000</PriceUpdateTime>
+		<ItemCode>7290010193288</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קישקע ממולא בשרי קפוא גלאט עוף {מ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קישקע ממולא בשרי קפוא גלאט עוף {מ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>14.8</ItemPrice>
+		<UnitOfMeasurePrice>14.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:52:13.000</PriceUpdateTime>
+		<ItemCode>7290120880924</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון בשר טחון קפוא בד"צ בית חלקיה {לא שקיל-מחיר קבוע}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון בשר טחון קפוא בד"צ בית חלקיה {לא שקיל-מחיר קבוע}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>4</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>276</ItemPrice>
+		<UnitOfMeasurePrice>276</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290001949146</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון גרונות עוף בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון גרונות עוף בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>10</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>75</ItemPrice>
+		<UnitOfMeasurePrice>75</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290006103833</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון חזה בקר קפוא (מס 3) בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון חזה בקר קפוא (מס 3) בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>414</ItemPrice>
+		<UnitOfMeasurePrice>414</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290015044547</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון חזה עוף קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון חזה עוף קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>15</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>573</ItemPrice>
+		<UnitOfMeasurePrice>573</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290015044585</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון ירכיים עוף קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון ירכיים עוף קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>13</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>416</ItemPrice>
+		<UnitOfMeasurePrice>416</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:44:23.000</PriceUpdateTime>
+		<ItemCode>7290015044554</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון כנפיים עוף קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון כנפיים עוף קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>15</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>192</ItemPrice>
+		<UnitOfMeasurePrice>192</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290015044530</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון כרעיים עוף קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון כרעיים עוף קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>11</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>366.3</ItemPrice>
+		<UnitOfMeasurePrice>366.3</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290015044691</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון כתף בקר קפוא (מס 4) בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון כתף בקר קפוא (מס 4) בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>480</ItemPrice>
+		<UnitOfMeasurePrice>480</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:54:13.000</PriceUpdateTime>
+		<ItemCode>7290120881167</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון לשון עגל קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון לשון עגל קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>720</ItemPrice>
+		<UnitOfMeasurePrice>720</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290120880474</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון מושט (פילה אמנון) עם עור עד"ח - קייטי (מ.מ.)</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון מושט (פילה אמנון) עם עור עד"ח - קייטי (מ.מ.)</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>10</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>148</ItemPrice>
+		<UnitOfMeasurePrice>148</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:53:15.000</PriceUpdateTime>
+		<ItemCode>7290120880054</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון מכסה הסטייק (רצועות לחמין) בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון מכסה הסטייק (רצועות לחמין) בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>414</ItemPrice>
+		<UnitOfMeasurePrice>414</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290001949191</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון סטייק אנטריקוט פרוס קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון סטייק אנטריקוט פרוס קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>5</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>500</ItemPrice>
+		<UnitOfMeasurePrice>500</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290120880528</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון סטייק טונה חומה בד"ץ העד"ח - קייטי {צהובת סנפיר}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון סטייק טונה חומה בד"ץ העד"ח - קייטי {צהובת סנפיר}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>5</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>195</ItemPrice>
+		<UnitOfMeasurePrice>195</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7840261580445</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון עוף מחולק (מפורק) קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון עוף מחולק (מפורק) קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>11</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>302.5</ItemPrice>
+		<UnitOfMeasurePrice>302.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>4451</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון עוף שלם קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון עוף שלם קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>15</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>367.5</ItemPrice>
+		<UnitOfMeasurePrice>367.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290015044769</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון פילה מדומה קפוא (מס 6) בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון פילה מדומה קפוא (מס 6) בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>528</ItemPrice>
+		<UnitOfMeasurePrice>528</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290005816017</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון פילה סלמון נורבגי בד"ץ העד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון פילה סלמון נורבגי בד"ץ העד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>5.5</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>385</ItemPrice>
+		<UnitOfMeasurePrice>385</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290006103826</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון פרוסות אסאדו עגל (עם עצם) קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון פרוסות אסאדו עגל (עם עצם) קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>528</ItemPrice>
+		<UnitOfMeasurePrice>528</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290002859963</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון צוואר בקר קפוא (מס 10) בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון צוואר בקר קפוא (מס 10) בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>414</ItemPrice>
+		<UnitOfMeasurePrice>414</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:53:47.000</PriceUpdateTime>
+		<ItemCode>7290015044783</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון צלי כתף קפוא (מס 5) בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון צלי כתף קפוא (מס 5) בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>594</ItemPrice>
+		<UnitOfMeasurePrice>594</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:49.000</PriceUpdateTime>
+		<ItemCode>7290015044592</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון שוקיים עוף קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון שוקיים עוף קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>12</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>444</ItemPrice>
+		<UnitOfMeasurePrice>444</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290015044608</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון שניצל קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון שניצל קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>10</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>397</ItemPrice>
+		<UnitOfMeasurePrice>397</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:51.000</PriceUpdateTime>
+		<ItemCode>7290002919735</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון שריר בקר קפוא (מס 8) בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון שריר בקר קפוא (מס 8) בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>552</ItemPrice>
+		<UnitOfMeasurePrice>552</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290008737265</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>רולדה גפילטע פיש 0.5 קילו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>רולדה גפילטע פיש 0.5 קילו</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>18.5</ItemPrice>
+		<UnitOfMeasurePrice>18.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290005816161</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שקית פרוסות דג סלמון מעושן קפוא</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שקית פרוסות דג סלמון מעושן קפוא</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>16.4</ItemPrice>
+		<UnitOfMeasurePrice>16.4</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7849441300446</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון פרגית עוף קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון פרגית עוף קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>10</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>670</ItemPrice>
+		<UnitOfMeasurePrice>670</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:49.000</PriceUpdateTime>
+		<ItemCode>7290120880078</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון צלעות אונטריב בקר בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון צלעות אונטריב בקר בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ6</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>450</ItemPrice>
+		<UnitOfMeasurePrice>450</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290120880177</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון קשתית חתוכה עם עצם (קוביות לחמין) קפוא בד"צ בית חלקיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון קשתית חתוכה עם עצם (קוביות לחמין) קפוא בד"צ בית חלקיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>468</ItemPrice>
+		<UnitOfMeasurePrice>468</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:47.000</PriceUpdateTime>
+		<ItemCode>7290107280761</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>נוזל כלים ספארק לימון גראס עם משאבה - סנו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>נוזל כלים ספארק לימון גראס עם משאבה - סנו</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.2</ItemPrice>
+		<UnitOfMeasurePrice>9.2</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:45.000</PriceUpdateTime>
+		<ItemCode>7290120884021</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>כוסות (8B) נייר איכותיות 50 יח'</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>כוסות (8B) נייר איכותיות 50 יח'</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.9</ItemPrice>
+		<UnitOfMeasurePrice>2.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:01.000</PriceUpdateTime>
+		<ItemCode>7290103704186</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>נייר סופג גלילים כפולים</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>נייר סופג גלילים כפולים</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>15.8</ItemPrice>
+		<UnitOfMeasurePrice>15.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:01.000</PriceUpdateTime>
+		<ItemCode>7290103702649</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חמישיית טישו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חמישיית טישו</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>5.9</ItemPrice>
+		<UnitOfMeasurePrice>5.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:47.000</PriceUpdateTime>
+		<ItemCode>7290112005083</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>אבקת וניש קליה צבעוני גדול 1.5 ק"ג - אריזה מוגדלת</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אבקת וניש קליה צבעוני גדול 1.5 ק"ג - אריזה מוגדלת</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>28.5</ItemPrice>
+		<UnitOfMeasurePrice>28.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:43.000</PriceUpdateTime>
+		<ItemCode>7290011877859</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>אינסטלטור - פותח סתימות בצנרת ניקוז ובכיורים סנו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אינסטלטור - פותח סתימות בצנרת ניקוז ובכיורים סנו</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.2</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10.8</ItemPrice>
+		<UnitOfMeasurePrice>10.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:48.000</PriceUpdateTime>
+		<ItemCode>8718951650855</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ג'ל אג'קס לניקוי שירותים - AJAX</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ג'ל אג'קס לניקוי שירותים - AJAX</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>0.75</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.7</ItemPrice>
+		<UnitOfMeasurePrice>9.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:44.000</PriceUpdateTime>
+		<ItemCode>7290000201856</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>טיטולים פרימיום מידה 4+  חוגלה {מ.מ.}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>טיטולים פרימיום מידה 4+  חוגלה {מ.מ.}</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>24.8</ItemPrice>
+		<UnitOfMeasurePrice>24.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:47.000</PriceUpdateTime>
+		<ItemCode>7290013268020</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>מרכך כביסה מרוכז סנו מקסימה (מ.מ.)</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מרכך כביסה מרוכז סנו מקסימה (מ.מ.)</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.9</ItemPrice>
+		<UnitOfMeasurePrice>12.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:48.000</PriceUpdateTime>
+		<ItemCode>7290000288390</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>תרסיס K600 - סנו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תרסיס K600 - סנו</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>16.9</ItemPrice>
+		<UnitOfMeasurePrice>16.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:46.000</PriceUpdateTime>
+		<ItemCode>7290112004413</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>תרסיס להסרת כתמים לכביסה לבנה - וניש קליה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תרסיס להסרת כתמים לכביסה לבנה - וניש קליה</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>0.75</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10.8</ItemPrice>
+		<UnitOfMeasurePrice>10.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:45.000</PriceUpdateTime>
+		<ItemCode>7290101828808</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>כפפות נטריל m - ללא אבקה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>כפפות נטריל m - ללא אבקה</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.5</ItemPrice>
+		<UnitOfMeasurePrice>13.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:44.000</PriceUpdateTime>
+		<ItemCode>7290018815915</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>מארז 12 גביעי אחסון חצי ליטר באריזת חיסכון</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מארז 12 גביעי אחסון חצי ליטר באריזת חיסכון</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.8</ItemPrice>
+		<UnitOfMeasurePrice>7.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:44.000</PriceUpdateTime>
+		<ItemCode>591</ItemCode>
+		<ItemType>0</ItemType>
+		<ItemName>תבנית ענק 7 יח r99 </ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תבנית ענק 7 יח r99 </ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.5</ItemPrice>
+		<UnitOfMeasurePrice>7.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:46.000</PriceUpdateTime>
+		<ItemCode>7290018815311</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>כף שקופה 50 יח'</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>כף שקופה 50 יח'</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.5</ItemPrice>
+		<UnitOfMeasurePrice>2.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:46.000</PriceUpdateTime>
+		<ItemCode>7290018815328</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>כפית שקופה 50 יח'</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>כפית שקופה 50 יח'</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>1.9</ItemPrice>
+		<UnitOfMeasurePrice>1.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:46.000</PriceUpdateTime>
+		<ItemCode>7290018815304</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>מזלג שקוף 50 יח'</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מזלג שקוף 50 יח'</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.5</ItemPrice>
+		<UnitOfMeasurePrice>2.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:45.000</PriceUpdateTime>
+		<ItemCode>7290018815335</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>סכין שקופה 50 יח'</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>סכין שקופה 50 יח'</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.5</ItemPrice>
+		<UnitOfMeasurePrice>2.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:52.000</PriceUpdateTime>
+		<ItemCode>7290111565656</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>במבה נוגט אריזה גדולה -אסם</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>במבה נוגט אריזה גדולה -אסם</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.15</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.5</ItemPrice>
+		<UnitOfMeasurePrice>7.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:57.000</PriceUpdateTime>
+		<ItemCode>7290004252670</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>עוגיות סנדוויץ בקרטון - olala {נ. מאינו יהודי}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עוגיות סנדוויץ בקרטון - olala {נ. מאינו יהודי}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.9</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>15.8</ItemPrice>
+		<UnitOfMeasurePrice>15.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:55.000</PriceUpdateTime>
+		<ItemCode>7290017928685</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>בייגלה שמיניות מלח - מאיר בייגל {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בייגלה שמיניות מלח - מאיר בייגל {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.4</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.6</ItemPrice>
+		<UnitOfMeasurePrice>6.6</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:53.000</PriceUpdateTime>
+		<ItemCode>7290012439179</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ביסקוויט בטעם חמאה 1.5 ק"ג קרטון לבן {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ביסקוויט בטעם חמאה 1.5 ק"ג קרטון לבן {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>22</ItemPrice>
+		<UnitOfMeasurePrice>22</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:53.000</PriceUpdateTime>
+		<ItemCode>7290015194211</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>דגני בוקר פירות xl אריזה מוגדלת {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>דגני בוקר פירות xl אריזה מוגדלת {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.6</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.5</ItemPrice>
+		<UnitOfMeasurePrice>13.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:54.000</PriceUpdateTime>
+		<ItemCode>7290015194778</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>דגני בוקר קרמים נוגט xl אריזה מוגדלת {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>דגני בוקר קרמים נוגט xl אריזה מוגדלת {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.7</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>16.8</ItemPrice>
+		<UnitOfMeasurePrice>16.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:54.000</PriceUpdateTime>
+		<ItemCode>7290003318100</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>וופלים {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>וופלים {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.2</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.6</ItemPrice>
+		<UnitOfMeasurePrice>2.6</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:55.000</PriceUpdateTime>
+		<ItemCode>7290013080585</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חטיף מקלוני תירס (20 יחידות) </ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חטיף מקלוני תירס (20 יחידות) </ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.34</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>8.8</ItemPrice>
+		<UnitOfMeasurePrice>8.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:53.000</PriceUpdateTime>
+		<ItemCode>7290107978453</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חטיף קראנצ'וס (דמוי ביסלי) {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חטיף קראנצ'וס (דמוי ביסלי) {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.055</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>1.9</ItemPrice>
+		<UnitOfMeasurePrice>1.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:52.000</PriceUpdateTime>
+		<ItemCode>7290019603023</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חטיף תן צ'אפ מיה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חטיף תן צ'אפ מיה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.05</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.7</ItemPrice>
+		<UnitOfMeasurePrice>2.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T03:22:08.000</PriceUpdateTime>
+		<ItemCode>7290016106671</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>טונה בשמן יחידה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>טונה בשמן יחידה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.14</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>3.175</ItemPrice>
+		<UnitOfMeasurePrice>3.175</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:08.000</PriceUpdateTime>
+		<ItemCode>7290018815465</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>טונה בשמן רביעייה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>טונה בשמן רביעייה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.56</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.7</ItemPrice>
+		<UnitOfMeasurePrice>12.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:01.000</PriceUpdateTime>
+		<ItemCode>7290120880726</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>טופי צבעוני {אריזה מוגדלת} - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>טופי צבעוני {אריזה מוגדלת} - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.4</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.5</ItemPrice>
+		<UnitOfMeasurePrice>9.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:54.000</PriceUpdateTime>
+		<ItemCode>7290112495105</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>נשנושים בטעם שמנת בצל - בייגל בייגל {מ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>נשנושים בטעם שמנת בצל - בייגל בייגל {מ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.26</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.8</ItemPrice>
+		<UnitOfMeasurePrice>9.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:51.000</PriceUpdateTime>
+		<ItemCode>7290017883342</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>סוכריות קופצות - ליקלוקים {ת. קצר}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>סוכריות קופצות - ליקלוקים {ת. קצר}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.048</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>4.8</ItemPrice>
+		<UnitOfMeasurePrice>4.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:59.000</PriceUpdateTime>
+		<ItemCode>7290115208047</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>סירופ בטעם פטל - ויטמינצ'יק </ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>סירופ בטעם פטל - ויטמינצ'יק </ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>12.8</ItemPrice>
+		<UnitOfMeasurePrice>12.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:51.000</PriceUpdateTime>
+		<ItemCode>7290004267759</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>עוגיות במילוי קרם שוקולד מפנקות - ברמן {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עוגיות במילוי קרם שוקולד מפנקות - ברמן {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.18</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>4.5</ItemPrice>
+		<UnitOfMeasurePrice>4.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:52.000</PriceUpdateTime>
+		<ItemCode>7290013116604</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פרכיות אורז - אריזת ג'מבו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פרכיות אורז - אריזת ג'מבו</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.8</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>25.8</ItemPrice>
+		<UnitOfMeasurePrice>25.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:58.000</PriceUpdateTime>
+		<ItemCode>7290019847878</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטונית חטיפי אנרגיה בטעם קורנפלקס ופקאן - דרך הטבע</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטונית חטיפי אנרגיה בטעם קורנפלקס ופקאן - דרך הטבע</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.48</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>53.5</ItemPrice>
+		<UnitOfMeasurePrice>53.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:56.000</PriceUpdateTime>
+		<ItemCode>7290003514366</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שקדי מרק {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שקדי מרק {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.4</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.6</ItemPrice>
+		<UnitOfMeasurePrice>6.6</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:10.000</PriceUpdateTime>
+		<ItemCode>7290002111474</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>אפונה בשימורים - פרי מבורך</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אפונה בשימורים - פרי מבורך</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.308</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.8</ItemPrice>
+		<UnitOfMeasurePrice>7.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:07.000</PriceUpdateTime>
+		<ItemCode>7290002015420</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>זיתים {מ.מ.}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>זיתים {מ.מ.}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.275</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.8</ItemPrice>
+		<UnitOfMeasurePrice>7.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:00.000</PriceUpdateTime>
+		<ItemCode>7290002111634</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חומוס בשימורים - פרי מבורך</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חומוס בשימורים - פרי מבורך</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.281</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.7</ItemPrice>
+		<UnitOfMeasurePrice>6.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:00.000</PriceUpdateTime>
+		<ItemCode>7290120881129</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>מיץ לימון 1 ליטר - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מיץ לימון 1 ליטר - קייטי</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.7</ItemPrice>
+		<UnitOfMeasurePrice>9.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:08.000</PriceUpdateTime>
+		<ItemCode>7290002015154</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>מלפפון חמוץ במלח {מ.מ.}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מלפפון חמוץ במלח {מ.מ.}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.32</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>4.5</ItemPrice>
+		<UnitOfMeasurePrice>4.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:53.000</PriceUpdateTime>
+		<ItemCode>7290016098396</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>עוגיות ש. ציפס - גלילית {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>עוגיות ש. ציפס - גלילית {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.18</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>4</ItemPrice>
+		<UnitOfMeasurePrice>4</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:07.000</PriceUpdateTime>
+		<ItemCode>7290120881198</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פטריות שמפניון שלמות בשימורים - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פטריות שמפניון שלמות בשימורים - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.24</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.4</ItemPrice>
+		<UnitOfMeasurePrice>6.4</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:06.000</PriceUpdateTime>
+		<ItemCode>7290016104073</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>רוטב צ'ילי מתוק</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>רוטב צ'ילי מתוק</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>0.6</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>8.3</ItemPrice>
+		<UnitOfMeasurePrice>8.3</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:06.000</PriceUpdateTime>
+		<ItemCode>7290002111337</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>רסקרוטב עגבניות 22 (4 קופסאות) - פרי מבורך</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>רסקרוטב עגבניות 22 (4 קופסאות) - פרי מבורך</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.96</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11.8</ItemPrice>
+		<UnitOfMeasurePrice>11.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:11.000</PriceUpdateTime>
+		<ItemCode>7290018815243</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שמן קנולה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שמן קנולה</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.9</ItemPrice>
+		<UnitOfMeasurePrice>6.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:07.000</PriceUpdateTime>
+		<ItemCode>7290120880504</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>תירס שימורים 340 גרם - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תירס שימורים 340 גרם - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.285</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>3.9</ItemPrice>
+		<UnitOfMeasurePrice>3.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:49.000</PriceUpdateTime>
+		<ItemCode>7290013144812</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>אבקה להכנת אייס וניל - מיימונס</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אבקה להכנת אייס וניל - מיימונס</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.32</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11.2</ItemPrice>
+		<UnitOfMeasurePrice>11.2</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:06.000</PriceUpdateTime>
+		<ItemCode>7290014356412</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>אננס חתוך גדול בקופסא</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אננס חתוך גדול בקופסא</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.82</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>6.5</ItemPrice>
+		<UnitOfMeasurePrice>6.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:05.000</PriceUpdateTime>
+		<ItemCode>7290002973829</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון בצבע ירוק זית קמח כוסמין לבן (10 קילו) - שטיבל {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון בצבע ירוק זית קמח כוסמין לבן (10 קילו) - שטיבל {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>10</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>80</ItemPrice>
+		<UnitOfMeasurePrice>80</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:58.000</PriceUpdateTime>
+		<ItemCode>7290120880900</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>טורטייה (מזונות) - קייטי {נ. לגוי כדין}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>טורטייה (מזונות) - קייטי {נ. לגוי כדין}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.32</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.7</ItemPrice>
+		<UnitOfMeasurePrice>9.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:57.000</PriceUpdateTime>
+		<ItemCode>7290120880405</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פסטה (צורות) {נ. מאינו יהודי}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פסטה (צורות) {נ. מאינו יהודי}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>2.5</ItemPrice>
+		<UnitOfMeasurePrice>2.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:55.000</PriceUpdateTime>
+		<ItemCode>7290000682204</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>אטריות {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אטריות {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.4</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>3.9</ItemPrice>
+		<UnitOfMeasurePrice>3.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:50.000</PriceUpdateTime>
+		<ItemCode>7290001041888</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פפריקה מתוקה בצנצנת ענק</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פפריקה מתוקה בצנצנת ענק</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.25</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.8</ItemPrice>
+		<UnitOfMeasurePrice>9.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:57.000</PriceUpdateTime>
+		<ItemCode>7290000682211</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פתיתים אפויים {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פתיתים אפויים {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>3.5</ItemPrice>
+		<UnitOfMeasurePrice>3.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:59.000</PriceUpdateTime>
+		<ItemCode>7290015044875</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>דבש טבעי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>דבש טבעי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>15.8</ItemPrice>
+		<UnitOfMeasurePrice>15.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-25T08:07:58.000</PriceUpdateTime>
+		<ItemCode>7290018571941</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>סוכר חום דמררה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>סוכר חום דמררה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.8</ItemPrice>
+		<UnitOfMeasurePrice>7.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:56.000</PriceUpdateTime>
+		<ItemCode>7290013358356</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>פירורי לחם מוזהבים - מאסטר שף {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>פירורי לחם מוזהבים - מאסטר שף {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.32</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>4.7</ItemPrice>
+		<UnitOfMeasurePrice>4.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:56.000</PriceUpdateTime>
+		<ItemCode>290120881112</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קוסקוס - קייטי {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קוסקוס - קייטי {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.7</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>7.5</ItemPrice>
+		<UnitOfMeasurePrice>7.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:59.000</PriceUpdateTime>
+		<ItemCode>7290000572222</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חלווה - בלוק</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חלווה - בלוק</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.4</ItemPrice>
+		<UnitOfMeasurePrice>9.4</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:19:59.000</PriceUpdateTime>
+		<ItemCode>7290000446554</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>חמאת בטנים טבעית 1 קילו -  BD</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>חמאת בטנים טבעית 1 קילו -  BD</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>24.8</ItemPrice>
+		<UnitOfMeasurePrice>24.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:05.000</PriceUpdateTime>
+		<ItemCode>7290010328246</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>טחינה משומשום מלא - אחווה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>טחינה משומשום מלא - אחווה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.5</ItemPrice>
+		<UnitOfMeasurePrice>9.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:05.000</PriceUpdateTime>
+		<ItemCode>7290000072623</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קטשופ אסם</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קטשופ אסם</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.75</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10.5</ItemPrice>
+		<UnitOfMeasurePrice>10.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:05.000</PriceUpdateTime>
+		<ItemCode>7290017068954</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>אורז בסמטי בוואקום 1 קילו</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>אורז בסמטי בוואקום 1 קילו</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11.8</ItemPrice>
+		<UnitOfMeasurePrice>11.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-24T18:20:10.000</PriceUpdateTime>
+		<ItemCode>7290108622690</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון מיץ ענבים אדום תירוש 100% ענבים - קייטי (6 יח' בקרטון)</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון מיץ ענבים אדום תירוש 100% ענבים - קייטי (6 יח' בקרטון)</ManufacturerItemDescription>
+		<UnitQty>ליטר</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>78</ItemPrice>
+		<UnitOfMeasurePrice>78</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290018815434</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>נגאטס תירס - קייטי (ריבוע צהוב) {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>נגאטס תירס - קייטי (ריבוע צהוב) {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>24.8</ItemPrice>
+		<UnitOfMeasurePrice>24.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:46:14.000</PriceUpdateTime>
+		<ItemCode>7290006243577</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>בורקס קפוא תפוא {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בורקס קפוא תפוא {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.8</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11.7</ItemPrice>
+		<UnitOfMeasurePrice>11.7</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:45:03.000</PriceUpdateTime>
+		<ItemCode>7290000131023</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>בצק עלים - שחף {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>בצק עלים - שחף {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11</ItemPrice>
+		<UnitOfMeasurePrice>11</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290120883178</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ברוקולי מוקפא - ליפרש</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ברוקולי מוקפא - ליפרש</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.6</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>21.5</ItemPrice>
+		<UnitOfMeasurePrice>21.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290120880436</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>גרעיני תירס מוקפאים - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>גרעיני תירס מוקפאים - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10.8</ItemPrice>
+		<UnitOfMeasurePrice>10.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:45:43.000</PriceUpdateTime>
+		<ItemCode>7290003022052</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>דפי עלים קפואים לסיגר - סיגרו {מ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>דפי עלים קפואים לסיגר - סיגרו {מ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>13.5</ItemPrice>
+		<UnitOfMeasurePrice>13.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:46:41.000</PriceUpdateTime>
+		<ItemCode>7290018815410</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>כדורי פלאפל מוכנים קפואים {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>כדורי פלאפל מוכנים קפואים {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.6</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>15.5</ItemPrice>
+		<UnitOfMeasurePrice>15.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:55.000</PriceUpdateTime>
+		<ItemCode>7290014459540</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>כרובית קפואה בציפוי פריך - תפוגן {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>כרובית קפואה בציפוי פריך - תפוגן {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.45</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>19.5</ItemPrice>
+		<UnitOfMeasurePrice>19.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:44:08.000</PriceUpdateTime>
+		<ItemCode>7290017303482</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>מלאוח - שחף {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>מלאוח - שחף {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.7</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>11.3</ItemPrice>
+		<UnitOfMeasurePrice>11.3</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290006739735</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>נקנקיות סויה - זוגלובק {מ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>נקנקיות סויה - זוגלובק {מ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>2</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>50</ItemPrice>
+		<UnitOfMeasurePrice>50</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290017926377</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>סיגרים קפואים במילוי תפוח אדמה - מהמטבח של נועה (לנדא) {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>סיגרים קפואים במילוי תפוח אדמה - מהמטבח של נועה (לנדא) {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.6</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>14.9</ItemPrice>
+		<UnitOfMeasurePrice>14.9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290120881099</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ציפס קפוא - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ציפס קפוא - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>2</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>22.8</ItemPrice>
+		<UnitOfMeasurePrice>22.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290120880399</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קוביות אננס קפוא {אריזה מוגדלת} - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קוביות אננס קפוא {אריזה מוגדלת} - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.85</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>16</ItemPrice>
+		<UnitOfMeasurePrice>16</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290120880382</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קוביות מנגו קפוא {אריזה מוגדלת} - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קוביות מנגו קפוא {אריזה מוגדלת} - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.85</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>16</ItemPrice>
+		<UnitOfMeasurePrice>16</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290120880375</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קוביות פסיפלורה קפואה אריזה משפחתית - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קוביות פסיפלורה קפואה אריזה משפחתית - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.5</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>16</ItemPrice>
+		<UnitOfMeasurePrice>16</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:50:34.000</PriceUpdateTime>
+		<ItemCode>7290120880221</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון בשר טחון בד"צ עד"ח מותג פליישיג תוויית אדומה</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון בשר טחון בד"צ עד"ח מותג פליישיג תוויית אדומה</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ4</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>316</ItemPrice>
+		<UnitOfMeasurePrice>316</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:48:23.000</PriceUpdateTime>
+		<ItemCode>7290120880641</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון חזה בריסקט בקר קפוא (מס 3) בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון חזה בריסקט בקר קפוא (מס 3) בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>474</ItemPrice>
+		<UnitOfMeasurePrice>474</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:53.000</PriceUpdateTime>
+		<ItemCode>7290120880658</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון כתף בקר קפוא (מס 4) בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון כתף בקר קפוא (מס 4) בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>534</ItemPrice>
+		<UnitOfMeasurePrice>534</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290001949290</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון לשונות עגל קפואות בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון לשונות עגל קפואות בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>780</ItemPrice>
+		<UnitOfMeasurePrice>780</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290120880481</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון מושט (פילה אמנון) עם פס עור עד"ח - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון מושט (פילה אמנון) עם פס עור עד"ח - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>5</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>112.5</ItemPrice>
+		<UnitOfMeasurePrice>112.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:51:14.000</PriceUpdateTime>
+		<ItemCode>7290120880573</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון מכסה הסטייק (רצועות לחמין) בשר בקר קפוא בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון מכסה הסטייק (רצועות לחמין) בשר בקר קפוא בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>474</ItemPrice>
+		<UnitOfMeasurePrice>474</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290005816598</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון מנות פילה סלמון נורווגי עם עור</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון מנות פילה סלמון נורווגי עם עור</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>5</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>395</ItemPrice>
+		<UnitOfMeasurePrice>395</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:47:31.000</PriceUpdateTime>
+		<ItemCode>7290015044684</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון סטייק אנטריקוט פרוס בד"צ עד"ח </ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון סטייק אנטריקוט פרוס בד"צ עד"ח </ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>4.5</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>540</ItemPrice>
+		<UnitOfMeasurePrice>540</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290120880535</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון סטייק טונה בהירה בד"ץ העד"ח - קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון סטייק טונה בהירה בד"ץ העד"ח - קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>5</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>212.5</ItemPrice>
+		<UnitOfMeasurePrice>212.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:51:59.000</PriceUpdateTime>
+		<ItemCode>7290120881105</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון עוף טחון קפוא בד"צ עד"ח {לא שקיל-מחיר קבוע}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון עוף טחון קפוא בד"צ עד"ח {לא שקיל-מחיר קבוע}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>4</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>190</ItemPrice>
+		<UnitOfMeasurePrice>190</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:49:04.000</PriceUpdateTime>
+		<ItemCode>7290120880696</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון פילה מדומה קפוא (מס 6) בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון פילה מדומה קפוא (מס 6) בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>594</ItemPrice>
+		<UnitOfMeasurePrice>594</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:53.000</PriceUpdateTime>
+		<ItemCode>7290120880825</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון פרוסות אסאדו עגל (עם עצם) קפוא בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון פרוסות אסאדו עגל (עם עצם) קפוא בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>594</ItemPrice>
+		<UnitOfMeasurePrice>594</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:49:41.000</PriceUpdateTime>
+		<ItemCode>7290120880627</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון צוואר בקר קפוא (מס 10) בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון צוואר בקר קפוא (מס 10) בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>474</ItemPrice>
+		<UnitOfMeasurePrice>474</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:48:43.000</PriceUpdateTime>
+		<ItemCode>7290120880672</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון צלי כתף קפוא (מס 5) בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון צלי כתף קפוא (מס 5) בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>714</ItemPrice>
+		<UnitOfMeasurePrice>714</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:48:00.000</PriceUpdateTime>
+		<ItemCode>7290120880610</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון צלעות בקר קפוא (מס 2) בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון צלעות בקר קפוא (מס 2) בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>474</ItemPrice>
+		<UnitOfMeasurePrice>474</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:53.000</PriceUpdateTime>
+		<ItemCode>7290120880818</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון קשתית (קוביות לחמין) עם עצם בקר קפוא בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון קשתית (קוביות לחמין) עם עצם בקר קפוא בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>כ6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>534</ItemPrice>
+		<UnitOfMeasurePrice>534</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:49:28.000</PriceUpdateTime>
+		<ItemCode>7290120880788</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>קרטון שריר בקר קפוא (מס 8) בד"צ עד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>קרטון שריר בקר קפוא (מס 8) בד"צ עד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>6</Quantity>
+		<UnitOfMeasure>קרטון</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>630</ItemPrice>
+		<UnitOfMeasurePrice>630</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290019885061</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>רולדת וויט פיש אושן גורמה קפוא - העד"ח</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>רולדת וויט פיש אושן גורמה קפוא - העד"ח</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.567</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>33</ItemPrice>
+		<UnitOfMeasurePrice>33</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:49.000</PriceUpdateTime>
+		<ItemCode>7290018815427</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שניצל צמחי (סויה) - קייטי (ריבוע כתום) {ט. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שניצל צמחי (סויה) - קייטי (ריבוע כתום) {ט. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>24.8</ItemPrice>
+		<UnitOfMeasurePrice>24.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:50.000</PriceUpdateTime>
+		<ItemCode>7290006739186</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שניצל תירס - זוגלובק {מ. לאחר הפסח}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שניצל תירס - זוגלובק {מ. לאחר הפסח}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>2</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>50</ItemPrice>
+		<UnitOfMeasurePrice>50</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:48.000</PriceUpdateTime>
+		<ItemCode>7290120880450</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שעועית ירוקה חתוכה קפואה קייטי</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שעועית ירוקה חתוכה קפואה קייטי</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>10</ItemPrice>
+		<UnitOfMeasurePrice>10</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:49.000</PriceUpdateTime>
+		<ItemCode>7290014072442</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שקית גרגירי חומוס מוקפאים</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שקית גרגירי חומוס מוקפאים</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9</ItemPrice>
+		<UnitOfMeasurePrice>9</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:53.000</PriceUpdateTime>
+		<ItemCode>7290120883185</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>שקית פרחי כרובית מוקפאים עד"ח - ליפרש</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>שקית פרחי כרובית מוקפאים עד"ח - ליפרש</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>0.6</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>20.5</ItemPrice>
+		<UnitOfMeasurePrice>20.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T13:48:52.000</PriceUpdateTime>
+		<ItemCode>7290120883000</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>תות שדה קפוא {לנדא}</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>תות שדה קפוא {לנדא}</ManufacturerItemDescription>
+		<UnitQty>ק"ג</UnitQty>
+		<Quantity>1</Quantity>
+		<UnitOfMeasure>יחידה</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>19.8</ItemPrice>
+		<UnitOfMeasurePrice>19.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:38:28.000</PriceUpdateTime>
+		<ItemCode>7290104966224</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ספרי הגנה באריזה מוגדלת - סקין גארד</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ספרי הגנה באריזה מוגדלת - סקין גארד</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>49.5</ItemPrice>
+		<UnitOfMeasurePrice>49.5</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+<Item>
+		<PriceUpdateTime>2026-05-20T14:38:20.000</PriceUpdateTime>
+		<ItemCode>8720604315288</ItemCode>
+		<ItemType>1</ItemType>
+		<ItemName>ג'ל אלוורה - COOLING GEL</ItemName>
+		<ManufacturerName>לא ידוע</ManufacturerName>
+		<ManufactureCountry>לא ידוע</ManufactureCountry>
+		<ManufacturerItemDescription>ג'ל אלוורה - COOLING GEL</ManufacturerItemDescription>
+		<UnitQty></UnitQty>
+		<Quantity></Quantity>
+		<UnitOfMeasure>null</UnitOfMeasure>
+		<QtyInPackage>לא ידוע</QtyInPackage>
+		<ItemPrice>9.8</ItemPrice>
+		<UnitOfMeasurePrice>9.8</UnitOfMeasurePrice>
+		<AllowDiscount>0</AllowDiscount>
+		<ItemStatus>1</ItemStatus>
+	  </Item>
+</Items></Root>

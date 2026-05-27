@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ChainId>7290058148776</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>23</StoreId>
+  <BikoretNo>2</BikoretNo>
+  <Promotions count="3">
+    <Promotion>
+      <PromotionId>201344362</PromotionId>
+      <PromotionDescription>שוקיים עוף טרי 3 ב99.90</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:05:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-25</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-05-31</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>3</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>99.9</DiscountedPrice>
+      <DiscountedPricePerMida>99.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>18006</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>שוקיים עוף טרי</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>201344356</PromotionId>
+      <PromotionDescription>כרעיים/ירכיים עוף טרי 5 ב99.90</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:04:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-25</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-05-31</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>5</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>99.9</DiscountedPrice>
+      <DiscountedPricePerMida>99.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="2">
+        <Item>
+          <ItemCode>18007</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+        <Item>
+          <ItemCode>18005</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>כרעיים/ירכיים עוף טר</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+    <Promotion>
+      <PromotionId>201344353</PromotionId>
+      <PromotionDescription>עוף שלם טרי 24.90</PromotionDescription>
+      <PromotionUpdateDate>2026-05-27 17:02:00</PromotionUpdateDate>
+      <PromotionStartDate>2026-05-25</PromotionStartDate>
+      <PromotionStartHour>00:00:00</PromotionStartHour>
+      <PromotionEndDate>2026-05-31</PromotionEndDate>
+      <PromotionEndHour>23:59:00</PromotionEndHour>
+      <RewardType>1</RewardType>
+      <DiscountType>1</DiscountType>
+      <DiscountRate>0.00</DiscountRate>
+      <AllowMultipleDiscounts>0</AllowMultipleDiscounts>
+      <MinQty>1</MinQty>
+      <MaxQty>0</MaxQty>
+      <DiscountedPrice>24.9</DiscountedPrice>
+      <DiscountedPricePerMida>24.9</DiscountedPricePerMida>
+      <MinNoOfItemOfered>10</MinNoOfItemOfered>
+      <AdditionalRestrictions>
+        <AdditionalIsCoupon>0</AdditionalIsCoupon>
+        <AdditionalGiftCount>0</AdditionalGiftCount>
+        <Clubs>
+          <ClubId>0</ClubId>
+        </Clubs>
+        <AdditionalIsTotal>0</AdditionalIsTotal>
+        <AdditionalIsActive>1</AdditionalIsActive>
+      </AdditionalRestrictions>
+      <PromotionItems count="1">
+        <Item>
+          <ItemCode>18000</ItemCode>
+          <IsGiftItem>0</IsGiftItem>
+          <ItemType>1</ItemType>
+        </Item>
+      </PromotionItems>
+      <Remarks>עוף שלם טרי</Remarks>
+      <MinPurchaseAmnt>0</MinPurchaseAmnt>
+    </Promotion>
+  </Promotions>
+</Root>

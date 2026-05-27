@@ -1,0 +1,26 @@
+﻿<Root>
+    <ChainId>7290000000003</ChainId>
+    <SubChainId>001</SubChainId>
+    <StoreId>028</StoreId>
+    <BikoretNo>4</BikoretNo>
+    <Items Count="1">
+        <Item>
+            <PriceUpdateDate>2026-05-27 18:25</PriceUpdateDate>
+            <ItemCode>7290112005649</ItemCode>
+            <ItemType>1</ItemType>
+            <ItemName>וניש תוסף לכביסה צבעונית</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription></ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage>1</QtyInPackage>
+            <ItemPrice>41.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

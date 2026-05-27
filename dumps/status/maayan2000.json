@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:59:02.723918+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:02.328747+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-064-202605271800",
+            "link": "http://maayan2000.binaprojects.com//Download.aspx?FileNm=Price7290058159628-064-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:02.329762+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-063-202605271800",
+            "link": "http://maayan2000.binaprojects.com//Download.aspx?FileNm=Price7290058159628-063-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:02.330516+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-062-202605271800",
+            "link": "http://maayan2000.binaprojects.com//Download.aspx?FileNm=Price7290058159628-062-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:02.331228+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-061-202605271800",
+            "link": "http://maayan2000.binaprojects.com//Download.aspx?FileNm=Price7290058159628-061-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:02.331995+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-064-202605271800",
+            "link_collected": "http://maayan2000.binaprojects.com//Download.aspx?FileNm=Price7290058159628-064-202605271800.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:02.332770+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-063-202605271800",
+            "link_collected": "http://maayan2000.binaprojects.com//Download.aspx?FileNm=Price7290058159628-063-202605271800.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:02.335219+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-062-202605271800",
+            "link_collected": "http://maayan2000.binaprojects.com//Download.aspx?FileNm=Price7290058159628-062-202605271800.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:02.633710+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-064-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:02.678949+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-063-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:02.721280+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "file_name": "Price7290058159628-062-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:59:01.617405+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:59:02.723369+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1",
+            "folder_size": {
+                "size": 1.4461164474487305,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/Maayan2000",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/Maayan2000/Price7290058159628-062-202605271800.xml",
+                    "/home/user/projects/price-tracker/dumps/Maayan2000/Price7290058159628-063-202605271800.xml",
+                    "/home/user/projects/price-tracker/dumps/Maayan2000/Price7290058159628-064-202605271800.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290058159628-064-202605271800",
+            "system_timestamp": "2026-05-27 18:59:02.634575+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1"
+        },
+        {
+            "file_name": "Price7290058159628-063-202605271800",
+            "system_timestamp": "2026-05-27 18:59:02.679809+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1"
+        },
+        {
+            "file_name": "Price7290058159628-062-202605271800",
+            "system_timestamp": "2026-05-27 18:59:02.722154+03:00",
+            "task_id": "873fe159-9fbe-4347-982d-ee23b32e08c1"
+        }
+    ]
+}

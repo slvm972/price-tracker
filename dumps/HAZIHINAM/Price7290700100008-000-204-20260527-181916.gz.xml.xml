@@ -1,0 +1,160 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>204</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2025-01-07T13:47:58.000</PriceUpdateTime>
+            <ItemCode>7290000497112</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:06:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לחם אחיד כהה פרוס 750 גרם.</ItemName>
+            <ManufactureName>י. את א. ברמן בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>לחם אחיד כהה פרוס 750 גרם.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>750</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.38</ItemPrice>
+            <UnitOfMeasurePrice>1.12</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:24:14.000</PriceUpdateTime>
+            <ItemCode>7290005431920</ItemCode>
+            <LastSaleDateTime>2026-05-26T19:49:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>עוגת גבינה פירורים לייט 78 גרם</ItemName>
+            <ManufactureName>עדן קינוחים</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>עוגת גבינה פירורים לייט 78 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>78</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.00</ItemPrice>
+            <UnitOfMeasurePrice>10.26</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-10-26T15:48:26.000</PriceUpdateTime>
+            <ItemCode>365398</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:54:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>נקניק חזה הודו בדבש</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>נקניק חזה הודו בדבש</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>96.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:24:48.000</PriceUpdateTime>
+            <ItemCode>7290108356779</ItemCode>
+            <LastSaleDateTime>2026-05-25T13:21:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>שמפו כיף 700 מ&quot;ל מועשר בחומץ תפוחים</ItemName>
+            <ManufactureName>קוסמופארם בעמ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>שמפו כיף 700 מ&quot;ל מועשר בחומץ תפוחים</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>700</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>9.90</ItemPrice>
+            <UnitOfMeasurePrice>1.41</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:24:48.000</PriceUpdateTime>
+            <ItemCode>7290108356786</ItemCode>
+            <LastSaleDateTime>2026-05-20T22:13:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מרכך כיף 700 מ&quot;ל מועשר בחומץ תפוחים</ItemName>
+            <ManufactureName>קוסמופארם בעמ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>מרכך כיף 700 מ&quot;ל מועשר בחומץ תפוחים</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>700</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>9.90</ItemPrice>
+            <UnitOfMeasurePrice>1.41</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-07T13:48:14.000</PriceUpdateTime>
+            <ItemCode>7290004685447</ItemCode>
+            <LastSaleDateTime>2026-05-27T15:52:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לחמניות כוסמין 6 יח בשקית</ItemName>
+            <ManufactureName>מאפית ברמן מקבוצת י. את א. ברמן בעמ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>לחמניות כוסמין 6 יח בשקית</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>450</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>10.90</ItemPrice>
+            <UnitOfMeasurePrice>2.42</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:24:19.000</PriceUpdateTime>
+            <ItemCode>7290108354430</ItemCode>
+            <LastSaleDateTime>2026-05-26T12:51:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>שמפו כיף שמן קוקוס וקרטין</ItemName>
+            <ManufactureName>קוסמופארם בעמ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>שמפו כיף שמן קוקוס וקרטין</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>700</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>9.90</ItemPrice>
+            <UnitOfMeasurePrice>1.41</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-05-11T03:47:10.000</PriceUpdateTime>
+            <ItemCode>7290110328627</ItemCode>
+            <LastSaleDateTime>2026-05-27T17:50:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>יוגורט יופלה GO בננה קרמל סמיך 0% שומן</ItemName>
+            <ManufactureName>תנובה בעמ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>יוגורט יופלה GO בננה קרמל סמיך 0% שומן</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>200</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.40</ItemPrice>
+            <UnitOfMeasurePrice>3.20</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

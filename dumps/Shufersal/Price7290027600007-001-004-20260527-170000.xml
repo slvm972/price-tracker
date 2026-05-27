@@ -1,0 +1,46 @@
+﻿<Root>
+  <ChainID>7290027600007</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>004</StoreID>
+  <BikoretNo>6</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:30:00</PriceUpdateTime>
+      <ItemCode>7296073156604</ItemCode>
+      <LastSaleDateTime>2026-05-27T14:47:52</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוק.חלב עם אגוזי לוז100ג</ItemName>
+      <ManufactureName>דליקה איי.ג'י</ManufactureName>
+      <ManufactureCountry>CH</ManufactureCountry>
+      <ManufactureItemDescription>שוק.חלב עם אגוזי לוז100ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>100.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T08:30:00</PriceUpdateTime>
+      <ItemCode>7296073156628</ItemCode>
+      <LastSaleDateTime>2026-05-20T19:19:15</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוק.מריר+אגוזי לוז 100גר</ItemName>
+      <ManufactureName>דליקה איי.גי</ManufactureName>
+      <ManufactureCountry>CH</ManufactureCountry>
+      <ManufactureItemDescription>שוק.מריר+אגוזי לוז 100גר</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>100.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

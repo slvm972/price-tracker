@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T19:00:03.010463+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:02.617373+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-094-202605271806",
+            "link": "http://supersapir.binaprojects.com//Download.aspx?FileNm=Promo7290058156016-094-202605271806.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:02.618420+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-085-202605271806",
+            "link": "http://supersapir.binaprojects.com//Download.aspx?FileNm=Promo7290058156016-085-202605271806.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:02.619195+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-084-202605271806",
+            "link": "http://supersapir.binaprojects.com//Download.aspx?FileNm=Promo7290058156016-084-202605271806.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:02.619961+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-083-202605271806",
+            "link": "http://supersapir.binaprojects.com//Download.aspx?FileNm=Promo7290058156016-083-202605271806.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:02.620759+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-094-202605271806",
+            "link_collected": "http://supersapir.binaprojects.com//Download.aspx?FileNm=Promo7290058156016-094-202605271806.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:02.621669+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-085-202605271806",
+            "link_collected": "http://supersapir.binaprojects.com//Download.aspx?FileNm=Promo7290058156016-085-202605271806.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:02.624024+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-084-202605271806",
+            "link_collected": "http://supersapir.binaprojects.com//Download.aspx?FileNm=Promo7290058156016-084-202605271806.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:02.920649+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-094-202605271806",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:02.962131+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-084-202605271806",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:03.007774+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "file_name": "Promo7290058156016-085-202605271806",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 19:00:02.020721+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 19:00:03.009903+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977",
+            "folder_size": {
+                "size": 0.11236572265625,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/SuperSapir",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/SuperSapir/Promo7290058156016-084-202605271806.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperSapir/Promo7290058156016-085-202605271806.xml",
+                    "/home/user/projects/price-tracker/dumps/SuperSapir/Promo7290058156016-094-202605271806.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Promo7290058156016-094-202605271806",
+            "system_timestamp": "2026-05-27 19:00:02.921456+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977"
+        },
+        {
+            "file_name": "Promo7290058156016-084-202605271806",
+            "system_timestamp": "2026-05-27 19:00:02.963428+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977"
+        },
+        {
+            "file_name": "Promo7290058156016-085-202605271806",
+            "system_timestamp": "2026-05-27 19:00:03.008649+03:00",
+            "task_id": "3c38f3e2-de94-48fb-81d4-f6feb7799977"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+﻿<Root>
+  <XmlDocVersion>19</XmlDocVersion>
+  <ChainId>7290785400000</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>011</StoreId>
+  <BikoretNo>3</BikoretNo>
+  <DllVerNo>9.4.0.50</DllVerNo>
+  <Items Count="2">
+    <Item>
+      <PriceUpdateDate>2024-05-31 08:05:31</PriceUpdateDate>
+      <ItemCode>7290011018184</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>תה קר פיוז טי אפרסק</ItemName>
+      <ManufacturerName>FUZE TEA</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>תה קר פיוז טי אפרסק 500 מל</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>6.90</ItemPrice>
+      <UnitOfMeasurePrice>0.0138</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>77701</ItemId>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2024-05-31 08:05:34</PriceUpdateDate>
+      <ItemCode>7290110110635</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemName>ספרייט ליים 500 מל</ItemName>
+      <ManufacturerName>קוקה קולה</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>ספרייט 500 מ"ל</ManufacturerItemDescription>
+      <UnitQty>לא ידוע</UnitQty>
+      <Quantity>500.00</Quantity>
+      <UnitOfMeasure>100 מיליליטר</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>6.90</ItemPrice>
+      <UnitOfMeasurePrice>0.0138</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+      <ItemId>175830</ItemId>
+    </Item>
+  </Items>
+</Root>

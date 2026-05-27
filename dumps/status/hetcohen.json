@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:58:59.931890+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:59.748343+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Promo7290455000004-075-202605271715-001",
+            "link": "https://laibcatalog.co.il/CompetitionRegulationsFiles\\latest\\7290455000004/Promo7290455000004-075-202605271715-001.xml.gz",
+            "size": 48762.88
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:59.749439+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Promo7290455000004-065-202605271715-001",
+            "link": "https://laibcatalog.co.il/CompetitionRegulationsFiles\\latest\\7290455000004/Promo7290455000004-065-202605271715-001.xml.gz",
+            "size": 78264.32
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:59.750337+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Price7290455000004-065-202605271715-001",
+            "link": "https://laibcatalog.co.il/CompetitionRegulationsFiles\\latest\\7290455000004/Price7290455000004-065-202605271715-001.xml.gz",
+            "size": 839.68
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:59.751309+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Promo7290455000004-045-202605271715-001",
+            "link": "https://laibcatalog.co.il/CompetitionRegulationsFiles\\latest\\7290455000004/Promo7290455000004-045-202605271715-001.xml.gz",
+            "size": 64942.08
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:59.752431+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Promo7290455000004-075-202605271715-001",
+            "link_collected": "https://laibcatalog.co.il/CompetitionRegulationsFiles\\latest\\7290455000004/Promo7290455000004-075-202605271715-001.xml.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:59.753503+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Promo7290455000004-065-202605271715-001",
+            "link_collected": "https://laibcatalog.co.il/CompetitionRegulationsFiles\\latest\\7290455000004/Promo7290455000004-065-202605271715-001.xml.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:59.755751+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Price7290455000004-065-202605271715-001",
+            "link_collected": "https://laibcatalog.co.il/CompetitionRegulationsFiles\\latest\\7290455000004/Price7290455000004-065-202605271715-001.xml.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:59.869130+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Promo7290455000004-075-202605271715-001",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:59.889290+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Price7290455000004-065-202605271715-001",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:59.929187+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "file_name": "Promo7290455000004-065-202605271715-001",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:58:58.512597+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:58:59.931338+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6",
+            "folder_size": {
+                "size": 4.149786949157715,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/HetCohen",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/HetCohen/Price7290455000004-065-202605271715-001.xml",
+                    "/home/user/projects/price-tracker/dumps/HetCohen/Promo7290455000004-065-202605271715-001.xml",
+                    "/home/user/projects/price-tracker/dumps/HetCohen/Promo7290455000004-075-202605271715-001.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Promo7290455000004-075-202605271715-001",
+            "system_timestamp": "2026-05-27 18:58:59.870323+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6"
+        },
+        {
+            "file_name": "Price7290455000004-065-202605271715-001",
+            "system_timestamp": "2026-05-27 18:58:59.890143+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6"
+        },
+        {
+            "file_name": "Promo7290455000004-065-202605271715-001",
+            "system_timestamp": "2026-05-27 18:58:59.930117+03:00",
+            "task_id": "f14c0e5b-8118-4e0b-a112-effbd665b5a6"
+        }
+    ]
+}

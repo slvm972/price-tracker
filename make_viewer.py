@@ -21,14 +21,18 @@ if not rows:
 
 catalog_by_barcode = {}
 for row in rows:
-    barcode  = row["barcode"]
+    barcode = row["barcode"]
     retailer = row["retailer"]
-    price    = row["price"]
+    price = row["price"]
     previous_price = row.get("previous_price")
     if barcode not in catalog_by_barcode:
         catalog_by_barcode[barcode] = {
-            "c": barcode, "n": row["name"],
-            "m": row["brand"] or "", "s": row["size"] or "", "ch": {}, "prev": {}
+            "c": barcode,
+            "n": row["name"],
+            "m": row["brand"] or "",
+            "s": row["size"] or "",
+            "ch": {},
+            "prev": {},
         }
     existing = catalog_by_barcode[barcode]["ch"].get(retailer)
     if existing is None or price < existing:
@@ -39,6 +43,7 @@ for row in rows:
 catalog = list(catalog_by_barcode.values())
 
 from collections import Counter
+
 chain_counts = Counter()
 for item in catalog:
     for ch in item["ch"]:
@@ -51,14 +56,22 @@ print(f"  Товаров в 2+ сетях:    {in_multiple:,}")
 print(f"  Сети: {', '.join(chains_found)}")
 
 CHAIN_COLORS = {
-    "Victory": "#58a6ff", "Shufersal": "#ff7b72", "Yohananof": "#ffa657",
-    "Osher Ad": "#3fb950", "Tiv Taam": "#d2a8ff", "Hazi Hinam": "#79c0ff",
-    "YaynoeBitan": "#f0883e", "Keshet": "#56d364", "Rami Levy": "#ff6e96",
+    "Victory": "#58a6ff",
+    "Shufersal": "#ff7b72",
+    "Yohananof": "#ffa657",
+    "Osher Ad": "#3fb950",
+    "Tiv Taam": "#d2a8ff",
+    "Hazi Hinam": "#79c0ff",
+    "YaynoeBitan": "#f0883e",
+    "Keshet": "#56d364",
+    "Rami Levy": "#ff6e96",
 }
 
-D   = json.dumps(catalog, ensure_ascii=False)
-C   = json.dumps({ch: CHAIN_COLORS.get(ch, "#8b949e") for ch in chains_found}, ensure_ascii=False)
-CH  = json.dumps(chains_found, ensure_ascii=False)
+D = json.dumps(catalog, ensure_ascii=False)
+C = json.dumps(
+    {ch: CHAIN_COLORS.get(ch, "#8b949e") for ch in chains_found}, ensure_ascii=False
+)
+CH = json.dumps(chains_found, ensure_ascii=False)
 UPD = time.strftime("%d.%m.%Y %H:%M")
 stats = database.get_db_stats()
 
@@ -542,11 +555,11 @@ render();
 </body>
 </html>"""
 
-html = (html
-    .replace("__UPD__",    UPD)
-    .replace("__STATS__",  str(stats["products"]))
+html = (
+    html.replace("__UPD__", UPD)
+    .replace("__STATS__", str(stats["products"]))
     .replace("__PRICES__", str(stats["prices"]))
-    .replace("__DATA__",   D)
+    .replace("__DATA__", D)
     .replace("__COLORS__", C)
     .replace("__CHAINS__", CH)
 )

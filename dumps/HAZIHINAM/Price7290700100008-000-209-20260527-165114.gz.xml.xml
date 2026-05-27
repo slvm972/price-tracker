@@ -1,0 +1,198 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>209</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:23:41.000</PriceUpdateTime>
+            <ItemCode>7290104066566</ItemCode>
+            <LastSaleDateTime>2026-05-27T08:28:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>טחינה אחלה 500 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>טחינה אחלה 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>17.10</ItemPrice>
+            <UnitOfMeasurePrice>3.42</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-07T13:48:08.000</PriceUpdateTime>
+            <ItemCode>7290000497044</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:30:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לחם אקטיב 750 גר&apos;.</ItemName>
+            <ManufactureName>י.את.א.ברמן בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>לחם אקטיב 750 גר&apos;.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>750</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>13.90</ItemPrice>
+            <UnitOfMeasurePrice>1.85</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-27T16:30:15.000</PriceUpdateTime>
+            <ItemCode>6950</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:43:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>קישואים רגיל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קישואים רגיל</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:23:46.000</PriceUpdateTime>
+            <ItemCode>7290106520905</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:56:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סלט טורקי אחלה 400 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>סלט טורקי אחלה 400 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>400</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.70</ItemPrice>
+            <UnitOfMeasurePrice>3.92</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T02:29:27.000</PriceUpdateTime>
+            <ItemCode>7290003989096</ItemCode>
+            <LastSaleDateTime>2026-05-27T16:06:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סלט חצילים אחלה 500 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>סלט חצילים אחלה 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.70</ItemPrice>
+            <UnitOfMeasurePrice>3.14</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:08:08.000</PriceUpdateTime>
+            <ItemCode>7296021275104</ItemCode>
+            <LastSaleDateTime>2026-05-20T10:38:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מועך תפו&quot;א 27 סמ</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מועך תפו&quot;א 27 סמ</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>39.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T02:29:27.000</PriceUpdateTime>
+            <ItemCode>7290104721533</ItemCode>
+            <LastSaleDateTime>2026-05-24T12:02:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>רצועות פלפלים קלויים אחלה 400 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>רצועות פלפלים קלויים אחלה 400 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>400</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>15.70</ItemPrice>
+            <UnitOfMeasurePrice>3.92</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:08:28.000</PriceUpdateTime>
+            <ItemCode>7296021276606</ItemCode>
+            <LastSaleDateTime>2026-05-24T15:52:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סט 3 סכינים שחור</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>סט 3 סכינים שחור</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>19.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-08T09:48:12.000</PriceUpdateTime>
+            <ItemCode>7296021276613</ItemCode>
+            <LastSaleDateTime>2026-05-24T15:52:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סט 6 מזלגות שחור</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>סט 6 מזלגות שחור</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>34.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-03-29T12:30:43.000</PriceUpdateTime>
+            <ItemCode>7290020579188</ItemCode>
+            <LastSaleDateTime>2026-05-25T15:22:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לה פסטה ניוקי ערמונים 500 גרם</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>לה פסטה ניוקי ערמונים 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.00</ItemPrice>
+            <UnitOfMeasurePrice>1.60</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

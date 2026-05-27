@@ -1,0 +1,84 @@
+﻿<Root>
+  <ChainID>7290803800003</ChainID>
+  <SubChainID>000</SubChainID>
+  <StoreID>007</StoreID>
+  <BikoretNo>0</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>6902023070456</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שום מקולף ארוז</ItemName>
+      <ManufactureName>תבליני יוחאי ביטון</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>שום קלוף 1 ק"ג      </ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>1000.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>27.90</ItemPrice>
+      <UnitOfMeasurePrice>2.79</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>7290015992299</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קינוחית             </ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>קינוחית             </ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>7290016411386</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שום מקולף ארוז</ItemName>
+      <ManufactureName>תבליני יוחאי ביטון</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>שום  קלוף 1 ק"ג     </ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>1000.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>27.90</ItemPrice>
+      <UnitOfMeasurePrice>2.79</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T07:00:00</PriceUpdateTime>
+      <ItemCode>7290017229614</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>קורנפלקס יוחננוף 850</ItemName>
+      <ManufactureName>קריליטאליה</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>קורנפלקס יוחננוף 850</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>850.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>1.75</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus />
+    </Item>
+  </Items>
+</Root>

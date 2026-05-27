@@ -1,0 +1,179 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>204</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2026-05-27T17:11:43.000</PriceUpdateTime>
+            <ItemCode>12995</ItemCode>
+            <LastSaleDateTime>2026-05-20T12:20:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>קישואים רגיל</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קישואים רגיל</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:07:26.000</PriceUpdateTime>
+            <ItemCode>7296021263460</ItemCode>
+            <LastSaleDateTime>2026-05-25T09:27:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית אפייה לחם 24.5*15*6.5, NONSTICK-  צבע כסף  flow</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית אפייה לחם 24.5*15*6.5, NONSTICK-  צבע כסף  flow</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>34.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:28.000</PriceUpdateTime>
+            <ItemCode>7296021291333</ItemCode>
+            <LastSaleDateTime>2026-05-20T21:31:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית אפייה עגולה 10.2*23 ס&quot;מ תחתית מתפרקת (1.0) ALUMINIUM</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית אפייה עגולה 10.2*23 ס&quot;מ תחתית מתפרקת (1.0) ALUMINIUM</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>69.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:35.000</PriceUpdateTime>
+            <ItemCode>7296021291289</ItemCode>
+            <LastSaleDateTime>2026-05-21T10:53:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית אפייה מלבנית 5.7*24.5*34.5 ס&quot;מ    Patisserie</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית אפייה מלבנית 5.7*24.5*34.5 ס&quot;מ    Patisserie</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>49.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:35.000</PriceUpdateTime>
+            <ItemCode>7296021291296</ItemCode>
+            <LastSaleDateTime>2026-05-24T16:44:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית לפיצה 1.8*35 ס&quot;מ   Patisserie</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית לפיצה 1.8*35 ס&quot;מ   Patisserie</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>34.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-08-26T17:04:24.000</PriceUpdateTime>
+            <ItemCode>7296021309984</ItemCode>
+            <LastSaleDateTime>2026-05-21T13:42:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>סט 8 צנטרים נירוסטה</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>סט 8 צנטרים נירוסטה</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>29.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-01-09T00:09:35.000</PriceUpdateTime>
+            <ItemCode>7296021291241</ItemCode>
+            <LastSaleDateTime>2026-05-26T17:50:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית אפייה 6 שקעים 3*17.5*26.5 ס&quot;מ   Patisserie</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית אפייה 6 שקעים 3*17.5*26.5 ס&quot;מ   Patisserie</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>34.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2024-12-29T09:01:22.000</PriceUpdateTime>
+            <ItemCode>7296021311970</ItemCode>
+            <LastSaleDateTime>2026-05-20T12:54:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>תבנית  24*11.8 ס&quot;מ אנג&apos;ל Patissserie</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תבנית  24*11.8 ס&quot;מ אנג&apos;ל Patissserie</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>69.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-08-26T17:04:24.000</PriceUpdateTime>
+            <ItemCode>7296021262609</ItemCode>
+            <LastSaleDateTime>2026-05-20T19:46:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>קלף בצק 2 חלקים פלסטיק + נירוסטה 15.2*11.2 ס&quot;מ</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קלף בצק 2 חלקים פלסטיק + נירוסטה 15.2*11.2 ס&quot;מ</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity>0</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>12.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

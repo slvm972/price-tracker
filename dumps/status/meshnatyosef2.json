@@ -1,0 +1,140 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:59:47.194667+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:46.846989+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-004-202605271800",
+            "link": "http://ktshivuk.binaprojects.com//Download.aspx?FileNm=Price7290058289400-004-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:46.847939+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-002-202605271800",
+            "link": "http://ktshivuk.binaprojects.com//Download.aspx?FileNm=Price7290058289400-002-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:46.848764+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-001-202605271800",
+            "link": "http://ktshivuk.binaprojects.com//Download.aspx?FileNm=Price7290058289400-001-202605271800.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:46.849607+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-004-202605271700",
+            "link": "http://ktshivuk.binaprojects.com//Download.aspx?FileNm=Price7290058289400-004-202605271700.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:46.850469+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-004-202605271800",
+            "link_collected": "http://ktshivuk.binaprojects.com//Download.aspx?FileNm=Price7290058289400-004-202605271800.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:46.851229+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-002-202605271800",
+            "link_collected": "http://ktshivuk.binaprojects.com//Download.aspx?FileNm=Price7290058289400-002-202605271800.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:46.853466+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-001-202605271800",
+            "link_collected": "http://ktshivuk.binaprojects.com//Download.aspx?FileNm=Price7290058289400-001-202605271800.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:47.147044+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-004-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:47.189249+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-001-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:47.191624+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "file_name": "Price7290058289400-002-202605271800",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:59:46.478804+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:59:47.193843+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09",
+            "folder_size": {
+                "size": 0.36600303649902344,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/MeshnatYosef1",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/Price7290058289400-001-202605271800.xml",
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/Price7290058289400-002-202605271800.xml",
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/Price7290058289400-004-202605271800.xml",
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/PriceFull5144744100002-001-001-20260526-000001.xml.xml",
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/PriceFull5144744100002-001-001-20260527-000001.xml.xml",
+                    "/home/user/projects/price-tracker/dumps/MeshnatYosef1/Stores5144744100002-000-20260527-000000.xml.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290058289400-004-202605271800",
+            "system_timestamp": "2026-05-27 18:59:47.147894+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09"
+        },
+        {
+            "file_name": "Price7290058289400-001-202605271800",
+            "system_timestamp": "2026-05-27 18:59:47.190617+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09"
+        },
+        {
+            "file_name": "Price7290058289400-002-202605271800",
+            "system_timestamp": "2026-05-27 18:59:47.192426+03:00",
+            "task_id": "573fdf01-842e-425c-a7ba-f58f5ac0ac09"
+        }
+    ]
+}

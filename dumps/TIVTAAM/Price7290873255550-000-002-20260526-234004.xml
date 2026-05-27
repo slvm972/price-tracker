@@ -1,0 +1,103 @@
+﻿<Root>
+  <ChainID>7290873255550</ChainID>
+  <SubChainID>000</SubChainID>
+  <StoreID>002</StoreID>
+  <BikoretNo>8</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-26T07:50:00</PriceUpdateTime>
+      <ItemCode>4033100046490</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>ווינסטון AQUA 100 חפיסה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>ווינסטון AQUA 100 חפ</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-26T15:50:00</PriceUpdateTime>
+      <ItemCode>7290112542519</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>W2300 מייבש שיער מקצועי</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>W2300 מייבש שיער מקצ</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>149.00</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-26T15:50:00</PriceUpdateTime>
+      <ItemCode>7290112549860</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מגהץ קיטור אנכי</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry />
+      <ManufactureItemDescription>מגהץ קיטור אנכי     </ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>149.00</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-26T07:50:00</PriceUpdateTime>
+      <ItemCode>72983997</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>גולף גולד 100 פ.ע חפיסה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>גולף גולד 100 פ.ע חפ</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>29.90</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-26T07:50:00</PriceUpdateTime>
+      <ItemCode>72991398</ItemCode>
+      <LastSaleDateTime>2015-01-01T00:00:00</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>טיים בלו חפיסה</ItemName>
+      <ManufactureName>לא ידוע</ManufactureName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufactureItemDescription>טיים בלו חפיסה      </ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>1</QtyInPackage>
+      <ItemPrice>24.90</ItemPrice>
+      <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

@@ -33,8 +33,8 @@ def get_connection():
     """
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row  # строки как словари: row["name"] вместо row[0]
-    conn.execute("PRAGMA journal_mode=WAL")   # ускоряет запись
-    conn.execute("PRAGMA synchronous=NORMAL") # баланс скорость/надёжность
+    conn.execute("PRAGMA journal_mode=WAL")  # ускоряет запись
+    conn.execute("PRAGMA synchronous=NORMAL")  # баланс скорость/надёжность
     return conn
 
 
@@ -96,6 +96,7 @@ def init_db():
 
 # ── Функции записи ────────────────────────────────────────────────
 
+
 def get_or_create_product(conn, barcode, name, brand="", size=""):
     """
     Возвращает id товара по штрихкоду.
@@ -111,7 +112,7 @@ def get_or_create_product(conn, barcode, name, brand="", size=""):
 
     cur = conn.execute(
         "INSERT INTO products (barcode, name, brand, size) VALUES (?, ?, ?, ?)",
-        (barcode, name, brand, size)
+        (barcode, name, brand, size),
     )
     return cur.lastrowid
 
@@ -123,7 +124,7 @@ def get_or_create_store(conn, retailer, store_code):
     """
     row = conn.execute(
         "SELECT id FROM stores WHERE retailer = ? AND store_code = ?",
-        (retailer, store_code)
+        (retailer, store_code),
     ).fetchone()
 
     if row:
@@ -131,7 +132,7 @@ def get_or_create_store(conn, retailer, store_code):
 
     cur = conn.execute(
         "INSERT INTO stores (retailer, store_code) VALUES (?, ?)",
-        (retailer, store_code)
+        (retailer, store_code),
     )
     return cur.lastrowid
 
@@ -146,7 +147,7 @@ def insert_price(conn, product_id, store_id, price, recorded_at):
     # Если последняя цена совпадает с новой — пропускаем INSERT и возвращаем False.
     row = conn.execute(
         "SELECT price FROM prices WHERE product_id = ? AND store_id = ? ORDER BY id DESC LIMIT 1",
-        (product_id, store_id)
+        (product_id, store_id),
     ).fetchone()
 
     if row is not None:
@@ -159,7 +160,7 @@ def insert_price(conn, product_id, store_id, price, recorded_at):
 
     conn.execute(
         "INSERT INTO prices (product_id, store_id, price, recorded_at) VALUES (?, ?, ?, ?)",
-        (product_id, store_id, price, recorded_at)
+        (product_id, store_id, price, recorded_at),
     )
     return True
 
@@ -190,10 +191,10 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
 
         for item in items:
             barcode = item.get("barcode", "").strip().lstrip("0")
-            name    = item.get("name", "").strip()
-            price   = item.get("price")
-            brand   = item.get("brand", "")
-            size    = item.get("size", "")
+            name = item.get("name", "").strip()
+            price = item.get("price")
+            brand = item.get("brand", "")
+            size = item.get("size", "")
 
             if not barcode or not name or price is None:
                 continue
@@ -215,6 +216,7 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
 
 
 # ── Функции чтения ────────────────────────────────────────────────
+
 
 def get_latest_prices(search_term="", limit=2000):
     """
@@ -275,15 +277,9 @@ def get_latest_prices(search_term="", limit=2000):
 
     if search_term:
         where = "AND p.name LIKE ?"
-        rows = conn.execute(
-            query.format(where),
-            (f"%{search_term}%", limit)
-        ).fetchall()
+        rows = conn.execute(query.format(where), (f"%{search_term}%", limit)).fetchall()
     else:
-        rows = conn.execute(
-            query.format(""),
-            (limit,)
-        ).fetchall()
+        rows = conn.execute(query.format(""), (limit,)).fetchall()
 
     conn.close()
     return [dict(r) for r in rows]
@@ -299,7 +295,8 @@ def get_price_history(barcode, days=30):
         days    — за сколько дней показывать историю
     """
     conn = get_connection()
-    rows = conn.execute("""
+    rows = conn.execute(
+        """
         SELECT
             p.name,
             s.retailer,
@@ -311,7 +308,9 @@ def get_price_history(barcode, days=30):
         WHERE p.barcode = ?
           AND pr.recorded_at >= datetime('now', ? || ' days')
         ORDER BY pr.recorded_at, s.retailer
-    """, (barcode.lstrip("0"), f"-{days}")).fetchall()
+    """,
+        (barcode.lstrip("0"), f"-{days}"),
+    ).fetchall()
     conn.close()
     return [dict(r) for r in rows]
 
@@ -324,14 +323,14 @@ def get_db_stats():
     conn = get_connection()
     stats = {
         "products": conn.execute("SELECT COUNT(*) FROM products").fetchone()[0],
-        "stores":   conn.execute("SELECT COUNT(*) FROM stores").fetchone()[0],
-        "prices":   conn.execute("SELECT COUNT(*) FROM prices").fetchone()[0],
+        "stores": conn.execute("SELECT COUNT(*) FROM stores").fetchone()[0],
+        "prices": conn.execute("SELECT COUNT(*) FROM prices").fetchone()[0],
         "retailers": conn.execute(
             "SELECT retailer, COUNT(DISTINCT store_code) as stores FROM stores GROUP BY retailer"
         ).fetchall(),
-        "last_update": conn.execute(
-            "SELECT MAX(recorded_at) FROM prices"
-        ).fetchone()[0],
+        "last_update": conn.execute("SELECT MAX(recorded_at) FROM prices").fetchone()[
+            0
+        ],
     }
     conn.close()
     return stats

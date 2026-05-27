@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:59:51.781316+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:51.386699+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-025-202605271801",
+            "link": "http://shuk-hayir.binaprojects.com//Download.aspx?FileNm=Promo7290058148776-025-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:51.387645+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-023-202605271801",
+            "link": "http://shuk-hayir.binaprojects.com//Download.aspx?FileNm=Promo7290058148776-023-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:51.388386+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-021-202605271801",
+            "link": "http://shuk-hayir.binaprojects.com//Download.aspx?FileNm=Promo7290058148776-021-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:51.389207+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-018-202605271801",
+            "link": "http://shuk-hayir.binaprojects.com//Download.aspx?FileNm=Promo7290058148776-018-202605271801.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:51.390131+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-025-202605271801",
+            "link_collected": "http://shuk-hayir.binaprojects.com//Download.aspx?FileNm=Promo7290058148776-025-202605271801.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:51.391022+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-023-202605271801",
+            "link_collected": "http://shuk-hayir.binaprojects.com//Download.aspx?FileNm=Promo7290058148776-023-202605271801.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:51.393827+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-021-202605271801",
+            "link_collected": "http://shuk-hayir.binaprojects.com//Download.aspx?FileNm=Promo7290058148776-021-202605271801.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:51.688234+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-025-202605271801",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:51.729734+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-023-202605271801",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:51.778610+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "file_name": "Promo7290058148776-021-202605271801",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:59:50.825712+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:59:51.780785+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794",
+            "folder_size": {
+                "size": 0.0140228271484375,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/ShukAhir",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/ShukAhir/Promo7290058148776-021-202605271801.xml",
+                    "/home/user/projects/price-tracker/dumps/ShukAhir/Promo7290058148776-023-202605271801.xml",
+                    "/home/user/projects/price-tracker/dumps/ShukAhir/Promo7290058148776-025-202605271801.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Promo7290058148776-025-202605271801",
+            "system_timestamp": "2026-05-27 18:59:51.689179+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794"
+        },
+        {
+            "file_name": "Promo7290058148776-023-202605271801",
+            "system_timestamp": "2026-05-27 18:59:51.730926+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794"
+        },
+        {
+            "file_name": "Promo7290058148776-021-202605271801",
+            "system_timestamp": "2026-05-27 18:59:51.779521+03:00",
+            "task_id": "b8ecfbf8-a924-4ccb-b499-aa82de09b794"
+        }
+    ]
+}

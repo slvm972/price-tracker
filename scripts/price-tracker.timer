@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Price Tracker download_all every 6 hours
+
+[Timer]
+OnCalendar=*-*-* 0/6:00:00
+Persistent=true
+Unit=price-tracker.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:59:01.606695+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:01.200034+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-002-202605271803",
+            "link": "http://kingstore.binaprojects.com//Download.aspx?FileNm=Price7290058108879-002-202605271803.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:01.200981+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-334-202605271604",
+            "link": "http://kingstore.binaprojects.com//Download.aspx?FileNm=Price7290058108879-334-202605271604.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:01.216609+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-002-202605271505",
+            "link": "http://kingstore.binaprojects.com//Download.aspx?FileNm=Price7290058108879-002-202605271505.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:59:01.217428+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "PromoFull7290058108879-340-202605271011",
+            "link": "http://kingstore.binaprojects.com//Download.aspx?FileNm=PromoFull7290058108879-340-202605271011.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:01.218529+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-002-202605271803",
+            "link_collected": "http://kingstore.binaprojects.com//Download.aspx?FileNm=Price7290058108879-002-202605271803.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:01.219693+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-334-202605271604",
+            "link_collected": "http://kingstore.binaprojects.com//Download.aspx?FileNm=Price7290058108879-334-202605271604.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:59:01.222389+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-002-202605271505",
+            "link_collected": "http://kingstore.binaprojects.com//Download.aspx?FileNm=Price7290058108879-002-202605271505.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:01.516615+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-002-202605271803",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:01.558424+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-002-202605271505",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:59:01.604057+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "file_name": "Price7290058108879-334-202605271604",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:59:00.550322+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:59:01.606144+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91",
+            "folder_size": {
+                "size": 0.47551631927490234,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/KingStore",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/KingStore/Price7290058108879-002-202605271505.xml",
+                    "/home/user/projects/price-tracker/dumps/KingStore/Price7290058108879-002-202605271803.xml",
+                    "/home/user/projects/price-tracker/dumps/KingStore/Price7290058108879-334-202605271604.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290058108879-002-202605271803",
+            "system_timestamp": "2026-05-27 18:59:01.517428+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91"
+        },
+        {
+            "file_name": "Price7290058108879-002-202605271505",
+            "system_timestamp": "2026-05-27 18:59:01.559267+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91"
+        },
+        {
+            "file_name": "Price7290058108879-334-202605271604",
+            "system_timestamp": "2026-05-27 18:59:01.604945+03:00",
+            "task_id": "367e8412-3147-4a57-91a9-33ea0f60eb91"
+        }
+    ]
+}

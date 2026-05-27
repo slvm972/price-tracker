@@ -7,40 +7,192 @@ download_all.py — скачивает XML-файлы и сохраняет це
   - process_folder_to_db обрабатывает файлы без учёта регистра расширения
 """
 
-import os, sys, gzip, shutil, time
+import argparse
+import asyncio
+import os, sys, gzip, shutil, time, json
 import xml.etree.ElementTree as ET
 import database
+from price_utils import parse_xml_to_items
 
 # ── Абсолютный путь к корневой папке проекта ─────────────────────
 # Всегда D:\price-tracker независимо от того, откуда запущен скрипт
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-DUMPS    = os.path.join(BASE_DIR, "dumps")
+DUMPS = os.path.join(BASE_DIR, "dumps")
 os.makedirs(DUMPS, exist_ok=True)
+ALERTS = os.path.join(BASE_DIR, "alerts")
+os.makedirs(ALERTS, exist_ok=True)
+ALERT_FILE = os.path.join(ALERTS, "new_data.log")
+NONEMPTY_FILE = os.path.join(ALERTS, "nonempty_files.log")
 
-MIN_SIZE = 200_000   # >200 КБ = полный каталог (не обновление)
-LIMIT    = 5
+MIN_SIZE = 200_000  # >200 КБ = полный каталог (не обновление)
+LIMIT = 5
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Download supermarket price XML files and save them into SQLite."
+    )
+    parser.add_argument(
+        "--offline",
+        action="store_true",
+        help="Skip download and process only local dumps/ XML files.",
+    )
+    parser.add_argument(
+        "--force-scrape",
+        action="store_true",
+        help="Attempt scraping even if local data is fresh.",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=LIMIT,
+        help="Maximum number of files to download from scraper when not offline.",
+    )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Run all active scrapers supported by il_supermarket_scarper.",
+    )
+    parser.add_argument(
+        "--chains",
+        type=str,
+        default=None,
+        help="Comma-separated list of scraper names to run. Use --list-chains to see names.",
+    )
+    parser.add_argument(
+        "--list-chains",
+        action="store_true",
+        help="Print all available scraper names and exit.",
+    )
+    return parser.parse_args()
+
+
+async def run_scraper(scraper, limit):
+    async for _ in scraper.scrape(limit=limit):
+        pass
+
+
+args = parse_args()
 
 print(f"Рабочая папка:  {BASE_DIR}")
 print(f"Папка с данными: {DUMPS}")
+if args.offline:
+    print(
+        "Режим: OFFLINE — загрузка данных пропущена, обрабатываются только локальные файлы."
+    )
+elif args.force_scrape:
+    print(
+        "Режим: FORCE SCRAPE — будет попытка загрузить данные даже при свежих локальных файлах."
+    )
 
 # ── Список сетей ──────────────────────────────────────────────────
 # Импортируем ScraperFactory после того как убедились что скрипт запущен правильно
 try:
     from il_supermarket_scarper import ScraperFactory
-except ImportError:
-    print("ОШИБКА: библиотека il_supermarket_scarper не установлена")
+    from il_supermarket_scarper.utils import DiskFileOutput
+except Exception as e:
+    import traceback
+
+    print("REAL IMPORT ERROR:")
+    traceback.print_exc()
+    venv_python = os.path.join(BASE_DIR, ".venv", "bin", "python")
+    print("\nЕсли вы не активировали виртуальное окружение, запустите:")
+    print(f"  {venv_python} {os.path.basename(__file__)}")
+    print("или активируйте .venv и снова запустите python download_all.py")
+    input("\nENTER...")
     sys.exit(1)
 
-CHAINS = [
-    ("Victory",     ScraperFactory.VICTORY_NEW_SOURCE,              "VictoryNewSource"),
-    ("Shufersal",   ScraperFactory.SHUFERSAL,                       "Shufersal"),
-    ("HaziHinam",   ScraperFactory.HAZI_HINAM,                      "HaziHinam"),
-    ("YaynoeBitan", ScraperFactory.YAYNO_BITAN_AND_CARREFOUR,       "YaynotBitanAndCarrefour"),
-    ("Keshet",      ScraperFactory.KESHET,                          "Keshet"),
+# Built-in fallback default chains (small stable set)
+BUILTIN_DEFAULT_CHAINS = [
+    "SHUFERSAL",
+    "HAZI_HINAM",
+    "YAYNO_BITAN_AND_CARREFOUR",
+    "KESHET",
 ]
 
 
+def load_default_chains():
+    """Load default chains from config/default_chains.json if present,
+    otherwise return the built-in fallback list."""
+    cfg_path = os.path.join(BASE_DIR, "config", "default_chains.json")
+    if os.path.exists(cfg_path):
+        try:
+            with open(cfg_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, list) and data:
+                return data
+            print(
+                f"  (warning) {cfg_path} is not a non-empty list — using builtin defaults"
+            )
+        except Exception as e:
+            print(
+                f"  (warning) failed to load {cfg_path}: {e} — using builtin defaults"
+            )
+    return BUILTIN_DEFAULT_CHAINS
+
+
+DEFAULT_CHAINS = load_default_chains()
+
+
+def normalize_chain_name(name):
+    return "".join(ch.upper() for ch in name if ch.isalnum())
+
+
+def get_chain_enum(name):
+    normalized = normalize_chain_name(name)
+    for member in ScraperFactory:
+        if normalize_chain_name(member.name) == normalized:
+            return member
+        if normalize_chain_name(member.value.__name__) == normalized:
+            return member
+    return None
+
+
+def list_available_chains():
+    names = [member.name for member in ScraperFactory]
+    print("Available chains:")
+    for n in names:
+        print(f"  - {n}")
+    print("\nUse --chains name1,name2 or --all to run multiple chains.")
+
+
+def build_chain_list(args):
+    if args.list_chains:
+        list_available_chains()
+        sys.exit(0)
+
+    if args.all:
+        return [
+            (member.value.__name__, member, member.value.__name__)
+            for member in ScraperFactory.all_active()
+        ]
+
+    if args.chains:
+        selected = []
+        for name in args.chains.split(","):
+            name = name.strip()
+            if not name:
+                continue
+            enum = get_chain_enum(name)
+            if enum is None:
+                raise ValueError(
+                    f"Unknown chain '{name}'. Use --list-chains to see available names."
+                )
+            selected.append((enum.value.__name__, enum, enum.value.__name__))
+        return selected
+    # Use DEFAULT_CHAINS to build a list of enums; skip unknowns with a warning.
+    selected = []
+    for name in DEFAULT_CHAINS:
+        enum = get_chain_enum(name)
+        if enum is None:
+            print(f"  (warning) default chain not found in ScraperFactory: {name}")
+            continue
+        selected.append((enum.value.__name__, enum, enum.value.__name__))
+    return selected
+
+
 # ── Разархивирование ──────────────────────────────────────────────
+
 
 def try_decompress(src, dst):
     """Пробует распаковать файл как gzip. Возвращает True если успешно."""
@@ -94,7 +246,7 @@ def decompress_folder(folder):
         elif "." not in f:
             dst = path + ".xml"
             if os.path.exists(dst):
-                continue           # уже распаковано библиотекой
+                continue  # уже распаковано библиотекой
             if try_decompress(path, dst):
                 os.remove(path)
             else:
@@ -102,6 +254,7 @@ def decompress_folder(folder):
 
 
 # ── Поиск папки по нечёткому совпадению ──────────────────────────
+
 
 def find_folder(hint):
     """Ищет папку в DUMPS по нечёткому совпадению имени."""
@@ -115,13 +268,14 @@ def find_folder(hint):
             continue
         dk = d.lower().replace(" ", "").replace("_", "").replace("-", "")
         if key == dk:
-            return fp           # точное совпадение — сразу возвращаем
+            return fp  # точное совпадение — сразу возвращаем
         if key[:8] in dk or dk[:8] in key:
             best = fp
     return best
 
 
 # ── Подсчёт XML-файлов ────────────────────────────────────────────
+
 
 def count_xml_files(folder):
     """
@@ -163,6 +317,7 @@ def has_fresh_data(folder, max_age_hours=24):
 
 # ── Очистка ───────────────────────────────────────────────────────
 
+
 def clear_folder_files(folder):
     """Удаляет все файлы в папке (не рекурсивно)."""
     if not os.path.isdir(folder):
@@ -197,6 +352,7 @@ def clear_status_for_chain(chain_hint):
 
 # ── Диагностика папки ─────────────────────────────────────────────
 
+
 def print_folder_contents(folder, label=""):
     """Выводит список XML-файлов в папке для диагностики."""
     if not os.path.isdir(folder):
@@ -207,7 +363,7 @@ def print_folder_contents(folder, label=""):
     other = [f for f in files if not f.lower().endswith(".xml") and f != "status"]
     print(f"    [{label}] папка: {folder}")
     print(f"    XML файлов: {len(xml_files)}, прочих: {len(other)}")
-    for f in xml_files[:10]:   # показываем первые 10
+    for f in xml_files[:10]:  # показываем первые 10
         size = os.path.getsize(os.path.join(folder, f))
         print(f"      {f}  ({size:,} байт)")
     if len(xml_files) > 10:
@@ -218,57 +374,7 @@ def print_folder_contents(folder, label=""):
 
 # ── Парсинг XML ───────────────────────────────────────────────────
 
-def parse_xml_to_items(xml_path):
-    """Читает один XML-файл, возвращает (store_code, [items])."""
-    fname = os.path.basename(xml_path)
-    if any(kw in fname for kw in ("Promo", "NULL", "promo", "null")):
-        return None, []
-    try:
-        size = os.path.getsize(xml_path)
-    except Exception:
-        return None, []
-    if size < 500:
-        return None, []
-    try:
-        root = ET.parse(xml_path).getroot()
-    except ET.ParseError as e:
-        print(f"    Ошибка парсинга {fname}: {e}")
-        return None, []
-
-    store_code = (
-        root.findtext("StoreId") or
-        root.findtext("BranchId") or
-        root.findtext("SubChainID") or "000"
-    )
-
-    items = []
-    for item in root.findall(".//Item"):
-        barcode = (item.findtext("ItemCode") or "").strip()
-        name    = (item.findtext("ItemName") or "").strip()
-        price   = (item.findtext("ItemPrice") or "").strip()
-        brand   = (item.findtext("ManufacturerName") or "").strip()
-        unit    = (item.findtext("UnitOfMeasure") or "").strip()
-        qty     = (item.findtext("Quantity") or item.findtext("UnitQty") or "").strip()
-
-        if not barcode or not name or not price:
-            continue
-        try:
-            price_f = round(float(price), 2)
-            if price_f <= 0:
-                continue
-        except ValueError:
-            continue
-
-        size_str = f"{qty} {unit}".strip() if (qty or unit) else ""
-        items.append({
-            "barcode": barcode,
-            "name":    name,
-            "price":   price_f,
-            "brand":   brand,
-            "size":    size_str,
-        })
-
-    return store_code, items
+# parse_xml_to_items moved to price_utils.py for easier testing
 
 
 def process_folder_to_db(retailer_name, folder, recorded_at):
@@ -280,10 +386,11 @@ def process_folder_to_db(retailer_name, folder, recorded_at):
     # Берём все .xml (регистр не важен), фильтруем промо и NULL
     all_files = os.listdir(folder)
     xml_files = [
-        f for f in all_files
+        f
+        for f in all_files
         if f.lower().endswith(".xml")
         and "promo" not in f.lower()
-        and "null"  not in f.lower()
+        and "null" not in f.lower()
     ]
 
     if not xml_files:
@@ -291,16 +398,27 @@ def process_folder_to_db(retailer_name, folder, recorded_at):
         xml_files = [f for f in all_files if f.lower().endswith(".xml")]
 
     total_saved = 0
+    parsed_total = 0
     for fname in sorted(xml_files):
         path = os.path.join(folder, fname)
         store_code, items = parse_xml_to_items(path)
+        # Log non-empty XML files even if DB save results in 0
+        try:
+            if items and len(items) > 0:
+                with open(NONEMPTY_FILE, "a", encoding="utf-8") as nf:
+                    nf.write(
+                        f"{time.strftime('%Y-%m-%d %H:%M:%S')}\t{retailer_name}\t{fname}\t{len(items)}\n"
+                    )
+        except Exception:
+            pass
         if not items:
             continue
+        parsed_total += len(items)
         saved = database.save_items_batch(retailer_name, store_code, items, recorded_at)
         total_saved += saved
         print(f"    {fname}: {len(items):,} товаров → {saved:,} в БД")
 
-    return total_saved
+    return total_saved, parsed_total
 
 
 # ── Основной цикл ─────────────────────────────────────────────────
@@ -318,7 +436,9 @@ recorded_at = time.strftime("%Y-%m-%d %H:%M:%S")
 print(f"\n[2/3] Скачивание и парсинг...")
 results = []
 
-for name, factory, folder_hint in CHAINS:
+chaingroups = build_chain_list(args)
+
+for name, factory, folder_hint in chaingroups:
     print(f"\n▶ {name}...")
     t0 = time.time()
 
@@ -329,24 +449,35 @@ for name, factory, folder_hint in CHAINS:
     folder = os.path.abspath(folder)
     os.makedirs(folder, exist_ok=True)
 
-    # Если данные свежие — только пишем в БД
-    if has_fresh_data(folder):
+    # Если данные свежие — только пишем в БД, но если указан force_scrape, всё равно скачиваем.
+    if has_fresh_data(folder) and not args.force_scrape:
         large, small = count_xml_files(folder)
         print(f"  Данные свежие ({large} полных + {small} обновлений) — пишем в БД...")
-        saved = process_folder_to_db(name, folder, recorded_at)
-        results.append((name, large, small, "CACHED", saved))
+        saved, parsed = process_folder_to_db(name, folder, recorded_at)
+        results.append((name, large, small, "CACHED", saved, parsed))
         continue
 
-    # Чистим старые файлы и статус
-    clear_folder_files(folder)
-    clear_status_for_chain(folder_hint)
+    if args.offline:
+        print(
+            "  OFFLINE: пропускаем скачивание и обрабатываем только локальные данные."
+        )
+        saved, parsed = process_folder_to_db(name, folder, recorded_at)
+        status = "OFFLINE" if count_xml_files(folder)[0] > 0 else "EMPTY"
+        results.append((name, *count_xml_files(folder), status, saved, parsed))
+        continue
+
+    # ВРЕМЕННО отключено для отладки
+    # clear_folder_files(folder)
+    # clear_status_for_chain(folder_hint)
 
     # Скачиваем
     ok, err = False, ""
     old_cwd = os.getcwd()
     try:
-        os.chdir(BASE_DIR)        # убеждаемся что рабочая папка правильная
-        factory.value().scrape(limit=LIMIT)
+        os.chdir(BASE_DIR)  # убеждаемся что рабочая папка правильная
+        file_output = DiskFileOutput(storage_path=folder)
+        scraper = factory.value(file_output=file_output)
+        asyncio.run(run_scraper(scraper, args.limit))
         ok = True
     except Exception as e:
         err = str(e)
@@ -379,27 +510,41 @@ for name, factory, folder_hint in CHAINS:
 
     if not ok and large + small == 0:
         print(f"  ✗ {err} ({elapsed}с)")
-        results.append((name, 0, 0, f"ERR: {err}", 0))
+        results.append((name, 0, 0, f"ERR: {err}", 0, 0))
         continue
 
     # Диагностика — всегда показываем что нашли
     print_folder_contents(folder, f"после скачивания")
 
     print(f"  Сохраняем в базу данных...")
-    saved = process_folder_to_db(name, folder, recorded_at)
+    saved, parsed = process_folder_to_db(name, folder, recorded_at)
 
     status = "OK" if large > 0 else "SMALL"
     icon = "✓" if large > 0 else "⚠"
-    print(f"  {icon} {large} полных + {small} обновлений | {saved:,} записей ({elapsed}с)")
-    results.append((name, large, small, status, saved))
+    print(
+        f"  {icon} {large} полных + {small} обновлений | {parsed:,} распознано → {saved:,} записей ({elapsed}с)"
+    )
+    results.append((name, large, small, status, saved, parsed))
+    # Оповещение: если появились новые записи — логируем в alerts/new_data.log
+    try:
+        if saved and saved > 0:
+            with open(ALERT_FILE, "a", encoding="utf-8") as af:
+                af.write(
+                    f"{time.strftime('%Y-%m-%d %H:%M:%S')}\t{name}\t{saved}\t{folder}\n"
+                )
+            print(
+                f"  → Новые записи: {saved} для {name} (записано в alerts/new_data.log)"
+            )
+    except Exception:
+        pass
 
 # ── Итог ─────────────────────────────────────────────────────────
 print("\n" + "=" * 60)
 print("ИТОГ:")
 print("=" * 60)
-for name, large, small, status, saved in results:
+for name, large, small, status, saved, parsed in results:
     icon = "✓" if status in ("OK", "CACHED") else "⚠" if status == "SMALL" else "✗"
-    print(f"  {icon} {name:<15} {saved:>8,} записей в БД")
+    print(f"  {icon} {name:<15} {saved:>8,} записей в БД  | {parsed:,} распозн.")
 
 stats = database.get_db_stats()
 print(f"\nБаза данных:")

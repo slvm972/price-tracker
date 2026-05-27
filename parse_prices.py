@@ -21,47 +21,66 @@ def parse_xml_file(xml_path, search_term=""):
         return None, []
 
     # Читаем информацию о магазине
-    store_id = (root.findtext("StoreId") or
-                root.findtext("store_id") or
-                root.findtext("SubChainID") or "?")
+    store_id = (
+        root.findtext("StoreId")
+        or root.findtext("store_id")
+        or root.findtext("SubChainID")
+        or "?"
+    )
     store_name = root.findtext("StoreName") or root.findtext("ChainName") or ""
 
     found = []
     # XML структура может быть разной — ищем товары на всех уровнях
-    items = (root.findall(".//Item") or
-             root.findall(".//item") or
-             root.findall(".//Product") or [])
+    items = (
+        root.findall(".//Item")
+        or root.findall(".//item")
+        or root.findall(".//Product")
+        or []
+    )
 
     for item in items:
-        name = (item.findtext("ItemName") or
-                item.findtext("item_name") or
-                item.findtext("Name") or "")
-        price = (item.findtext("ItemPrice") or
-                 item.findtext("item_price") or
-                 item.findtext("Price") or "")
-        unit = (item.findtext("UnitOfMeasure") or
-                item.findtext("unit_of_measure") or
-                item.findtext("Unit") or "")
-        code = (item.findtext("ItemCode") or
-                item.findtext("item_code") or
-                item.findtext("Code") or "")
-        qty = (item.findtext("Quantity") or
-               item.findtext("UnitQty") or "")
+        name = (
+            item.findtext("ItemName")
+            or item.findtext("item_name")
+            or item.findtext("Name")
+            or ""
+        )
+        price = (
+            item.findtext("ItemPrice")
+            or item.findtext("item_price")
+            or item.findtext("Price")
+            or ""
+        )
+        unit = (
+            item.findtext("UnitOfMeasure")
+            or item.findtext("unit_of_measure")
+            or item.findtext("Unit")
+            or ""
+        )
+        code = (
+            item.findtext("ItemCode")
+            or item.findtext("item_code")
+            or item.findtext("Code")
+            or ""
+        )
+        qty = item.findtext("Quantity") or item.findtext("UnitQty") or ""
 
         # Фильтр по поисковому слову (без учёта регистра)
         if search_term and search_term.lower() not in name.lower():
             continue
 
-        found.append({
-            "store_id": store_id,
-            "store_name": store_name,
-            "name": name,
-            "price": price,
-            "unit": unit,
-            "code": code,
-            "qty": qty,
-            "file": os.path.basename(xml_path)
-        })
+        found.append(
+            {
+                "store_id": store_id,
+                "store_name": store_name,
+                "name": name,
+                "price": price,
+                "unit": unit,
+                "code": code,
+                "qty": qty,
+                "file": os.path.basename(xml_path),
+            }
+        )
 
     return len(items), found
 
@@ -100,7 +119,9 @@ def search_all_files(folder, search_term=""):
             total_items += count
             all_results.extend(found)
             if count > 0:
-                print(f"    Товаров в файле: {count:,}, найдено совпадений: {len(found)}")
+                print(
+                    f"    Товаров в файле: {count:,}, найдено совпадений: {len(found)}"
+                )
 
     print()
     print(f"Итого товаров в базе: {total_items:,}")
@@ -122,8 +143,10 @@ def search_all_files(folder, search_term=""):
     print(f"Найдено совпадений: {len(all_results)}")
     print("=" * 60)
     for item in all_results[:100]:  # показываем до 100 результатов
-        price_str = f"{item['price']} ₪" if item['price'] else "цена неизвестна"
-        unit_str = f"  {item['qty']} {item['unit']}" if item['qty'] or item['unit'] else ""
+        price_str = f"{item['price']} ₪" if item["price"] else "цена неизвестна"
+        unit_str = (
+            f"  {item['qty']} {item['unit']}" if item["qty"] or item["unit"] else ""
+        )
         print(f"  {item['name']}")
         print(f"    💰 {price_str}{unit_str}  |  Магазин №{item['store_id']}")
         print()

@@ -1,0 +1,137 @@
+{
+    "_metadata": {
+        "last_modified": "2026-05-27T18:58:19.662007+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:19.271372+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-065-202605271702",
+            "link": "http://superbareket.binaprojects.com//Download.aspx?FileNm=Price7290875100001-065-202605271702.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:19.272337+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-063-202605271702",
+            "link": "http://superbareket.binaprojects.com//Download.aspx?FileNm=Price7290875100001-063-202605271702.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:19.273175+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-066-202605271602",
+            "link": "http://superbareket.binaprojects.com//Download.aspx?FileNm=Price7290875100001-066-202605271602.gz",
+            "size": null
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 18:58:19.273991+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-063-202605271602",
+            "link": "http://superbareket.binaprojects.com//Download.aspx?FileNm=Price7290875100001-063-202605271602.gz",
+            "size": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:19.274953+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-065-202605271702",
+            "link_collected": "http://superbareket.binaprojects.com//Download.aspx?FileNm=Price7290875100001-065-202605271702.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:19.275767+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-063-202605271702",
+            "link_collected": "http://superbareket.binaprojects.com//Download.aspx?FileNm=Price7290875100001-063-202605271702.gz"
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 18:58:19.278287+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-066-202605271602",
+            "link_collected": "http://superbareket.binaprojects.com//Download.aspx?FileNm=Price7290875100001-066-202605271602.gz"
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:19.571612+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-065-202605271702",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:19.615454+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-066-202605271602",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 18:58:19.659340+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "file_name": "Price7290875100001-063-202605271702",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 18:58:18.855535+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 18:58:19.661431+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4",
+            "folder_size": {
+                "size": 0.005455970764160156,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/Bareket",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/Bareket/Price7290875100001-063-202605271702.xml",
+                    "/home/user/projects/price-tracker/dumps/Bareket/Price7290875100001-065-202605271702.xml",
+                    "/home/user/projects/price-tracker/dumps/Bareket/Price7290875100001-066-202605271602.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290875100001-065-202605271702",
+            "system_timestamp": "2026-05-27 18:58:19.572411+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4"
+        },
+        {
+            "file_name": "Price7290875100001-066-202605271602",
+            "system_timestamp": "2026-05-27 18:58:19.616661+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4"
+        },
+        {
+            "file_name": "Price7290875100001-063-202605271702",
+            "system_timestamp": "2026-05-27 18:58:19.660229+03:00",
+            "task_id": "79b812cf-5f29-4533-87d9-e5ec51d41cf4"
+        }
+    ]
+}

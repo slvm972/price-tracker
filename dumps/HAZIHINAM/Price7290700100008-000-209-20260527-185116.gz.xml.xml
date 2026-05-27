@@ -1,0 +1,236 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>209</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:24:14.000</PriceUpdateTime>
+            <ItemCode>7290005431920</ItemCode>
+            <LastSaleDateTime>2026-05-27T10:43:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>עוגת גבינה פירורים לייט 78 גרם</ItemName>
+            <ManufactureName>עדן קינוחים</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>עוגת גבינה פירורים לייט 78 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>78</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.00</ItemPrice>
+            <UnitOfMeasurePrice>10.26</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-07T13:48:14.000</PriceUpdateTime>
+            <ItemCode>7290004685447</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:40:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לחמניות כוסמין 6 יח בשקית</ItemName>
+            <ManufactureName>מאפית ברמן מקבוצת י. את א. ברמן בעמ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>לחמניות כוסמין 6 יח בשקית</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>450</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>10.90</ItemPrice>
+            <UnitOfMeasurePrice>2.42</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-05-11T03:47:10.000</PriceUpdateTime>
+            <ItemCode>7290110328627</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:42:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>יוגורט יופלה GO בננה קרמל סמיך 0% שומן</ItemName>
+            <ManufactureName>תנובה בעמ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>יוגורט יופלה GO בננה קרמל סמיך 0% שומן</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>200</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>6.40</ItemPrice>
+            <UnitOfMeasurePrice>3.20</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-01T03:23:34.000</PriceUpdateTime>
+            <ItemCode>7290008645935</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:39:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>חומוס ניגוב אחלה 750 גרם</ItemName>
+            <ManufactureName>שטראוס גרופ בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>חומוס ניגוב אחלה 750 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>750</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>12.10</ItemPrice>
+            <UnitOfMeasurePrice>1.61</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-07T13:48:19.000</PriceUpdateTime>
+            <ItemCode>7290004033736</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:43:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לחם עננים בסגנון בריוש 500 גרם</ItemName>
+            <ManufactureName>מאפית ברמן מקבוצת י. את א. ברמן בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>לחם עננים בסגנון בריוש 500 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>16.10</ItemPrice>
+            <UnitOfMeasurePrice>3.22</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-05-11T03:47:48.000</PriceUpdateTime>
+            <ItemCode>7290116932781</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:49:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>משקה יוגורט גו בטעם אפרסק פסיפלורה 500 מ&quot;ל</ItemName>
+            <ManufactureName>תנובה בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>משקה יוגורט גו בטעם אפרסק פסיפלורה 500 מ&quot;ל</ManufactureItemDescription>
+            <UnitQty>מיליליטר</UnitQty>
+            <Quantity>500</Quantity>
+            <UnitOfMeasure>100מיליליטר</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>13.90</ItemPrice>
+            <UnitOfMeasurePrice>2.78</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-10-26T15:48:26.000</PriceUpdateTime>
+            <ItemCode>365398</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:11:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>נקניק חזה הודו בדבש</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>נקניק חזה הודו בדבש</ManufactureItemDescription>
+            <UnitQty>קילוגרם</UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>96.00</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-05-28T13:23:26.000</PriceUpdateTime>
+            <ItemCode>7290110115203</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:39:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>קוקה קולה 1.5 ליטר</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>קוקה קולה 1.5 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>2</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.30</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-28T11:42:10.000</PriceUpdateTime>
+            <ItemCode>7290002037163</ItemCode>
+            <LastSaleDateTime>2026-05-27T18:47:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>לחם אחיד כהה פרוס 750 גרם.</ItemName>
+            <ManufactureName>י. את א. ברמן בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>לחם אחיד כהה פרוס 750 גרם.</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>750</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.38</ItemPrice>
+            <UnitOfMeasurePrice>1.12</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-01-02T10:05:29.000</PriceUpdateTime>
+            <ItemCode>8004030026018</ItemCode>
+            <LastSaleDateTime>2026-05-27T12:22:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>ריו מארה טונה מקסיקני 160 גרם</ItemName>
+            <ManufactureName>בולטון אלימנטרי בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IT</ManufactureCountry>
+            <ManufactureItemDescription>ריו מארה טונה מקסיקני 160 גרם</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>160</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>18.10</ItemPrice>
+            <UnitOfMeasurePrice>11.31</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-06-04T17:26:12.000</PriceUpdateTime>
+            <ItemCode>7290115201703</ItemCode>
+            <LastSaleDateTime>2026-05-27T17:21:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>ביסלי ברביקיו 200ג&apos;</ItemName>
+            <ManufactureName>אסם השקעות בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>ביסלי ברביקיו 200ג&apos;</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>200</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>8.70</ItemPrice>
+            <UnitOfMeasurePrice>4.35</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2025-11-11T11:05:38.000</PriceUpdateTime>
+            <ItemCode>7290119384426</ItemCode>
+            <LastSaleDateTime>2026-05-27T13:06:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מעדן חלב דנונה פרו בטעם פסק זמן</ItemName>
+            <ManufactureName>שטראוס בריאות בע&quot;מ</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>מעדן חלב דנונה פרו בטעם פסק זמן</ManufactureItemDescription>
+            <UnitQty>גרם</UnitQty>
+            <Quantity>150</Quantity>
+            <UnitOfMeasure>100גרם</UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>5.90</ItemPrice>
+            <UnitOfMeasurePrice>3.93</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

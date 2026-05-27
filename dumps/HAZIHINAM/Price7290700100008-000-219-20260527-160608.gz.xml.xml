@@ -1,0 +1,65 @@
+﻿<Root>
+    <ChainID>7290700100008</ChainID>
+    <SubChainID>000</SubChainID>
+    <StoreID>219</StoreID>
+    <BikoretNo>4</BikoretNo>
+    <Items>
+        <Item>
+            <PriceUpdateTime>2026-05-27T15:27:41.000</PriceUpdateTime>
+            <ItemCode>7461</ItemCode>
+            <LastSaleDateTime>2026-05-27T14:38:00.000</LastSaleDateTime>
+            <ItemType>0</ItemType>
+            <ItemName>תירס ארוז</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>תירס ארוז</ManufactureItemDescription>
+            <UnitQty></UnitQty>
+            <Quantity></Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>1</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>9.90</ItemPrice>
+            <UnitOfMeasurePrice></UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:12.000</PriceUpdateTime>
+            <ItemCode>7290112962546</ItemCode>
+            <LastSaleDateTime>2026-05-25T18:13:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>מאגדת שלגוני לה פרוטה מלון תפוח 5 יח</ItemName>
+            <ManufactureName></ManufactureName>
+            <ManufactureCountry></ManufactureCountry>
+            <ManufactureItemDescription>מאגדת שלגוני לה פרוטה מלון תפוח 5 יח</ManufactureItemDescription>
+            <UnitQty>יחידות</UnitQty>
+            <Quantity>5</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>26.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+        <Item>
+            <PriceUpdateTime>2026-05-04T09:24:11.000</PriceUpdateTime>
+            <ItemCode>7290106576971</ItemCode>
+            <LastSaleDateTime>2026-05-21T11:51:00.000</LastSaleDateTime>
+            <ItemType>1</ItemType>
+            <ItemName>גלידה ל&apos;קרמריה שוקולד בלגי 1.4 ליטר</ItemName>
+            <ManufactureName>גלידות נסטלה</ManufactureName>
+            <ManufactureCountry>IL</ManufactureCountry>
+            <ManufactureItemDescription>גלידה ל&apos;קרמריה שוקולד בלגי 1.4 ליטר</ManufactureItemDescription>
+            <UnitQty>ליטר</UnitQty>
+            <Quantity>1</Quantity>
+            <UnitOfMeasure></UnitOfMeasure>
+            <BisWeighted>0</BisWeighted>
+            <QtyInPackage/>
+            <ItemPrice>22.90</ItemPrice>
+            <UnitOfMeasurePrice>0.00</UnitOfMeasurePrice>
+            <AllowDiscount>1</AllowDiscount>
+            <ItemStatus>1</ItemStatus>
+        </Item>
+    </Items>
+</Root>

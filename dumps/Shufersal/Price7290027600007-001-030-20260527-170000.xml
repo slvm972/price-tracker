@@ -1,0 +1,46 @@
+﻿<Root>
+  <ChainID>7290027600007</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>030</StoreID>
+  <BikoretNo>1</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T13:47:00</PriceUpdateTime>
+      <ItemCode>7290009150537</ItemCode>
+      <LastSaleDateTime>2026-05-20T12:30:36</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוקולד שוויצרי 100 גרם</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שוקולד שוויצרי 100 גרם</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>8.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateTime>2026-05-27T13:46:00</PriceUpdateTime>
+      <ItemCode>7296073146940</ItemCode>
+      <LastSaleDateTime>2026-05-27T15:03:03</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוקולד חלב אוורירי 100 ג</ItemName>
+      <ManufactureName>דליקה איי.גי</ManufactureName>
+      <ManufactureCountry>CH</ManufactureCountry>
+      <ManufactureItemDescription>שוקולד חלב אוורירי 100 ג</ManufactureItemDescription>
+      <UnitQty>גרם</UnitQty>
+      <Quantity>100.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>12.90</ItemPrice>
+      <UnitOfMeasurePrice>12.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

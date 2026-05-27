@@ -1,0 +1,27 @@
+﻿<Root>
+  <ChainID>7290644700005</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>342</StoreID>
+  <BikoretNo>8</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2025-08-11T00:03:04.000</PriceUpdateTime>
+      <ItemCode>7290110556891</ItemCode>
+      <LastSaleDateTime>2026-04-27T08:02:28.000</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>מאסט וויט מנטה 66גר</ItemName>
+      <ManufactureName>אסקום קונפקשיין</ManufactureName>
+      <ManufactureCountry>DE</ManufactureCountry>
+      <ManufactureItemDescription>צנצנת מסטיק מאסט בטעם מנטה הדרים 66 גרם</ManufactureItemDescription>
+      <UnitQty>יחידה</UnitQty>
+      <Quantity>66.00</Quantity>
+      <UnitOfMeasure>100 גרם</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage/>
+      <ItemPrice>14.90</ItemPrice>
+      <UnitOfMeasurePrice>22.58</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>2</ItemStatus>
+    </Item>
+  </Items>
+</Root>

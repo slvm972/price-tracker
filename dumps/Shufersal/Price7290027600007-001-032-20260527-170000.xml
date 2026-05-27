@@ -1,0 +1,27 @@
+﻿<Root>
+  <ChainID>7290027600007</ChainID>
+  <SubChainID>001</SubChainID>
+  <StoreID>032</StoreID>
+  <BikoretNo>9</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateTime>2026-05-27T06:51:00</PriceUpdateTime>
+      <ItemCode>7290009150537</ItemCode>
+      <LastSaleDateTime>2026-05-27T16:21:39</LastSaleDateTime>
+      <ItemType>1</ItemType>
+      <ItemName>שוקולד שוויצרי 100 גרם</ItemName>
+      <ManufactureName>כללי</ManufactureName>
+      <ManufactureCountry>IL</ManufactureCountry>
+      <ManufactureItemDescription>שוקולד שוויצרי 100 גרם</ManufactureItemDescription>
+      <UnitQty>יחידות</UnitQty>
+      <Quantity>1.00</Quantity>
+      <UnitOfMeasure>יחידות</UnitOfMeasure>
+      <bIsWeighted>0</bIsWeighted>
+      <QtyInPackage>0</QtyInPackage>
+      <ItemPrice>8.90</ItemPrice>
+      <UnitOfMeasurePrice>8.90</UnitOfMeasurePrice>
+      <AllowDiscount>1</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>

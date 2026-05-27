@@ -4,10 +4,12 @@ import os, gzip, shutil, inspect, re
 SAVE_FOLDER = "dumps\\Victory"
 os.makedirs(SAVE_FOLDER, exist_ok=True)
 
+
 def clear_folder(folder):
     for f in os.listdir(folder):
         os.remove(os.path.join(folder, f))
         print(f"  Удалён: {f}")
+
 
 def extract_and_show(folder):
     for f in list(os.listdir(folder)):
@@ -15,7 +17,7 @@ def extract_and_show(folder):
         if f.endswith(".gz"):
             xml = path[:-3]
             try:
-                with gzip.open(path, 'rb') as fi, open(xml, 'wb') as fo:
+                with gzip.open(path, "rb") as fi, open(xml, "wb") as fo:
                     shutil.copyfileobj(fi, fo)
                 os.remove(path)
             except Exception as e:
@@ -34,13 +36,16 @@ def extract_and_show(folder):
             print(f"  [другой] {f}: {size:,} байт")
     return full
 
+
 # ── Шаг 1: читаем исходники библиотеки ────────────────────────────
 print("=" * 60)
 print("Шаг 1: Читаем исходный код Victory и Victory_new_source")
 print("=" * 60)
 
-for name, factory in [("VICTORY", ScraperFactory.VICTORY),
-                      ("VICTORY_NEW_SOURCE", ScraperFactory.VICTORY_NEW_SOURCE)]:
+for name, factory in [
+    ("VICTORY", ScraperFactory.VICTORY),
+    ("VICTORY_NEW_SOURCE", ScraperFactory.VICTORY_NEW_SOURCE),
+]:
     try:
         obj = factory.value()
         src = inspect.getfile(type(obj))
@@ -81,8 +86,16 @@ try:
         # Файлы могут быть в другой папке — проверим dumps целиком
         for d in os.listdir("dumps"):
             dp = os.path.join("dumps", d)
-            if os.path.isdir(dp) and d not in ("Shufersal","Victory","RamiLevy",
-                                                "HAZIHINAM","OSHERAD","TIVTAAM","YOHANANOF","status"):
+            if os.path.isdir(dp) and d not in (
+                "Shufersal",
+                "Victory",
+                "RamiLevy",
+                "HAZIHINAM",
+                "OSHERAD",
+                "TIVTAAM",
+                "YOHANANOF",
+                "status",
+            ):
                 flist = os.listdir(dp)
                 if flist:
                     print(f"  Найдено в dumps\\{d}: {len(flist)} файлов")
@@ -120,7 +133,9 @@ n = extract_and_show(SAVE_FOLDER)
 if n > 0:
     print(f"\n✓ УСПЕХ! Скачано {n} полных файлов с ценами!")
     print("  Теперь запустите: python parse_prices.py")
-    print("  (не забудьте поменять DUMPS_FOLDER на 'dumps\\\\Victory' в parse_prices.py)")
+    print(
+        "  (не забудьте поменять DUMPS_FOLDER на 'dumps\\\\Victory' в parse_prices.py)"
+    )
 else:
     print("\n✗ PriceFull не найдены. Смотрите лог выше для диагностики.")
     print("  Возможно Victory хранит полные цены на другом сервере.")

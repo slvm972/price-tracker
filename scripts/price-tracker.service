@@ -1,0 +1,12 @@
+[Unit]
+Description=Price Tracker download_all service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/user/projects/price-tracker
+ExecStart=/home/user/projects/price-tracker/.venv/bin/python /home/user/projects/price-tracker/scripts/scheduler.py --once
+
+[Install]
+WantedBy=multi-user.target

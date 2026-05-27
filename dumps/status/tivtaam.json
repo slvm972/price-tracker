@@ -69,5 +69,140 @@
             },
             "completed_successfully": true
         }
+    ],
+    "_metadata": {
+        "last_modified": "2026-05-27T19:00:12.410046+03:00"
+    },
+    "events": [
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:12.124553+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260526-234004.gz",
+            "link": null,
+            "size": 688
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:12.126121+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260527-094004.gz",
+            "link": null,
+            "size": 783
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:12.127212+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260527-104004.gz",
+            "link": null,
+            "size": 783
+        },
+        {
+            "status": "saw",
+            "system_timestamp": "2026-05-27 19:00:12.128137+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260527-114004.gz",
+            "link": null,
+            "size": 783
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:12.129118+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260526-234004.gz",
+            "link_collected": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:12.130097+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260527-094004.gz",
+            "link_collected": null
+        },
+        {
+            "status": "collected",
+            "system_timestamp": "2026-05-27 19:00:12.131896+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260527-104004.gz",
+            "link_collected": null
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:12.351544+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260526-234004.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:12.399377+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260527-104004.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        },
+        {
+            "status": "downloaded",
+            "system_timestamp": "2026-05-27 19:00:12.405250+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "file_name": "Price7290873255550-000-002-20260527-094004.gz",
+            "downloaded_successfully": true,
+            "extracted_successfully": true,
+            "error_message": null,
+            "restart_and_retry": false
+        }
+    ],
+    "global_status": [
+        {
+            "status": "started",
+            "system_timestamp": "2026-05-27 19:00:11.863940+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "limit": 3,
+            "files_requested": null,
+            "store_id": null,
+            "files_names_to_scrape": null,
+            "when_date": null,
+            "filter_null": false,
+            "filter_zero": false
+        },
+        {
+            "status": "estimated_size",
+            "system_timestamp": "2026-05-27 19:00:12.408872+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45",
+            "folder_size": {
+                "size": 0.017754554748535156,
+                "unit": "MB",
+                "folder": "/home/user/projects/price-tracker/dumps/TIVTAAM",
+                "folder_content": [
+                    "/home/user/projects/price-tracker/dumps/TIVTAAM/Price7290873255550-000-002-20260526-234004.xml",
+                    "/home/user/projects/price-tracker/dumps/TIVTAAM/Price7290873255550-000-002-20260527-094004.xml",
+                    "/home/user/projects/price-tracker/dumps/TIVTAAM/Price7290873255550-000-002-20260527-104004.xml"
+                ]
+            },
+            "completed_successfully": true
+        }
+    ],
+    "verified_downloads": [
+        {
+            "file_name": "Price7290873255550-000-002-20260526-234004.gz",
+            "system_timestamp": "2026-05-27 19:00:12.352788+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45"
+        },
+        {
+            "file_name": "Price7290873255550-000-002-20260527-104004.gz",
+            "system_timestamp": "2026-05-27 19:00:12.401688+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45"
+        },
+        {
+            "file_name": "Price7290873255550-000-002-20260527-094004.gz",
+            "system_timestamp": "2026-05-27 19:00:12.406760+03:00",
+            "task_id": "0cf4749b-10aa-417a-8a24-93eaa2010e45"
+        }
     ]
 }

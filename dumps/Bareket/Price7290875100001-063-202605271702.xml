@@ -1,0 +1,62 @@
+<Root>
+  <ChainId>7290875100001</ChainId>
+  <SubChainId>1</SubChainId>
+  <StoreId>63</StoreId>
+  <BikoretNo>3</BikoretNo>
+  <Items>
+    <Item>
+      <PriceUpdateDate>2026-05-27 16:15:00</PriceUpdateDate>
+      <ItemCode>415</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>שזיף אדום</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שזיף אדום</ManufacturerItemDescription>
+      <UnitQty>ק"ג</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>0000000000</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0.0000</QtyInPackage>
+      <ItemPrice>29.9</ItemPrice>
+      <UnitOfMeasurePrice>29.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 16:15:00</PriceUpdateDate>
+      <ItemCode>417</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>שזיף ירוק</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שזיף ירוק</ManufacturerItemDescription>
+      <UnitQty>ק"ג</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>0000000000</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0.0000</QtyInPackage>
+      <ItemPrice>29.9</ItemPrice>
+      <UnitOfMeasurePrice>29.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+    <Item>
+      <PriceUpdateDate>2026-05-27 16:15:00</PriceUpdateDate>
+      <ItemCode>418</ItemCode>
+      <ItemType>1</ItemType>
+      <ItemNm>שזיף שגיב</ItemNm>
+      <ManufacturerName>לא ידוע</ManufacturerName>
+      <ManufactureCountry>לא ידוע</ManufactureCountry>
+      <ManufacturerItemDescription>שזיף שגיב</ManufacturerItemDescription>
+      <UnitQty>ק"ג</UnitQty>
+      <Quantity>1</Quantity>
+      <UnitOfMeasure>0000000000</UnitOfMeasure>
+      <bIsWeighted>1</bIsWeighted>
+      <QtyInPackage>0.0000</QtyInPackage>
+      <ItemPrice>29.9</ItemPrice>
+      <UnitOfMeasurePrice>29.9000</UnitOfMeasurePrice>
+      <AllowDiscount>0</AllowDiscount>
+      <ItemStatus>1</ItemStatus>
+    </Item>
+  </Items>
+</Root>
