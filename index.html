@@ -27,9 +27,23 @@ body.ltr .lang-sw{margin-right:0;margin-left:auto;}
 .lang-btn{padding:4px 10px;border-radius:6px;border:1px solid var(--brd);background:var(--surf2);color:var(--dim);font-size:.8rem;cursor:pointer;transition:all .15s;font-weight:600;letter-spacing:.03em;}
 .lang-btn:hover{border-color:var(--acc);color:var(--txt);}
 .lang-btn.active{background:var(--acc);border-color:var(--acc);color:#0d1117;}
+.chain-config{position:absolute;top:70px;right:20px;left:auto;width:min(360px,calc(100% - 40px));max-height:420px;overflow:auto;background:var(--surf);border:1px solid var(--brd);border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.25);padding:14px;z-index:220;}
+body.ltr .chain-config{left:20px;right:auto;}
+.chain-config.hidden{display:none;}
+.cc-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px;}
+.cc-head span{font-size:.9rem;font-weight:700;}
+.cc-head button{border:none;background:transparent;color:var(--dim);font-size:1.2rem;cursor:pointer;}
+.cc-subtitle{font-size:.78rem;color:var(--dim);line-height:1.5;margin-bottom:10px;}
+.cc-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 10px;border-radius:10px;transition:background .15s;cursor:pointer;}
+.cc-row:hover{background:rgba(88,166,255,.06);}
+.cc-row input{cursor:pointer;}
+.cc-info{display:flex;align-items:center;gap:8px;flex:1;min-width:0;}
+.cc-color{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+.cc-name{font-size:.84rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.cc-count{font-size:.7rem;color:var(--dim);}
 
 /* ── Chain selector ── */
-#chain-panel{background:var(--surf);border-bottom:2px solid var(--brd);padding:11px 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+#chain-panel{background:var(--surf);border-bottom:2px solid var(--brd);padding:11px 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;position:relative;}
 .chain-btn{display:flex;align-items:center;gap:6px;padding:5px 12px;border-radius:8px;cursor:pointer;border:2px solid var(--brd);background:var(--surf2);font-size:.8rem;color:var(--dim);transition:all .18s;user-select:none;font-family:inherit;}
 .chain-btn:hover{border-color:#555;color:var(--txt);}
 .chain-btn.active{font-weight:700;}
@@ -61,6 +75,8 @@ body.ltr .chain-tip{margin-right:0;margin-left:auto;}
 .price-row{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px;}
 .price-cell{flex:1;min-width:105px;padding:7px 9px;border-radius:7px;border:1px solid var(--brd);}
 .price-cell.best{border-color:var(--grn);background:rgba(63,185,80,.07);}
+.add-basket{border:none;border-radius:50%;width:32px;height:32px;font-size:1rem;color:var(--txt);background:var(--surf2);cursor:pointer;transition:all .15s;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);}
+.add-basket:hover{background:var(--acc);color:#0d1117;}
 .pc-chain{font-size:.65rem;font-weight:700;margin-bottom:3px;}
 .pc-price{font-family:'Space Mono',monospace;font-size:1.1rem;font-weight:700;}
 .pc-unit{font-size:.63rem;color:var(--dim);margin-top:1px;}
@@ -88,6 +104,23 @@ body.ltr .cell:last-child{border-right:none;}
 .cdiff{font-size:.68rem;margin-top:2px;}.cdiff.ch{color:var(--grn);}.cdiff.ex{color:var(--red);}
 .nd{font-size:.75rem;color:var(--dim);margin-top:5px;opacity:.3;}
 
+#res.bv{padding:16px 20px;display:flex;flex-direction:column;gap:16px;}
+.basket-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;}
+.basket-card{background:var(--surf);border:1px solid var(--brd);border-radius:12px;padding:14px;}
+.basket-card h4{font-size:.87rem;margin-bottom:6px;}
+.basket-card strong{display:block;font-size:1.2rem;margin-top:6px;}
+.basket-item{background:var(--surf);border:1px solid var(--brd);border-radius:12px;padding:14px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;}
+.basket-item-info{display:flex;flex-direction:column;gap:6px;min-width:0;}
+.basket-item-name{font-size:.92rem;font-weight:700;line-height:1.3;}
+.basket-item-meta{font-size:.78rem;color:var(--dim);}
+.qty-controls{display:flex;align-items:center;gap:8px;margin-top:8px;}
+.qty-controls button{width:28px;height:28px;border:none;border-radius:8px;background:var(--surf2);color:var(--dim);cursor:pointer;}
+.qty-controls span{min-width:30px;text-align:center;font-weight:700;}
+.remove-basket{border:none;background:transparent;color:var(--red);cursor:pointer;font-size:.85rem;}
+.basket-total{margin-top:10px;font-size:.9rem;color:var(--dim);}
+.basket-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;}
+.basket-counter{background:var(--acc);color:#0d1117;border-radius:999px;padding:2px 8px;font-size:.75rem;}
+
 .empty{padding:60px 20px;text-align:center;color:var(--dim);line-height:2;}
 #pg{padding:12px 20px 30px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;}
 .pb{padding:5px 11px;background:var(--surf2);border:1px solid var(--brd);border-radius:6px;color:var(--dim);cursor:pointer;font-size:.79rem;transition:all .15s;}
@@ -104,15 +137,25 @@ body.ltr .cell:last-child{border-right:none;}
     <input id="q" type="text" autofocus>
   </div>
   <div class="hs">
-    <b id="cnt">0</b> <span data-t="results"></span> &nbsp;|&nbsp; 27.05.2026 22:25<br>
+    <b id="cnt">0</b> <span data-t="results"></span> &nbsp;|&nbsp; 28.05.2026 12:58<br>
     37193 <span data-t="products"></span> · 158735 <span data-t="priceRecords"></span>
   </div>
   <!-- Переключатель языков -->
   <div class="lang-sw">
     <button class="lang-btn" data-lang="he">עב</button>
     <button class="lang-btn" data-lang="ru">Ру</button>
+    <button id="manage-chains" class="lang-btn" type="button" data-t="manageChains"></button>
   </div>
 </header>
+
+<div id="chain-config" class="chain-config hidden" aria-hidden="true">
+  <div class="cc-head">
+    <span data-t="manageChains"></span>
+    <button id="close-chain-config" type="button">×</button>
+  </div>
+  <div class="cc-subtitle" data-t="manageChainsInfo"></div>
+  <div id="chain-config-list"></div>
+</div>
 
 <div id="chain-panel">
   <span class="lbl" data-t="myChains"></span>
@@ -146,6 +189,7 @@ body.ltr .cell:last-child{border-right:none;}
   <div class="div"></div>
   <button class="vb on" id="bg" data-t="viewGrid"></button>
   <button class="vb" id="bc" data-t="viewCompare"></button>
+  <button class="vb" id="bb" data-t="viewBasket"><span data-t="viewBasket"></span> <span id="basket-counter" class="basket-counter"></span></button>
 </div>
 
 <div id="res" class="gv"></div>
@@ -158,6 +202,21 @@ const CH  = ["MahsaniAShukNewSource", "HaziHinam", "Victory", "YaynoeBitan", "Vi
 const PG  = 60;
 const LS_CHAINS = "price_tracker_active_chains";
 const LS_LANG   = "price_tracker_lang";
+const LS_BASKET = "price_tracker_basket";
+const BY = new Map(A.map(item => [item.c, item]));
+
+function loadBasket() {
+  try {
+    const saved = localStorage.getItem(LS_BASKET);
+    if (saved) return JSON.parse(saved).filter(item => item && item.id);
+  } catch(e) {}
+  return [];
+}
+function saveBasket() {
+  try { localStorage.setItem(LS_BASKET, JSON.stringify(basket)); } catch(e) {}
+}
+let basket = loadBasket();
+function basketCount() { return basket.reduce((sum,item) => sum + (item.qty||0), 0); }
 
 // ── Все строки интерфейса ─────────────────────────────────────────
 const LANG = {
@@ -174,9 +233,10 @@ const LANG = {
     catWater: "מים", catCoffee: "קפה", catOil: "שמן", catChoc: "שוקולד",
     sortNetworks: "מס׳ רשתות ↓", sortSaving: "חיסכון ↓",
     sortAsc: "מחיר ↑", sortDesc: "מחיר ↓",
-    viewGrid: "📦 כרטיסיות", viewCompare: "⚖️ השוואה",
+    viewGrid: "📦 כרטיסיות", viewCompare: "⚖️ השוואה", viewBasket: "🛒 סל קניות",
+    addToBasket: "הוסף לעגלה", remove: "הסר", basketTotal: "סה"כ לפי רשת", checkoutTotal: "סה"כ", manageChains: "נהל רשתות", manageChainsInfo: "בחר רשתות להצגה",
     cheapest: "זול✓", saving: (n) => `💰 חיסכון עד ${n} ₪`,
-    noData: "אין נתונים", noResults: "לא נמצאו תוצאות",
+    noData: "אין נתונים", noResults: "לא נמצאו תוצאות", emptyBasket: "עגלה ריקה",
     networks: "רשתות", moreExpensive: (n) => `+${n} ₪ יותר יקר`, cheapestLabel: "הכי זול",
   },
   ru: {
@@ -192,9 +252,10 @@ const LANG = {
     catWater: "Вода", catCoffee: "Кофе", catOil: "Масло", catChoc: "Шоколад",
     sortNetworks: "По сетям ↓", sortSaving: "По экономии ↓",
     sortAsc: "Цена ↑", sortDesc: "Цена ↓",
-    viewGrid: "📦 Карточки", viewCompare: "⚖️ Сравнение",
+    viewGrid: "📦 Карточки", viewCompare: "⚖️ Сравнение", viewBasket: "🛒 Корзина",
+    addToBasket: "Добавить в корзину", remove: "Удалить", basketTotal: "Итого по сети", checkoutTotal: "Итого", manageChains: "Управление магазинами", manageChainsInfo: "Выберите магазины для отображения",
     cheapest: "Дёшево✓", saving: (n) => `💰 Экономия до ${n} ₪`,
-    noData: "Нет данных", noResults: "Ничего не найдено",
+    noData: "Нет данных", noResults: "Ничего не найдено", emptyBasket: "Корзина пуста",
     networks: "сетей", moreExpensive: (n) => `+${n} ₪ дороже`, cheapestLabel: "Дешевле всех",
   }
 };
@@ -267,15 +328,15 @@ function buildChainButtons() {
   const container = document.getElementById("chain-btns");
   container.innerHTML = "";
   CH.forEach(ch => {
+    if (!activeChains.has(ch)) return;
     const color = C[ch] || "#8b949e";
     const count = A.filter(r => r.ch[ch]).length;
-    const on = activeChains.has(ch);
     const btn = document.createElement("button");
-    btn.className = "chain-btn" + (on ? " active" : "");
+    btn.className = "chain-btn active";
     btn.dataset.chain = ch;
-    btn.style.borderColor = on ? color : "";
-    btn.style.background  = on ? color + "22" : "";
-    btn.style.color       = on ? color : "";
+    btn.style.borderColor = color;
+    btn.style.background  = color + "22";
+    btn.style.color       = color;
     btn.innerHTML = `<span class="chain-dot" style="background:${color}"></span>${ch}<span class="chain-count">${count.toLocaleString()}</span>`;
     btn.addEventListener("click", () => toggleChain(ch, btn, color));
     container.appendChild(btn);
@@ -283,27 +344,74 @@ function buildChainButtons() {
   updateChainTip();
 }
 
+function buildChainConfig() {
+  const container = document.getElementById("chain-config-list");
+  if (!container) return;
+  container.innerHTML = "";
+  CH.forEach(ch => {
+    const color = C[ch] || "#8b949e";
+    const count = A.filter(r => r.ch[ch]).length;
+    const checked = activeChains.has(ch);
+    const row = document.createElement("label");
+    row.className = "cc-row";
+    row.innerHTML = `
+      <span class="cc-info">
+        <input type="checkbox" data-chain="${ch}" ${checked ? "checked" : ""}>
+        <span class="cc-color" style="background:${color}"></span>
+        <span class="cc-name">${ch}</span>
+      </span>
+      <span class="cc-count">${count.toLocaleString()}</span>
+    `;
+    row.querySelector("input").addEventListener("change", e => {
+      if (!e.target.checked && activeChains.size <= 1) {
+        e.target.checked = true;
+        return;
+      }
+      toggleChain(ch, null, color);
+    });
+    container.appendChild(row);
+  });
+}
+
 function toggleChain(ch, btn, color) {
   if (activeChains.has(ch)) {
     if (activeChains.size <= 1) return;
     activeChains.delete(ch);
-    btn.classList.remove("active");
-    btn.style.borderColor = btn.style.background = btn.style.color = "";
   } else {
     activeChains.add(ch);
-    btn.classList.add("active");
-    btn.style.borderColor = color;
-    btn.style.background  = color + "22";
-    btn.style.color       = color;
   }
-  saveActiveChains(); updateChainTip(); pg=1; render();
+  saveActiveChains();
+  buildChainButtons();
+  buildChainConfig();
+  updateChainTip();
+  pg=1; render();
 }
 
 document.getElementById("chain-all").addEventListener("click", () => {
   activeChains = new Set(CH);
   saveActiveChains();
   buildChainButtons();
+  buildChainConfig();
   pg=1; render();
+});
+
+document.getElementById("manage-chains").addEventListener("click", () => {
+  const panel = document.getElementById("chain-config");
+  panel.classList.toggle("hidden");
+  panel.setAttribute("aria-hidden", panel.classList.contains("hidden") ? "true" : "false");
+});
+document.getElementById("close-chain-config").addEventListener("click", () => {
+  const panel = document.getElementById("chain-config");
+  panel.classList.add("hidden");
+  panel.setAttribute("aria-hidden", "true");
+});
+
+document.addEventListener("click", e => {
+  const panel = document.getElementById("chain-config");
+  if (!panel.classList.contains("hidden") && !e.target.closest("#chain-config") && !e.target.closest("#manage-chains")) {
+    panel.classList.add("hidden");
+    panel.setAttribute("aria-hidden", "true");
+  }
 });
 
 function updateChainTip() {
@@ -364,6 +472,7 @@ function renderGrid(sl) {
         <div class="pc-price" style="color:${col}">${price} <span style="font-size:.7rem;color:var(--dim)">₪</span></div>
         ${diffText?`<div class="pc-diff${diff>0?" up":" down"}">${diffText} ₪</div>`:""}
         ${r.s?`<div class="pc-unit">${r.s}</div>`:""}
+        <button class="add-basket" type="button" data-barcode="${r.c}" data-chain="${chain}" data-price="${price}" title="${L.addToBasket}">+</button>
       </div>`;
     }).join("");
     return `<div class="card" style="animation-delay:${(i%24)*10}ms">
@@ -393,6 +502,7 @@ function renderCompare(sl) {
         </div>
         <div class="cpr" style="color:${col}">${price} <s>₪</s></div>
         ${r.s?`<div style="font-size:.65rem;color:var(--dim)">${r.s}</div>`:""}
+        <button class="add-basket" type="button" data-barcode="${r.c}" data-chain="${chain}" data-price="${price}" title="${L.addToBasket}">+</button>
         ${diff>0?`<div class="cdiff ex">${L.moreExpensive(diff)}</div>`:`<div class="cdiff ch">${L.cheapestLabel}</div>`}
       </div>`;
     }).join("");
@@ -409,16 +519,57 @@ function renderCompare(sl) {
   }).join("");
 }
 
+function renderBasket() {
+  const L = LANG[lang];
+  if (!basket.length) return `<div class="empty">${L.emptyBasket}</div>`;
+  const totals = {};
+  activeChains.forEach(chain => totals[chain] = 0);
+  basket.forEach(item => {
+    totals[item.chain] = (totals[item.chain] || 0) + item.price * item.qty;
+  });
+  const summary = Object.entries(totals)
+    .sort((a,b)=>a[1]-b[1])
+    .map(([chain,total]) => {
+      const color = C[chain] || "#8b949e";
+      return `<div class="basket-card">
+        <h4 style="color:${color}">${chain}</h4>
+        <strong>${total.toFixed(2)} ₪</strong>
+        <div class="basket-total">${L.basketTotal}</div>
+      </div>`;
+    }).join("");
+  const items = basket.map(item => {
+    return `<div class="basket-item">
+      <div class="basket-item-info">
+        <div class="basket-item-name">${item.name} · ${item.chain}</div>
+        <div class="basket-item-meta">${item.brand || ""}${item.brand?" · " : ""}${item.size || ""} · ${item.price} ₪</div>
+        <div class="qty-controls">
+          <button type="button" class="qty-btn" data-action="dec" data-id="${item.id}">-</button>
+          <span>${item.qty}</span>
+          <button type="button" class="qty-btn" data-action="inc" data-id="${item.id}">+</button>
+          <button type="button" class="remove-basket" data-id="${item.id}">${L.remove}</button>
+        </div>
+      </div>
+      <div class="basket-footer">
+        <span>${L.checkoutTotal}: ${(item.price * item.qty).toFixed(2)} ₪</span>
+      </div>
+    </div>`;
+  }).join("");
+  return `<div class="basket-summary">${summary}</div><div>${items}</div>`;
+}
+
 function render() {
   const L=LANG[lang];
   const f=filt(), s=doSort(f), total=s.length;
   const sl=s.slice((pg-1)*PG, pg*PG);
   document.getElementById("cnt").textContent=total.toLocaleString();
-  document.getElementById("res").innerHTML=sl.length
-    ?(mode==="compare"?renderCompare(sl):renderGrid(sl))
-    :`<div class="empty">${L.noResults}</div>`;
-  const pages=Math.ceil(total/PG);
+  document.getElementById("basket-counter").textContent = basketCount() ? basketCount() : "";
+  const content = mode === "basket"
+    ? renderBasket()
+    : sl.length ? (mode === "compare" ? renderCompare(sl) : renderGrid(sl)) : `<div class="empty">${L.noResults}</div>`;
+  document.getElementById("res").innerHTML = content;
   const p=document.getElementById("pg");
+  if (mode === "basket") { p.innerHTML = ""; return; }
+  const pages=Math.ceil(total/PG);
   if(pages<=1){p.innerHTML="";return;}
   let b="";
   if(pg>1) b+=`<button class="pb" onclick="go(${pg-1})">‹</button>`;
@@ -459,16 +610,68 @@ document.querySelector(".bar").addEventListener("click",e=>{
 document.getElementById("bg").addEventListener("click",()=>{
   mode="grid";document.getElementById("res").className="gv";
   document.getElementById("bg").classList.add("on");
-  document.getElementById("bc").classList.remove("on");pg=1;render();
+  document.getElementById("bc").classList.remove("on");
+  document.getElementById("bb").classList.remove("on");
+  pg=1;render();
 });
 document.getElementById("bc").addEventListener("click",()=>{
   mode="compare";document.getElementById("res").className="cv";
   document.getElementById("bc").classList.add("on");
-  document.getElementById("bg").classList.remove("on");pg=1;render();
+  document.getElementById("bg").classList.remove("on");
+  document.getElementById("bb").classList.remove("on");
+  pg=1;render();
+});
+document.getElementById("bb").addEventListener("click",()=>{
+  mode="basket";document.getElementById("res").className="bv";
+  document.getElementById("bb").classList.add("on");
+  document.getElementById("bc").classList.remove("on");
+  document.getElementById("bg").classList.remove("on");
+  render();
+});
+
+document.getElementById("res").addEventListener("click", e => {
+  const add = e.target.closest(".add-basket");
+  if (add) {
+    const barcode = add.dataset.barcode;
+    const chain = add.dataset.chain;
+    const price = Number(add.dataset.price);
+    const item = BY.get(barcode);
+    if (!item) return;
+    const id = `${barcode}::${chain}`;
+    const existing = basket.find(x=>x.id===id);
+    if (existing) existing.qty += 1;
+    else basket.push({
+      id, barcode, chain, qty:1,
+      price, name:item.n, brand:item.m||"", size:item.s||""
+    });
+    saveBasket();
+    if (mode==="basket") render(); else render();
+    return;
+  }
+  const qtyBtn = e.target.closest(".qty-btn");
+  if (qtyBtn) {
+    const id = qtyBtn.dataset.id;
+    const action = qtyBtn.dataset.action;
+    const item = basket.find(x=>x.id===id);
+    if (!item) return;
+    item.qty += action==="inc" ? 1 : -1;
+    if (item.qty < 1) item.qty = 1;
+    saveBasket();
+    render();
+    return;
+  }
+  const rem = e.target.closest(".remove-basket");
+  if (rem) {
+    basket = basket.filter(x=>x.id!==rem.dataset.id);
+    saveBasket();
+    render();
+    return;
+  }
 });
 
 // ── Инициализация ─────────────────────────────────────────────────
 buildChainButtons();
+buildChainConfig();
 applyLang();   // применяем язык (включая строки кнопок через data-t)
 render();
 </script>
