@@ -561,8 +561,11 @@ function render() {
   const L=LANG[lang];
   const f=filt(), s=doSort(f), total=s.length;
   const sl=s.slice((pg-1)*PG, pg*PG);
-  document.getElementById("cnt").textContent=total.toLocaleString();
-  document.getElementById("basket-counter").textContent = basketCount() ? basketCount() : "";
+  const cntEl = document.getElementById("cnt");
+    if (cntEl) cntEl.textContent = total.toLocaleString();
+
+    const basketCounterEl = document.getElementById("basket-counter");
+    if (basketCounterEl) basketCounterEl.textContent = basketCount() ? basketCount() : "";
   const content = mode === "basket"
     ? renderBasket()
     : sl.length ? (mode === "compare" ? renderCompare(sl) : renderGrid(sl)) : `<div class="empty">${L.noResults}</div>`;
