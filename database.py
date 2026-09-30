@@ -1,5 +1,5 @@
 """
-database.py — SQLite-хранилище для price-tracker.
+database.py - SQLite-хранилище для price-tracker.
 
 Поток данных:
     download_all.py → парсит XML → вызывает функции этого файла → SQLite
@@ -7,7 +7,7 @@ database.py — SQLite-хранилище для price-tracker.
 """
 # Diff format test
 
-database.py — SQLite-хранилище для price-tracker.
+database.py - SQLite-хранилище для price-tracker.
 
 Поток данных:
     download_all.py → парсит XML → вызывает функции этого файла → SQLite
@@ -33,7 +33,7 @@ def get_connection():
         need = ".".join(str(x) for x in _MIN_SQLITE_VERSION)
         have = ".".join(str(x) for x in ver)
         raise RuntimeError(
-            f"SQLite {have} слишком старый — нужен >= {need}.\n"
+            f"SQLite {have} слишком старый - нужен >= {need}.\n"
             "Обновите Python (3.12+) или пересоберите SQLite: https://www.sqlite.org/download.html"
         )
     conn = sqlite3.connect(DB_PATH)
@@ -184,8 +184,8 @@ def _batch_get_or_create_products(conn, items):
 def _insert_price(conn, product_id, store_id, price, recorded_at, cache):
     """
     Добавляет запись о цене если она изменилась.
-    cache — локальный словарь {(product_id, store_id): last_price},
-    передаётся явно (не глобальная переменная — этап 3).
+    cache - локальный словарь {(product_id, store_id): last_price},
+    передаётся явно (не глобальная переменная - этап 3).
     Возвращает True если запись была добавлена.
     """
     key = (product_id, store_id)
@@ -221,10 +221,10 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
     Сохраняет список товаров одного магазина одной транзакцией.
 
     Аргументы:
-        retailer    — название сети: "Victory"
-        store_code  — StoreId из XML: "001"
-        items       — список словарей: [{"barcode", "name", "price", "brand", "size"}, ...]
-        recorded_at — время записи (по умолчанию — сейчас)
+        retailer    - название сети: "Victory"
+        store_code  - StoreId из XML: "001"
+        items       - список словарей: [{"barcode", "name", "price", "brand", "size"}, ...]
+        recorded_at - время записи (по умолчанию - сейчас)
     """
     if not items:
         return 0
@@ -270,7 +270,7 @@ def save_promos_batch(retailer, store_code, promos, recorded_at=None):
     """
     Сохраняет акционные цены из Promo*.xml (этап 5).
 
-    promos — список словарей: [{"barcode", "name", "promo_price", "start_date", "end_date"}, ...]
+    promos - список словарей: [{"barcode", "name", "promo_price", "start_date", "end_date"}, ...]
     """
     if not promos:
         return 0
