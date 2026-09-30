@@ -1,6 +1,4 @@
 """
-# Diff format test
-
 database.py — SQLite-хранилище для price-tracker.
 
 Поток данных:
