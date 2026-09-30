@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  price-tracker:
+    build: .
+    image: price-tracker:latest
+    volumes:
+      - ./dumps:/app/dumps
+      - ./prices.db:/app/prices.db
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["--offline", "--limit", "1"]
