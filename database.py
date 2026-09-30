@@ -2,16 +2,9 @@
 database.py - SQLite-хранилище для price-tracker.
 
 Поток данных:
-    download_all.py → парсит XML → вызывает функции этого файла → SQLite
-    make_viewer.py  → вызывает функции этого файла → HTML
+    download_all.py -> парсит XML -> вызывает функции этого файла -> SQLite
+    make_viewer.py  -> вызывает функции этого файла -> HTML
 """
-# Diff format test
-
-database.py - SQLite-хранилище для price-tracker.
-
-Поток данных:
-    download_all.py → парсит XML → вызывает функции этого файла → SQLite
-    make_viewer.py  → вызывает функции этого файла → HTML
 
 import sqlite3
 import os
