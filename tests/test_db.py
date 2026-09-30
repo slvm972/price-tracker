@@ -69,6 +69,15 @@ def test_save_promos_batch(tmp_path, monkeypatch):
     assert stats["promotions"] == 1
 
 
+def test_normalize_barcode():
+    """Проверка корректной нормализации штрихкодов."""
+    assert database.normalize_barcode("000123") == "123"
+    assert database.normalize_barcode("  00123  ") == "123"
+    assert database.normalize_barcode(123) == "123"
+    assert database.normalize_barcode(None) == ""
+    assert database.normalize_barcode("") == ""
+
+
 def test_sqlite_version():
     """SQLite должна быть >= 3.25 для оконных функций."""
     import sqlite3
