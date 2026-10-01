@@ -8,7 +8,7 @@ database.py - SQLite-хранилище для price-tracker.
 
 import sqlite3
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "prices.db")
 
@@ -230,7 +230,7 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
         return 0
 
     if recorded_at is None:
-        recorded_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        recorded_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
     conn = get_connection()
     saved = 0
