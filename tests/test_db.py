@@ -1,6 +1,11 @@
-import pathlib, sys
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+import pathlib
+import sys
+
+# Гарантируем, что корень проекта находится в начале sys.path для избежания конфликтов импорта
+ROOT = str(pathlib.Path(__file__).resolve().parent.parent)
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
 import database
 
 
