@@ -27,7 +27,7 @@ def parse_xml_to_items(xml_path):
         return None, []
     try:
         root = ET.parse(xml_path).getroot()
-    except ET.ParseError:
+    except Exception:
         return None, []
 
     store_code = (
@@ -86,7 +86,7 @@ def parse_promo_xml(xml_path):
         return None, []
     try:
         root = ET.parse(xml_path).getroot()
-    except ET.ParseError:
+    except Exception:
         return None, []
 
     store_code = (
