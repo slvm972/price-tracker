@@ -16,6 +16,13 @@ DB_PATH = os.path.join(os.path.dirname(__file__), "prices.db")
 _MIN_SQLITE_VERSION = (3, 25, 0)
 
 
+def normalize_barcode(barcode):
+    """Приводит штрихкод к единому формату: обрезает пробелы и удаляет лидирующие нули."""
+    if barcode is None:
+        return ""
+    return str(barcode).strip().lstrip("0")
+
+
 def get_connection():
     """
     Возвращает соединение с базой данных.
@@ -137,7 +144,7 @@ def _batch_get_or_create_products(conn, items):
     if not items:
         return []
 
-    barcodes = [item.get("barcode", "").strip().lstrip("0") for item in items]
+    barcodes = [normalize_barcode(item.get("barcode", "")) for item in items]
     unique_barcodes = list(dict.fromkeys(barcodes))
 
     placeholders = ",".join("?" for _ in unique_barcodes)
@@ -150,7 +157,7 @@ def _batch_get_or_create_products(conn, items):
     to_insert = []
     seen = set()
     for item in items:
-        barcode = item.get("barcode", "").strip().lstrip("0")
+        barcode = normalize_barcode(item.get("barcode", ""))
         if barcode not in existing_map and barcode not in seen:
             seen.add(barcode)
             to_insert.append((
@@ -233,7 +240,7 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
 
         valid_items = []
         for item in items:
-            barcode = item.get("barcode", "").strip().lstrip("0")
+            barcode = normalize_barcode(item.get("barcode", ""))
             name = item.get("name", "").strip()
             price = item.get("price")
             if not barcode or not name or price is None:
@@ -276,7 +283,7 @@ def save_promos_batch(retailer, store_code, promos, recorded_at=None):
 
         valid = []
         for p in promos:
-            barcode = p.get("barcode", "").strip().lstrip("0")
+            barcode = normalize_barcode(p.get("barcode", ""))
             name = p.get("name", "").strip()
             promo_price = p.get("promo_price")
             if not barcode or not name or promo_price is None:
@@ -379,7 +386,7 @@ def get_price_history(barcode, days=30):
           AND pr.recorded_at >= datetime('now', ? || ' days')
         ORDER BY pr.recorded_at, s.retailer
         """,
-        (barcode.lstrip("0"), f"-{days}"),
+        (normalize_barcode(barcode), f"-{days}"),
     ).fetchall()
     conn.close()
     return [dict(r) for r in rows]
