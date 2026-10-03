@@ -1,5 +1,6 @@
 """
 make_viewer.py — читает данные из SQLite и создаёт price_viewer.html через template.html.
+Дополнительно пишет data.js (const CATALOG = ...) для frontend pricetracker-interface-found.
 """
 
 import json, time
@@ -71,6 +72,14 @@ CH = json.dumps(chains_found, ensure_ascii=False)
 UPD = time.strftime("%d.%m.%Y %H:%M")
 stats = database.get_db_stats()
 
+# ── data.js for pricetracker-interface-found frontend ────────────
+with open("data.js", "w", encoding="utf-8") as f:
+    f.write("const CATALOG = ")
+    f.write(D)
+    f.write(";\n")
+
+print(f"\n✓ Создан data.js ({len(catalog):,} товаров)")
+
 # ── Читаем чистый HTML шаблон из внешнего файла ──────────────────
 with open("template.html", "r", encoding="utf-8") as f:
     html_template = f.read()
@@ -89,5 +98,5 @@ html = (html_template
 with open("price_viewer.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-print("\n[OK] Created price_viewer.html (Hebrew + Russian)")
+print(f"✓ Создан price_viewer.html с поддержкой иврита и русского языка")
 print(f"  Товаров: {len(catalog):,} | В 2+ сетях: {in_multiple:,}")
