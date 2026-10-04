@@ -116,43 +116,65 @@ def get_or_create_store(conn, retailer, store_code):
 
 
 def _load_last_price_cache(conn, store_id, product_ids):
-    """Загружает последние цены для списка товаров одним запросом."""
+    """Загружает последние цены для списка товаров.
+    product_id IN (...) выполняется пачками (до 500), чтобы не превысить
+    лимит SQLite на число SQL-переменных.
+    """
     if not product_ids:
         return {}
-    placeholders = ",".join("?" for _ in product_ids)
-    sql = f"""
-        SELECT p.product_id, p.price
-        FROM prices p
-        JOIN (
-            SELECT product_id, MAX(id) AS id
-            FROM prices
-            WHERE store_id = ?
-              AND product_id IN ({placeholders})
-            GROUP BY product_id
-        ) latest ON latest.id = p.id
-    """
-    rows = conn.execute(sql, [store_id] + product_ids).fetchall()
-    return {(row["product_id"], store_id): float(row["price"]) for row in rows}
+
+    _IN_CHUNK = 500
+    result = {}
+
+    # уникальные id, сохраняем порядок не критичен для cache
+    unique_ids = list(dict.fromkeys(product_ids))
+
+    for i in range(0, len(unique_ids), _IN_CHUNK):
+        chunk = unique_ids[i : i + _IN_CHUNK]
+        placeholders = ",".join("?" for _ in chunk)
+        sql = f"""
+            SELECT p.product_id, p.price
+            FROM prices p
+            JOIN (
+                SELECT product_id, MAX(id) AS id
+                FROM prices
+                WHERE store_id = ?
+                  AND product_id IN ({placeholders})
+                GROUP BY product_id
+            ) latest ON latest.id = p.id
+        """
+        rows = conn.execute(sql, [store_id] + chunk).fetchall()
+        for row in rows:
+            result[(row["product_id"], store_id)] = float(row["price"])
+
+    return result
 
 
 def _batch_get_or_create_products(conn, items):
     """
     Пакетный поиск/создание товаров.
-    Один SELECT + один executemany вместо N отдельных запросов.
+    SELECT barcode IN (...) выполняется пачками (до 500), чтобы не превысить
+    лимит SQLite на число SQL-переменных.
     Возвращает список product_id в том же порядке что items.
     """
     if not items:
         return []
 
+    _IN_CHUNK = 500
+
     barcodes = [normalize_barcode(item.get("barcode", "")) for item in items]
     unique_barcodes = list(dict.fromkeys(barcodes))
 
-    placeholders = ",".join("?" for _ in unique_barcodes)
-    existing = conn.execute(
-        f"SELECT barcode, id FROM products WHERE barcode IN ({placeholders})",
-        unique_barcodes,
-    ).fetchall()
-    existing_map = {row["barcode"]: row["id"] for row in existing}
+    existing_map = {}
+    for i in range(0, len(unique_barcodes), _IN_CHUNK):
+        chunk = unique_barcodes[i : i + _IN_CHUNK]
+        placeholders = ",".join("?" for _ in chunk)
+        rows = conn.execute(
+            f"SELECT barcode, id FROM products WHERE barcode IN ({placeholders})",
+            chunk,
+        ).fetchall()
+        for row in rows:
+            existing_map[row["barcode"]] = row["id"]
 
     to_insert = []
     seen = set()
@@ -172,11 +194,16 @@ def _batch_get_or_create_products(conn, items):
             "INSERT OR IGNORE INTO products (barcode, name, brand, size) VALUES (?, ?, ?, ?)",
             to_insert,
         )
-        existing = conn.execute(
-            f"SELECT barcode, id FROM products WHERE barcode IN ({placeholders})",
-            unique_barcodes,
-        ).fetchall()
-        existing_map = {row["barcode"]: row["id"] for row in existing}
+        existing_map = {}
+        for i in range(0, len(unique_barcodes), _IN_CHUNK):
+            chunk = unique_barcodes[i : i + _IN_CHUNK]
+            placeholders = ",".join("?" for _ in chunk)
+            rows = conn.execute(
+                f"SELECT barcode, id FROM products WHERE barcode IN ({placeholders})",
+                chunk,
+            ).fetchall()
+            for row in rows:
+                existing_map[row["barcode"]] = row["id"]
 
     return [existing_map[b] for b in barcodes]
 
