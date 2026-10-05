@@ -1,1 +1,23 @@
 .aider*
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# данные и тяжёлые артефакты
+prices.db
+prices.db-*
+dumps/
+data.js
+*.log
+alerts/
+
+# секреты / временное
+*cookies*
+SHUFERSAL_*.txt
+*.sqbpro
+
+# локальный мусор
+1.log
+fcntl.py
+fix.py
+download_all_backup.py
