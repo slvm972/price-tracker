@@ -140,16 +140,25 @@ def normalize_chain_name(name):
 
 def get_chain_enum(name):
     normalized = normalize_chain_name(name)
-    for member in ScraperFactory:
-        if normalize_chain_name(member.name) == normalized:
+    members = (
+        ScraperFactory
+        if hasattr(ScraperFactory, "__iter__")
+        else []
+    )
+    for member in members:
+        member_name = getattr(member, "name", "")
+        value = getattr(member, "value", None)
+        class_name = getattr(value, "__name__", "")
+        if normalize_chain_name(member_name) == normalized:
             return member
-        if normalize_chain_name(member.value.__name__) == normalized:
+        if normalize_chain_name(class_name) == normalized:
             return member
     return None
 
 
 def list_available_chains():
-    names = [member.name for member in ScraperFactory]
+    members = ScraperFactory if hasattr(ScraperFactory, "__iter__") else []
+    names = [getattr(member, "name", str(member)) for member in members]
     print("Available chains:")
     for n in names:
         print(f"  - {n}")
@@ -162,9 +171,14 @@ def build_chain_list(args):
         sys.exit(0)
 
     if args.all:
+        members = (
+            ScraperFactory.all_active()
+            if hasattr(ScraperFactory, "all_active")
+            else ScraperFactory
+        )
         return [
             (member.value.__name__, member, member.value.__name__)
-            for member in ScraperFactory.all_active()
+            for member in members
         ]
 
     if args.chains:
@@ -457,6 +471,7 @@ for name, factory, folder_hint in chaingroups:
     os.makedirs(folder, exist_ok=True)
 
     # Если данные свежие — только пишем в БД, но если указан force_scrape, всё равно скачиваем.
+    decompress_folder(folder)
     if has_fresh_data(folder) and not args.force_scrape:
         large, small = count_xml_files(folder)
         print(f"  Данные свежие ({large} полных + {small} обновлений) — пишем в БД...")
