@@ -1,25 +1,27 @@
 #!/usr/bin/env python3
 """
-Simple scheduler to run `download_all.py` periodically.
+Simple scheduler for the local Price Tracker update cycle.
+
+Each run:
+  1. download_all.py — collect/process supermarket data
+  2. make_viewer.py   — regenerate local data.js for the frontend
 
 Usage:
-  python scripts/scheduler.py --interval 6    # run every 6 hours (default)
-  python scripts/scheduler.py --once          # run once and exit
-
-Runs the project's `.venv` Python if available, otherwise uses the current interpreter.
-Logs output to `logs/scheduler.log`.
+  python scripts/scheduler.py --interval 6
+  python scripts/scheduler.py --once
 """
 
 import argparse
+import logging
 import os
 import subprocess
 import sys
 import time
-import logging
 
 BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 VENV_PY = os.path.join(BASE_DIR, ".venv", "bin", "python")
 DOWNLOAD_SCRIPT = os.path.join(BASE_DIR, "download_all.py")
+MAKE_VIEWER_SCRIPT = os.path.join(BASE_DIR, "make_viewer.py")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
 LOG_FILE = os.path.join(LOG_DIR, "scheduler.log")
@@ -37,18 +39,29 @@ def find_python():
     return sys.executable
 
 
-def run_once(python):
-    cmd = [python, DOWNLOAD_SCRIPT]
+def run_command(python, script):
+    cmd = [python, script]
     logging.info("Running: %s", " ".join(cmd))
     try:
-        res = subprocess.run(cmd, cwd=BASE_DIR)
-        logging.info("Return code: %s", res.returncode)
-    except Exception as e:
-        logging.exception("Failed to run download_all.py: %s", e)
+        result = subprocess.run(cmd, cwd=BASE_DIR)
+        logging.info("Return code: %s", result.returncode)
+        return result.returncode
+    except Exception as exc:
+        logging.exception("Failed to run %s: %s", script, exc)
+        return 1
+
+
+def run_once(python):
+    download_rc = run_command(python, DOWNLOAD_SCRIPT)
+    if download_rc != 0:
+        logging.error("Download failed; data.js was not regenerated.")
+        return download_rc
+
+    return run_command(python, MAKE_VIEWER_SCRIPT)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Scheduler for download_all.py")
+    parser = argparse.ArgumentParser(description="Scheduler for Price Tracker")
     parser.add_argument(
         "--interval",
         type=float,
@@ -62,11 +75,11 @@ def main():
     logging.info("Using Python: %s", python)
 
     if args.once:
-        run_once(python)
-        return
+        raise SystemExit(run_once(python))
 
     interval_seconds = int(args.interval * 3600)
     logging.info("Starting scheduler with interval %s hours", args.interval)
+
     try:
         while True:
             run_once(python)
