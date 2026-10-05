@@ -15,6 +15,7 @@ RUN chmod +x ./entrypoint.sh || true
 
 # Use non-root user when possible
 RUN useradd -m appuser || true
+RUN chown -R appuser:appuser /app
 USER appuser
 
 ENTRYPOINT ["/app/entrypoint.sh"]
