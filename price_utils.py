@@ -40,7 +40,7 @@ def parse_xml_to_items(xml_path):
     items = []
     for item in root.findall(".//Item"):
         barcode = _find_text(item, "ItemCode")
-        name    = _find_text(item, "ItemName")
+        name    = _find_text(item, "ItemName", "ItemNm", "ManufacturerItemDescription")
         price   = _find_text(item, "ItemPrice")
         brand   = _find_text(item, "ManufacturerName")
         unit    = _find_text(item, "UnitOfMeasure")
