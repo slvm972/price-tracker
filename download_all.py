@@ -18,6 +18,13 @@ import xml.etree.ElementTree as ET
 import database
 from price_utils import parse_xml_to_items, parse_promo_xml
 
+# Windows console (cp1251) often cannot print Unicode glyphs / some Cyrillic when redirected.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
 # ── Абсолютный путь к корневой папке проекта ─────────────────────
 # Всегда D:\price-tracker независимо от того, откуда запущен скрипт
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -73,13 +80,17 @@ def parse_args():
 
 # Сети, для которых выгоднее качать полный прайс (PriceFull), а не дельты Price.
 # Проверено: Shufersal catID=2 / PRICE_FULL_FILE даёт файлы по несколько МБ и тысячи товаров.
+# Ключи в том же виде, что даёт normalize_chain_name() — ТОЛЬКО A-Z0-9 UPPERCASE.
 PRICE_FULL_CHAIN_KEYS = {
-    "shufersal",
+    "SHUFERSAL",
 }
 
 
 def chain_wants_price_full(name: str) -> bool:
-    key = normalize_chain_name(name) if name else ""
+    """name может быть Shufersal / SHUFERSAL / folder hint — нормализуем одинаково."""
+    if not name:
+        return False
+    key = normalize_chain_name(name)
     return key in PRICE_FULL_CHAIN_KEYS
 
 
@@ -498,7 +509,7 @@ results = []
 chaingroups = build_chain_list(args)
 
 for name, factory, folder_hint in chaingroups:
-    print(f"\n▶ {name}...")
+    print(f"\n> {name}...")
     t0 = time.time()
 
     # Ищем или создаём папку с абсолютным путём
@@ -537,9 +548,12 @@ for name, factory, folder_hint in chaingroups:
         os.chdir(BASE_DIR)  # убеждаемся что рабочая папка правильная
         file_output = DiskFileOutput(storage_path=folder)
         scraper = factory.value(file_output=file_output)
-        files_types = resolve_files_types(name)
+        # Пробуем и имя сети, и folder_hint (на случай разного регистра/написания)
+        files_types = resolve_files_types(name) or resolve_files_types(folder_hint)
         if files_types:
             print(f"  Режим файлов: {files_types} (полные прайсы)")
+        elif chain_wants_price_full(name) or chain_wants_price_full(folder_hint):
+            print("  (warning) ожидался PRICE_FULL_FILE, но files_types=None")
         asyncio.run(run_scraper(scraper, args.limit, files_types=files_types))
         ok = True
     except Exception as e:
@@ -558,7 +572,7 @@ for name, factory, folder_hint in chaingroups:
     large, small = count_xml_files(folder)
     if large + small == 0:
         # Диагностика: что вообще есть в dumps?
-        print(f"  ⚠ XML не найдены, диагностика:")
+        print(f"  ! XML не найдены, диагностика:")
         print_folder_contents(folder, "ожидаемая папка")
         alt = find_folder(folder_hint)
         if alt and os.path.abspath(alt) != folder:
@@ -572,7 +586,7 @@ for name, factory, folder_hint in chaingroups:
     elapsed = round(time.time() - t0, 1)
 
     if not ok and large + small == 0:
-        print(f"  ✗ {err} ({elapsed}с)")
+        print(f"  X {err} ({elapsed}с)")
         results.append((name, 0, 0, f"ERR: {err}", 0, 0))
         continue
 
@@ -583,7 +597,7 @@ for name, factory, folder_hint in chaingroups:
     saved, parsed = process_folder_to_db(name, folder, recorded_at)
 
     status = "OK" if large > 0 else "SMALL"
-    icon = "✓" if large > 0 else "⚠"
+    icon = "OK" if large > 0 else "!"
     print(
         f"  {icon} {large} полных + {small} обновлений | {parsed:,} распознано → {saved:,} записей ({elapsed}с)"
     )
@@ -606,7 +620,7 @@ print("\n" + "=" * 60)
 print("ИТОГ:")
 print("=" * 60)
 for name, large, small, status, saved, parsed in results:
-    icon = "✓" if status in ("OK", "CACHED") else "⚠" if status == "SMALL" else "✗"
+    icon = "OK" if status in ("OK", "CACHED") else "!" if status == "SMALL" else "X"
     print(f"  {icon} {name:<15} {saved:>8,} записей в БД  | {parsed:,} распозн.")
 
 stats = database.get_db_stats()
