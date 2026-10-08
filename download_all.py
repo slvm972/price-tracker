@@ -5,6 +5,10 @@ download_all.py — скачивает XML-файлы и сохраняет це
   - Все пути абсолютные (os.path.abspath) — устраняет рассогласование путей
   - После скачивания выводит список файлов в папке для диагностики
   - process_folder_to_db обрабатывает файлы без учёта регистра расширения
+
+v4:
+  - Для Shufersal при online-скачивании запрашивается PRICE_FULL_FILE
+    (полные прайсы), а не только мелкие дельты Price.
 """
 
 import argparse
@@ -67,8 +71,42 @@ def parse_args():
     return parser.parse_args()
 
 
-async def run_scraper(scraper, limit):
-    async for _ in scraper.scrape(limit=limit):
+# Сети, для которых выгоднее качать полный прайс (PriceFull), а не дельты Price.
+# Проверено: Shufersal catID=2 / PRICE_FULL_FILE даёт файлы по несколько МБ и тысячи товаров.
+PRICE_FULL_CHAIN_KEYS = {
+    "shufersal",
+}
+
+
+def chain_wants_price_full(name: str) -> bool:
+    key = normalize_chain_name(name) if name else ""
+    return key in PRICE_FULL_CHAIN_KEYS
+
+
+def resolve_files_types(name: str):
+    """Вернуть files_types для scraper.scrape или None (поведение библиотеки по умолчанию)."""
+    if not chain_wants_price_full(name):
+        return None
+    try:
+        from il_supermarket_scarper.utils.file_types import FileTypesFilters
+
+        return [FileTypesFilters.PRICE_FULL_FILE.name]
+    except Exception:
+        try:
+            # запасной путь импорта в некоторых версиях пакета
+            from il_supermarket_scarper.utils import FileTypesFilters  # type: ignore
+
+            return [FileTypesFilters.PRICE_FULL_FILE.name]
+        except Exception as e:
+            print(f"  (warning) PRICE_FULL_FILE недоступен ({e}) — скачиваем как обычно")
+            return None
+
+
+async def run_scraper(scraper, limit, files_types=None):
+    kwargs = {"limit": limit}
+    if files_types:
+        kwargs["files_types"] = files_types
+    async for _ in scraper.scrape(**kwargs):
         pass
 
 
@@ -499,7 +537,10 @@ for name, factory, folder_hint in chaingroups:
         os.chdir(BASE_DIR)  # убеждаемся что рабочая папка правильная
         file_output = DiskFileOutput(storage_path=folder)
         scraper = factory.value(file_output=file_output)
-        asyncio.run(run_scraper(scraper, args.limit))
+        files_types = resolve_files_types(name)
+        if files_types:
+            print(f"  Режим файлов: {files_types} (полные прайсы)")
+        asyncio.run(run_scraper(scraper, args.limit, files_types=files_types))
         ok = True
     except Exception as e:
         err = str(e)
