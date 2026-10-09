@@ -11,6 +11,30 @@ def _find_text(el, *tags):
     return ""
 
 
+def _store_code_from_root(root):
+    """
+    Код магазина из корня Price/Promo XML.
+
+    Важно: ElementTree чувствителен к регистру тегов.
+    У Shufersal и многих сетей: <StoreID>, не <StoreId>.
+    SubChainID — это подсеть/формат, не филиал; используем только как запасной вариант.
+    """
+    code = _find_text(
+        root,
+        "StoreId",
+        "StoreID",
+        "Storeid",
+        "BranchId",
+        "BranchID",
+        "Branchid",
+        "StoreCode",
+        "STOREID",
+        "SubChainID",
+        "SubChainId",
+    )
+    return code or "000"
+
+
 def parse_xml_to_items(xml_path):
     """
     Читает один Price*.xml-файл, возвращает (store_code, [items]).
@@ -30,19 +54,14 @@ def parse_xml_to_items(xml_path):
     except Exception:
         return None, []
 
-    store_code = (
-        root.findtext("StoreId")
-        or root.findtext("BranchId")
-        or root.findtext("SubChainID")
-        or "000"
-    )
+    store_code = _store_code_from_root(root)
 
     items = []
     for item in root.findall(".//Item"):
         barcode = _find_text(item, "ItemCode")
         name    = _find_text(item, "ItemName", "ItemNm", "ManufacturerItemDescription")
         price   = _find_text(item, "ItemPrice")
-        brand   = _find_text(item, "ManufacturerName")
+        brand   = _find_text(item, "ManufacturerName", "ManufactureName")
         unit    = _find_text(item, "UnitOfMeasure")
         qty     = _find_text(item, "Quantity", "UnitQty")
 
@@ -89,18 +108,13 @@ def parse_promo_xml(xml_path):
     except Exception:
         return None, []
 
-    store_code = (
-        root.findtext("StoreId")
-        or root.findtext("BranchId")
-        or root.findtext("SubChainID")
-        or "000"
-    )
+    store_code = _store_code_from_root(root)
 
     promos = []
     # Акции могут лежать в <Sale>, <Promotion>, <Promo> или <Item> в зависимости от сети
     for sale in root.findall(".//*[DiscountedPrice]") or root.findall(".//*[SalePrice]") or []:
         barcode     = _find_text(sale, "ItemCode", "MemberItemCode")
-        name        = _find_text(sale, "ItemName")
+        name        = _find_text(sale, "ItemName", "ItemNm")
         promo_price = _find_text(sale, "DiscountedPrice", "SalePrice", "PromoPrice")
         start_date  = _find_text(sale, "StartDate", "PromotionStartDate")
         end_date    = _find_text(sale, "EndDate", "PromotionEndDate")
