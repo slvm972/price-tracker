@@ -21,3 +21,7 @@ SHUFERSAL_*.txt
 fcntl.py
 fix.py
 download_all_backup.py
+
+*.bak*
+diag_*.py
+tmp_*.py
