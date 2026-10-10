@@ -26,6 +26,21 @@ def test_short_or_non_numeric_barcodes_are_rejected():
     assert not cf.is_valid_barcode("ABC1234567")
 
 
+def test_internal_plu_codes_are_not_barcodes():
+    # реальные примеры из XML: киви, шпинат, перец, хала, дрон — один код
+    assert cf.is_internal_code("7290000000084")
+    assert cf.is_internal_code("7290000006352")
+    assert not cf.is_internal_code("7290000060958")  # настоящий штрихкод Assa
+    assert not cf.is_valid_barcode("7290000000084")
+
+
+def test_internal_codes_never_reach_catalog():
+    rows = [row("7290000000084", "A", 19.9, name="kiwi"),
+            row("7290000000084", "B", 9.9, name="pepper")]
+    catalog, st = cf.build_catalog(rows, min_chains=1)
+    assert catalog == [] and st["internal_code"] == 2
+
+
 def test_non_product_words():
     assert cf.is_non_product("קופון ציפר")
     assert cf.is_non_product("מנויי תקופתי גוש דן")
@@ -51,15 +66,15 @@ def test_two_chains_with_huge_gap_removes_item():
 
 
 def test_build_catalog_filters_and_aggregates():
-    code = "7290000000001"
+    code = "7291111111111"
     rows = [
         row(code, "A", 10.0, size="0.00 יחידות"),
         row(code, "A", 9.0),                      # другой магазин той же сети: берём минимум
         row(code, "B", 11.0, prev=0.01),          # прошлая цена-заглушка не попадает в prev
-        row("7290000000002", "A", 0.01),          # заглушка
+        row("7291111111112", "A", 0.01),          # заглушка
         row("12345", "A", 5.0),                   # внутренний код
-        row("7290000000003", "A", 5.0, name="קופון"),
-        row("7290000000004", "A", 5.0),           # только одна сеть
+        row("7291111111113", "A", 5.0, name="קופון"),
+        row("7291111111114", "A", 5.0),           # только одна сеть
     ]
     catalog, st = cf.build_catalog(rows, min_chains=2)
     assert [i["c"] for i in catalog] == [code]
@@ -72,14 +87,14 @@ def test_build_catalog_filters_and_aggregates():
 
 
 def test_min_chains_one_keeps_single_chain_items():
-    catalog, _ = cf.build_catalog([row("7290000000004", "A", 5.0)], min_chains=1)
+    catalog, _ = cf.build_catalog([row("7291111111114", "A", 5.0)], min_chains=1)
     assert len(catalog) == 1
 
 
 def test_catalog_is_sorted_by_name_then_barcode():
     rows = [
-        row("7290000000002", "A", 5.0, name="b"), row("7290000000002", "B", 6.0, name="b"),
-        row("7290000000001", "A", 5.0, name="a"), row("7290000000001", "B", 6.0, name="a"),
+        row("7291111111112", "A", 5.0, name="b"), row("7291111111112", "B", 6.0, name="b"),
+        row("7291111111111", "A", 5.0, name="a"), row("7291111111111", "B", 6.0, name="a"),
     ]
     catalog, _ = cf.build_catalog(rows)
     assert [i["n"] for i in catalog] == ["a", "b"]

@@ -17,6 +17,10 @@ from statistics import median
 
 MIN_PRICE = 0.5
 MIN_BARCODE_LEN = 8
+# Внутренние коды магазинов (весовые товары, «свободные» позиции): сети дополняют
+# номер позиции нулями до 13 знаков как 729 + 000000 + 4 цифры. Один и тот же код
+# в разных сетях означает разные товары (киви, шпинат, дрон...), сравнивать нельзя.
+INTERNAL_CODE_PREFIX = "729000000"
 OUTLIER_FACTOR = 5.0        # от медианы: [median / 5, median * 5], если сетей >= 3
 TWO_CHAIN_MAX_RATIO = 10.0  # если сетей ровно 2: слишком большой разброс -> товар убираем
 
@@ -26,9 +30,14 @@ _QTY_RE = re.compile(r"^(\d+(?:\.\d+)?)\s*(.*)$")
 _EMPTY_UNITS = {"", "unknown", "יחידות", "יחידה", "יח", "יח'"}
 
 
+def is_internal_code(code):
+    code = (code or "").strip()
+    return len(code) == 13 and code.startswith(INTERNAL_CODE_PREFIX)
+
+
 def is_valid_barcode(code, min_len=MIN_BARCODE_LEN):
     code = (code or "").strip()
-    return code.isdigit() and len(code) >= min_len
+    return code.isdigit() and len(code) >= min_len and not is_internal_code(code)
 
 
 def is_valid_price(price, min_price=MIN_PRICE):
@@ -77,6 +86,7 @@ def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_B
     """
     stats = {
         "rows": 0,
+        "internal_code": 0,
         "bad_barcode": 0,
         "bad_price": 0,
         "non_product": 0,
@@ -90,6 +100,9 @@ def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_B
     for row in rows:
         stats["rows"] += 1
         barcode = (row["barcode"] or "").strip()
+        if is_internal_code(barcode):
+            stats["internal_code"] += 1
+            continue
         if not is_valid_barcode(barcode, min_barcode_len):
             stats["bad_barcode"] += 1
             continue

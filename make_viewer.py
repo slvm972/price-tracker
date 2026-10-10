@@ -103,6 +103,7 @@ def main() -> None:
         raise SystemExit(1)
 
     print(f"  Строк из БД (товар x сеть): {st['rows']:,}")
+    print(f"  Внутренние коды сетей (не штрихкоды): {st['internal_code']:,}")
     print(f"  Отброшено: плохой штрихкод {st['bad_barcode']:,}, цена < {args.min_price} "
           f"{st['bad_price']:,}, не-товары {st['non_product']:,}")
     print(f"  Выбросы цен: {st['outlier_prices']:,} цен, "
