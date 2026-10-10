@@ -83,6 +83,7 @@ def parse_args():
 # Ключи в том же виде, что даёт normalize_chain_name() — ТОЛЬКО A-Z0-9 UPPERCASE.
 PRICE_FULL_CHAIN_KEYS = {
     "SHUFERSAL",
+    "YOHANANOF",
     "NETIVHASED",  # NetivHased / NETIV_HASED — часто отдаёт PriceFull на app.netiv-hesed.com
 }
 
@@ -155,6 +156,7 @@ except Exception as e:
 # Built-in fallback default chains (small stable set)
 BUILTIN_DEFAULT_CHAINS = [
     "SHUFERSAL",
+    "YOHANANOF",
     "HAZI_HINAM",
     "YAYNO_BITAN_AND_CARREFOUR",
     "KESHET",
