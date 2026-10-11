@@ -43,6 +43,16 @@ def get_connection():
     return conn
 
 
+
+def _ensure_weighted_columns(conn):
+    """Добавляет is_weighted / unit_price в prices, если их ещё нет (идемпотентно)."""
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(prices)").fetchall()}
+    if "is_weighted" not in cols:
+        conn.execute("ALTER TABLE prices ADD COLUMN is_weighted INTEGER")
+    if "unit_price" not in cols:
+        conn.execute("ALTER TABLE prices ADD COLUMN unit_price REAL")
+
+
 def init_db():
     """
     Создаёт таблицы и индексы если они ещё не существуют.
@@ -94,6 +104,7 @@ def init_db():
             -- Для основного CTE-запроса get_latest_prices (этап 2: составной индекс)
             CREATE INDEX IF NOT EXISTS idx_prices_pst ON prices(product_id, store_id, recorded_at);
         """)
+        _ensure_weighted_columns(conn)
     conn.close()
     print(f"  База данных готова: {DB_PATH}")
 
@@ -117,8 +128,11 @@ def get_or_create_store(conn, retailer, store_code):
 
 def _load_last_price_cache(conn, store_id, product_ids):
     """Загружает последние цены для списка товаров.
+
     product_id IN (...) выполняется пачками (до 500), чтобы не превысить
     лимит SQLite на число SQL-переменных.
+
+    Значение кэша: dict с ключами price, id, is_weighted, unit_price.
     """
     if not product_ids:
         return {}
@@ -126,14 +140,13 @@ def _load_last_price_cache(conn, store_id, product_ids):
     _IN_CHUNK = 500
     result = {}
 
-    # уникальные id, сохраняем порядок не критичен для cache
     unique_ids = list(dict.fromkeys(product_ids))
 
     for i in range(0, len(unique_ids), _IN_CHUNK):
         chunk = unique_ids[i : i + _IN_CHUNK]
         placeholders = ",".join("?" for _ in chunk)
         sql = f"""
-            SELECT p.product_id, p.price
+            SELECT p.id, p.product_id, p.price, p.is_weighted, p.unit_price
             FROM prices p
             JOIN (
                 SELECT product_id, MAX(id) AS id
@@ -145,7 +158,12 @@ def _load_last_price_cache(conn, store_id, product_ids):
         """
         rows = conn.execute(sql, [store_id] + chunk).fetchall()
         for row in rows:
-            result[(row["product_id"], store_id)] = float(row["price"])
+            result[(row["product_id"], store_id)] = {
+                "id": row["id"],
+                "price": float(row["price"]),
+                "is_weighted": row["is_weighted"],
+                "unit_price": row["unit_price"],
+            }
 
     return result
 
@@ -208,38 +226,83 @@ def _batch_get_or_create_products(conn, items):
     return [existing_map[b] for b in barcodes]
 
 
-def _insert_price(conn, product_id, store_id, price, recorded_at, cache):
+def _insert_price(conn, product_id, store_id, price, recorded_at, cache,
+                 is_weighted=None, unit_price=None):
     """
-    Добавляет запись о цене если она изменилась.
-    cache - локальный словарь {(product_id, store_id): last_price},
-    передаётся явно (не глобальная переменная - этап 3).
-    Возвращает True если запись была добавлена.
+    Добавляет запись о цене, если она изменилась.
+
+    cache: {(product_id, store_id): {"price", "id", "is_weighted", "unit_price"}}
+    или legacy float (на всякий случай).
+
+    Если цена та же, но у последней строки is_weighted/unit_price ещё NULL,
+    а в новых данных значения есть — UPDATE последней строки (не INSERT).
+
+    Возвращает True, если вставлена новая строка цены.
     """
     key = (product_id, store_id)
     price_f = float(price)
+    # SQLite: True/False -> 1/0; None остаётся NULL
+    w_db = None if is_weighted is None else (1 if is_weighted else 0)
+    u_db = None if unit_price is None else float(unit_price)
 
-    if cache is not None:
-        last = cache.get(key)
-        if last is not None and last == price_f:
-            return False
-    else:
+    last = None
+    if cache is not None and key in cache:
+        entry = cache[key]
+        if isinstance(entry, dict):
+            last = entry
+        else:
+            last = {"price": float(entry), "id": None, "is_weighted": None, "unit_price": None}
+    elif cache is None:
         row = conn.execute(
-            "SELECT price FROM prices WHERE product_id = ? AND store_id = ? ORDER BY id DESC LIMIT 1",
+            "SELECT id, price, is_weighted, unit_price FROM prices "
+            "WHERE product_id = ? AND store_id = ? ORDER BY id DESC LIMIT 1",
             (product_id, store_id),
         ).fetchone()
         if row is not None:
             try:
-                if float(row[0]) == price_f:
-                    return False
+                last = {
+                    "id": row["id"],
+                    "price": float(row["price"]),
+                    "is_weighted": row["is_weighted"],
+                    "unit_price": row["unit_price"],
+                }
             except Exception:
-                pass
+                last = None
+
+    if last is not None and last["price"] == price_f:
+        need_w = last.get("is_weighted") is None and w_db is not None
+        need_u = last.get("unit_price") is None and u_db is not None
+        if (need_w or need_u) and last.get("id") is not None:
+            conn.execute(
+                "UPDATE prices SET "
+                "is_weighted = COALESCE(is_weighted, ?), "
+                "unit_price = COALESCE(unit_price, ?) "
+                "WHERE id = ?",
+                (w_db, u_db, last["id"]),
+            )
+            if cache is not None:
+                cache[key] = {
+                    "id": last["id"],
+                    "price": price_f,
+                    "is_weighted": w_db if need_w else last.get("is_weighted"),
+                    "unit_price": u_db if need_u else last.get("unit_price"),
+                }
+        return False
 
     conn.execute(
-        "INSERT INTO prices (product_id, store_id, price, recorded_at) VALUES (?, ?, ?, ?)",
-        (product_id, store_id, price_f, recorded_at),
+        "INSERT INTO prices (product_id, store_id, price, recorded_at, is_weighted, unit_price) "
+        "VALUES (?, ?, ?, ?, ?, ?)",
+        (product_id, store_id, price_f, recorded_at, w_db, u_db),
     )
     if cache is not None:
-        cache[key] = price_f
+        # id новой строки
+        new_id = conn.execute("SELECT last_insert_rowid()").fetchone()[0]
+        cache[key] = {
+            "id": new_id,
+            "price": price_f,
+            "is_weighted": w_db,
+            "unit_price": u_db,
+        }
     return True
 
 
@@ -250,7 +313,7 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
     Аргументы:
         retailer    - название сети: "Victory"
         store_code  - StoreId из XML: "001"
-        items       - список словарей: [{"barcode", "name", "price", "brand", "size"}, ...]
+        items       - список словарей: [{"barcode", "name", "price", "brand", "size", "weighted", "unit_price", "qty_in_package"}, ...]
         recorded_at - время записи (по умолчанию - сейчас)
     """
     if not items:
@@ -286,7 +349,17 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
             # Кэш создаётся и живёт только внутри этого вызова (этап 3)
             cache = _load_last_price_cache(conn, store_id, unique_product_ids)
             for product_id, v in zip(product_ids, valid_items):
-                if _insert_price(conn, product_id, store_id, v["price"], recorded_at, cache):
+                it = v["item"]
+                if _insert_price(
+                    conn,
+                    product_id,
+                    store_id,
+                    v["price"],
+                    recorded_at,
+                    cache,
+                    is_weighted=it.get("weighted"),
+                    unit_price=it.get("unit_price"),
+                ):
                     saved += 1
 
     conn.close()

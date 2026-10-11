@@ -35,10 +35,50 @@ def _store_code_from_root(root):
     return code or "000"
 
 
+def _parse_weighted(raw):
+    """bIsWeighted: '1' -> True, '0' -> False, иначе None."""
+    if raw is None:
+        return None
+    s = str(raw).strip()
+    if s == "":
+        return None
+    if s == "1":
+        return True
+    if s == "0":
+        return False
+    return None
+
+
+def _parse_positive_float(raw):
+    """
+    Число > 0 из XML-поля; пустое, 0, нечисловое, 'לא ידוע' / Unknown -> None.
+    """
+    if raw is None:
+        return None
+    s = str(raw).strip()
+    if not s:
+        return None
+    if s in ("לא ידוע", "Unknown", "unknown", "N/A", "n/a"):
+        return None
+    try:
+        v = float(s.replace(",", "."))
+    except ValueError:
+        return None
+    if v <= 0:
+        return None
+    return v
+
+
 def parse_xml_to_items(xml_path):
     """
     Читает один Price*.xml-файл, возвращает (store_code, [items]).
     Promo-файлы и NULL-файлы пропускаются (возвращают None, []).
+
+    Каждый item:
+      barcode, name, price, brand, size,
+      weighted (True/False/None),
+      unit_price (float|None),
+      qty_in_package (float|None).
     """
     fname = os.path.basename(xml_path)
     if any(kw in fname for kw in ("Promo", "promo", "NULL", "null")):
@@ -74,6 +114,10 @@ def parse_xml_to_items(xml_path):
         except ValueError:
             continue
 
+        weighted = _parse_weighted(_find_text(item, "bIsWeighted", "IsWeighted"))
+        unit_price = _parse_positive_float(_find_text(item, "UnitOfMeasurePrice"))
+        qty_in_package = _parse_positive_float(_find_text(item, "QtyInPackage"))
+
         size_str = f"{qty} {unit}".strip() if (qty or unit) else ""
         items.append({
             "barcode": barcode,
@@ -81,6 +125,9 @@ def parse_xml_to_items(xml_path):
             "price":   price_f,
             "brand":   brand,
             "size":    size_str,
+            "weighted": weighted,
+            "unit_price": unit_price,
+            "qty_in_package": qty_in_package,
         })
 
     return store_code, items
