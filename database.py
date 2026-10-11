@@ -132,7 +132,7 @@ def _load_last_price_cache(conn, store_id, product_ids):
     product_id IN (...) выполняется пачками (до 500), чтобы не превысить
     лимит SQLite на число SQL-переменных.
 
-    Значение кэша: dict с ключами price, id, is_weighted, unit_price.
+    Значение кэша: dict с ключами price, id, is_weighted, unit_price, recorded_at.
     """
     if not product_ids:
         return {}
@@ -146,7 +146,7 @@ def _load_last_price_cache(conn, store_id, product_ids):
         chunk = unique_ids[i : i + _IN_CHUNK]
         placeholders = ",".join("?" for _ in chunk)
         sql = f"""
-            SELECT p.id, p.product_id, p.price, p.is_weighted, p.unit_price
+            SELECT p.id, p.product_id, p.price, p.is_weighted, p.unit_price, p.recorded_at
             FROM prices p
             JOIN (
                 SELECT product_id, MAX(id) AS id
@@ -163,6 +163,7 @@ def _load_last_price_cache(conn, store_id, product_ids):
                 "price": float(row["price"]),
                 "is_weighted": row["is_weighted"],
                 "unit_price": row["unit_price"],
+                "recorded_at": row["recorded_at"],
             }
 
     return result
@@ -227,21 +228,22 @@ def _batch_get_or_create_products(conn, items):
 
 
 def _insert_price(conn, product_id, store_id, price, recorded_at, cache,
-                 is_weighted=None, unit_price=None):
+                 is_weighted=None, unit_price=None, backfill_meta=False):
     """
-    Добавляет запись о цене, если она изменилась.
+    Добавляет запись о цене, если она изменилась и не старше последней.
 
-    cache: {(product_id, store_id): {"price", "id", "is_weighted", "unit_price"}}
-    или legacy float (на всякий случай).
+    cache: {(product_id, store_id): {"price", "id", "is_weighted", "unit_price", "recorded_at"}}
 
-    Если цена та же, но у последней строки is_weighted/unit_price ещё NULL,
-    а в новых данных значения есть — UPDATE последней строки (не INSERT).
+    Правила:
+    - если новый recorded_at < recorded_at последней строки → INSERT запрещён;
+      разрешён только UPDATE is_weighted/unit_price при совпадении цены и NULL-полях;
+    - backfill_meta=True → никогда не INSERT, только UPDATE метаданных при той же цене;
+    - если цена та же и метаданные NULL → UPDATE последней строки.
 
-    Возвращает True, если вставлена новая строка цены.
+    Возвращает True, только если вставлена новая строка цены.
     """
     key = (product_id, store_id)
     price_f = float(price)
-    # SQLite: True/False -> 1/0; None остаётся NULL
     w_db = None if is_weighted is None else (1 if is_weighted else 0)
     u_db = None if unit_price is None else float(unit_price)
 
@@ -251,10 +253,16 @@ def _insert_price(conn, product_id, store_id, price, recorded_at, cache,
         if isinstance(entry, dict):
             last = entry
         else:
-            last = {"price": float(entry), "id": None, "is_weighted": None, "unit_price": None}
+            last = {
+                "price": float(entry),
+                "id": None,
+                "is_weighted": None,
+                "unit_price": None,
+                "recorded_at": None,
+            }
     elif cache is None:
         row = conn.execute(
-            "SELECT id, price, is_weighted, unit_price FROM prices "
+            "SELECT id, price, is_weighted, unit_price, recorded_at FROM prices "
             "WHERE product_id = ? AND store_id = ? ORDER BY id DESC LIMIT 1",
             (product_id, store_id),
         ).fetchone()
@@ -265,28 +273,55 @@ def _insert_price(conn, product_id, store_id, price, recorded_at, cache,
                     "price": float(row["price"]),
                     "is_weighted": row["is_weighted"],
                     "unit_price": row["unit_price"],
+                    "recorded_at": row["recorded_at"],
                 }
             except Exception:
                 last = None
 
-    if last is not None and last["price"] == price_f:
+    def _maybe_update_meta():
+        if last is None or last.get("id") is None:
+            return
+        if last["price"] != price_f:
+            return
         need_w = last.get("is_weighted") is None and w_db is not None
         need_u = last.get("unit_price") is None and u_db is not None
-        if (need_w or need_u) and last.get("id") is not None:
-            conn.execute(
-                "UPDATE prices SET "
-                "is_weighted = COALESCE(is_weighted, ?), "
-                "unit_price = COALESCE(unit_price, ?) "
-                "WHERE id = ?",
-                (w_db, u_db, last["id"]),
-            )
-            if cache is not None:
-                cache[key] = {
-                    "id": last["id"],
-                    "price": price_f,
-                    "is_weighted": w_db if need_w else last.get("is_weighted"),
-                    "unit_price": u_db if need_u else last.get("unit_price"),
-                }
+        if not (need_w or need_u):
+            return
+        conn.execute(
+            "UPDATE prices SET "
+            "is_weighted = COALESCE(is_weighted, ?), "
+            "unit_price = COALESCE(unit_price, ?) "
+            "WHERE id = ?",
+            (w_db, u_db, last["id"]),
+        )
+        if cache is not None:
+            cache[key] = {
+                "id": last["id"],
+                "price": price_f,
+                "is_weighted": w_db if need_w else last.get("is_weighted"),
+                "unit_price": u_db if need_u else last.get("unit_price"),
+                "recorded_at": last.get("recorded_at"),
+            }
+
+    # Не откатывать историю:
+    # - более старый дамп (recorded_at < last) → без INSERT;
+    # - тот же recorded_at, но другая цена → без INSERT
+    #   (защита, если в одном прогоне два файла с одинаковой меткой времени;
+    #    при обработке по возрастанию даты побеждает уже записанная цена).
+    # При той же цене допускается только UPDATE метаданных.
+    if last is not None and recorded_at is not None and last.get("recorded_at"):
+        if str(recorded_at) < str(last["recorded_at"]):
+            _maybe_update_meta()
+            return False
+        if str(recorded_at) == str(last["recorded_at"]) and last["price"] != price_f:
+            return False
+
+    if backfill_meta:
+        _maybe_update_meta()
+        return False
+
+    if last is not None and last["price"] == price_f:
+        _maybe_update_meta()
         return False
 
     conn.execute(
@@ -295,18 +330,18 @@ def _insert_price(conn, product_id, store_id, price, recorded_at, cache,
         (product_id, store_id, price_f, recorded_at, w_db, u_db),
     )
     if cache is not None:
-        # id новой строки
         new_id = conn.execute("SELECT last_insert_rowid()").fetchone()[0]
         cache[key] = {
             "id": new_id,
             "price": price_f,
             "is_weighted": w_db,
             "unit_price": u_db,
+            "recorded_at": recorded_at,
         }
     return True
 
 
-def save_items_batch(retailer, store_code, items, recorded_at=None):
+def save_items_batch(retailer, store_code, items, recorded_at=None, backfill_meta=False):
     """
     Сохраняет список товаров одного магазина одной транзакцией.
 
@@ -359,6 +394,7 @@ def save_items_batch(retailer, store_code, items, recorded_at=None):
                     cache,
                     is_weighted=it.get("weighted"),
                     unit_price=it.get("unit_price"),
+                    backfill_meta=backfill_meta,
                 ):
                     saved += 1
 

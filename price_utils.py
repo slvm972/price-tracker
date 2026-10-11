@@ -1,6 +1,59 @@
 import os
 import xml.etree.ElementTree as ET
 
+import re
+import time as _time
+
+
+def parse_filename_timestamp(fname: str):
+    """
+    Из имени Price/PriceFull XML извлечь момент публикации.
+
+    Поддерживаемые хвосты имени (до .xml / .gz.xml):
+      ...-20261004-001000     → 2026-10-04 00:10:00
+      ...-202610040010        → 2026-10-04 00:10:00  (YYYYMMDDHHMM)
+      ...-20261004-115317     → 2026-10-04 11:53:17
+      ...-20261004115317      → 2026-10-04 11:53:17  (YYYYMMDDHHMMSS)
+
+    Возвращает строку "YYYY-MM-DD HH:MM:SS" или None.
+    """
+    base = os.path.basename(fname)
+    base = re.sub(r"(?i)(\.gz)*(\.xml)+$", "", base)
+
+    m = re.search(r"(20\d{6})-(\d{6})$", base)
+    if m:
+        d, t = m.group(1), m.group(2)
+        return f"{d[0:4]}-{d[4:6]}-{d[6:8]} {t[0:2]}:{t[2:4]}:{t[4:6]}"
+
+    m = re.search(r"(20\d{6})(\d{6})$", base)
+    if m:
+        d, t = m.group(1), m.group(2)
+        return f"{d[0:4]}-{d[4:6]}-{d[6:8]} {t[0:2]}:{t[2:4]}:{t[4:6]}"
+
+    m = re.search(r"(20\d{6})(\d{4})$", base)
+    if m:
+        d, t = m.group(1), m.group(2)
+        return f"{d[0:4]}-{d[4:6]}-{d[6:8]} {t[0:2]}:{t[2:4]}:00"
+
+    return None
+
+
+def recorded_at_from_price_file(path: str) -> str:
+    """
+    recorded_at для offline: timestamp из имени файла, иначе mtime.
+    Формат локальный "YYYY-MM-DD HH:MM:SS" (как online time.strftime).
+    """
+    ts = parse_filename_timestamp(path)
+    if ts:
+        return ts
+    return _time.strftime("%Y-%m-%d %H:%M:%S", _time.localtime(os.path.getmtime(path)))
+
+
+def sort_key_price_file(path: str):
+    """Ключ сортировки: (recorded_at, basename) — строго по возрастанию даты публикации."""
+    return (recorded_at_from_price_file(path), os.path.basename(path).lower())
+
+
 
 def _find_text(el, *tags):
     """Ищет первый из перечисленных тегов в элементе."""

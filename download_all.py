@@ -16,7 +16,7 @@ import asyncio
 import os, sys, gzip, shutil, time, json
 import xml.etree.ElementTree as ET
 import database
-from price_utils import parse_xml_to_items, parse_promo_xml
+from price_utils import recorded_at_from_price_file, sort_key_price_file,  parse_xml_to_items, parse_promo_xml
 
 # Windows console (cp1251) often cannot print Unicode glyphs / some Cyrillic when redirected.
 try:
@@ -75,6 +75,11 @@ def parse_args():
         action="store_true",
         help="Print all available scraper names and exit.",
     )
+    parser.add_argument(
+        "--backfill-meta",
+        action="store_true",
+        help="Only fill is_weighted/unit_price on latest price rows; never INSERT new prices.",
+    )
     return parser.parse_args()
 
 
@@ -83,7 +88,7 @@ def parse_args():
 # Ключи в том же виде, что даёт normalize_chain_name() — ТОЛЬКО A-Z0-9 UPPERCASE.
 PRICE_FULL_CHAIN_KEYS = {
     "SHUFERSAL",
-    "YOHANANOF",
+    "YOHANANOF",  # PriceFull проверен: ~11k items/file (2026-10-10), дельты Price ~400 items
     "NETIVHASED",  # NetivHased / NETIV_HASED — часто отдаёт PriceFull на app.netiv-hesed.com
 }
 
@@ -127,6 +132,10 @@ args = parse_args()
 
 print(f"Рабочая папка:  {BASE_DIR}")
 print(f"Папка с данными: {DUMPS}")
+if args.backfill_meta:
+    print(
+        "Режим: BACKFILL-META — только метаданные is_weighted/unit_price, без INSERT цен."
+    )
 if args.offline:
     print(
         "Режим: OFFLINE — загрузка данных пропущена, обрабатываются только локальные файлы."
@@ -443,11 +452,28 @@ def print_folder_contents(folder, label=""):
 # parse_xml_to_items moved to price_utils.py for easier testing
 
 
-def process_folder_to_db(retailer_name, folder, recorded_at):
-    """Читает все Price XML и Promo XML из папки и пишет в базу данных."""
+def _recorded_at_from_path(path: str) -> str:
+    """
+    Время файла для offline/local обработки.
+
+    Формат тот же, что у online в этом скрипте: time.strftime / local wall clock
+    ("YYYY-MM-DD HH:MM:SS" в локальном часовом поясе машины, не UTC).
+
+    Online сейчас тоже пишет локальное время через time.strftime — согласовано.
+    (database.save_items_batch при recorded_at=None использует UTC — offline сюда не попадает.)
+    """
+    return recorded_at_from_price_file(path)
+
+
+def process_folder_to_db(retailer_name, folder, recorded_at=None, per_file_mtime=False, backfill_meta=False):
+    """Читает все Price XML и Promo XML из папки и пишет в базу данных.
+
+    per_file_mtime: recorded_at из имени файла (иначе mtime); файлы по возрастанию даты.
+    backfill_meta: только UPDATE метаданных, без INSERT цен.
+    """
     if not os.path.isdir(folder):
         print(f"    Папка не найдена: {folder}")
-        return 0
+        return 0, 0
 
     all_files = os.listdir(folder)
     xml_files = [f for f in all_files if f.lower().endswith(".xml") and "null" not in f.lower()]
@@ -460,31 +486,44 @@ def process_folder_to_db(retailer_name, folder, recorded_at):
     if not price_files:
         price_files = xml_files  # fallback: нет чёткого разделения
 
-    for fname in sorted(price_files):
-        path = os.path.join(folder, fname)
+    price_paths = [os.path.join(folder, f) for f in price_files]
+    price_paths.sort(key=sort_key_price_file)
+    for path in price_paths:
+        fname = os.path.basename(path)
         store_code, items = parse_xml_to_items(path)
         try:
             if items:
                 with open(NONEMPTY_FILE, "a", encoding="utf-8") as nf:
-                    nf.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')}\t{retailer_name}\t{fname}\t{len(items)}\n")
+                    nf.write(
+                        "{0}\t{1}\t{2}\t{3}\n".format(
+                            time.strftime("%Y-%m-%d %H:%M:%S"),
+                            retailer_name, fname, len(items),
+                        )
+                    )
         except Exception:
             pass
         if not items:
             continue
         parsed_total += len(items)
-        saved = database.save_items_batch(retailer_name, store_code, items, recorded_at)
+        ra = recorded_at_from_price_file(path) if per_file_mtime else recorded_at
+        saved = database.save_items_batch(
+            retailer_name, store_code, items, ra, backfill_meta=backfill_meta
+        )
         total_saved += saved
         print(f"    {fname}: {len(items):,} товаров → {saved:,} в БД")
 
     # Проход 2: Promo-файлы (этап 5)
     promo_files = [f for f in xml_files if "promo" in f.lower()]
     promo_saved = 0
-    for fname in sorted(promo_files):
-        path = os.path.join(folder, fname)
+    promo_paths = [os.path.join(folder, f) for f in promo_files]
+    promo_paths.sort(key=sort_key_price_file)
+    for path in promo_paths:
+        fname = os.path.basename(path)
         store_code, promos = parse_promo_xml(path)
         if not promos:
             continue
-        saved = database.save_promos_batch(retailer_name, store_code, promos, recorded_at)
+        ra = recorded_at_from_price_file(path) if per_file_mtime else recorded_at
+        saved = database.save_promos_batch(retailer_name, store_code, promos, ra)
         promo_saved += saved
         print(f"    {fname}: {len(promos):,} акций → {saved:,} в БД")
 
@@ -527,16 +566,30 @@ for name, factory, folder_hint in chaingroups:
     if has_fresh_data(folder) and not args.force_scrape:
         large, small = count_xml_files(folder)
         print(f"  Данные свежие ({large} полных + {small} обновлений) — пишем в БД...")
-        saved, parsed = process_folder_to_db(name, folder, recorded_at)
+        saved, parsed = process_folder_to_db(
+            name, folder, recorded_at,
+            per_file_mtime=True,
+            backfill_meta=args.backfill_meta,
+        )
         results.append((name, large, small, "CACHED", saved, parsed))
         continue
 
-    if args.offline:
+    if args.offline or args.backfill_meta:
         print(
             "  OFFLINE: пропускаем скачивание и обрабатываем только локальные данные."
+            if args.offline
+            else "  BACKFILL-META: только локальные XML, без скачивания."
         )
-        saved, parsed = process_folder_to_db(name, folder, recorded_at)
+        saved, parsed = process_folder_to_db(
+            name,
+            folder,
+            recorded_at,
+            per_file_mtime=True,
+            backfill_meta=args.backfill_meta,
+        )
         status = "OFFLINE" if count_xml_files(folder)[0] > 0 else "EMPTY"
+        if args.backfill_meta:
+            status = "BACKFILL"
         results.append((name, *count_xml_files(folder), status, saved, parsed))
         continue
 
@@ -597,7 +650,7 @@ for name, factory, folder_hint in chaingroups:
     print_folder_contents(folder, f"после скачивания")
 
     print(f"  Сохраняем в базу данных...")
-    saved, parsed = process_folder_to_db(name, folder, recorded_at)
+    saved, parsed = process_folder_to_db(name, folder, recorded_at, per_file_mtime=True)
 
     status = "OK" if large > 0 else "SMALL"
     icon = "OK" if large > 0 else "!"
