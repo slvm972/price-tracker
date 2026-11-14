@@ -101,23 +101,34 @@ def chain_wants_price_full(name: str) -> bool:
     return key in PRICE_FULL_CHAIN_KEYS
 
 
-def resolve_files_types(name: str):
-    """Вернуть files_types для scraper.scrape или None (поведение библиотеки по умолчанию)."""
-    if not chain_wants_price_full(name):
-        return None
+def _import_file_types():
+    """FileTypesFilters из пакета скрепера (путь импорта зависит от версии пакета)."""
     try:
         from il_supermarket_scarper.utils.file_types import FileTypesFilters
-
-        return [FileTypesFilters.PRICE_FULL_FILE.name]
+        return FileTypesFilters
     except Exception:
-        try:
-            # запасной путь импорта в некоторых версиях пакета
-            from il_supermarket_scarper.utils import FileTypesFilters  # type: ignore
+        from il_supermarket_scarper.utils import FileTypesFilters  # type: ignore
+        return FileTypesFilters
 
-            return [FileTypesFilters.PRICE_FULL_FILE.name]
-        except Exception as e:
-            print(f"  (warning) PRICE_FULL_FILE недоступен ({e}) — скачиваем как обычно")
-            return None
+
+def resolve_files_types(name: str):
+    """
+    Какие типы файлов просить у скрепера.
+      - сети из PRICE_FULL_CHAIN_KEYS: только полные прайсы (PriceFull);
+      - все остальные: только файлы цен (Price и PriceFull). Файлы акций (Promo*) и
+        справочники магазинов (Stores*) не нужны: акции мы пока не сохраняем, а при
+        --limit они занимали место и вытесняли свежие файлы цен (так было у GoodPharm:
+        все 50 скачанных файлов оказались акциями).
+    Если типы недоступны, вернуть None (поведение библиотеки по умолчанию).
+    """
+    try:
+        ft = _import_file_types()
+        if chain_wants_price_full(name):
+            return [ft.PRICE_FULL_FILE.name]
+        return [ft.PRICE_FILE.name, ft.PRICE_FULL_FILE.name]
+    except Exception as e:
+        print(f"  (warning) типы файлов недоступны ({e}) — скачиваем как обычно")
+        return None
 
 
 async def run_scraper(scraper, limit, files_types=None):
@@ -607,9 +618,10 @@ for name, factory, folder_hint in chaingroups:
         # Пробуем и имя сети, и folder_hint (на случай разного регистра/написания)
         files_types = resolve_files_types(name) or resolve_files_types(folder_hint)
         if files_types:
-            print(f"  Режим файлов: {files_types} (полные прайсы)")
-        elif chain_wants_price_full(name) or chain_wants_price_full(folder_hint):
-            print("  (warning) ожидался PRICE_FULL_FILE, но files_types=None")
+            kind = "полные прайсы" if chain_wants_price_full(name) or chain_wants_price_full(folder_hint) else "только файлы цен, без акций"
+            print(f"  Режим файлов: {files_types} ({kind})")
+        else:
+            print("  (warning) files_types=None: скачиваем все типы файлов")
         asyncio.run(run_scraper(scraper, args.limit, files_types=files_types))
         ok = True
     except Exception as e:
