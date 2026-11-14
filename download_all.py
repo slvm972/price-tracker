@@ -89,7 +89,8 @@ def parse_args():
 PRICE_FULL_CHAIN_KEYS = {
     "SHUFERSAL",
     "YOHANANOF",  # PriceFull проверен: ~11k items/file (2026-10-10), дельты Price ~400 items
-    "NETIVHASED",  # NetivHased / NETIV_HASED — часто отдаёт PriceFull на app.netiv-hesed.com
+    "NETIVHASED",
+    "CITYMARKETSHOPS",  # Price deltas ~1 item; need PriceFull  # NetivHased / NETIV_HASED — часто отдаёт PriceFull на app.netiv-hesed.com
 }
 
 
