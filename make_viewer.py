@@ -18,23 +18,53 @@ ISRAEL_TZ = ZoneInfo("Asia/Jerusalem")
 
 def to_israel_local(raw) -> str:
     """
-    Convert UTC timestamp string from DB (YYYY-MM-DD HH:MM:SS) to Asia/Jerusalem.
-    Falls back to current Israel time if parsing fails or value is empty.
+    Время в базе хранится как ЛОКАЛЬНОЕ израильское (его пишет download_all из имени
+    файла или через time.strftime), поэтому пояс пересчитывать не нужно.
+    Строки с явным указанием пояса (Z или +hh:mm) переводим в Asia/Jerusalem.
+    Если значения нет или оно не разбирается, возвращаем текущее израильское время.
     """
-    if raw:
-        s = str(raw).strip().replace("T", " ")
-        if s.endswith("Z"):
-            s = s[:-1].strip()
-        if "+" in s[10:]:
-            s = s.split("+")[0].strip()
-        try:
-            dt = datetime.strptime(s[:19], "%Y-%m-%d %H:%M:%S")
-            dt = dt.replace(tzinfo=timezone.utc)
-            local = dt.astimezone(ISRAEL_TZ)
-            return local.strftime("%Y-%m-%d %H:%M:%S")
-        except ValueError:
-            pass
-    return datetime.now(ISRAEL_TZ).strftime("%Y-%m-%d %H:%M:%S")
+    now_il = datetime.now(ISRAEL_TZ).strftime("%Y-%m-%d %H:%M:%S")
+    if not raw:
+        return now_il
+    s = str(raw).strip().replace("T", " ")
+    explicit_utc = False
+    if s.endswith("Z"):
+        s = s[:-1].strip()
+        explicit_utc = True
+    elif "+" in s[10:]:
+        s = s.split("+")[0].strip()
+        explicit_utc = True
+    try:
+        dt = datetime.strptime(s[:19], "%Y-%m-%d %H:%M:%S")
+    except ValueError:
+        return now_il
+    if explicit_utc:
+        dt = dt.replace(tzinfo=timezone.utc).astimezone(ISRAEL_TZ)
+    return dt.strftime("%Y-%m-%d %H:%M:%S")
+
+
+def get_chain_updates() -> dict:
+    """Самое свежее время данных по каждой сети: {сеть: 'YYYY-MM-DD HH:MM:SS'}."""
+    conn = database.get_connection()
+    try:
+        rows = conn.execute(
+            """SELECT s.retailer, MAX(p.recorded_at)
+               FROM prices p JOIN stores s ON s.id = p.store_id
+               GROUP BY s.retailer"""
+        ).fetchall()
+    finally:
+        conn.close()
+    return {r[0]: to_israel_local(r[1]) for r in rows if r[0] and r[1]}
+
+
+def render_data_js(catalog, updated, chain_updates) -> str:
+    """Текст data.js: каталог, общая дата и даты по сетям (для пометки устаревших)."""
+    return (
+        "const CATALOG = " + json.dumps(catalog, ensure_ascii=False) + ";\n"
+        + "const CATALOG_UPDATED = " + json.dumps(str(updated), ensure_ascii=False) + ";\n"
+        + "const CHAIN_UPDATED = "
+        + json.dumps(chain_updates, ensure_ascii=False, sort_keys=True) + ";\n"
+    )
 
 
 def iter_latest_rows():
@@ -129,25 +159,28 @@ def main() -> None:
     print(f"  Товаров в 2+ сетях:    {in_multiple:,}")
     print(f"  Сети: {', '.join(chains_found)}")
 
-    stats = database.get_db_stats()
-    last_update_utc = stats.get("last_update") if stats else None
-    last_update = to_israel_local(last_update_utc)
+    all_updates = get_chain_updates()
+    chain_updates = {c: all_updates[c] for c in chains_found if c in all_updates}
+    last_update = max(chain_updates.values()) if chain_updates else to_israel_local(None)
 
-    data = json.dumps(catalog, ensure_ascii=False)
-
+    text = render_data_js(catalog, last_update, chain_updates)
     with open("data.js", "w", encoding="utf-8") as f:
-        f.write("const CATALOG = ")
-        f.write(data)
-        f.write(";\n")
-        f.write("const CATALOG_UPDATED = ")
-        f.write(json.dumps(str(last_update), ensure_ascii=False))
-        f.write(";\n")
+        f.write(text)
 
-    size_mb = len(data.encode("utf-8")) / 1_048_576
+    size_mb = len(text.encode("utf-8")) / 1_048_576
     print(f"\n✓ Создан data.js ({len(catalog):,} товаров, ~{size_mb:.1f} МБ)")
-    print(f"✓ CATALOG_UPDATED = {last_update} (Asia/Jerusalem)")
-    if last_update_utc:
-        print(f"  (из БД UTC: {last_update_utc})")
+    print(f"✓ CATALOG_UPDATED = {last_update} (время Израиля)")
+
+    now_il = datetime.now(ISRAEL_TZ).replace(tzinfo=None)
+    stale = []
+    for chain, ts in sorted(chain_updates.items(), key=lambda kv: kv[1]):
+        age_days = (now_il - datetime.strptime(ts, "%Y-%m-%d %H:%M:%S")).days
+        if age_days >= 3:
+            stale.append(f"{chain} ({ts[:10]}, {age_days} дн.)")
+    if stale:
+        print("! Сети с устаревшими данными (3+ дня): " + "; ".join(stale))
+    else:
+        print("✓ Данные всех сетей не старше 3 дней")
     print("✓ HTML больше не генерируется: интерфейс находится во frontend-репозитории.")
 
 
