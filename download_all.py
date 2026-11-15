@@ -13,10 +13,51 @@ v4:
 
 import argparse
 import asyncio
+import logging
 import os, sys, gzip, shutil, time, json
 import xml.etree.ElementTree as ET
 import database
 from price_utils import recorded_at_from_price_file, sort_key_price_file,  parse_xml_to_items, parse_promo_xml
+
+
+class _ScrapeErrorCounter(logging.Handler):
+    """Counts log lines that indicate scrape transport failures (ASCII-stable)."""
+
+    def __init__(self):
+        super().__init__(level=logging.WARNING)
+        self.errors = 0
+
+    def emit(self, record):
+        try:
+            msg = record.getMessage()
+        except Exception:
+            msg = str(record.msg)
+        if not msg:
+            return
+        if (
+            "Error scraping" in msg
+            or "ReadTimeout" in msg
+            or "425" in msg
+        ):
+            self.errors += 1
+
+
+def _count_error_markers(text: str) -> int:
+    if not text:
+        return 0
+    n = 0
+    for token in ("Error scraping", "ReadTimeout", "425"):
+        n += text.count(token)
+    return n
+
+
+def _print_result(chain: str, status: str, downloaded: int, saved: int, errors: int) -> None:
+    """Machine-readable line for refresh_all.ps1 (Latin only)."""
+    print(
+        f"RESULT chain={chain} status={status} downloaded={int(downloaded)} "
+        f"saved={int(saved)} errors={int(errors)}",
+        flush=True,
+    )
 
 # Windows console (cp1251) often cannot print Unicode glyphs / some Cyrillic when redirected.
 try:
@@ -89,8 +130,7 @@ def parse_args():
 PRICE_FULL_CHAIN_KEYS = {
     "SHUFERSAL",
     "YOHANANOF",  # PriceFull проверен: ~11k items/file (2026-10-10), дельты Price ~400 items
-    "NETIVHASED",
-    "CITYMARKETSHOPS",  # Price deltas ~1 item; need PriceFull  # NetivHased / NETIV_HASED — часто отдаёт PriceFull на app.netiv-hesed.com
+    "NETIVHASED",  # NetivHased / NETIV_HASED — часто отдаёт PriceFull на app.netiv-hesed.com
 }
 
 
@@ -102,34 +142,23 @@ def chain_wants_price_full(name: str) -> bool:
     return key in PRICE_FULL_CHAIN_KEYS
 
 
-def _import_file_types():
-    """FileTypesFilters из пакета скрепера (путь импорта зависит от версии пакета)."""
+def resolve_files_types(name: str):
+    """Вернуть files_types для scraper.scrape или None (поведение библиотеки по умолчанию)."""
+    if not chain_wants_price_full(name):
+        return None
     try:
         from il_supermarket_scarper.utils.file_types import FileTypesFilters
-        return FileTypesFilters
+
+        return [FileTypesFilters.PRICE_FULL_FILE.name]
     except Exception:
-        from il_supermarket_scarper.utils import FileTypesFilters  # type: ignore
-        return FileTypesFilters
+        try:
+            # запасной путь импорта в некоторых версиях пакета
+            from il_supermarket_scarper.utils import FileTypesFilters  # type: ignore
 
-
-def resolve_files_types(name: str):
-    """
-    Какие типы файлов просить у скрепера.
-      - сети из PRICE_FULL_CHAIN_KEYS: только полные прайсы (PriceFull);
-      - все остальные: только файлы цен (Price и PriceFull). Файлы акций (Promo*) и
-        справочники магазинов (Stores*) не нужны: акции мы пока не сохраняем, а при
-        --limit они занимали место и вытесняли свежие файлы цен (так было у GoodPharm:
-        все 50 скачанных файлов оказались акциями).
-    Если типы недоступны, вернуть None (поведение библиотеки по умолчанию).
-    """
-    try:
-        ft = _import_file_types()
-        if chain_wants_price_full(name):
-            return [ft.PRICE_FULL_FILE.name]
-        return [ft.PRICE_FILE.name, ft.PRICE_FULL_FILE.name]
-    except Exception as e:
-        print(f"  (warning) типы файлов недоступны ({e}) — скачиваем как обычно")
-        return None
+            return [FileTypesFilters.PRICE_FULL_FILE.name]
+        except Exception as e:
+            print(f"  (warning) PRICE_FULL_FILE недоступен ({e}) — скачиваем как обычно")
+            return None
 
 
 async def run_scraper(scraper, limit, files_types=None):
@@ -558,13 +587,17 @@ database.init_db()
 recorded_at = time.strftime("%Y-%m-%d %H:%M:%S")
 
 print(f"\n[2/3] Скачивание и парсинг...")
+# (name, large, small, status, saved, parsed, downloaded, errors, result_status)
 results = []
 
-chaingroups = build_chain_list(args)
+chaens = build_chain_list(args)
 
-for name, factory, folder_hint in chaingroups:
+for name, factory, folder_hint in chaens:
     print(f"\n> {name}...")
     t0 = time.time()
+    scrape_errors = 0
+    downloaded = 0
+    raised = False
 
     # Ищем или создаём папку с абсолютным путём
     folder = find_folder(folder_hint)
@@ -583,7 +616,9 @@ for name, factory, folder_hint in chaingroups:
             per_file_mtime=True,
             backfill_meta=args.backfill_meta,
         )
-        results.append((name, large, small, "CACHED", saved, parsed))
+        result_status = "OK"
+        _print_result(name, result_status, downloaded=0, saved=saved, errors=0)
+        results.append((name, large, small, "CACHED", saved, parsed, 0, 0, result_status))
         continue
 
     if args.offline or args.backfill_meta:
@@ -592,6 +627,7 @@ for name, factory, folder_hint in chaingroups:
             if args.offline
             else "  BACKFILL-META: только локальные XML, без скачивания."
         )
+        large0, small0 = count_xml_files(folder)
         saved, parsed = process_folder_to_db(
             name,
             folder,
@@ -599,19 +635,28 @@ for name, factory, folder_hint in chaingroups:
             per_file_mtime=True,
             backfill_meta=args.backfill_meta,
         )
-        status = "OFFLINE" if count_xml_files(folder)[0] > 0 else "EMPTY"
+        status = "OFFLINE" if large0 > 0 else "EMPTY"
         if args.backfill_meta:
             status = "BACKFILL"
-        results.append((name, *count_xml_files(folder), status, saved, parsed))
+        result_status = "FAIL" if (large0 + small0) == 0 else "OK"
+        _print_result(name, result_status, downloaded=0, saved=saved, errors=0)
+        results.append((name, large0, small0, status, saved, parsed, 0, 0, result_status))
         continue
 
     # ВРЕМЕННО отключено для отладки
     # clear_folder_files(folder)
     # clear_status_for_chain(folder_hint)
 
+    large_before, small_before = count_xml_files(folder)
+    files_before = large_before + small_before
+
     # Скачиваем
     ok, err = False, ""
+    err_raw = ""
     old_cwd = os.getcwd()
+    err_handler = _ScrapeErrorCounter()
+    root_logger = logging.getLogger()
+    root_logger.addHandler(err_handler)
     try:
         os.chdir(BASE_DIR)  # убеждаемся что рабочая папка правильная
         file_output = DiskFileOutput(storage_path=folder)
@@ -619,19 +664,24 @@ for name, factory, folder_hint in chaingroups:
         # Пробуем и имя сети, и folder_hint (на случай разного регистра/написания)
         files_types = resolve_files_types(name) or resolve_files_types(folder_hint)
         if files_types:
-            kind = "полные прайсы" if chain_wants_price_full(name) or chain_wants_price_full(folder_hint) else "только файлы цен, без акций"
-            print(f"  Режим файлов: {files_types} ({kind})")
-        else:
-            print("  (warning) files_types=None: скачиваем все типы файлов")
+            print(f"  Режим файлов: {files_types} (полные прайсы)")
+        elif chain_wants_price_full(name) or chain_wants_price_full(folder_hint):
+            print("  (warning) ожидался PRICE_FULL_FILE, но files_types=None")
         asyncio.run(run_scraper(scraper, args.limit, files_types=files_types))
         ok = True
     except Exception as e:
-        err = str(e)
-        if "425" in err or "ftp" in err.lower():
+        raised = True
+        err_raw = str(e)
+        scrape_errors += _count_error_markers(err_raw)
+        if scrape_errors == 0:
+            scrape_errors = 1
+        if "425" in err_raw or "ftp" in err_raw.lower():
             err = "FTP заблокирован"
         else:
-            err = err[:80]
+            err = err_raw[:80]
     finally:
+        scrape_errors += err_handler.errors
+        root_logger.removeHandler(err_handler)
         os.chdir(old_cwd)
 
     # Распаковываем (на случай если библиотека оставила .gz или файлы без расш.)
@@ -652,25 +702,54 @@ for name, factory, folder_hint in chaingroups:
                 folder = os.path.abspath(alt)
                 print(f"  → Переключились на: {folder}")
 
+    files_after = large + small
+    # New or touched during this run (mtime >= start); avoids false 0 when files overwrite in place
+    downloaded = 0
+    try:
+        for fn in os.listdir(folder):
+            if not fn.lower().endswith(".xml"):
+                continue
+            fp = os.path.join(folder, fn)
+            if os.path.getmtime(fp) >= (t0 - 1):
+                downloaded += 1
+    except Exception:
+        downloaded = max(0, files_after - files_before)
+    if downloaded == 0:
+        downloaded = max(0, files_after - files_before)
     elapsed = round(time.time() - t0, 1)
 
     if not ok and large + small == 0:
         print(f"  X {err} ({elapsed}с)")
-        results.append((name, 0, 0, f"ERR: {err}", 0, 0))
+        result_status = "FAIL"
+        _print_result(name, result_status, downloaded=0, saved=0, errors=scrape_errors)
+        results.append((name, 0, 0, f"ERR: {err}", 0, 0, 0, scrape_errors, result_status))
         continue
 
     # Диагностика — всегда показываем что нашли
     print_folder_contents(folder, f"после скачивания")
 
     print(f"  Сохраняем в базу данных...")
-    saved, parsed = process_folder_to_db(name, folder, recorded_at, per_file_mtime=True)
+    saved, parsed = process_folder_to_db(name, folder, recorded_at)
 
     status = "OK" if large > 0 else "SMALL"
     icon = "OK" if large > 0 else "!"
     print(
         f"  {icon} {large} полных + {small} обновлений | {parsed:,} распознано → {saved:,} записей ({elapsed}с)"
     )
-    results.append((name, large, small, status, saved, parsed))
+
+    if raised:
+        result_status = "FAIL"
+    elif downloaded == 0 and scrape_errors > 0:
+        result_status = "FAIL"
+    else:
+        result_status = "OK"
+
+    _print_result(
+        name, result_status, downloaded=downloaded, saved=saved, errors=scrape_errors
+    )
+    results.append(
+        (name, large, small, status, saved, parsed, downloaded, scrape_errors, result_status)
+    )
     # Оповещение: если появились новые записи — логируем в alerts/new_data.log
     try:
         if saved and saved > 0:
@@ -688,9 +767,16 @@ for name, factory, folder_hint in chaingroups:
 print("\n" + "=" * 60)
 print("ИТОГ:")
 print("=" * 60)
-for name, large, small, status, saved, parsed in results:
-    icon = "OK" if status in ("OK", "CACHED") else "!" if status == "SMALL" else "X"
-    print(f"  {icon} {name:<15} {saved:>8,} записей в БД  | {parsed:,} распозн.")
+any_fail = False
+for row in results:
+    name, large, small, status, saved, parsed = row[0], row[1], row[2], row[3], row[4], row[5]
+    result_status = row[8] if len(row) > 8 else "OK"
+    if result_status == "FAIL":
+        any_fail = True
+    icon = "OK" if result_status == "OK" else "X"
+    print(
+        f"  {icon} {name:<15} {saved:>8,} записей в БД  | {parsed:,} распозн. | RESULT={result_status}"
+    )
 
 stats = database.get_db_stats()
 print(f"\nБаза данных:")
@@ -699,3 +785,7 @@ print(f"  Магазинов:          {stats['stores']:,}")
 print(f"  Записей цен:        {stats['prices']:,}")
 print(f"  Последнее обновление: {stats['last_update']}")
 print(f"\n→ Следующий шаг: python make_viewer.py")
+
+# Exit 3 if any requested chain ended with RESULT status=FAIL
+if any_fail:
+    sys.exit(3)

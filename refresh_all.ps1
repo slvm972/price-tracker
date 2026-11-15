@@ -158,74 +158,53 @@ function Backup-PricesDb {
     }
 }
 
+function Get-ResultFromLog([string]$logPath) {
+    # Returns hashtable: Status (OK|FAIL|MISSING), Saved (int|null), Downloaded, Errors, Raw
+    $out = @{ Status = "MISSING"; Saved = $null; Downloaded = $null; Errors = $null; Raw = $null }
+    if (-not (Test-Path $logPath)) { return $out }
+    $lines = Get-Content $logPath -Encoding utf8 -ErrorAction SilentlyContinue
+    if (-not $lines) { $lines = Get-Content $logPath -ErrorAction SilentlyContinue }
+    if (-not $lines) { return $out }
+    # last RESULT line wins
+    for ($i = $lines.Count - 1; $i -ge 0; $i--) {
+        $line = $lines[$i]
+        if ($line -match 'RESULT\s+chain=(\S+)\s+status=(OK|FAIL)\s+downloaded=(\d+)\s+saved=(\d+)\s+errors=(\d+)') {
+            $out.Status = $Matches[2]
+            $out.Downloaded = [int]$Matches[3]
+            $out.Saved = [int]$Matches[4]
+            $out.Errors = [int]$Matches[5]
+            $out.Raw = $line.Trim()
+            return $out
+        }
+    }
+    return $out
+}
+
 function Test-LogFailure {
     param(
         [string]$logPath,
         [int]$ExitCode = -1
     )
-    # Правила (по приоритету):
-    # 1) наш TIMEOUT → сбой
-    # 2) python exit 0 → успех (кириллица в redirect часто ломается, Error scraping в середине — норма)
-    # 3) хвост с OK / стрелкой / «распознан» / «записей» → успех
-    # 4) иначе при Error scraping / ReadTimeout / 425 → сбой
+    # Success ONLY when RESULT status=OK is present.
+    # download_all.py: exit 0 = all OK, exit 3 = at least one FAIL.
     if (-not (Test-Path $logPath)) { return $true }
+    $raw = Get-Content $logPath -Raw -Encoding utf8 -ErrorAction SilentlyContinue
+    if (-not $raw) { $raw = Get-Content $logPath -Raw -ErrorAction SilentlyContinue }
+    if ($raw -match "TIMEOUT after") { return $true }
 
-    $lines = Get-Content $logPath -Encoding utf8 -ErrorAction SilentlyContinue
-    if (-not $lines -or $lines.Count -eq 0) {
-        $lines = Get-Content $logPath -ErrorAction SilentlyContinue
-    }
-    if (-not $lines -or $lines.Count -eq 0) {
-        return ($ExitCode -ne 0)
-    }
+    $res = Get-ResultFromLog $logPath
+    if ($res.Status -eq "OK") { return $false }
+    if ($res.Status -eq "FAIL") { return $true }
 
-    $tail = ($lines | Select-Object -Last 50) -join "`n"
-    $all  = $lines -join "`n"
-
-    if ($all -match "TIMEOUT after") { return $true }
-
-    # download_all дошёл до конца без исключения
-    if ($ExitCode -eq 0) { return $false }
-
-    # ASCII/Unicode маркеры успеха в хвосте
-    if ($tail -match "(?i)\bOK\b") { return $false }
-    if ($tail -match "распознан") { return $false }
-    if ($tail -match "запис") { return $false }
-    if ($tail -match "→") { return $false }
-    if ($tail -match "ИТОГ") { return $false }
-
-    if ($all -match "Error scraping") { return $true }
-    if ($all -match "ReadTimeout") { return $true }
-    if ($all -match "(?i)HTTP\s*425|\bstatus\s*425\b") { return $true }
-
-    if ($all -notmatch "распознан" -and $all -notmatch "(?i)\bOK\b") { return $true }
-    return $false
+    # No RESULT line → fail (do not trust exit 0 alone without RESULT)
+    if ($ExitCode -eq 3) { return $true }
+    if ($ExitCode -ne 0) { return $true }
+    return $true
 }
 
 function Get-SavedCountFromLog([string]$logPath) {
-    if (-not (Test-Path $logPath)) { return $null }
-    $lines = Get-Content $logPath -Encoding utf8 -ErrorAction SilentlyContinue
-    if (-not $lines) { $lines = Get-Content $logPath -ErrorAction SilentlyContinue }
-    if (-not $lines) { return $null }
-
-    # 1) ИТОГ: "OK Yellow  80,074 записей в БД"
-    for ($i = $lines.Count - 1; $i -ge 0; $i--) {
-        $line = $lines[$i]
-        if ($line -match "запис[^\d]*в\s*БД") {
-            # взять последнее «число» перед «запис»
-            if ($line -match "([\d][\d\s,]*\d|\d)\s*запис") {
-                $n = ($Matches[1] -replace "[^\d]", "")
-                if ($n -and $n.Length -le 9) { return [int]$n }
-            }
-        }
-    }
-    # 2) "распознано → 80,074 записей"
-    for ($i = $lines.Count - 1; $i -ge 0; $i--) {
-        $line = $lines[$i]
-        if ($line -match "→\s*([\d][\d\s,]*\d|\d)\s*запис") {
-            $n = ($Matches[1] -replace "[^\d]", "")
-            if ($n -and $n.Length -le 9) { return [int]$n }
-        }
-    }
+    $res = Get-ResultFromLog $logPath
+    if ($null -ne $res.Saved) { return [int]$res.Saved }
     return $null
 }
 
@@ -289,11 +268,14 @@ function Invoke-ChainOnce {
     ($parts -join "`n") | Set-Content -Path $LogPath -Encoding utf8
     Remove-Item $stdoutLog, $stderrLog -Force -ErrorAction SilentlyContinue
 
+    $res = Get-ResultFromLog $LogPath
     if (Test-LogFailure -logPath $LogPath -ExitCode ([int]$exitCode)) {
-        Write-Warn "[$Chain] признаки сбоя в журнале (exit $exitCode)"
+        $extra = if ($res.Raw) { " | $($res.Raw)" } else { "" }
+        Write-Warn "[$Chain] FAIL (exit $exitCode)$extra"
         return $false
     }
-    Write-Ok "[$Chain] OK (exit $exitCode)"
+    $extra = if ($res.Raw) { " | $($res.Raw)" } else { "" }
+    Write-Ok "[$Chain] OK (exit $exitCode)$extra"
     return $true
 }
 
