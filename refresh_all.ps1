@@ -158,36 +158,72 @@ function Backup-PricesDb {
     }
 }
 
-function Test-LogFailure([string]$logPath) {
+function Test-LogFailure {
+    param(
+        [string]$logPath,
+        [int]$ExitCode = -1
+    )
+    # Правила (по приоритету):
+    # 1) наш TIMEOUT → сбой
+    # 2) python exit 0 → успех (кириллица в redirect часто ломается, Error scraping в середине — норма)
+    # 3) хвост с OK / стрелкой / «распознан» / «записей» → успех
+    # 4) иначе при Error scraping / ReadTimeout / 425 → сбой
     if (-not (Test-Path $logPath)) { return $true }
-    $text = Get-Content $logPath -Raw -Encoding utf8 -ErrorAction SilentlyContinue
-    if ([string]::IsNullOrEmpty($text)) { return $true }
-    if ($text -match "Error scraping") { return $true }
-    if ($text -match "\b425\b") { return $true }
-    if ($text -match "ReadTimeout") { return $true }
-    # «распознано» / «распозн.» — успех разбора
-    if ($text -notmatch "распознан") { return $true }
+
+    $lines = Get-Content $logPath -Encoding utf8 -ErrorAction SilentlyContinue
+    if (-not $lines -or $lines.Count -eq 0) {
+        $lines = Get-Content $logPath -ErrorAction SilentlyContinue
+    }
+    if (-not $lines -or $lines.Count -eq 0) {
+        return ($ExitCode -ne 0)
+    }
+
+    $tail = ($lines | Select-Object -Last 50) -join "`n"
+    $all  = $lines -join "`n"
+
+    if ($all -match "TIMEOUT after") { return $true }
+
+    # download_all дошёл до конца без исключения
+    if ($ExitCode -eq 0) { return $false }
+
+    # ASCII/Unicode маркеры успеха в хвосте
+    if ($tail -match "(?i)\bOK\b") { return $false }
+    if ($tail -match "распознан") { return $false }
+    if ($tail -match "запис") { return $false }
+    if ($tail -match "→") { return $false }
+    if ($tail -match "ИТОГ") { return $false }
+
+    if ($all -match "Error scraping") { return $true }
+    if ($all -match "ReadTimeout") { return $true }
+    if ($all -match "(?i)HTTP\s*425|\bstatus\s*425\b") { return $true }
+
+    if ($all -notmatch "распознан" -and $all -notmatch "(?i)\bOK\b") { return $true }
     return $false
 }
 
 function Get-SavedCountFromLog([string]$logPath) {
     if (-not (Test-Path $logPath)) { return $null }
     $lines = Get-Content $logPath -Encoding utf8 -ErrorAction SilentlyContinue
+    if (-not $lines) { $lines = Get-Content $logPath -ErrorAction SilentlyContinue }
     if (-not $lines) { return $null }
-    # предпочитаем итоговую строку «... N записей в БД»
+
+    # 1) ИТОГ: "OK Yellow  80,074 записей в БД"
     for ($i = $lines.Count - 1; $i -ge 0; $i--) {
         $line = $lines[$i]
-        if ($line -match "([\d\s,]+)\s*записей\s+в\s+БД") {
-            $n = ($Matches[1] -replace "[^\d]", "")
-            if ($n) { return [int]$n }
+        if ($line -match "запис[^\d]*в\s*БД") {
+            # взять последнее «число» перед «запис»
+            if ($line -match "([\d][\d\s,]*\d|\d)\s*запис") {
+                $n = ($Matches[1] -replace "[^\d]", "")
+                if ($n -and $n.Length -le 9) { return [int]$n }
+            }
         }
-        if ($line -match "→\s*([\d\s,]+)\s*запис") {
+    }
+    # 2) "распознано → 80,074 записей"
+    for ($i = $lines.Count - 1; $i -ge 0; $i--) {
+        $line = $lines[$i]
+        if ($line -match "→\s*([\d][\d\s,]*\d|\d)\s*запис") {
             $n = ($Matches[1] -replace "[^\d]", "")
-            if ($n) { return [int]$n }
-        }
-        if ($line -match "распознан[^\d]*([\d\s,]+)\s*.*?([\d\s,]+)\s*запис") {
-            $n = ($Matches[2] -replace "[^\d]", "")
-            if ($n) { return [int]$n }
+            if ($n -and $n.Length -le 9) { return [int]$n }
         }
     }
     return $null
@@ -210,6 +246,9 @@ function Invoke-ChainOnce {
     $stdoutLog = "$LogPath.stdout.tmp"
     $stderrLog = "$LogPath.stderr.tmp"
     Remove-Item $stdoutLog, $stderrLog -Force -ErrorAction SilentlyContinue
+
+    $env:PYTHONIOENCODING = "utf-8"
+    $env:PYTHONUTF8 = "1"
 
     $proc = Start-Process -FilePath $Python `
         -ArgumentList $argList `
@@ -234,18 +273,27 @@ function Invoke-ChainOnce {
         return $false
     }
 
-    # объединить stdout+stderr в один UTF-8 журнал
-    $parts = @()
-    if (Test-Path $stdoutLog) { $parts += Get-Content $stdoutLog -Raw -Encoding utf8 -ErrorAction SilentlyContinue }
-    if (Test-Path $stderrLog) { $parts += Get-Content $stderrLog -Raw -Encoding utf8 -ErrorAction SilentlyContinue }
+    $exitCode = $proc.ExitCode
+    if ($null -eq $exitCode) { $exitCode = -1 }
+
+    # объединить stdout+stderr (пробуем utf8, иначе default)
+    $parts = [System.Collections.Generic.List[string]]::new()
+    foreach ($f in @($stdoutLog, $stderrLog)) {
+        if (-not (Test-Path $f)) { continue }
+        $chunk = Get-Content $f -Raw -Encoding utf8 -ErrorAction SilentlyContinue
+        if ([string]::IsNullOrEmpty($chunk)) {
+            $chunk = Get-Content $f -Raw -ErrorAction SilentlyContinue
+        }
+        if ($chunk) { [void]$parts.Add($chunk) }
+    }
     ($parts -join "`n") | Set-Content -Path $LogPath -Encoding utf8
     Remove-Item $stdoutLog, $stderrLog -Force -ErrorAction SilentlyContinue
 
-    if (Test-LogFailure $LogPath) {
-        Write-Warn "[$Chain] признаки сбоя в журнале"
+    if (Test-LogFailure -logPath $LogPath -ExitCode ([int]$exitCode)) {
+        Write-Warn "[$Chain] признаки сбоя в журнале (exit $exitCode)"
         return $false
     }
-    Write-Ok "[$Chain] OK (exit $($proc.ExitCode))"
+    Write-Ok "[$Chain] OK (exit $exitCode)"
     return $true
 }
 
