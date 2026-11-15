@@ -115,6 +115,8 @@ def main() -> None:
                         help="минимум сетей у товара (по умолчанию 2; 1 = весь каталог)")
     parser.add_argument("--min-price", type=float, default=cf.MIN_PRICE)
     parser.add_argument("--min-barcode-len", type=int, default=cf.MIN_BARCODE_LEN)
+    parser.add_argument("--branch-agg", choices=("median", "min"), default="median",
+                        help="как сводить цены филиалов сети: median (по умолчанию) или min")
     args = parser.parse_args()
 
     print("Читаем данные из базы данных...")
@@ -125,6 +127,7 @@ def main() -> None:
         min_chains=args.min_chains,
         min_price=args.min_price,
         min_barcode_len=args.min_barcode_len,
+        branch_agg=args.branch_agg,
     )
 
     if st["rows"] == 0:
@@ -136,6 +139,8 @@ def main() -> None:
     print(f"  Внутренние коды сетей (не штрихкоды): {st['internal_code']:,}")
     print(f"  Отброшено: плохой штрихкод {st['bad_barcode']:,}, цена < {args.min_price} "
           f"{st['bad_price']:,}, не-товары {st['non_product']:,}")
+    print(f"  Цены филиалов сведены способом «{args.branch_agg}»; "
+          f"сети, где один дешёвый филиал выбивался (меньше половины медианы): {st['branch_min_outliers']:,}")
     print(f"  Выбросы цен: {st['outlier_prices']:,} цен, "
           f"товаров убрано целиком {st['items_dropped_outliers']:,}")
     print(f"  Убрано как товары менее чем в {args.min_chains} сетях: "

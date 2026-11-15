@@ -77,8 +77,13 @@ def drop_price_outliers(prices):
     }
 
 
-def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_BARCODE_LEN):
+def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_BARCODE_LEN,
+                  branch_agg="median"):
     """
+    branch_agg — как свести цены разных филиалов одной сети к одной цене:
+      "median" (по умолчанию) — медиана по филиалам (нижняя из двух средних), устойчива к
+                одному «странному» филиалу с заниженной ценой;
+      "min"     — самая низкая цена среди филиалов (прежнее поведение).
     rows — итерируемое со строками (dict или sqlite3.Row) с полями:
       barcode, name, brand, size, retailer, price, previous_price.
     Возвращает (catalog, stats). Формат элемента каталога не меняется:
@@ -94,6 +99,7 @@ def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_B
         "items_dropped_outliers": 0,
         "items_dropped_min_chains": 0,
         "items_out": 0,
+        "branch_min_outliers": 0,
     }
     by_barcode = {}
 
@@ -128,17 +134,32 @@ def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_B
             item["s"] = clean_size(row["size"])
 
         retailer = row["retailer"]
-        existing = item["ch"].get(retailer)
-        if existing is None or price < existing:
-            item["ch"][retailer] = price
-            prev = row["previous_price"]
-            if prev is not None and is_valid_price(prev, min_price):
-                item["prev"][retailer] = prev
-            else:
-                item["prev"].pop(retailer, None)
+        prev = row["previous_price"]
+        if prev is None or not is_valid_price(prev, min_price):
+            prev = None
+        if branch_agg == "min":
+            existing = item["ch"].get(retailer)
+            if existing is None or price < existing:
+                item["ch"][retailer] = price
+                if prev is not None:
+                    item["prev"][retailer] = prev
+                else:
+                    item["prev"].pop(retailer, None)
+        else:
+            item.setdefault("_b", {}).setdefault(retailer, []).append((price, prev))
 
     catalog = []
     for item in by_barcode.values():
+        branches = item.pop("_b", None)
+        if branches:
+            for retailer, lst in branches.items():
+                lst.sort(key=lambda t: t[0])
+                chosen = lst[(len(lst) - 1) // 2]
+                item["ch"][retailer] = chosen[0]
+                if chosen[1] is not None:
+                    item["prev"][retailer] = chosen[1]
+                if len(lst) >= 3 and lst[0][0] < 0.5 * chosen[0]:
+                    stats["branch_min_outliers"] += 1
         cleaned = drop_price_outliers(item["ch"])
         stats["outlier_prices"] += len(item["ch"]) - len(cleaned)
         if not cleaned:
