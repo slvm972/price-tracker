@@ -116,23 +116,33 @@ function Exit-Lock {
 }
 
 function Enable-NoSleep {
-    # ES_CONTINUOUS | ES_SYSTEM_REQUIRED | ES_AWAYMODE_REQUIRED
-    Add-Type -Namespace Win32 -Name Power -ErrorAction SilentlyContinue -MemberDefinition @"
+    # Unique type name so an old Win32.Power from earlier runs in this session does not break us.
+    # Any failure here must NOT stop refresh_all.
+    try {
+        if (-not ("Win32RefreshAll.Power" -as [type])) {
+            Add-Type -Namespace Win32RefreshAll -Name Power -MemberDefinition @"
 [System.Runtime.InteropServices.DllImport("kernel32.dll")]
 public static extern uint SetThreadExecutionState(uint esFlags);
 "@
-    if (-not ("Win32.Power" -as [type])) { return $false }
-    $ES_CONTINUOUS = [uint32]"0x80000000"
-    $ES_SYSTEM_REQUIRED = [uint32]"0x00000001"
-    $ES_AWAYMODE_REQUIRED = [uint32]"0x00000040"
-    [void][Win32.Power]::SetThreadExecutionState($ES_CONTINUOUS -bor $ES_SYSTEM_REQUIRED -bor $ES_AWAYMODE_REQUIRED)
-    return $true
+        }
+        $ES_CONTINUOUS = [uint32]"0x80000000"
+        $ES_SYSTEM_REQUIRED = [uint32]"0x00000001"
+        $ES_AWAYMODE_REQUIRED = [uint32]"0x00000040"
+        [void][Win32RefreshAll.Power]::SetThreadExecutionState(
+            $ES_CONTINUOUS -bor $ES_SYSTEM_REQUIRED -bor $ES_AWAYMODE_REQUIRED
+        )
+        return $true
+    } catch {
+        return $false
+    }
 }
 
 function Disable-NoSleep {
-    if (-not ("Win32.Power" -as [type])) { return }
-    $ES_CONTINUOUS = [uint32]"0x80000000"
-    [void][Win32.Power]::SetThreadExecutionState($ES_CONTINUOUS)
+    try {
+        if (-not ("Win32RefreshAll.Power" -as [type])) { return }
+        $ES_CONTINUOUS = [uint32]"0x80000000"
+        [void][Win32RefreshAll.Power]::SetThreadExecutionState($ES_CONTINUOUS)
+    } catch {}
 }
 
 function Backup-PricesDb {
