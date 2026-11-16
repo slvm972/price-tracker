@@ -30,3 +30,9 @@ chain_index.py
 find_item.py
 fix_*.ps1
 prices_old.db*
+
+audit_*.py
+compare_names.py
+profile_units.py
+repair_offline.py
+verify_latest_vs_dumps.py
