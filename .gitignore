@@ -42,3 +42,6 @@ compare_names.py
 profile_units.py
 repair_offline.py
 verify_latest_vs_dumps.py
+
+logs/
+refresh.lock
