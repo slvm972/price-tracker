@@ -25,3 +25,8 @@ download_all_backup.py
 *.bak*
 diag_*.py
 tmp_*.py
+
+chain_index.py
+find_item.py
+fix_*.ps1
+prices_old.db*
