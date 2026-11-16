@@ -82,7 +82,7 @@ def iter_latest_rows():
                 GROUP BY product_id, store_id, recorded_at
             ),
             with_prev AS (
-                SELECT g.product_id, g.store_id, g.recorded_at, p.price,
+                SELECT g.product_id, g.store_id, g.recorded_at, p.price, p.is_weighted,
                        LAG(p.price) OVER (
                            PARTITION BY g.product_id, g.store_id ORDER BY g.recorded_at
                        ) AS previous_price
@@ -95,7 +95,7 @@ def iter_latest_rows():
                 GROUP BY product_id, store_id
             )
             SELECT prd.barcode, prd.name, prd.brand, prd.size,
-                   st.retailer, wp.price, wp.previous_price
+                   st.retailer, wp.price, wp.previous_price, wp.is_weighted
             FROM latest l
             JOIN with_prev wp ON wp.product_id = l.product_id
                              AND wp.store_id = l.store_id
@@ -141,6 +141,8 @@ def main() -> None:
           f"{st['bad_price']:,}, не-товары {st['non_product']:,}")
     print(f"  Цены филиалов сведены способом «{args.branch_agg}»; "
           f"сети, где один дешёвый филиал выбивался (меньше половины медианы): {st['branch_min_outliers']:,}")
+    print(f"  Цены с неизвестным признаком «весовой», сильно разошедшиеся с остальными "
+          f"сетями (убраны только эти цены, не весь товар): {st['unverified_weight_dropped']:,}")
     print(f"  Выбросы цен: {st['outlier_prices']:,} цен, "
           f"товаров убрано целиком {st['items_dropped_outliers']:,}")
     print(f"  Убрано как товары менее чем в {args.min_chains} сетях: "

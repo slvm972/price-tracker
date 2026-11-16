@@ -23,6 +23,7 @@ MIN_BARCODE_LEN = 8
 INTERNAL_CODE_PREFIX = "729000000"
 OUTLIER_FACTOR = 5.0        # от медианы: [median / 5, median * 5], если сетей >= 3
 TWO_CHAIN_MAX_RATIO = 5.0  # если сетей ровно 2: слишком большой разброс -> товар убираем
+UNVERIFIED_WEIGHT_RATIO = 3.0  # см. drop_unverified_weight_mismatches ниже
 
 NON_PRODUCT_WORDS = ("קופון", "מנוי", "דמי משלוח", "תו קנייה", "תווי קנייה")
 
@@ -77,6 +78,35 @@ def drop_price_outliers(prices):
     }
 
 
+def drop_unverified_weight_mismatches(ch, weighted_map):
+    """
+    ch: {сеть: цена} — изменяется на месте, убирает отдельные цены (не весь товар).
+    weighted_map: {сеть: 0/1/None} — признак «весовой товар» (bIsWeighted) у выбранного
+    филиала этой сети для этого товара.
+
+    У части сетей (CityMarketShops, Wolt) парсер не считывает bIsWeighted, а у отдельных
+    старых записей (один магазин, не обновлялся после добавления этого поля) оно тоже
+    None. Когда у такой сети цена сильно (в UNVERIFIED_WEIGHT_RATIO раз и больше)
+    расходится с ценой сетей, где признак ИЗВЕСТЕН — единица измерения не подтверждена,
+    сравнивать её нельзя: убираем только эту цену, товар с остальными сетями остаётся.
+    Возвращает число убранных цен.
+    """
+    known = {k: v for k, v in ch.items() if weighted_map.get(k) is not None}
+    if len(known) < 2:
+        return 0
+    med = median(known.values())
+    if med <= 0:
+        return 0
+    removed = 0
+    for k in list(ch):
+        if weighted_map.get(k) is None:
+            v = ch[k]
+            if v >= med * UNVERIFIED_WEIGHT_RATIO or v <= med / UNVERIFIED_WEIGHT_RATIO:
+                del ch[k]
+                removed += 1
+    return removed
+
+
 def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_BARCODE_LEN,
                   branch_agg="median"):
     """
@@ -100,6 +130,7 @@ def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_B
         "items_dropped_min_chains": 0,
         "items_out": 0,
         "branch_min_outliers": 0,
+        "unverified_weight_dropped": 0,
     }
     by_barcode = {}
 
@@ -137,29 +168,25 @@ def build_catalog(rows, min_chains=2, min_price=MIN_PRICE, min_barcode_len=MIN_B
         prev = row["previous_price"]
         if prev is None or not is_valid_price(prev, min_price):
             prev = None
-        if branch_agg == "min":
-            existing = item["ch"].get(retailer)
-            if existing is None or price < existing:
-                item["ch"][retailer] = price
-                if prev is not None:
-                    item["prev"][retailer] = prev
-                else:
-                    item["prev"].pop(retailer, None)
-        else:
-            item.setdefault("_b", {}).setdefault(retailer, []).append((price, prev))
+        weighted = row["is_weighted"] if "is_weighted" in row.keys() else None
+        item.setdefault("_b", {}).setdefault(retailer, []).append((price, prev, weighted))
 
     catalog = []
     for item in by_barcode.values():
         branches = item.pop("_b", None)
+        weighted_map = {}
         if branches:
             for retailer, lst in branches.items():
                 lst.sort(key=lambda t: t[0])
-                chosen = lst[(len(lst) - 1) // 2]
+                chosen = lst[0] if branch_agg == "min" else lst[(len(lst) - 1) // 2]
                 item["ch"][retailer] = chosen[0]
                 if chosen[1] is not None:
                     item["prev"][retailer] = chosen[1]
+                weighted_map[retailer] = chosen[2]
                 if len(lst) >= 3 and lst[0][0] < 0.5 * chosen[0]:
                     stats["branch_min_outliers"] += 1
+        stats["unverified_weight_dropped"] += drop_unverified_weight_mismatches(
+            item["ch"], weighted_map)
         cleaned = drop_price_outliers(item["ch"])
         stats["outlier_prices"] += len(item["ch"]) - len(cleaned)
         if not cleaned:

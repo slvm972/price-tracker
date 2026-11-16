@@ -98,3 +98,48 @@ def test_catalog_is_sorted_by_name_then_barcode():
     ]
     catalog, _ = cf.build_catalog(rows)
     assert [i["n"] for i in catalog] == ["a", "b"]
+
+
+def row_w(barcode, retailer, price, weighted, name="Prod", size="", prev=None, brand=""):
+    """Как row(), но с явным признаком bIsWeighted (0/1/None)."""
+    return {"barcode": barcode, "name": name, "brand": brand, "size": size,
+            "retailer": retailer, "price": price, "previous_price": prev,
+            "is_weighted": weighted}
+
+
+def test_unverified_weight_price_dropped_when_far_from_known_chains():
+    code = "7291111111117"
+    rows = [
+        row_w(code, "A", 15.0, weighted=1),
+        row_w(code, "B", 18.0, weighted=1),
+        row_w(code, "C", 108.0, weighted=None),  # как MeshnatYosef: признак не заполнен
+    ]
+    cat, st = cf.build_catalog(rows, min_chains=2)
+    assert len(cat) == 1
+    assert cat[0]["ch"] == {"A": 15.0, "B": 18.0}
+    assert st["unverified_weight_dropped"] == 1
+
+
+def test_unverified_weight_price_kept_when_close_to_known_chains():
+    code = "7291111111118"
+    rows = [
+        row_w(code, "A", 15.0, weighted=1),
+        row_w(code, "B", 18.0, weighted=1),
+        row_w(code, "C", 17.0, weighted=None),  # близко к остальным -> оставляем
+    ]
+    cat, st = cf.build_catalog(rows, min_chains=2)
+    assert cat[0]["ch"] == {"A": 15.0, "B": 18.0, "C": 17.0}
+    assert st["unverified_weight_dropped"] == 0
+
+
+def test_unverified_weight_rule_needs_two_known_chains():
+    code = "7291111111119"
+    rows = [
+        row_w(code, "A", 15.0, weighted=1),
+        row_w(code, "C", 50.0, weighted=None),  # 3.3x, но известна только сеть A
+    ]
+    cat, st = cf.build_catalog(rows, min_chains=1)
+    # только одна сеть с известным признаком — не с чем сравнивать, правило не срабатывает;
+    # обычный фильтр выбросов для двух сетей (порог 5x) здесь товар тоже не трогает
+    assert cat[0]["ch"] == {"A": 15.0, "C": 50.0}
+    assert st["unverified_weight_dropped"] == 0
