@@ -1,0 +1,32 @@
+name: Test Actions
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-one-chain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Получить код репозитория
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      - name: Пробный запуск одной сети
+        run: python download_all.py --chains StopMarket --force-scrape --limit 1
+
+      - name: Сохранить журнал как файл для скачивания
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dumps-and-db
+          path: |
+            dumps/StopMarket/
+            prices.db
