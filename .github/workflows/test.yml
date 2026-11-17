@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  test-one-chain:
+  test-few-chains:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Получить код репозитория
         uses: actions/checkout@v4
@@ -19,14 +19,14 @@ jobs:
       - name: Установить зависимости
         run: pip install -r requirements.txt
 
-      - name: Пробный запуск одной сети
-        run: python download_all.py --chains StopMarket --force-scrape --limit 1
+      - name: Пробный запуск нескольких сетей
+        run: python download_all.py --chains Keshet,GoodPharm,HaziHinam --force-scrape --limit 1
 
       - name: Сохранить журнал как файл для скачивания
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: dumps-and-db
+          name: dumps-and-db-2
           path: |
-            dumps/StopMarket/
+            dumps/
             prices.db
