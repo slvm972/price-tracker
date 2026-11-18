@@ -1,0 +1,28 @@
+name: test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scrape-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Скачать код репозитория
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      - name: Пробный запуск всех сетей
+        run: |
+          python download_all.py --chains Bareket,YaynotBitanAndCarrefour,CityMarketKiryatGat,CityMarketShops,DorAlon,GoodPharm,HaziHinam,HetCohenNewSource,Keshet,KingStore,Maayan2000,MahsaniAShukNewSource,NetivHased,MeshnatYosef1,MeshnatYosef2,Osherad,Polizer,RamiLevy,SalachDabach,ShefaBarcartAshem,Shufersal,ShukAhir,StopMarket,SuperPharm,SuperYuda,SuperSapir,FreshMarketAndSuperDosh,TivTaam,VictoryNewSource,Yellow,Yohananof,ZolVeBegadol,Wolt --force-scrape --limit 1 2>&1 | tee download.log
+
+      - name: Показать ИТОГ
+        if: always()
+        run: grep -A 80 "ИТОГ:" download.log || echo "Раздел ИТОГ не найден"
