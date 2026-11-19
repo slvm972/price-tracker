@@ -1,0 +1,58 @@
+name: publish-test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PUSH_TOKEN: ${{ secrets.INTERFACE_PUSH_TOKEN }}
+    steps:
+      - name: Скачать код репозитория
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      - name: Скачать тестовую копию базы и распаковать
+        run: |
+          gh release download db-latest --repo ${{ github.repository }} --pattern prices-test.db.zip
+          unzip -o prices-test.db.zip
+          ls -l prices.db
+
+      - name: Собрать data.js
+        run: |
+          python make_viewer.py --min-chains 2
+          ls -l data.js
+          head -c 300 data.js; echo
+
+      - name: Опубликовать data.js в ветку cloud-test репозитория витрины
+        run: |
+          if [ -z "$PUSH_TOKEN" ]; then echo "Секрет INTERFACE_PUSH_TOKEN не задан"; exit 1; fi
+          git clone --depth 1 "https://x-access-token:${PUSH_TOKEN}@github.com/slvm972/pricetracker-interface-found.git" iface
+          cd iface
+          echo "data.js на main сейчас:"
+          ls -l data.js
+          git checkout -B cloud-test
+          cp ../data.js data.js
+          echo "data.js новый:"
+          ls -l data.js
+          git add data.js
+          git status --short
+          if git diff --cached --quiet; then
+            echo "data.js не изменился, коммит не нужен"
+          else
+            git -c user.name="github-actions" -c user.email="actions@users.noreply.github.com" commit -m "cloud-test: data.js from Actions"
+            git push --force origin cloud-test
+          fi
