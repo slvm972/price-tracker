@@ -1,0 +1,122 @@
+name: daily-update
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: db-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: Asia/Jerusalem
+      GH_TOKEN: ${{ github.token }}
+      PUSH_TOKEN: ${{ secrets.INTERFACE_PUSH_TOKEN }}
+      PUBLISH_BRANCH: cloud-test
+    steps:
+      - name: Скачать код репозитория
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      - name: Скачать базу из релиза и проверить
+        run: |
+          gh release download db-latest --repo ${{ github.repository }} --pattern prices.db.zip
+          cp prices.db.zip prices-prev.db.zip
+          unzip -o prices.db.zip
+          ls -l prices.db
+          python - <<'EOF'
+          import sqlite3
+          c = sqlite3.connect('prices.db')
+          q = c.execute('pragma quick_check').fetchone()[0]
+          n = c.execute('select count(*) from prices').fetchone()[0]
+          print('quick_check:', q, '| цен в базе:', n)
+          assert q == 'ok', 'база из релиза повреждена'
+          open('before_prices.txt', 'w').write(str(n))
+          EOF
+
+      - name: Сбор по сетям (каждая отдельным процессом, до 2 попыток)
+        run: |
+          CHAINS="Bareket CityMarketShops DorAlon FreshMarketAndSuperDosh GoodPharm Keshet KingStore Maayan2000 MeshnatYosef1 MeshnatYosef2 Osherad Polizer RamiLevy SalachDabach ShefaBarcartAshem Shufersal ShukAhir StopMarket SuperSapir SuperYuda TivTaam Wolt Yellow Yohananof ZolVeBegadol"
+          : > summary.txt
+          for c in $CHAINS; do
+            for attempt in 1 2; do
+              echo "=== $c, попытка $attempt ==="
+              if timeout 20m python -u download_all.py --chains "$c" --force-scrape --limit 50 > "log_$c.txt" 2>&1; then
+                break
+              fi
+            done
+            echo "::group::$c (последние 40 строк журнала)"
+            tail -n 40 "log_$c.txt" || true
+            echo "::endgroup::"
+            line=$(grep -E "RESULT chain=" "log_$c.txt" | tail -n 1 || true)
+            if [ -z "$line" ]; then line="RESULT chain=$c status=NO_RESULT"; fi
+            echo "$line" >> summary.txt
+          done
+
+      - name: Итог по сетям
+        if: always()
+        run: cat summary.txt
+
+      - name: Проверить результат сбора и базу
+        run: |
+          python - <<'EOF'
+          import sqlite3, sys
+          lines = open('summary.txt', encoding='utf-8').read().splitlines()
+          ok = sum(1 for l in lines if 'status=OK' in l)
+          print(f'сетей OK: {ok} из {len(lines)}')
+          c = sqlite3.connect('prices.db')
+          q = c.execute('pragma quick_check').fetchone()[0]
+          n = c.execute('select count(*) from prices').fetchone()[0]
+          before = int(open('before_prices.txt').read())
+          print('quick_check:', q, '| цен до:', before, '| цен после:', n, '| прирост:', n - before)
+          if q != 'ok' or n < before or ok < 20:
+              print('ПРОВЕРКА НЕ ПРОЙДЕНА, базу в релиз не загружаем')
+              sys.exit(1)
+          EOF
+
+      - name: Сохранить прежнюю базу как запасную и загрузить новую
+        run: |
+          rm -f prices.db.zip
+          zip -q prices.db.zip prices.db
+          ls -l prices.db.zip prices-prev.db.zip
+          gh release upload db-latest prices-prev.db.zip --clobber --repo ${{ github.repository }}
+          gh release upload db-latest prices.db.zip --clobber --repo ${{ github.repository }}
+          gh release view db-latest --repo ${{ github.repository }} --json assets --jq '.assets[] | "\(.name) \(.size) bytes"'
+
+      - name: Собрать data.js
+        run: |
+          python make_viewer.py --min-chains 2
+          ls -l data.js
+
+      - name: Опубликовать data.js в репозиторий витрины
+        run: |
+          if [ -z "$PUSH_TOKEN" ]; then echo "Секрет INTERFACE_PUSH_TOKEN не задан"; exit 1; fi
+          git clone --depth 1 --branch main "https://x-access-token:${PUSH_TOKEN}@github.com/slvm972/pricetracker-interface-found.git" iface
+          cd iface
+          if [ "$PUBLISH_BRANCH" != "main" ]; then git checkout -B "$PUBLISH_BRANCH"; fi
+          cp ../data.js data.js
+          git add data.js
+          git status --short
+          if git diff --cached --quiet; then
+            echo "data.js не изменился, коммит не нужен"
+          else
+            git -c user.name="github-actions" -c user.email="actions@users.noreply.github.com" commit -m "data.js from Actions ($PUBLISH_BRANCH)"
+            if [ "$PUBLISH_BRANCH" = "main" ]; then
+              git push origin HEAD:main
+            else
+              git push --force origin "$PUBLISH_BRANCH"
+            fi
+          fi
