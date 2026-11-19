@@ -1,0 +1,32 @@
+name: db-test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  roundtrip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачать test.txt из релиза
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download db-latest --repo ${{ github.repository }} --pattern test.txt
+
+      - name: Показать содержимое
+        run: cat test.txt
+
+      - name: Дописать строку в файл
+        run: echo "updated by Actions $(date -u)" >> test.txt
+
+      - name: Загрузить обратно с заменой
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload db-latest test.txt --clobber --repo ${{ github.repository }}
+
+      - name: Показать файлы релиза
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release view db-latest --repo ${{ github.repository }} --json assets --jq '.assets[] | "\(.name) \(.size) bytes"'
