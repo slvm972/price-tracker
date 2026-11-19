@@ -1,0 +1,61 @@
+name: db-roundtrip
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  roundtrip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Скачать код репозитория
+        uses: actions/checkout@v4
+
+      - name: Установить Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Установить зависимости
+        run: pip install -r requirements.txt
+
+      - name: Скачать базу из релиза и распаковать
+        run: |
+          gh release download db-latest --repo ${{ github.repository }} --pattern prices.db.zip
+          unzip -o prices.db.zip
+          ls -l prices.db
+
+      - name: Записей в таблицах ДО сбора
+        run: |
+          python - <<'EOF'
+          import sqlite3
+          c = sqlite3.connect('prices.db')
+          for (t,) in c.execute("select name from sqlite_master where type='table' and name not like 'sqlite_%'"):
+              print(t, c.execute(f'select count(*) from "{t}"').fetchone()[0])
+          EOF
+
+      - name: Пробный сбор двух сетей
+        run: python download_all.py --chains StopMarket,GoodPharm --force-scrape 2>&1 | tail -n 40
+
+      - name: Записей в таблицах ПОСЛЕ сбора
+        run: |
+          python - <<'EOF'
+          import sqlite3
+          c = sqlite3.connect('prices.db')
+          for (t,) in c.execute("select name from sqlite_master where type='table' and name not like 'sqlite_%'"):
+              print(t, c.execute(f'select count(*) from "{t}"').fetchone()[0])
+          EOF
+
+      - name: Сжать и загрузить под именем prices-test.db.zip
+        run: |
+          zip -q prices-test.db.zip prices.db
+          ls -l prices-test.db.zip
+          gh release upload db-latest prices-test.db.zip --clobber --repo ${{ github.repository }}
+
+      - name: Показать файлы релиза
+        run: gh release view db-latest --repo ${{ github.repository }} --json assets --jq '.assets[] | "\(.name) \(.size) bytes"'
