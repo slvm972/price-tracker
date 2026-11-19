@@ -1,0 +1,15 @@
+name: schedule-test
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Показать время
+        run: |
+          echo "UTC:     $(date -u)"
+          echo "Израиль: $(TZ=Asia/Jerusalem date)"
