@@ -18,7 +18,7 @@ jobs:
       TZ: Asia/Jerusalem
       GH_TOKEN: ${{ github.token }}
       PUSH_TOKEN: ${{ secrets.INTERFACE_PUSH_TOKEN }}
-      PUBLISH_BRANCH: cloud-test
+      PUBLISH_BRANCH: main
     steps:
       - name: Скачать код репозитория
         uses: actions/checkout@v4
@@ -140,6 +140,9 @@ jobs:
       - name: Опубликовать data.js в репозиторий витрины
         run: |
           if [ -z "$PUSH_TOKEN" ]; then echo "Секрет INTERFACE_PUSH_TOKEN не задан"; exit 1; fi
+          size=$(stat -c%s data.js)
+          echo "data.js: $size байт"
+          if [ "$size" -lt 5000000 ]; then echo "data.js подозрительно мал, публикацию отменяем"; exit 1; fi
           git clone --depth 1 --branch main "https://x-access-token:${PUSH_TOKEN}@github.com/slvm972/pricetracker-interface-found.git" iface
           cd iface
           if [ "$PUBLISH_BRANCH" != "main" ]; then git checkout -B "$PUBLISH_BRANCH"; fi
