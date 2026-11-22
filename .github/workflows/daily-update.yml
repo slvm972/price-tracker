@@ -47,6 +47,33 @@ jobs:
           open('before_prices.txt', 'w').write(str(n))
           EOF
 
+      - name: Принять пакет файлов с домашнего ПК (если он есть в релизе)
+        run: |
+          if gh release view db-latest --repo ${{ github.repository }} --json assets --jq '.assets[].name' | grep -qx 'home-dumps.zip'; then
+            echo "Найден home-dumps.zip, принимаем"
+            gh release download db-latest --repo ${{ github.repository }} --pattern home-dumps.zip
+            unzip -q -o home-dumps.zip
+            for d in dumps/*; do echo "$d: $(ls "$d" | wc -l) файлов"; done
+            declare -A MAP=( [HAZIHINAM]=HaziHinam [SuperPharm]=SuperPharm [YaynotBitanAndCarrefour]=YaynotBitanAndCarrefour [HetCohen]=HetCohenNewSource [MahsaniAShuk]=MahsaniAShukNewSource [VictoryNewSource]=VictoryNewSource )
+            : > ingest.log
+            for d in "${!MAP[@]}"; do
+              if [ -d "dumps/$d" ] && [ -n "$(ls -A "dumps/$d")" ]; then
+                echo "=== накат ${MAP[$d]} ==="
+                python -u download_all.py --offline --chains "${MAP[$d]}" >> ingest.log 2>&1 || true
+              else
+                echo "в пакете нет файлов для $d, пропуск"
+              fi
+            done
+            grep -E "RESULT" ingest.log || true
+            if grep -q "status=FAIL" ingest.log; then
+              echo "Есть FAIL при накате: пакет в релизе НЕ удаляем"
+            else
+              touch home_dumps_ok
+            fi
+          else
+            echo "Пакета home-dumps.zip в релизе нет, шаг пропущен"
+          fi
+
       - name: Сбор по сетям (каждая отдельным процессом, до 2 попыток)
         run: |
           CHAINS="Bareket CityMarketShops DorAlon FreshMarketAndSuperDosh GoodPharm Keshet KingStore Maayan2000 MeshnatYosef1 MeshnatYosef2 Osherad Polizer RamiLevy SalachDabach ShefaBarcartAshem Shufersal ShukAhir StopMarket SuperSapir SuperYuda TivTaam Wolt Yellow Yohananof ZolVeBegadol"
@@ -95,6 +122,15 @@ jobs:
           gh release upload db-latest prices-prev.db.zip --clobber --repo ${{ github.repository }}
           gh release upload db-latest prices.db.zip --clobber --repo ${{ github.repository }}
           gh release view db-latest --repo ${{ github.repository }} --json assets --jq '.assets[] | "\(.name) \(.size) bytes"'
+
+      - name: Удалить принятый пакет из релиза
+        run: |
+          if [ -f home_dumps_ok ]; then
+            gh release delete-asset db-latest home-dumps.zip -y --repo ${{ github.repository }}
+            echo "Пакет home-dumps.zip удалён из релиза"
+          else
+            echo "Принятого пакета нет, удалять нечего"
+          fi
 
       - name: Собрать data.js
         run: |
