@@ -2,9 +2,6 @@ name: daily-update
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 21 * * *"
-      timezone: "Asia/Jerusalem"
 
 permissions:
   contents: write
