@@ -9,6 +9,10 @@ download_all.py — скачивает XML-файлы и сохраняет це
 v4:
   - Для Shufersal при online-скачивании запрашивается PRICE_FULL_FILE
     (полные прайсы), а не только мелкие дельты Price.
+
+v5 (25.11.2026):
+  - Сети laibcatalog.co.il (Mahsani): если getbranches пуст, но getfiles отдаёт
+    файлы, сеть больше не пропускается (_enable_laibcatalog_fallback).
 """
 
 import argparse
@@ -159,6 +163,40 @@ def resolve_files_types(name: str):
         except Exception as e:
             print(f"  (warning) PRICE_FULL_FILE недоступен ({e}) — скачиваем как обычно")
             return None
+
+
+def _enable_laibcatalog_fallback(scraper):
+    """Исправление для сетей на laibcatalog.co.il (Mahsani и др.).
+
+    Библиотека il-supermarket-scraper сначала спрашивает у сайта список филиалов
+    (getbranches) и, если список пуст, пропускает сеть целиком, не запрашивая файлы.
+    В ноябре 2026 сайт отдаёт для Mahsani пустой список филиалов, хотя файлы
+    (getfiles) по-прежнему есть. Здесь: если филиалов нет, но getfiles отдаёт
+    файлы, считаем, что сеть доступна. Если файлов нет (или запрос вернул ошибку),
+    поведение прежнее: сеть пропускается. Любая ошибка внутри этой функции
+    безвредна: тогда всё работает как раньше, без исправления.
+    """
+    try:
+        if not (hasattr(scraper, "get_branches") and hasattr(scraper, "get_api_data")):
+            return
+        original_get_branches = scraper.get_branches
+
+        def get_branches_with_fallback(chain_id):
+            branches = original_get_branches(chain_id)
+            if branches:
+                return branches
+            files = scraper.get_api_data("/webapi/api/getfiles", {"edi": chain_id})
+            if files:
+                print(
+                    f"  (fix) у сети {chain_id} список филиалов пуст, "
+                    f"но файлы есть ({len(files)}) — скачиваем"
+                )
+                return [{"branchNumber": None}]
+            return branches
+
+        scraper.get_branches = get_branches_with_fallback
+    except Exception as e:
+        print(f"  (warning) исправление laibcatalog не применено: {e}")
 
 
 async def run_scraper(scraper, limit, files_types=None):
@@ -661,6 +699,7 @@ for name, factory, folder_hint in chaens:
         os.chdir(BASE_DIR)  # убеждаемся что рабочая папка правильная
         file_output = DiskFileOutput(storage_path=folder)
         scraper = factory.value(file_output=file_output)
+        _enable_laibcatalog_fallback(scraper)
         # Пробуем и имя сети, и folder_hint (на случай разного регистра/написания)
         files_types = resolve_files_types(name) or resolve_files_types(folder_hint)
         if files_types:
